@@ -51,6 +51,18 @@ public class ReverseLinkedList {
             head.next = null;
             return last;
         }
+
+        public ListNode office(ListNode head) {
+            ListNode prev = null;
+            ListNode curr = head;
+            while (curr != null) {
+                ListNode temp = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = temp;
+            }
+            return prev;
+        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
