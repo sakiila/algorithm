@@ -1,27 +1,17 @@
 package me.bob.leetcode.editor.cn;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.Arrays;
 
 public class AboutTest {
     public static void main(String[] args) {
+        int[] tmp = new int[]{1, 3, 5, 2};
+        int[] tmp2 = new int[tmp.length + 2];
 
-        Deque<Integer> deque = new ArrayDeque<>();
-        deque.addFirst(1);
-        deque.addLast(2);
-        deque.addLast(3);
-        System.out.println("deque = " + deque);
+        System.arraycopy(tmp, 0, tmp2, 1, tmp.length);
+        System.out.println(Arrays.toString(tmp2));
 
-        deque.removeLast();
-        System.out.println("deque = " + deque);
+        int[] ints = Arrays.copyOf(tmp, 5);
+        System.out.println("Arrays.toString(ints) = " + Arrays.toString(ints));
 
-        Integer integer = deque.peekFirst();
-        System.out.println("integer = " + integer);
-
-        while (deque.peek() != null) {
-            System.out.println("deque.pop() = " + deque.pop());
-        }
-        System.out.println(System.lineSeparator());
-        System.out.println("deque = " + deque);
     }
 }
