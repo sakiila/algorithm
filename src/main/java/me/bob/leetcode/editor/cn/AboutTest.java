@@ -1,16 +1,27 @@
 package me.bob.leetcode.editor.cn;
 
-import java.util.ArrayList;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class AboutTest {
     public static void main(String[] args) {
 
-        ArrayList<String> list = new ArrayList<>();
-        for (int i = 0; i < 20; i++) {
-            list.add("a");
+        Deque<Integer> deque = new ArrayDeque<>();
+        deque.addFirst(1);
+        deque.addLast(2);
+        deque.addLast(3);
+        System.out.println("deque = " + deque);
+
+        deque.removeLast();
+        System.out.println("deque = " + deque);
+
+        Integer integer = deque.peekFirst();
+        System.out.println("integer = " + integer);
+
+        while (deque.peek() != null) {
+            System.out.println("deque.pop() = " + deque.pop());
         }
-        System.out.println("list.size() = " + list.size());
-
-
+        System.out.println(System.lineSeparator());
+        System.out.println("deque = " + deque);
     }
 }
