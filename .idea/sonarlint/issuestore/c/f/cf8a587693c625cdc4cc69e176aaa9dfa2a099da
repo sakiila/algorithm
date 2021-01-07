@@ -1,0 +1,11 @@
+
+o
+java:S3776T"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(õ©««8¼ÙÀ¬í.
+=
+java:S1659s" Declare "ib" on a separate line.(—²î¸8¼ÙÀ¬í.
+C
+java:S1481O"-Remove this unused "solution" local variable.(§´Ø³
+=
+java:S1659h" Declare "vb" on a separate line.(ê‹×8¼ÙÀ¬í.
+R
+java:S1854O"<Remove this useless assignment to local variable "solution".(§´Ø³

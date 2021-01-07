@@ -70,16 +70,14 @@ public class ValidParentheses {
             map.put('{', '}');
             map.put('[', ']');
             for (char c : s.toCharArray()) {
-                if (stack.empty()) {
-                    stack.push(c);
-                } else {
+                if (!stack.empty()) {
                     Character peek = stack.peek();
                     if (Objects.equals(map.get(peek), c)) {
                         stack.pop();
-                    } else {
-                        stack.push(c);
+                        continue;
                     }
                 }
+                stack.push(c);
             }
             return stack.empty();
         }
