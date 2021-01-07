@@ -67,11 +67,15 @@ public class LargestRectangleInHistogram {
         }
 
         public int largestRectangleArea(int[] heights) {
+
+            // 在左右维护一个哨兵，高度为 0
             int[] tmp = new int[heights.length + 2];
             System.arraycopy(heights, 0, tmp, 1, heights.length);
 
             Deque<Integer> stack = new ArrayDeque<>();
             int res = 0;
+
+            // 从左向右遍历，递增栈
             for (int i = 0; i < tmp.length; i++) {
                 while (!stack.isEmpty() && tmp[stack.peek()] > tmp[i]) {
                     int h = tmp[stack.pop()];
