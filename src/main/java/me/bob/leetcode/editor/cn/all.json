@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[547]省份数量",
-    "frontendQuestionId": "547",
+    "formTitle": "[189]旋转数组",
+    "frontendQuestionId": "189",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "547",
+    "questionId": "189",
     "status": "",
-    "title": "省份数量",
-    "titleSlug": "number-of-provinces"
+    "title": "旋转数组",
+    "titleSlug": "rotate-array"
   },
   {
     "articleLive": 2,
@@ -511,7 +511,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "42",
-    "status": "",
+    "status": "ac",
     "title": "接雨水",
     "titleSlug": "trapping-rain-water"
   },
@@ -1015,7 +1015,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "84",
-    "status": "",
+    "status": "ac",
     "title": "柱状图中最大的矩形",
     "titleSlug": "largest-rectangle-in-histogram"
   },
@@ -1867,7 +1867,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "155",
-    "status": "",
+    "status": "ac",
     "title": "最小栈",
     "titleSlug": "min-stack"
   },
@@ -2266,18 +2266,6 @@
     "status": "",
     "title": "买卖股票的最佳时机 IV",
     "titleSlug": "best-time-to-buy-and-sell-stock-iv"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[189]旋转数组",
-    "frontendQuestionId": "189",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "189",
-    "status": "",
-    "title": "旋转数组",
-    "titleSlug": "rotate-array"
   },
   {
     "articleLive": 2,
@@ -2875,7 +2863,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "239",
-    "status": "",
+    "status": "ac",
     "title": "滑动窗口最大值",
     "titleSlug": "sliding-window-maximum"
   },
@@ -5959,7 +5947,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "496",
-    "status": "",
+    "status": "ac",
     "title": "下一个更大元素 I",
     "titleSlug": "next-greater-element-i"
   },
@@ -6562,6 +6550,18 @@
     "status": "",
     "title": "移除盒子",
     "titleSlug": "remove-boxes"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[547]省份数量",
+    "frontendQuestionId": "547",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "547",
+    "status": "",
+    "title": "省份数量",
+    "titleSlug": "number-of-provinces"
   },
   {
     "articleLive": 2,
@@ -8863,7 +8863,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "739",
-    "status": "",
+    "status": "ac",
     "title": "每日温度",
     "titleSlug": "daily-temperatures"
   },
