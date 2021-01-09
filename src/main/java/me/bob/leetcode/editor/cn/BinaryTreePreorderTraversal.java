@@ -62,7 +62,7 @@ import java.util.List;
 /**
  * 144 二叉树的前序遍历
  * 2021-01-09 09:17:07
- * 思路：递归、栈
+ * 思路：递归、迭代栈
  */
 public class BinaryTreePreorderTraversal {
     public static void main(String[] args) {
@@ -117,7 +117,6 @@ public class BinaryTreePreorderTraversal {
         }
 
         void helper3(List<Integer> res, TreeNode node) {
-            List<Integer> res = new ArrayList<>();
             Deque<TreeNode> stack = new ArrayDeque<>();
 
             if (node != null) {

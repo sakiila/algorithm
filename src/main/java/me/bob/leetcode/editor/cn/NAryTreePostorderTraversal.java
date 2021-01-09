@@ -1,4 +1,4 @@
-//给定一个 N 叉树，返回其节点值的前序遍历。 
+//给定一个 N 叉树，返回其节点值的后序遍历。 
 //
 // 例如，给定一个 3叉树 : 
 //
@@ -8,30 +8,32 @@
 //
 // 
 //
-// 返回其前序遍历: [1,3,5,6,2,4]。 
+// 返回其后序遍历: [5,6,3,2,4,1]. 
 //
 // 
 //
 // 说明: 递归法很简单，你可以使用迭代法完成此题吗? Related Topics 树 
-// 👍 128 👎 0
+// 👍 119 👎 0
 
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 
 /**
- * 589 N叉树的前序遍历
- * 2021-01-09 09:38:43
- * 思路：递归、迭代
+ * 590 N叉树的后序遍历
+ * 2021-01-09 09:55:51
+ * 思路：递归、迭代栈
  */
-public class NAryTreePreorderTraversal {
+public class NAryTreePostorderTraversal {
     public static void main(String[] args) {
-        Solution solution = new NAryTreePreorderTraversal().new Solution();
+        Solution solution = new NAryTreePostorderTraversal().new Solution();
     }
 
-    //leetcode submit region begin(Prohibit modification and deletion)
+//leetcode submit region begin(Prohibit modification and deletion)
 /*
 // Definition for a Node.
 class Node {
@@ -50,10 +52,11 @@ class Node {
     }
 };
 */
+
     class Solution {
-        public List<Integer> preorder(Node root) {
+        public List<Integer> postorder(Node root) {
             List<Integer> res = new ArrayList<>();
-            helper(res, root);
+            helper2(res, root);
             return res;
         }
 
@@ -61,9 +64,25 @@ class Node {
             if (node == null) {
                 return;
             }
-            res.add(node.val);
             for (Node child : node.children) {
                 helper(res, child);
+            }
+            res.add(node.val);
+        }
+
+        void helper2(List<Integer> res, Node node) {
+            Deque<Node> stack = new ArrayDeque<>();
+
+            if (node != null) {
+                stack.push(node);
+            }
+
+            while (!stack.isEmpty()) {
+                node = stack.pop();
+                res.add(0, node.val);
+                for (Node child : node.children) {
+                    stack.push(child);
+                }
             }
         }
     }
@@ -85,4 +104,6 @@ class Node {
             children = _children;
         }
     }
+
+    ;
 }
