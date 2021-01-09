@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[189]旋转数组",
-    "frontendQuestionId": "189",
+    "formTitle": "[123]买卖股票的最佳时机 III",
+    "frontendQuestionId": "123",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "189",
+    "questionId": "123",
     "status": "",
-    "title": "旋转数组",
-    "titleSlug": "rotate-array"
+    "title": "买卖股票的最佳时机 III",
+    "titleSlug": "best-time-to-buy-and-sell-stock-iii"
   },
   {
     "articleLive": 2,
@@ -1477,18 +1477,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[123]买卖股票的最佳时机 III",
-    "frontendQuestionId": "123",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "123",
-    "status": "",
-    "title": "买卖股票的最佳时机 III",
-    "titleSlug": "best-time-to-buy-and-sell-stock-iii"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[124]二叉树中的最大路径和",
     "frontendQuestionId": "124",
     "leaf": true,
@@ -2269,6 +2257,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[189]旋转数组",
+    "frontendQuestionId": "189",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "189",
+    "status": "",
+    "title": "旋转数组",
+    "titleSlug": "rotate-array"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[190]颠倒二进制位",
     "frontendQuestionId": "190",
     "leaf": true,
@@ -2899,7 +2899,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "242",
-    "status": "",
+    "status": "ac",
     "title": "有效的字母异位词",
     "titleSlug": "valid-anagram"
   },
@@ -20554,6 +20554,18 @@
     "status": "",
     "title": "得到子序列的最少操作次数",
     "titleSlug": "minimum-operations-to-make-a-subsequence"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1714]Sum Of Special Evenly-Spaced Elements In Array",
+    "frontendQuestionId": "1714",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1809",
+    "status": "",
+    "title": "Sum Of Special Evenly-Spaced Elements In Array",
+    "titleSlug": "sum-of-special-evenly-spaced-elements-in-array"
   },
   {
     "articleLive": 2,

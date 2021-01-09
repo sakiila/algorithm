@@ -42,3 +42,7 @@ n
 >src/main/java/me/bob/leetcode/editor/cn/TrappingRainWater.java,b\1\b17ce797db24074e56c8bf2e9d3190ef8f35ba16
 q
 Asrc/main/java/me/bob/leetcode/editor/cn/SlidingWindowMaximum.java,f\c\fc210a522ea968963eac761f914827c34b8eddeb
+i
+9src/main/java/me/bob/leetcode/editor/cn/ValidAnagram.java,e\4\e41e72c2618a3cca2eae6325996e70ab5fef4f40
+j
+:src/main/java/me/bob/leetcode/editor/cn/GroupAnagrams.java,1\c\1cd11e49c2b5720d919140440fd691040929a916
