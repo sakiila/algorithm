@@ -55,13 +55,15 @@
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 
 /**
  * 94 二叉树的中序遍历
  * 2021-01-09 08:38:31
- * 思路：递归
+ * 思路：递归、栈
  */
 public class BinaryTreeInorderTraversal {
     public static void main(String[] args) {
@@ -90,32 +92,65 @@ public class BinaryTreeInorderTraversal {
         List<Integer> res = new ArrayList<>();
 
         public List<Integer> inorderTraversal(TreeNode root) {
-            if (root == null) {
-                return res;
+//            if (root == null) {
+//                return res;
+//            }
+//            inorderTraversal(root.left);
+//            res.add(root.val);
+//            inorderTraversal(root.right);
+//            return res;
+
+            List<Integer> res = new ArrayList<>();
+            Deque<TreeNode> stack = new ArrayDeque<>();
+
+            while (root != null || !stack.isEmpty()) {
+                while (root != null) {
+                    stack.push(root);
+                    root = root.left;
+                }
+                root = stack.pop();
+                res.add(root.val);
+                root = root.right;
             }
-            inorderTraversal(root.left);
-            res.add(root.val);
-            inorderTraversal(root.right);
+
             return res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
+    public List<Integer> office(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
 
-        TreeNode() {
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            res.add(root.val);
+            root = root.right;
         }
 
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
+        return res;
     }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode() {
+    }
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
