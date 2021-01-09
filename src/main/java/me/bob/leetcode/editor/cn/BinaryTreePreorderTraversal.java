@@ -89,7 +89,7 @@ public class BinaryTreePreorderTraversal {
     class Solution {
         public List<Integer> preorderTraversal(TreeNode root) {
             List<Integer> res = new ArrayList<>();
-            helper2(res, root);
+            helper3(res, root);
             return res;
         }
 
@@ -113,6 +113,26 @@ public class BinaryTreePreorderTraversal {
                 }
                 node = stack.pop();
                 node = node.right;
+            }
+        }
+
+        void helper3(List<Integer> res, TreeNode node) {
+            List<Integer> res = new ArrayList<>();
+            Deque<TreeNode> stack = new ArrayDeque<>();
+
+            if (node != null) {
+                stack.push(node);
+            }
+
+            while (!stack.isEmpty()) {
+                node = stack.pop();
+                res.add(node.val);
+                if (node.left != null) {
+                    stack.push(node.left);
+                }
+                if (node.right != null) {
+                    stack.push(node.right);
+                }
             }
         }
     }
