@@ -104,6 +104,4 @@ class Node {
             children = _children;
         }
     }
-
-    ;
 }
