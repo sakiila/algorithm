@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[123]买卖股票的最佳时机 III",
-    "frontendQuestionId": "123",
+    "formTitle": "[228]汇总区间",
+    "frontendQuestionId": "228",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "123",
+    "questionId": "228",
     "status": "",
-    "title": "买卖股票的最佳时机 III",
-    "titleSlug": "best-time-to-buy-and-sell-stock-iii"
+    "title": "汇总区间",
+    "titleSlug": "summary-ranges"
   },
   {
     "articleLive": 2,
@@ -1477,6 +1477,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[123]买卖股票的最佳时机 III",
+    "frontendQuestionId": "123",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "123",
+    "status": "",
+    "title": "买卖股票的最佳时机 III",
+    "titleSlug": "best-time-to-buy-and-sell-stock-iii"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[124]二叉树中的最大路径和",
     "frontendQuestionId": "124",
     "leaf": true,
@@ -1723,7 +1735,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "144",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的前序遍历",
     "titleSlug": "binary-tree-preorder-traversal"
   },
@@ -2722,18 +2734,6 @@
     "status": "",
     "title": "基本计算器 II",
     "titleSlug": "basic-calculator-ii"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[228]汇总区间",
-    "frontendQuestionId": "228",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "228",
-    "status": "",
-    "title": "汇总区间",
-    "titleSlug": "summary-ranges"
   },
   {
     "articleLive": 2,
@@ -7063,7 +7063,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "775",
-    "status": "",
+    "status": "ac",
     "title": "N叉树的前序遍历",
     "titleSlug": "n-ary-tree-preorder-traversal"
   },
@@ -20566,6 +20566,102 @@
     "status": "",
     "title": "Sum Of Special Evenly-Spaced Elements In Array",
     "titleSlug": "sum-of-special-evenly-spaced-elements-in-array"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5633]计算力扣银行的钱",
+    "frontendQuestionId": "5633",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1817",
+    "status": "",
+    "title": "计算力扣银行的钱",
+    "titleSlug": "calculate-money-in-leetcode-bank"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5634]删除子字符串的最大得分",
+    "frontendQuestionId": "5634",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1818",
+    "status": "",
+    "title": "删除子字符串的最大得分",
+    "titleSlug": "maximum-score-from-removing-substrings"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5635]构建字典序最大的可行序列",
+    "frontendQuestionId": "5635",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1819",
+    "status": "",
+    "title": "构建字典序最大的可行序列",
+    "titleSlug": "construct-the-lexicographically-largest-valid-sequence"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5636]重构一棵树的方案数",
+    "frontendQuestionId": "5636",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1820",
+    "status": "",
+    "title": "重构一棵树的方案数",
+    "titleSlug": "number-of-ways-to-reconstruct-a-tree"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5639]完成所有工作的最短时间",
+    "frontendQuestionId": "5639",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1825",
+    "status": "",
+    "title": "完成所有工作的最短时间",
+    "titleSlug": "find-minimum-time-to-finish-all-jobs"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5649]解码异或后的数组",
+    "frontendQuestionId": "5649",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1839",
+    "status": "",
+    "title": "解码异或后的数组",
+    "titleSlug": "decode-xored-array"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5650]执行交换操作后的最小汉明距离",
+    "frontendQuestionId": "5650",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1840",
+    "status": "",
+    "title": "执行交换操作后的最小汉明距离",
+    "titleSlug": "minimize-hamming-distance-after-swap-operations"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5652]交换链表中的节点",
+    "frontendQuestionId": "5652",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "528",
+    "status": "",
+    "title": "交换链表中的节点",
+    "titleSlug": "swapping-nodes-in-a-linked-list"
   },
   {
     "articleLive": 2,
