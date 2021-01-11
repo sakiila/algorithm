@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[228]汇总区间",
-    "frontendQuestionId": "228",
+    "formTitle": "[1202]交换字符串中的元素",
+    "frontendQuestionId": "1202",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "228",
+    "questionId": "1308",
     "status": "",
-    "title": "汇总区间",
-    "titleSlug": "summary-ranges"
+    "title": "交换字符串中的元素",
+    "titleSlug": "smallest-string-with-swaps"
   },
   {
     "articleLive": 2,
@@ -1183,7 +1183,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "98",
-    "status": "",
+    "status": "ac",
     "title": "验证二叉搜索树",
     "titleSlug": "validate-binary-search-tree"
   },
@@ -1255,7 +1255,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "104",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的最大深度",
     "titleSlug": "maximum-depth-of-binary-tree"
   },
@@ -1339,7 +1339,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "111",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的最小深度",
     "titleSlug": "minimum-depth-of-binary-tree"
   },
@@ -2719,7 +2719,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "226",
-    "status": "",
+    "status": "ac",
     "title": "翻转二叉树",
     "titleSlug": "invert-binary-tree"
   },
@@ -2734,6 +2734,18 @@
     "status": "",
     "title": "基本计算器 II",
     "titleSlug": "basic-calculator-ii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[228]汇总区间",
+    "frontendQuestionId": "228",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "228",
+    "status": "",
+    "title": "汇总区间",
+    "titleSlug": "summary-ranges"
   },
   {
     "articleLive": 2,
@@ -14413,18 +14425,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1202]交换字符串中的元素",
-    "frontendQuestionId": "1202",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1308",
-    "status": "",
-    "title": "交换字符串中的元素",
-    "titleSlug": "smallest-string-with-swaps"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1203]项目管理",
     "frontendQuestionId": "1203",
     "leaf": true,
@@ -20569,8 +20569,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5633]计算力扣银行的钱",
-    "frontendQuestionId": "5633",
+    "formTitle": "[1716]计算力扣银行的钱",
+    "frontendQuestionId": "1716",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -20581,8 +20581,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5634]删除子字符串的最大得分",
-    "frontendQuestionId": "5634",
+    "formTitle": "[1717]删除子字符串的最大得分",
+    "frontendQuestionId": "1717",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -20593,8 +20593,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5635]构建字典序最大的可行序列",
-    "frontendQuestionId": "5635",
+    "formTitle": "[1718]构建字典序最大的可行序列",
+    "frontendQuestionId": "1718",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -20605,8 +20605,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5636]重构一棵树的方案数",
-    "frontendQuestionId": "5636",
+    "formTitle": "[1719]重构一棵树的方案数",
+    "frontendQuestionId": "1719",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -20617,20 +20617,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5639]完成所有工作的最短时间",
-    "frontendQuestionId": "5639",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1825",
-    "status": "",
-    "title": "完成所有工作的最短时间",
-    "titleSlug": "find-minimum-time-to-finish-all-jobs"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5649]解码异或后的数组",
-    "frontendQuestionId": "5649",
+    "formTitle": "[1720]解码异或后的数组",
+    "frontendQuestionId": "1720",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -20641,8 +20629,20 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5650]执行交换操作后的最小汉明距离",
-    "frontendQuestionId": "5650",
+    "formTitle": "[1721]交换链表中的节点",
+    "frontendQuestionId": "1721",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "528",
+    "status": "",
+    "title": "交换链表中的节点",
+    "titleSlug": "swapping-nodes-in-a-linked-list"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1722]执行交换操作后的最小汉明距离",
+    "frontendQuestionId": "1722",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -20653,15 +20653,15 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5652]交换链表中的节点",
-    "frontendQuestionId": "5652",
+    "formTitle": "[1723]完成所有工作的最短时间",
+    "frontendQuestionId": "1723",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "528",
+    "questionId": "1825",
     "status": "",
-    "title": "交换链表中的节点",
-    "titleSlug": "swapping-nodes-in-a-linked-list"
+    "title": "完成所有工作的最短时间",
+    "titleSlug": "find-minimum-time-to-finish-all-jobs"
   },
   {
     "articleLive": 2,
