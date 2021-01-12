@@ -1,6 +1,10 @@
 package me.bob.leetcode.editor.cn;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 public class AboutTest {
     public static void main(String[] args) {
@@ -13,5 +17,33 @@ public class AboutTest {
         int[] ints = Arrays.copyOf(tmp, 5);
         System.out.println("Arrays.toString(ints) = " + Arrays.toString(ints));
 
+    }
+
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null) {
+            return res;
+        }
+
+        // 使用队列
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            List<Integer> results = new ArrayList<>();
+            for (int i = 0; i < queue.size(); i++) {
+                TreeNode node = queue.poll();
+                results.add(node.val);
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
+            }
+            res.add(results);
+        }
+
+        return res;
     }
 }

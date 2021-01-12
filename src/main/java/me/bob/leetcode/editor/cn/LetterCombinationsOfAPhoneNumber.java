@@ -51,6 +51,7 @@ public class LetterCombinationsOfAPhoneNumber {
                 return;
             }
 
+            // 获取digits下标，拿到对应字符串
             int index = Character.getNumericValue(digits.charAt(depth));
             String s = mapping[index];
             for (int i = 0; i < s.length(); i++) {

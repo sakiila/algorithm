@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1202]交换字符串中的元素",
-    "frontendQuestionId": "1202",
+    "formTitle": "[1203]项目管理",
+    "frontendQuestionId": "1203",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "1308",
+    "questionId": "1309",
     "status": "",
-    "title": "交换字符串中的元素",
-    "titleSlug": "smallest-string-with-swaps"
+    "title": "项目管理",
+    "titleSlug": "sort-items-by-groups-respecting-dependencies"
   },
   {
     "articleLive": 2,
@@ -607,7 +607,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "50",
-    "status": "",
+    "status": "ac",
     "title": "Pow(x, n)",
     "titleSlug": "powx-n"
   },
@@ -619,7 +619,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "51",
-    "status": "",
+    "status": "ac",
     "title": "N 皇后",
     "titleSlug": "n-queens"
   },
@@ -2035,7 +2035,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "169",
-    "status": "",
+    "status": "ac",
     "title": "多数元素",
     "titleSlug": "majority-element"
   },
@@ -14425,15 +14425,15 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1203]项目管理",
-    "frontendQuestionId": "1203",
+    "formTitle": "[1202]交换字符串中的元素",
+    "frontendQuestionId": "1202",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1309",
+    "questionId": "1308",
     "status": "",
-    "title": "项目管理",
-    "titleSlug": "sort-items-by-groups-respecting-dependencies"
+    "title": "交换字符串中的元素",
+    "titleSlug": "smallest-string-with-swaps"
   },
   {
     "articleLive": 2,
