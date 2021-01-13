@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1203]项目管理",
-    "frontendQuestionId": "1203",
+    "formTitle": "[684]冗余连接",
+    "frontendQuestionId": "684",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1309",
+    "questionId": "684",
     "status": "",
-    "title": "项目管理",
-    "titleSlug": "sort-items-by-groups-respecting-dependencies"
+    "title": "冗余连接",
+    "titleSlug": "redundant-connection"
   },
   {
     "articleLive": 2,
@@ -1231,7 +1231,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "102",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的层序遍历",
     "titleSlug": "binary-tree-level-order-traversal"
   },
@@ -1459,7 +1459,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "121",
-    "status": "",
+    "status": "ac",
     "title": "买卖股票的最佳时机",
     "titleSlug": "best-time-to-buy-and-sell-stock"
   },
@@ -1471,7 +1471,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "122",
-    "status": "",
+    "status": "ac",
     "title": "买卖股票的最佳时机 II",
     "titleSlug": "best-time-to-buy-and-sell-stock-ii"
   },
@@ -5467,7 +5467,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "455",
-    "status": "",
+    "status": "ac",
     "title": "分发饼干",
     "titleSlug": "assign-cookies"
   },
@@ -8206,18 +8206,6 @@
     "status": "lock",
     "title": "K 个关闭的灯泡",
     "titleSlug": "k-empty-slots"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[684]冗余连接",
-    "frontendQuestionId": "684",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "684",
-    "status": "",
-    "title": "冗余连接",
-    "titleSlug": "redundant-connection"
   },
   {
     "articleLive": 2,
@@ -14434,6 +14422,18 @@
     "status": "",
     "title": "交换字符串中的元素",
     "titleSlug": "smallest-string-with-swaps"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1203]项目管理",
+    "frontendQuestionId": "1203",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1309",
+    "status": "",
+    "title": "项目管理",
+    "titleSlug": "sort-items-by-groups-respecting-dependencies"
   },
   {
     "articleLive": 2,
