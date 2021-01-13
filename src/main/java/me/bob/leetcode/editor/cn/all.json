@@ -547,7 +547,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "45",
-    "status": "",
+    "status": "ac",
     "title": "跳跃游戏 II",
     "titleSlug": "jump-game-ii"
   },
@@ -667,7 +667,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "55",
-    "status": "",
+    "status": "ac",
     "title": "跳跃游戏",
     "titleSlug": "jump-game"
   },
@@ -20566,6 +20566,18 @@
     "status": "",
     "title": "Sum Of Special Evenly-Spaced Elements In Array",
     "titleSlug": "sum-of-special-evenly-spaced-elements-in-array"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1715]Count Apples and Oranges",
+    "frontendQuestionId": "1715",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1862",
+    "status": "lock",
+    "title": "Count Apples and Oranges",
+    "titleSlug": "count-apples-and-oranges"
   },
   {
     "articleLive": 2,
