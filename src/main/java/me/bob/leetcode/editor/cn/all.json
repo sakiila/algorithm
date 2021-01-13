@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[684]冗余连接",
-    "frontendQuestionId": "684",
+    "formTitle": "[1018]可被 5 整除的二进制前缀",
+    "frontendQuestionId": "1018",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "684",
+    "questionId": "1071",
     "status": "",
-    "title": "冗余连接",
-    "titleSlug": "redundant-connection"
+    "title": "可被 5 整除的二进制前缀",
+    "titleSlug": "binary-prefix-divisible-by-5"
   },
   {
     "articleLive": 2,
@@ -403,7 +403,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "33",
-    "status": "",
+    "status": "ac",
     "title": "搜索旋转排序数组",
     "titleSlug": "search-in-rotated-sorted-array"
   },
@@ -835,7 +835,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "69",
-    "status": "",
+    "status": "ac",
     "title": "x 的平方根",
     "titleSlug": "sqrtx"
   },
@@ -4411,7 +4411,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "367",
-    "status": "",
+    "status": "ac",
     "title": "有效的完全平方数",
     "titleSlug": "valid-perfect-square"
   },
@@ -8206,6 +8206,18 @@
     "status": "lock",
     "title": "K 个关闭的灯泡",
     "titleSlug": "k-empty-slots"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[684]冗余连接",
+    "frontendQuestionId": "684",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "684",
+    "status": "",
+    "title": "冗余连接",
+    "titleSlug": "redundant-connection"
   },
   {
     "articleLive": 2,
@@ -12202,18 +12214,6 @@
     "status": "",
     "title": "负二进制转换",
     "titleSlug": "convert-to-base-2"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1018]可被 5 整除的二进制前缀",
-    "frontendQuestionId": "1018",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1071",
-    "status": "",
-    "title": "可被 5 整除的二进制前缀",
-    "titleSlug": "binary-prefix-divisible-by-5"
   },
   {
     "articleLive": 2,
