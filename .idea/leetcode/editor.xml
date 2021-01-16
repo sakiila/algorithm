@@ -3,6 +3,14 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BestTimeToBuyAndSellStock.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BestTimeToBuyAndSellStock.java" />
+              <option name="questionId" value="121" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BestTimeToBuyAndSellStockIi.java">
           <value>
             <LeetcodeEditor>
@@ -296,6 +304,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/TrappingRainWater.java" />
               <option name="questionId" value="42" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/Triangle.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/Triangle.java" />
+              <option name="questionId" value="120" />
             </LeetcodeEditor>
           </value>
         </entry>

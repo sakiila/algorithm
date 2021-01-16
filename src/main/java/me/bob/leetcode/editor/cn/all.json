@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[947]移除最多的同行或同列石头",
-    "frontendQuestionId": "947",
+    "formTitle": "[803]打砖块",
+    "frontendQuestionId": "803",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "984",
+    "questionId": "821",
     "status": "",
-    "title": "移除最多的同行或同列石头",
-    "titleSlug": "most-stones-removed-with-same-row-or-column"
+    "title": "打砖块",
+    "titleSlug": "bricks-falling-when-hit"
   },
   {
     "articleLive": 2,
@@ -751,7 +751,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "62",
-    "status": "",
+    "status": "ac",
     "title": "不同路径",
     "titleSlug": "unique-paths"
   },
@@ -763,7 +763,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "63",
-    "status": "",
+    "status": "ac",
     "title": "不同路径 II",
     "titleSlug": "unique-paths-ii"
   },
@@ -9637,18 +9637,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[803]打砖块",
-    "frontendQuestionId": "803",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "821",
-    "status": "",
-    "title": "打砖块",
-    "titleSlug": "bricks-falling-when-hit"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[804]唯一摩尔斯密码词",
     "frontendQuestionId": "804",
     "leaf": true,
@@ -11362,6 +11350,18 @@
     "status": "",
     "title": "验证栈序列",
     "titleSlug": "validate-stack-sequences"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[947]移除最多的同行或同列石头",
+    "frontendQuestionId": "947",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "984",
+    "status": "",
+    "title": "移除最多的同行或同列石头",
+    "titleSlug": "most-stones-removed-with-same-row-or-column"
   },
   {
     "articleLive": 2,
@@ -13711,7 +13711,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1250",
-    "status": "",
+    "status": "ac",
     "title": "最长公共子序列",
     "titleSlug": "longest-common-subsequence"
   },
@@ -20113,14 +20113,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1677]Product's Worth Over Invoices",
+    "formTitle": "[1677]发票中的产品金额",
     "frontendQuestionId": "1677",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1821",
     "status": "lock",
-    "title": "Product's Worth Over Invoices",
+    "title": "发票中的产品金额",
     "titleSlug": "products-worth-over-invoices"
   },
   {
@@ -20185,14 +20185,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1683]Invalid Tweets",
+    "formTitle": "[1683]无效的推文",
     "frontendQuestionId": "1683",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1827",
     "status": "lock",
-    "title": "Invalid Tweets",
+    "title": "无效的推文",
     "titleSlug": "invalid-tweets"
   },
   {
