@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[803]打砖块",
-    "frontendQuestionId": "803",
+    "formTitle": "[1232]缀点成线",
+    "frontendQuestionId": "1232",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "821",
+    "questionId": "1349",
     "status": "",
-    "title": "打砖块",
-    "titleSlug": "bricks-falling-when-hit"
+    "title": "缀点成线",
+    "titleSlug": "check-if-it-is-a-straight-line"
   },
   {
     "articleLive": 2,
@@ -643,7 +643,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "53",
-    "status": "",
+    "status": "ac",
     "title": "最大子序和",
     "titleSlug": "maximum-subarray"
   },
@@ -1447,7 +1447,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "120",
-    "status": "",
+    "status": "ac",
     "title": "三角形最小路径和",
     "titleSlug": "triangle"
   },
@@ -2383,7 +2383,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "198",
-    "status": "",
+    "status": "ac",
     "title": "打家劫舍",
     "titleSlug": "house-robber"
   },
@@ -9637,6 +9637,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[803]打砖块",
+    "frontendQuestionId": "803",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "821",
+    "status": "",
+    "title": "打砖块",
+    "titleSlug": "bricks-falling-when-hit"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[804]唯一摩尔斯密码词",
     "frontendQuestionId": "804",
     "leaf": true,
@@ -14770,18 +14782,6 @@
     "status": "lock",
     "title": "分享巧克力",
     "titleSlug": "divide-chocolate"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1232]缀点成线",
-    "frontendQuestionId": "1232",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1349",
-    "status": "",
-    "title": "缀点成线",
-    "titleSlug": "check-if-it-is-a-straight-line"
   },
   {
     "articleLive": 2,
