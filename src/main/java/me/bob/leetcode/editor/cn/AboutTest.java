@@ -1,10 +1,6 @@
 package me.bob.leetcode.editor.cn;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 
 public class AboutTest {
     public static void main(String[] args) {
@@ -19,31 +15,35 @@ public class AboutTest {
 
     }
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
-        if (root == null) {
-            return res;
-        }
+    class UnionFind {
+        private int count = 0;
+        private int[] parent;
 
-        // 使用队列
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-
-        while (!queue.isEmpty()) {
-            List<Integer> results = new ArrayList<>();
-            for (int i = 0; i < queue.size(); i++) {
-                TreeNode node = queue.poll();
-                results.add(node.val);
-                if (node.left != null) {
-                    queue.add(node.left);
-                }
-                if (node.right != null) {
-                    queue.add(node.right);
-                }
+        public UnionFind(int n) {
+            count = n;
+            parent = new int[n];
+            for (int i = 0; i < n; i++) {
+                parent[i] = i;
             }
-            res.add(results);
         }
 
-        return res;
+        public int find(int p) {
+            while (p != parent[p]) {
+                parent[p] = parent[parent[p]];
+                p = parent[p];
+            }
+            return p;
+        }
+
+        public void union(int p, int q) {
+            int rootP = find(p);
+            int rootQ = find(q);
+            if (rootP == rootQ) {
+                return;
+            }
+
+            parent[rootP] = rootQ;
+            count--;
+        }
     }
 }
