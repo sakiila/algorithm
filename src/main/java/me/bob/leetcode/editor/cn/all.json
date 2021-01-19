@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1584]连接所有点的最小费用",
-    "frontendQuestionId": "1584",
+    "formTitle": "[628]三个数的最大乘积",
+    "frontendQuestionId": "628",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "1706",
+    "questionId": "628",
     "status": "",
-    "title": "连接所有点的最小费用",
-    "titleSlug": "min-cost-to-connect-all-points"
+    "title": "三个数的最大乘积",
+    "titleSlug": "maximum-product-of-three-numbers"
   },
   {
     "articleLive": 2,
@@ -1531,7 +1531,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "127",
-    "status": "",
+    "status": "ac",
     "title": "单词接龙",
     "titleSlug": "word-ladder"
   },
@@ -1960,7 +1960,7 @@
     "formTitle": "[163]缺失的区间",
     "frontendQuestionId": "163",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
     "questionId": "163",
     "status": "lock",
@@ -2380,7 +2380,7 @@
     "formTitle": "[198]打家劫舍",
     "frontendQuestionId": "198",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "198",
     "status": "ac",
@@ -7534,18 +7534,6 @@
     "status": "",
     "title": "变更性别",
     "titleSlug": "swap-salary"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[628]三个数的最大乘积",
-    "frontendQuestionId": "628",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "628",
-    "status": "",
-    "title": "三个数的最大乘积",
-    "titleSlug": "maximum-product-of-three-numbers"
   },
   {
     "articleLive": 2,
@@ -14044,7 +14032,7 @@
     "formTitle": "[1170]比较字符串最小字母出现频次",
     "frontendQuestionId": "1170",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "1273",
     "status": "",
@@ -19006,6 +18994,18 @@
     "status": "",
     "title": "统计不开心的朋友",
     "titleSlug": "count-unhappy-friends"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1584]连接所有点的最小费用",
+    "frontendQuestionId": "1584",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1706",
+    "status": "",
+    "title": "连接所有点的最小费用",
+    "titleSlug": "min-cost-to-connect-all-points"
   },
   {
     "articleLive": 2,
