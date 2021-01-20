@@ -2287,7 +2287,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "190",
-    "status": "",
+    "status": "ac",
     "title": "颠倒二进制位",
     "titleSlug": "reverse-bits"
   },
@@ -2299,7 +2299,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "191",
-    "status": "",
+    "status": "ac",
     "title": "位1的个数",
     "titleSlug": "number-of-1-bits"
   },
@@ -2779,7 +2779,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "231",
-    "status": "",
+    "status": "ac",
     "title": "2的幂",
     "titleSlug": "power-of-two"
   },
