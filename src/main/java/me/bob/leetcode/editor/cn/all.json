@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[628]三个数的最大乘积",
-    "frontendQuestionId": "628",
+    "formTitle": "[1489]找到最小生成树里的关键边和伪关键边",
+    "frontendQuestionId": "1489",
     "leaf": true,
-    "level": 1,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "628",
+    "questionId": "1613",
     "status": "",
-    "title": "三个数的最大乘积",
-    "titleSlug": "maximum-product-of-three-numbers"
+    "title": "找到最小生成树里的关键边和伪关键边",
+    "titleSlug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree"
   },
   {
     "articleLive": 2,
@@ -1759,7 +1759,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "146",
-    "status": "",
+    "status": "ac",
     "title": "LRU 缓存机制",
     "titleSlug": "lru-cache"
   },
@@ -7534,6 +7534,18 @@
     "status": "",
     "title": "变更性别",
     "titleSlug": "swap-salary"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[628]三个数的最大乘积",
+    "frontendQuestionId": "628",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "628",
+    "status": "",
+    "title": "三个数的最大乘积",
+    "titleSlug": "maximum-product-of-three-numbers"
   },
   {
     "articleLive": 2,
@@ -17236,7 +17248,7 @@
     "formTitle": "[1437]是否所有 1 都至少相隔 k 个元素",
     "frontendQuestionId": "1437",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
     "questionId": "1548",
     "status": "",
@@ -17854,18 +17866,6 @@
     "status": "",
     "title": "避免洪水泛滥",
     "titleSlug": "avoid-flood-in-the-city"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1489]找到最小生成树里的关键边和伪关键边",
-    "frontendQuestionId": "1489",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1613",
-    "status": "",
-    "title": "找到最小生成树里的关键边和伪关键边",
-    "titleSlug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree"
   },
   {
     "articleLive": 2,
@@ -19921,14 +19921,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1661]Average Time of Process per Machine",
+    "formTitle": "[1661]每台机器的进程平均运行时间",
     "frontendQuestionId": "1661",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1801",
     "status": "lock",
-    "title": "Average Time of Process per Machine",
+    "title": "每台机器的进程平均运行时间",
     "titleSlug": "average-time-of-process-per-machine"
   },
   {
@@ -20485,14 +20485,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1708]Largest Subarray Length K",
+    "formTitle": "[1708]长度为 K 的最大子数组",
     "frontendQuestionId": "1708",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1847",
     "status": "lock",
-    "title": "Largest Subarray Length K",
+    "title": "长度为 K 的最大子数组",
     "titleSlug": "largest-subarray-length-k"
   },
   {
