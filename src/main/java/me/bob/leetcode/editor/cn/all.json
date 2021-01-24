@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[674]最长连续递增序列",
-    "frontendQuestionId": "674",
+    "formTitle": "[959]由斜杠划分区域",
+    "frontendQuestionId": "959",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "674",
+    "questionId": "999",
     "status": "",
-    "title": "最长连续递增序列",
-    "titleSlug": "longest-continuous-increasing-subsequence"
+    "title": "由斜杠划分区域",
+    "titleSlug": "regions-cut-by-slashes"
   },
   {
     "articleLive": 2,
@@ -8089,6 +8089,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[674]最长连续递增序列",
+    "frontendQuestionId": "674",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "674",
+    "status": "ac",
+    "title": "最长连续递增序列",
+    "titleSlug": "longest-continuous-increasing-subsequence"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[675]为高尔夫比赛砍树",
     "frontendQuestionId": "675",
     "leaf": true,
@@ -11494,18 +11506,6 @@
     "status": "",
     "title": "二叉树的完全性检验",
     "titleSlug": "check-completeness-of-a-binary-tree"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[959]由斜杠划分区域",
-    "frontendQuestionId": "959",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "999",
-    "status": "",
-    "title": "由斜杠划分区域",
-    "titleSlug": "regions-cut-by-slashes"
   },
   {
     "articleLive": 2,
@@ -20773,6 +20773,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1733]需要教语言的最少人数",
+    "frontendQuestionId": "1733",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1834",
+    "status": "",
+    "title": "需要教语言的最少人数",
+    "titleSlug": "minimum-number-of-people-to-teach"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[5645]找到最高海拔",
     "frontendQuestionId": "5645",
     "leaf": true,
@@ -20782,18 +20794,6 @@
     "status": "",
     "title": "找到最高海拔",
     "titleSlug": "find-the-highest-altitude"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5646]需要教语言的最少人数",
-    "frontendQuestionId": "5646",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1834",
-    "status": "",
-    "title": "需要教语言的最少人数",
-    "titleSlug": "minimum-number-of-people-to-teach"
   },
   {
     "articleLive": 2,
@@ -20818,6 +20818,54 @@
     "status": "",
     "title": "生成乘积数组的方案数",
     "titleSlug": "count-ways-to-make-array-with-product"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5661]替换隐藏数字得到的最晚时间",
+    "frontendQuestionId": "5661",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1858",
+    "status": "ac",
+    "title": "替换隐藏数字得到的最晚时间",
+    "titleSlug": "latest-time-by-replacing-hidden-digits"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5662]满足三条件之一需改变的最少字符数",
+    "frontendQuestionId": "5662",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1859",
+    "status": "",
+    "title": "满足三条件之一需改变的最少字符数",
+    "titleSlug": "change-minimum-characters-to-satisfy-one-of-three-conditions"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5663]找出第 K 大的异或坐标值",
+    "frontendQuestionId": "5663",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1860",
+    "status": "",
+    "title": "找出第 K 大的异或坐标值",
+    "titleSlug": "find-kth-largest-xor-coordinate-value"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5664]放置盒子",
+    "frontendQuestionId": "5664",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1861",
+    "status": "",
+    "title": "放置盒子",
+    "titleSlug": "building-boxes"
   },
   {
     "articleLive": 2,
