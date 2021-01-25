@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[959]由斜杠划分区域",
-    "frontendQuestionId": "959",
+    "formTitle": "[1128]等价多米诺骨牌对的数量",
+    "frontendQuestionId": "1128",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "999",
+    "questionId": "1227",
     "status": "",
-    "title": "由斜杠划分区域",
-    "titleSlug": "regions-cut-by-slashes"
+    "title": "等价多米诺骨牌对的数量",
+    "titleSlug": "number-of-equivalent-domino-pairs"
   },
   {
     "articleLive": 2,
@@ -427,7 +427,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "35",
-    "status": "",
+    "status": "ac",
     "title": "搜索插入位置",
     "titleSlug": "search-insert-position"
   },
@@ -679,7 +679,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "56",
-    "status": "",
+    "status": "ac",
     "title": "合并区间",
     "titleSlug": "merge-intervals"
   },
@@ -691,7 +691,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "57",
-    "status": "",
+    "status": "ac",
     "title": "插入区间",
     "titleSlug": "insert-interval"
   },
@@ -8695,7 +8695,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "724",
-    "status": "",
+    "status": "ac",
     "title": "寻找数组的中心索引",
     "titleSlug": "find-pivot-index"
   },
@@ -11509,6 +11509,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[959]由斜杠划分区域",
+    "frontendQuestionId": "959",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "999",
+    "status": "",
+    "title": "由斜杠划分区域",
+    "titleSlug": "regions-cut-by-slashes"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[960]删列造序 III",
     "frontendQuestionId": "960",
     "leaf": true,
@@ -13522,18 +13534,6 @@
     "status": "lock",
     "title": "用户购买平台",
     "titleSlug": "user-purchase-platform"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1128]等价多米诺骨牌对的数量",
-    "frontendQuestionId": "1128",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1227",
-    "status": "",
-    "title": "等价多米诺骨牌对的数量",
-    "titleSlug": "number-of-equivalent-domino-pairs"
   },
   {
     "articleLive": 2,
@@ -20773,6 +20773,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1732]找到最高海拔",
+    "frontendQuestionId": "1732",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1833",
+    "status": "",
+    "title": "找到最高海拔",
+    "titleSlug": "find-the-highest-altitude"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1733]需要教语言的最少人数",
     "frontendQuestionId": "1733",
     "leaf": true,
@@ -20785,20 +20797,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5645]找到最高海拔",
-    "frontendQuestionId": "5645",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1833",
-    "status": "",
-    "title": "找到最高海拔",
-    "titleSlug": "find-the-highest-altitude"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5647]解码异或后的排列",
-    "frontendQuestionId": "5647",
+    "formTitle": "[1734]解码异或后的排列",
+    "frontendQuestionId": "1734",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -20809,8 +20809,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5648]生成乘积数组的方案数",
-    "frontendQuestionId": "5648",
+    "formTitle": "[1735]生成乘积数组的方案数",
+    "frontendQuestionId": "1735",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -20821,8 +20821,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5661]替换隐藏数字得到的最晚时间",
-    "frontendQuestionId": "5661",
+    "formTitle": "[1736]替换隐藏数字得到的最晚时间",
+    "frontendQuestionId": "1736",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -20833,8 +20833,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5662]满足三条件之一需改变的最少字符数",
-    "frontendQuestionId": "5662",
+    "formTitle": "[1737]满足三条件之一需改变的最少字符数",
+    "frontendQuestionId": "1737",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -20845,8 +20845,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5663]找出第 K 大的异或坐标值",
-    "frontendQuestionId": "5663",
+    "formTitle": "[1738]找出第 K 大的异或坐标值",
+    "frontendQuestionId": "1738",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -20857,8 +20857,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5664]放置盒子",
-    "frontendQuestionId": "5664",
+    "formTitle": "[1739]放置盒子",
+    "frontendQuestionId": "1739",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
