@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1579]保证图可完全遍历",
-    "frontendQuestionId": "1579",
+    "formTitle": "[724]寻找数组的中心索引",
+    "frontendQuestionId": "724",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "1701",
-    "status": "",
-    "title": "保证图可完全遍历",
-    "titleSlug": "remove-max-number-of-edges-to-keep-graph-fully-traversable"
+    "questionId": "724",
+    "status": "ac",
+    "title": "寻找数组的中心索引",
+    "titleSlug": "find-pivot-index"
   },
   {
     "articleLive": 2,
@@ -1819,7 +1819,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "151",
-    "status": "",
+    "status": "ac",
     "title": "翻转字符串里的单词",
     "titleSlug": "reverse-words-in-a-string"
   },
@@ -8686,18 +8686,6 @@
     "status": "lock",
     "title": "粉碎糖果",
     "titleSlug": "candy-crush"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[724]寻找数组的中心索引",
-    "frontendQuestionId": "724",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "724",
-    "status": "ac",
-    "title": "寻找数组的中心索引",
-    "titleSlug": "find-pivot-index"
   },
   {
     "articleLive": 2,
@@ -18946,6 +18934,18 @@
     "status": "",
     "title": "避免重复字母的最小删除成本",
     "titleSlug": "minimum-deletion-cost-to-avoid-repeating-letters"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1579]保证图可完全遍历",
+    "frontendQuestionId": "1579",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1701",
+    "status": "",
+    "title": "保证图可完全遍历",
+    "titleSlug": "remove-max-number-of-edges-to-keep-graph-fully-traversable"
   },
   {
     "articleLive": 2,
