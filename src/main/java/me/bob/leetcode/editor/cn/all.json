@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[724]寻找数组的中心索引",
-    "frontendQuestionId": "724",
+    "formTitle": "[1631]最小体力消耗路径",
+    "frontendQuestionId": "1631",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "724",
-    "status": "ac",
-    "title": "寻找数组的中心索引",
-    "titleSlug": "find-pivot-index"
+    "questionId": "1753",
+    "status": "",
+    "title": "最小体力消耗路径",
+    "titleSlug": "path-with-minimum-effort"
   },
   {
     "articleLive": 2,
@@ -2011,7 +2011,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "167",
-    "status": "",
+    "status": "ac",
     "title": "两数之和 II - 输入有序数组",
     "titleSlug": "two-sum-ii-input-array-is-sorted"
   },
@@ -2515,7 +2515,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "209",
-    "status": "",
+    "status": "ac",
     "title": "长度最小的子数组",
     "titleSlug": "minimum-size-subarray-sum"
   },
@@ -3496,7 +3496,7 @@
     "formTitle": "[291]单词规律 II",
     "frontendQuestionId": "291",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
     "questionId": "291",
     "status": "lock",
@@ -4135,7 +4135,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "344",
-    "status": "",
+    "status": "ac",
     "title": "反转字符串",
     "titleSlug": "reverse-string"
   },
@@ -5827,7 +5827,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "485",
-    "status": "",
+    "status": "ac",
     "title": "最大连续1的个数",
     "titleSlug": "max-consecutive-ones"
   },
@@ -6739,7 +6739,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "561",
-    "status": "",
+    "status": "ac",
     "title": "数组拆分 I",
     "titleSlug": "array-partition-i"
   },
@@ -8032,7 +8032,7 @@
     "formTitle": "[669]修剪二叉搜索树",
     "frontendQuestionId": "669",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "669",
     "status": "",
@@ -8686,6 +8686,18 @@
     "status": "lock",
     "title": "粉碎糖果",
     "titleSlug": "candy-crush"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[724]寻找数组的中心索引",
+    "frontendQuestionId": "724",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "724",
+    "status": "ac",
+    "title": "寻找数组的中心索引",
+    "titleSlug": "find-pivot-index"
   },
   {
     "articleLive": 2,
@@ -19561,18 +19573,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1631]最小体力消耗路径",
-    "frontendQuestionId": "1631",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1753",
-    "status": "",
-    "title": "最小体力消耗路径",
-    "titleSlug": "path-with-minimum-effort"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1632]矩阵转换后的秩",
     "frontendQuestionId": "1632",
     "leaf": true,
@@ -20866,6 +20866,18 @@
     "status": "",
     "title": "放置盒子",
     "titleSlug": "building-boxes"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1740]Find Distance in a Binary Tree",
+    "frontendQuestionId": "1740",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1883",
+    "status": "lock",
+    "title": "Find Distance in a Binary Tree",
+    "titleSlug": "find-distance-in-a-binary-tree"
   },
   {
     "articleLive": 2,
