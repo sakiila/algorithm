@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[778]水位上升的泳池中游泳",
-    "frontendQuestionId": "778",
+    "formTitle": "[839]相似字符串组",
+    "frontendQuestionId": "839",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
-    "questionId": "794",
+    "questionId": "869",
     "status": "",
-    "title": "水位上升的泳池中游泳",
-    "titleSlug": "swim-in-rising-water"
+    "title": "相似字符串组",
+    "titleSlug": "similar-string-groups"
   },
   {
     "articleLive": 2,
@@ -1711,7 +1711,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "142",
-    "status": "",
+    "status": "ac",
     "title": "环形链表 II",
     "titleSlug": "linked-list-cycle-ii"
   },
@@ -1927,7 +1927,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "160",
-    "status": "",
+    "status": "ac",
     "title": "相交链表",
     "titleSlug": "intersection-of-two-linked-lists"
   },
@@ -8491,7 +8491,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "838",
-    "status": "",
+    "status": "ac",
     "title": "设计链表",
     "titleSlug": "design-linked-list"
   },
@@ -9337,6 +9337,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[778]水位上升的泳池中游泳",
+    "frontendQuestionId": "778",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "794",
+    "status": "",
+    "title": "水位上升的泳池中游泳",
+    "titleSlug": "swim-in-rising-water"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[779]第K个语法符号",
     "frontendQuestionId": "779",
     "leaf": true,
@@ -10054,18 +10066,6 @@
     "status": "",
     "title": "推多米诺",
     "titleSlug": "push-dominoes"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[839]相似字符串组",
-    "frontendQuestionId": "839",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "869",
-    "status": "",
-    "title": "相似字符串组",
-    "titleSlug": "similar-string-groups"
   },
   {
     "articleLive": 2,
@@ -11836,7 +11836,7 @@
     "formTitle": "[987]二叉树的垂序遍历",
     "frontendQuestionId": "987",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
     "questionId": "1029",
     "status": "",
@@ -20878,6 +20878,18 @@
     "status": "lock",
     "title": "Find Distance in a Binary Tree",
     "titleSlug": "find-distance-in-a-binary-tree"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1741]Find Total Time Spent by Each Employee",
+    "frontendQuestionId": "1741",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1892",
+    "status": "lock",
+    "title": "Find Total Time Spent by Each Employee",
+    "titleSlug": "find-total-time-spent-by-each-employee"
   },
   {
     "articleLive": 2,
