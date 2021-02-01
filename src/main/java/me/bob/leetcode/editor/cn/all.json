@@ -5167,7 +5167,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "766",
-    "status": "",
+    "status": "ac",
     "title": "扁平化多级双向链表",
     "titleSlug": "flatten-a-multilevel-doubly-linked-list"
   },
@@ -20893,8 +20893,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5654]盒子中小球的最大数量",
-    "frontendQuestionId": "5654",
+    "formTitle": "[1742]盒子中小球的最大数量",
+    "frontendQuestionId": "1742",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -20905,8 +20905,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5665]从相邻元素对还原数组",
-    "frontendQuestionId": "5665",
+    "formTitle": "[1743]从相邻元素对还原数组",
+    "frontendQuestionId": "1743",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -20917,20 +20917,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5666]回文串分割 IV",
-    "frontendQuestionId": "5666",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1871",
-    "status": "",
-    "title": "回文串分割 IV",
-    "titleSlug": "palindrome-partitioning-iv"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5667]你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
-    "frontendQuestionId": "5667",
+    "formTitle": "[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
+    "frontendQuestionId": "1744",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -20938,6 +20926,18 @@
     "status": "",
     "title": "你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
     "titleSlug": "can-you-eat-your-favorite-candy-on-your-favorite-day"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1745]回文串分割 IV",
+    "frontendQuestionId": "1745",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1871",
+    "status": "",
+    "title": "回文串分割 IV",
+    "titleSlug": "palindrome-partitioning-iv"
   },
   {
     "articleLive": 2,
