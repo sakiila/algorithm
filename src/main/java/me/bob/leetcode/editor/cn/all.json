@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[888]公平的糖果棒交换",
-    "frontendQuestionId": "888",
+    "formTitle": "[424]替换后的最长重复字符",
+    "frontendQuestionId": "424",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "924",
+    "questionId": "424",
     "status": "",
-    "title": "公平的糖果棒交换",
-    "titleSlug": "fair-candy-swap"
+    "title": "替换后的最长重复字符",
+    "titleSlug": "longest-repeating-character-replacement"
   },
   {
     "articleLive": 2,
@@ -739,7 +739,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "61",
-    "status": "",
+    "status": "ac",
     "title": "旋转链表",
     "titleSlug": "rotate-list"
   },
@@ -1663,7 +1663,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "138",
-    "status": "",
+    "status": "ac",
     "title": "复制带随机指针的链表",
     "titleSlug": "copy-list-with-random-pointer"
   },
@@ -5086,18 +5086,6 @@
     "status": "",
     "title": "从英文中重建数字",
     "titleSlug": "reconstruct-original-digits-from-english"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[424]替换后的最长重复字符",
-    "frontendQuestionId": "424",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "424",
-    "status": "",
-    "title": "替换后的最长重复字符",
-    "titleSlug": "longest-repeating-character-replacement"
   },
   {
     "articleLive": 2,
@@ -10654,6 +10642,18 @@
     "status": "",
     "title": "鸡蛋掉落",
     "titleSlug": "super-egg-drop"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[888]公平的糖果棒交换",
+    "frontendQuestionId": "888",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "924",
+    "status": "ac",
+    "title": "公平的糖果棒交换",
+    "titleSlug": "fair-candy-swap"
   },
   {
     "articleLive": 2,
@@ -17533,14 +17533,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1462]课程安排 IV",
+    "formTitle": "[1462]课程表 IV",
     "frontendQuestionId": "1462",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "1558",
     "status": "",
-    "title": "课程安排 IV",
+    "title": "课程表 IV",
     "titleSlug": "course-schedule-iv"
   },
   {
@@ -17665,14 +17665,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1473]给房子涂色 III",
+    "formTitle": "[1473]粉刷房子 III",
     "frontendQuestionId": "1473",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
     "questionId": "1583",
     "status": "",
-    "title": "给房子涂色 III",
+    "title": "粉刷房子 III",
     "titleSlug": "paint-house-iii"
   },
   {
