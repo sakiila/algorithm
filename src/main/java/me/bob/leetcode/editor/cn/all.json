@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[424]替换后的最长重复字符",
-    "frontendQuestionId": "424",
+    "formTitle": "[480]滑动窗口中位数",
+    "frontendQuestionId": "480",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "424",
+    "questionId": "480",
     "status": "",
-    "title": "替换后的最长重复字符",
-    "titleSlug": "longest-repeating-character-replacement"
+    "title": "滑动窗口中位数",
+    "titleSlug": "sliding-window-median"
   },
   {
     "articleLive": 2,
@@ -463,7 +463,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "38",
-    "status": "",
+    "status": "ac",
     "title": "外观数列",
     "titleSlug": "count-and-say"
   },
@@ -5089,6 +5089,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[424]替换后的最长重复字符",
+    "frontendQuestionId": "424",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "424",
+    "status": "ac",
+    "title": "替换后的最长重复字符",
+    "titleSlug": "longest-repeating-character-replacement"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[425]单词方块",
     "frontendQuestionId": "425",
     "leaf": true,
@@ -5746,18 +5758,6 @@
     "status": "",
     "title": "最大回文数乘积",
     "titleSlug": "largest-palindrome-product"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[480]滑动窗口中位数",
-    "frontendQuestionId": "480",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "480",
-    "status": "",
-    "title": "滑动窗口中位数",
-    "titleSlug": "sliding-window-median"
   },
   {
     "articleLive": 2,
@@ -7459,7 +7459,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "860",
-    "status": "",
+    "status": "ac",
     "title": "设计循环队列",
     "titleSlug": "design-circular-queue"
   },
