@@ -43,43 +43,44 @@
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-import java.util.Stack;
 
 /**
  * 20 有效的括号
  * 2021-01-07 09:32:24
- * 思路：栈
+ * 思路：栈（注意 if 判断时，为空）
  */
 public class ValidParentheses {
     public static void main(String[] args) {
         Solution solution = new ValidParentheses().new Solution();
-        System.out.println("()[]{}" + solution.isValid("()[]{}"));
-        System.out.println("([)]" + solution.isValid("([)]"));
+        System.out.println("()[]{} " + solution.isValid("()[]{}"));
+        System.out.println("([)] " + solution.isValid("([)]"));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isValid(String s) {
-            Stack<Character> stack = new Stack<>();
-
+            Deque<Character> stack = new ArrayDeque<>();
             Map<Character, Character> map = new HashMap<>();
-            map.put('(', ')');
             map.put('{', '}');
+            map.put('(', ')');
             map.put('[', ']');
+
             for (char c : s.toCharArray()) {
-                if (!stack.empty()) {
-                    Character peek = stack.peek();
-                    if (Objects.equals(map.get(peek), c)) {
+                if (!stack.isEmpty()) {
+                    if (Objects.equals(c, map.get(stack.peek()))) {
                         stack.pop();
                         continue;
                     }
                 }
                 stack.push(c);
             }
-            return stack.empty();
+
+            return stack.isEmpty();
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
