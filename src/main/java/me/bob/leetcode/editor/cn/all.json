@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[480]滑动窗口中位数",
-    "frontendQuestionId": "480",
+    "formTitle": "[643]子数组最大平均数 I",
+    "frontendQuestionId": "643",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "480",
+    "questionId": "643",
     "status": "",
-    "title": "滑动窗口中位数",
-    "titleSlug": "sliding-window-median"
+    "title": "子数组最大平均数 I",
+    "titleSlug": "maximum-average-subarray-i"
   },
   {
     "articleLive": 2,
@@ -3355,7 +3355,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "279",
-    "status": "",
+    "status": "ac",
     "title": "完全平方数",
     "titleSlug": "perfect-squares"
   },
@@ -5761,6 +5761,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[480]滑动窗口中位数",
+    "frontendQuestionId": "480",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "480",
+    "status": "ac",
+    "title": "滑动窗口中位数",
+    "titleSlug": "sliding-window-median"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[481]神奇字符串",
     "frontendQuestionId": "481",
     "leaf": true,
@@ -7705,18 +7717,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[643]子数组最大平均数 I",
-    "frontendQuestionId": "643",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "643",
-    "status": "",
-    "title": "子数组最大平均数 I",
-    "titleSlug": "maximum-average-subarray-i"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[644]子数组最大平均数 II",
     "frontendQuestionId": "644",
     "leaf": true,
@@ -9019,7 +9019,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "753",
-    "status": "",
+    "status": "ac",
     "title": "打开转盘锁",
     "titleSlug": "open-the-lock"
   },
@@ -19609,14 +19609,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1635]Hopper Company Queries I",
+    "formTitle": "[1635]Hopper 公司查询 I",
     "frontendQuestionId": "1635",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
     "questionId": "1779",
     "status": "lock",
-    "title": "Hopper Company Queries I",
+    "title": "Hopper 公司查询 I",
     "titleSlug": "hopper-company-queries-i"
   },
   {
@@ -20377,14 +20377,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1699]Number of Calls Between Two Persons",
+    "formTitle": "[1699]两人之间的通话次数",
     "frontendQuestionId": "1699",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "1842",
     "status": "lock",
-    "title": "Number of Calls Between Two Persons",
+    "title": "两人之间的通话次数",
     "titleSlug": "number-of-calls-between-two-persons"
   },
   {
@@ -20497,14 +20497,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1709]Biggest Window Between Visits",
+    "formTitle": "[1709]访问日期之间最大的空档期",
     "frontendQuestionId": "1709",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "1852",
     "status": "lock",
-    "title": "Biggest Window Between Visits",
+    "title": "访问日期之间最大的空档期",
     "titleSlug": "biggest-window-between-visits"
   },
   {
@@ -20557,26 +20557,26 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1714]Sum Of Special Evenly-Spaced Elements In Array",
+    "formTitle": "[1714]数组中特殊等间距元素的和",
     "frontendQuestionId": "1714",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
     "questionId": "1809",
     "status": "",
-    "title": "Sum Of Special Evenly-Spaced Elements In Array",
+    "title": "数组中特殊等间距元素的和",
     "titleSlug": "sum-of-special-evenly-spaced-elements-in-array"
   },
   {
     "articleLive": 2,
-    "formTitle": "[1715]Count Apples and Oranges",
+    "formTitle": "[1715]苹果和橘子的个数",
     "frontendQuestionId": "1715",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "1862",
     "status": "lock",
-    "title": "Count Apples and Oranges",
+    "title": "苹果和橘子的个数",
     "titleSlug": "count-apples-and-oranges"
   },
   {
@@ -20677,14 +20677,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1724]Checking Existence of Edge Length Limited Paths II",
+    "formTitle": "[1724]检查边长度限制的路径是否存在 II",
     "frontendQuestionId": "1724",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
     "questionId": "1865",
     "status": "lock",
-    "title": "Checking Existence of Edge Length Limited Paths II",
+    "title": "检查边长度限制的路径是否存在 II",
     "titleSlug": "checking-existence-of-edge-length-limited-paths-ii"
   },
   {
@@ -20737,26 +20737,26 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1729]Find Followers Count",
+    "formTitle": "[1729]求关注者的数量",
     "frontendQuestionId": "1729",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1877",
     "status": "lock",
-    "title": "Find Followers Count",
+    "title": "求关注者的数量",
     "titleSlug": "find-followers-count"
   },
   {
     "articleLive": 2,
-    "formTitle": "[1730]Shortest Path to Get Food",
+    "formTitle": "[1730]获取食物的最短路径",
     "frontendQuestionId": "1730",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "550",
     "status": "",
-    "title": "Shortest Path to Get Food",
+    "title": "获取食物的最短路径",
     "titleSlug": "shortest-path-to-get-food"
   },
   {
@@ -20869,14 +20869,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1740]Find Distance in a Binary Tree",
+    "formTitle": "[1740]找到二叉树中的距离",
     "frontendQuestionId": "1740",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "1883",
     "status": "lock",
-    "title": "Find Distance in a Binary Tree",
+    "title": "找到二叉树中的距离",
     "titleSlug": "find-distance-in-a-binary-tree"
   },
   {

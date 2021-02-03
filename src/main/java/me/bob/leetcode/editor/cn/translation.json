@@ -10765,6 +10765,51 @@
         "questionId": "1000188",
         "title": "6. \u590f\u5b63\u7279\u60e0",
         "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1779",
+        "title": "Hopper \u516c\u53f8\u67e5\u8be2 I",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1865",
+        "title": "\u68c0\u67e5\u8fb9\u957f\u5ea6\u9650\u5236\u7684\u8def\u5f84\u662f\u5426\u5b58\u5728 II",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1809",
+        "title": "\u6570\u7ec4\u4e2d\u7279\u6b8a\u7b49\u95f4\u8ddd\u5143\u7d20\u7684\u548c",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1852",
+        "title": "\u8bbf\u95ee\u65e5\u671f\u4e4b\u95f4\u6700\u5927\u7684\u7a7a\u6863\u671f",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1877",
+        "title": "\u6c42\u5173\u6ce8\u8005\u7684\u6570\u91cf",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1842",
+        "title": "\u4e24\u4eba\u4e4b\u95f4\u7684\u901a\u8bdd\u6b21\u6570",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1862",
+        "title": "\u82f9\u679c\u548c\u6a58\u5b50\u7684\u4e2a\u6570",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "550",
+        "title": "\u83b7\u53d6\u98df\u7269\u7684\u6700\u77ed\u8def\u5f84",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1883",
+        "title": "\u627e\u5230\u4e8c\u53c9\u6811\u4e2d\u7684\u8ddd\u79bb",
+        "__typename": "AppliedTranslationNode"
       }
     ]
   }
