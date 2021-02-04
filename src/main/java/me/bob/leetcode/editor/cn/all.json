@@ -1807,7 +1807,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "150",
-    "status": "",
+    "status": "ac",
     "title": "逆波兰表达式求值",
     "titleSlug": "evaluate-reverse-polish-notation"
   },
@@ -11632,7 +11632,7 @@
     "formTitle": "[970]强整数",
     "frontendQuestionId": "970",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "1010",
     "status": "",
