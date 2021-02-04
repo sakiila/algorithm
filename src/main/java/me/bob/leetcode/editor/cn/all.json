@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[643]子数组最大平均数 I",
-    "frontendQuestionId": "643",
+    "formTitle": "[1208]尽可能使字符串相等",
+    "frontendQuestionId": "1208",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "643",
+    "questionId": "1321",
     "status": "",
-    "title": "子数组最大平均数 I",
-    "titleSlug": "maximum-average-subarray-i"
+    "title": "尽可能使字符串相等",
+    "titleSlug": "get-equal-substrings-within-budget"
   },
   {
     "articleLive": 2,
@@ -7717,6 +7717,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[643]子数组最大平均数 I",
+    "frontendQuestionId": "643",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "643",
+    "status": "ac",
+    "title": "子数组最大平均数 I",
+    "titleSlug": "maximum-average-subarray-i"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[644]子数组最大平均数 II",
     "frontendQuestionId": "644",
     "leaf": true,
@@ -14485,18 +14497,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1208]尽可能使字符串相等",
-    "frontendQuestionId": "1208",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1321",
-    "status": "",
-    "title": "尽可能使字符串相等",
-    "titleSlug": "get-equal-substrings-within-budget"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1209]删除字符串中的所有相邻重复项 II",
     "frontendQuestionId": "1209",
     "leaf": true,
@@ -20938,6 +20938,18 @@
     "status": "",
     "title": "回文串分割 IV",
     "titleSlug": "palindrome-partitioning-iv"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1746]Maximum Subarray Sum After One Operation",
+    "frontendQuestionId": "1746",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1893",
+    "status": "lock",
+    "title": "Maximum Subarray Sum After One Operation",
+    "titleSlug": "maximum-subarray-sum-after-one-operation"
   },
   {
     "articleLive": 2,
