@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1208]尽可能使字符串相等",
-    "frontendQuestionId": "1208",
+    "formTitle": "[1423]可获得的最大点数",
+    "frontendQuestionId": "1423",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "1321",
+    "questionId": "1538",
     "status": "",
-    "title": "尽可能使字符串相等",
-    "titleSlug": "get-equal-substrings-within-budget"
+    "title": "可获得的最大点数",
+    "titleSlug": "maximum-points-you-can-obtain-from-cards"
   },
   {
     "articleLive": 2,
@@ -1603,7 +1603,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "133",
-    "status": "",
+    "status": "ac",
     "title": "克隆图",
     "titleSlug": "clone-graph"
   },
@@ -5935,7 +5935,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "494",
-    "status": "",
+    "status": "ac",
     "title": "目标和",
     "titleSlug": "target-sum"
   },
@@ -14497,6 +14497,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1208]尽可能使字符串相等",
+    "frontendQuestionId": "1208",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1321",
+    "status": "ac",
+    "title": "尽可能使字符串相等",
+    "titleSlug": "get-equal-substrings-within-budget"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1209]删除字符串中的所有相邻重复项 II",
     "frontendQuestionId": "1209",
     "leaf": true,
@@ -17062,18 +17074,6 @@
     "status": "",
     "title": "分割字符串的最大得分",
     "titleSlug": "maximum-score-after-splitting-a-string"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1423]可获得的最大点数",
-    "frontendQuestionId": "1423",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1538",
-    "status": "",
-    "title": "可获得的最大点数",
-    "titleSlug": "maximum-points-you-can-obtain-from-cards"
   },
   {
     "articleLive": 2,
@@ -20563,7 +20563,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "1809",
-    "status": "",
+    "status": "lock",
     "title": "数组中特殊等间距元素的和",
     "titleSlug": "sum-of-special-evenly-spaced-elements-in-array"
   },
@@ -20755,7 +20755,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "550",
-    "status": "",
+    "status": "lock",
     "title": "获取食物的最短路径",
     "titleSlug": "shortest-path-to-get-food"
   },
@@ -20950,6 +20950,18 @@
     "status": "lock",
     "title": "Maximum Subarray Sum After One Operation",
     "titleSlug": "maximum-subarray-sum-after-one-operation"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1747]Leetflex Banned Accounts",
+    "frontendQuestionId": "1747",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1898",
+    "status": "lock",
+    "title": "Leetflex Banned Accounts",
+    "titleSlug": "leetflex-banned-accounts"
   },
   {
     "articleLive": 2,
