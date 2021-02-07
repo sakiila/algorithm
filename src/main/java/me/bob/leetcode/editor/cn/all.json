@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[665]非递减数列",
-    "frontendQuestionId": "665",
+    "formTitle": "[978]最长湍流子数组",
+    "frontendQuestionId": "978",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "665",
+    "questionId": "1020",
     "status": "",
-    "title": "非递减数列",
-    "titleSlug": "non-decreasing-array"
+    "title": "最长湍流子数组",
+    "titleSlug": "longest-turbulent-subarray"
   },
   {
     "articleLive": 2,
@@ -7981,6 +7981,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[665]非递减数列",
+    "frontendQuestionId": "665",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "665",
+    "status": "ac",
+    "title": "非递减数列",
+    "titleSlug": "non-decreasing-array"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[666]路径和 IV",
     "frontendQuestionId": "666",
     "leaf": true,
@@ -11722,18 +11734,6 @@
     "status": "ac",
     "title": "有序数组的平方",
     "titleSlug": "squares-of-a-sorted-array"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[978]最长湍流子数组",
-    "frontendQuestionId": "978",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1020",
-    "status": "",
-    "title": "最长湍流子数组",
-    "titleSlug": "longest-turbulent-subarray"
   },
   {
     "articleLive": 2,
@@ -21010,6 +21010,54 @@
     "status": "",
     "title": "最多可以参加的会议数目 II",
     "titleSlug": "maximum-number-of-events-that-can-be-attended-ii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5672]检查数组是否经排序和轮转得到",
+    "frontendQuestionId": "5672",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1878",
+    "status": "ac",
+    "title": "检查数组是否经排序和轮转得到",
+    "titleSlug": "check-if-array-is-sorted-and-rotated"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5673]移除石子的最大得分",
+    "frontendQuestionId": "5673",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1879",
+    "status": "",
+    "title": "移除石子的最大得分",
+    "titleSlug": "maximum-score-from-removing-stones"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5674]构造字典序最大的合并字符串",
+    "frontendQuestionId": "5674",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1880",
+    "status": "",
+    "title": "构造字典序最大的合并字符串",
+    "titleSlug": "largest-merge-of-two-strings"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5675]最接近目标值的子序列和",
+    "frontendQuestionId": "5675",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1881",
+    "status": "",
+    "title": "最接近目标值的子序列和",
+    "titleSlug": "closest-subsequence-sum"
   },
   {
     "articleLive": 2,
