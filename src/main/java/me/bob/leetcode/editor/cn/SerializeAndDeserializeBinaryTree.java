@@ -87,6 +87,7 @@ public class SerializeAndDeserializeBinaryTree {
                 str += "None,";
             } else {
                 str += node.val + ",";
+                // 注意下面的等式
                 str = serializeHelper(node.left, str);
                 str = serializeHelper(node.right, str);
             }
