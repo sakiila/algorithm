@@ -1,7 +1,6 @@
-//给定一个 完美二叉树 ，其所有叶子节点都在同一层，每个父节点都有两个子节点。二叉树定义如下： 
+//给定一个二叉树 
 //
-// 
-//struct Node {
+// struct Node {
 //  int val;
 //  Node *left;
 //  Node *right;
@@ -27,23 +26,25 @@
 //
 // 
 //
-// 
-//输入：root = [1,2,3,4,5,6,7]
-//输出：[1,#,2,3,#,4,5,6,7,#]
-//解释：给定二叉树如图 A 所示，你的函数应该填充它的每个 next 指针，以指向其下一个右侧节点，如图 B 所示。序列化的输出按层序遍历排列，同一层节点由 
-//next 指针连接，'#' 标志着每一层的结束。
-// 
+// 输入：root = [1,2,3,4,5,null,7]
+//输出：[1,#,2,3,#,4,5,7,#]
+//解释：给定二叉树如图 A 所示，你的函数应该填充它的每个 next 指针，以指向其下一个右侧节点，如图 B 所示。 
 //
 // 
 //
 // 提示： 
 //
 // 
-// 树中节点的数量少于 4096 
-// -1000 <= node.val <= 1000 
+// 树中的节点数小于 6000 
+// -100 <= node.val <= 100 
 // 
-// Related Topics 树 深度优先搜索 广度优先搜索 
-// 👍 388 👎 0
+//
+// 
+//
+// 
+// 
+// Related Topics 树 深度优先搜索 
+// 👍 358 👎 0
 
 
 package me.bob.leetcode.editor.cn;
@@ -52,13 +53,13 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * 116 填充每个节点的下一个右侧节点指针
- * 2021-02-08 09:31:24
+ * 117 填充每个节点的下一个右侧节点指针 II
+ * 2021-02-08 09:48:56
  * 思路：BFS
  */
-public class PopulatingNextRightPointersInEachNode {
+public class PopulatingNextRightPointersInEachNodeIi {
     public static void main(String[] args) {
-        Solution solution = new PopulatingNextRightPointersInEachNode().new Solution();
+        Solution solution = new PopulatingNextRightPointersInEachNodeIi().new Solution();
     }
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -97,15 +98,15 @@ class Node {
             while (!queue.isEmpty()) {
                 int size = queue.size();
                 for (int i = 0; i < size; i++) {
-                    Node temp = queue.poll();
+                    Node node = queue.poll();
                     if (i < size - 1) {
-                        temp.next = queue.peek();
+                        node.next = queue.peek();
                     }
-                    if (temp.left != null) {
-                        queue.offer(temp.left);
+                    if (node.left != null) {
+                        queue.offer(node.left);
                     }
-                    if (temp.right != null) {
-                        queue.offer(temp.right);
+                    if (node.right != null) {
+                        queue.offer(node.right);
                     }
                 }
             }
@@ -113,8 +114,7 @@ class Node {
             return root;
         }
     }
-
-    //leetcode submit region end(Prohibit modification and deletion)
+//leetcode submit region end(Prohibit modification and deletion)
 
     class Node {
         public int val;
