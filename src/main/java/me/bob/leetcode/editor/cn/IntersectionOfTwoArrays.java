@@ -29,15 +29,13 @@ package me.bob.leetcode.editor.cn;
 
 import com.sun.org.apache.xpath.internal.operations.String;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * 349 两个数组的交集
  * 2021-02-09 09:58:12
- * 思路：哈希表
+ * 思路：哈希集合
  */
 public class IntersectionOfTwoArrays {
     public static void main(String[] args) {
@@ -47,22 +45,22 @@ public class IntersectionOfTwoArrays {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] intersection(int[] nums1, int[] nums2) {
-            Map<Integer, Integer> map = new HashMap<>();
+            Set<Integer> set = new HashSet<>();
             for (int i = 0; i < nums1.length; i++) {
-                map.put(nums1[i], map.getOrDefault(nums1[i], 0) + 1);
+                set.add(nums1[i]);
             }
 
-            List<Integer> list = new ArrayList<>();
+            Set<Integer> setResult = new HashSet<>();
             for (int i = 0; i < nums2.length; i++) {
-                if (map.containsKey(nums2[i]) && map.get(nums2[i]) > 0) {
-                    list.add(nums2[i]);
-                    map.put(nums2[i], map.get(nums2[i]) - 1);
+                if (set.contains(nums2[i])) {
+                    setResult.add(nums2[i]);
                 }
             }
 
-            int[] res = new int[list.size()];
-            for (int i = 0; i < list.size(); i++) {
-                res[i] = list.get(i);
+            int[] res = new int[setResult.size()];
+            int i = 0;
+            for (int value : setResult) {
+                res[i++] = value;
             }
             return res;
 
