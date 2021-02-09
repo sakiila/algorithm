@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[992]K 个不同整数的子数组",
-    "frontendQuestionId": "992",
+    "formTitle": "[567]字符串的排列",
+    "frontendQuestionId": "567",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1034",
+    "questionId": "567",
     "status": "",
-    "title": "K 个不同整数的子数组",
-    "titleSlug": "subarrays-with-k-different-integers"
+    "title": "字符串的排列",
+    "titleSlug": "permutation-in-string"
   },
   {
     "articleLive": 2,
@@ -1639,7 +1639,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "136",
-    "status": "",
+    "status": "ac",
     "title": "只出现一次的数字",
     "titleSlug": "single-number"
   },
@@ -2431,7 +2431,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "202",
-    "status": "",
+    "status": "ac",
     "title": "快乐数",
     "titleSlug": "happy-number"
   },
@@ -2467,7 +2467,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "205",
-    "status": "",
+    "status": "ac",
     "title": "同构字符串",
     "titleSlug": "isomorphic-strings"
   },
@@ -2611,7 +2611,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "217",
-    "status": "",
+    "status": "ac",
     "title": "存在重复元素",
     "titleSlug": "contains-duplicate"
   },
@@ -2635,7 +2635,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "219",
-    "status": "",
+    "status": "ac",
     "title": "存在重复元素 II",
     "titleSlug": "contains-duplicate-ii"
   },
@@ -4195,7 +4195,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "349",
-    "status": "",
+    "status": "ac",
     "title": "两个数组的交集",
     "titleSlug": "intersection-of-two-arrays"
   },
@@ -4207,7 +4207,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "350",
-    "status": "",
+    "status": "ac",
     "title": "两个数组的交集 II",
     "titleSlug": "intersection-of-two-arrays-ii"
   },
@@ -4537,14 +4537,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[378]有序矩阵中第K小的元素",
+    "formTitle": "[378]有序矩阵中第 K 小的元素",
     "frontendQuestionId": "378",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "378",
     "status": "",
-    "title": "有序矩阵中第K小的元素",
+    "title": "有序矩阵中第 K 小的元素",
     "titleSlug": "kth-smallest-element-in-a-sorted-matrix"
   },
   {
@@ -6805,18 +6805,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[567]字符串的排列",
-    "frontendQuestionId": "567",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "567",
-    "status": "",
-    "title": "字符串的排列",
-    "titleSlug": "permutation-in-string"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[568]最大休假天数",
     "frontendQuestionId": "568",
     "leaf": true,
@@ -7195,7 +7183,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "599",
-    "status": "",
+    "status": "ac",
     "title": "两个列表的最小索引总和",
     "titleSlug": "minimum-index-sum-of-two-lists"
   },
@@ -8467,7 +8455,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "816",
-    "status": "",
+    "status": "ac",
     "title": "设计哈希集合",
     "titleSlug": "design-hashset"
   },
@@ -8479,7 +8467,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "817",
-    "status": "",
+    "status": "ac",
     "title": "设计哈希映射",
     "titleSlug": "design-hashmap"
   },
@@ -11902,6 +11890,18 @@
     "status": "",
     "title": "坏了的计算器",
     "titleSlug": "broken-calculator"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[992]K 个不同整数的子数组",
+    "frontendQuestionId": "992",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1034",
+    "status": "ac",
+    "title": "K 个不同整数的子数组",
+    "titleSlug": "subarrays-with-k-different-integers"
   },
   {
     "articleLive": 2,
