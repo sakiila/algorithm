@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[978]最长湍流子数组",
-    "frontendQuestionId": "978",
+    "formTitle": "[992]K 个不同整数的子数组",
+    "frontendQuestionId": "992",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "1020",
+    "questionId": "1034",
     "status": "",
-    "title": "最长湍流子数组",
-    "titleSlug": "longest-turbulent-subarray"
+    "title": "K 个不同整数的子数组",
+    "titleSlug": "subarrays-with-k-different-integers"
   },
   {
     "articleLive": 2,
@@ -1219,7 +1219,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "101",
-    "status": "",
+    "status": "ac",
     "title": "对称二叉树",
     "titleSlug": "symmetric-tree"
   },
@@ -1267,7 +1267,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "105",
-    "status": "",
+    "status": "ac",
     "title": "从前序与中序遍历序列构造二叉树",
     "titleSlug": "construct-binary-tree-from-preorder-and-inorder-traversal"
   },
@@ -1399,7 +1399,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "116",
-    "status": "",
+    "status": "ac",
     "title": "填充每个节点的下一个右侧节点指针",
     "titleSlug": "populating-next-right-pointers-in-each-node"
   },
@@ -1411,7 +1411,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "117",
-    "status": "",
+    "status": "ac",
     "title": "填充每个节点的下一个右侧节点指针 II",
     "titleSlug": "populating-next-right-pointers-in-each-node-ii"
   },
@@ -2839,7 +2839,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "236",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的最近公共祖先",
     "titleSlug": "lowest-common-ancestor-of-a-binary-tree"
   },
@@ -3571,7 +3571,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "297",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的序列化与反序列化",
     "titleSlug": "serialize-and-deserialize-binary-tree"
   },
@@ -11737,6 +11737,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[978]最长湍流子数组",
+    "frontendQuestionId": "978",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1020",
+    "status": "ac",
+    "title": "最长湍流子数组",
+    "titleSlug": "longest-turbulent-subarray"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[979]在二叉树中分配硬币",
     "frontendQuestionId": "979",
     "leaf": true,
@@ -11890,18 +11902,6 @@
     "status": "",
     "title": "坏了的计算器",
     "titleSlug": "broken-calculator"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[992]K 个不同整数的子数组",
-    "frontendQuestionId": "992",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1034",
-    "status": "",
-    "title": "K 个不同整数的子数组",
-    "titleSlug": "subarrays-with-k-different-integers"
   },
   {
     "articleLive": 2,
@@ -20965,8 +20965,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5657]唯一元素的和",
-    "frontendQuestionId": "5657",
+    "formTitle": "[1748]唯一元素的和",
+    "frontendQuestionId": "1748",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -20977,8 +20977,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5658]任意子数组和的绝对值的最大值",
-    "frontendQuestionId": "5658",
+    "formTitle": "[1749]任意子数组和的绝对值的最大值",
+    "frontendQuestionId": "1749",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -20989,8 +20989,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5659]删除字符串两端相同字符后的最短长度",
-    "frontendQuestionId": "5659",
+    "formTitle": "[1750]删除字符串两端相同字符后的最短长度",
+    "frontendQuestionId": "1750",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21001,8 +21001,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5660]最多可以参加的会议数目 II",
-    "frontendQuestionId": "5660",
+    "formTitle": "[1751]最多可以参加的会议数目 II",
+    "frontendQuestionId": "1751",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -21013,8 +21013,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5672]检查数组是否经排序和轮转得到",
-    "frontendQuestionId": "5672",
+    "formTitle": "[1752]检查数组是否经排序和轮转得到",
+    "frontendQuestionId": "1752",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -21025,8 +21025,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5673]移除石子的最大得分",
-    "frontendQuestionId": "5673",
+    "formTitle": "[1753]移除石子的最大得分",
+    "frontendQuestionId": "1753",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21037,8 +21037,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5674]构造字典序最大的合并字符串",
-    "frontendQuestionId": "5674",
+    "formTitle": "[1754]构造字典序最大的合并字符串",
+    "frontendQuestionId": "1754",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21049,8 +21049,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5675]最接近目标值的子序列和",
-    "frontendQuestionId": "5675",
+    "formTitle": "[1755]最接近目标值的子序列和",
+    "frontendQuestionId": "1755",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
