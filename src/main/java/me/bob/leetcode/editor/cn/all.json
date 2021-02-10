@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[567]字符串的排列",
-    "frontendQuestionId": "567",
+    "formTitle": "[703]数据流中的第 K 大元素",
+    "frontendQuestionId": "703",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "567",
+    "questionId": "789",
     "status": "",
-    "title": "字符串的排列",
-    "titleSlug": "permutation-in-string"
+    "title": "数据流中的第 K 大元素",
+    "titleSlug": "kth-largest-element-in-a-stream"
   },
   {
     "articleLive": 2,
@@ -595,7 +595,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "49",
-    "status": "",
+    "status": "ac",
     "title": "字母异位词分组",
     "titleSlug": "group-anagrams"
   },
@@ -4171,7 +4171,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "347",
-    "status": "",
+    "status": "ac",
     "title": "前 K 个高频元素",
     "titleSlug": "top-k-frequent-elements"
   },
@@ -4567,7 +4567,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "380",
-    "status": "",
+    "status": "ac",
     "title": "常数时间插入、删除和获取随机元素",
     "titleSlug": "insert-delete-getrandom-o1"
   },
@@ -5455,7 +5455,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "454",
-    "status": "",
+    "status": "ac",
     "title": "四数相加 II",
     "titleSlug": "4sum-ii"
   },
@@ -6805,6 +6805,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[567]字符串的排列",
+    "frontendQuestionId": "567",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "567",
+    "status": "ac",
+    "title": "字符串的排列",
+    "titleSlug": "permutation-in-string"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[568]最大休假天数",
     "frontendQuestionId": "568",
     "leaf": true,
@@ -7819,7 +7831,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "652",
-    "status": "",
+    "status": "ac",
     "title": "寻找重复的子树",
     "titleSlug": "find-duplicate-subtrees"
   },
@@ -8422,18 +8434,6 @@
     "status": "lock",
     "title": "搜索长度未知的有序数组",
     "titleSlug": "search-in-a-sorted-array-of-unknown-size"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[703]数据流中的第 K 大元素",
-    "frontendQuestionId": "703",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "789",
-    "status": "",
-    "title": "数据流中的第 K 大元素",
-    "titleSlug": "kth-largest-element-in-a-stream"
   },
   {
     "articleLive": 2,
