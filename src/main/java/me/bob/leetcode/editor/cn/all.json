@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[703]数据流中的第 K 大元素",
-    "frontendQuestionId": "703",
+    "formTitle": "[119]杨辉三角 II",
+    "frontendQuestionId": "119",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
-    "questionId": "789",
-    "status": "",
-    "title": "数据流中的第 K 大元素",
-    "titleSlug": "kth-largest-element-in-a-stream"
+    "questionId": "119",
+    "status": "ac",
+    "title": "杨辉三角 II",
+    "titleSlug": "pascals-triangle-ii"
   },
   {
     "articleLive": 2,
@@ -907,7 +907,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "75",
-    "status": "",
+    "status": "ac",
     "title": "颜色分类",
     "titleSlug": "sort-colors"
   },
@@ -967,7 +967,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "80",
-    "status": "",
+    "status": "ac",
     "title": "删除排序数组中的重复项 II",
     "titleSlug": "remove-duplicates-from-sorted-array-ii"
   },
@@ -1426,18 +1426,6 @@
     "status": "ac",
     "title": "杨辉三角",
     "titleSlug": "pascals-triangle"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[119]杨辉三角 II",
-    "frontendQuestionId": "119",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "119",
-    "status": "ac",
-    "title": "杨辉三角 II",
-    "titleSlug": "pascals-triangle-ii"
   },
   {
     "articleLive": 2,
@@ -2587,7 +2575,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "215",
-    "status": "",
+    "status": "ac",
     "title": "数组中的第K个最大元素",
     "titleSlug": "kth-largest-element-in-an-array"
   },
@@ -4177,14 +4165,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[348]判定井字棋胜负",
+    "formTitle": "[348]设计井字棋",
     "frontendQuestionId": "348",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "348",
     "status": "lock",
-    "title": "判定井字棋胜负",
+    "title": "设计井字棋",
     "titleSlug": "design-tic-tac-toe"
   },
   {
@@ -8434,6 +8422,18 @@
     "status": "lock",
     "title": "搜索长度未知的有序数组",
     "titleSlug": "search-in-a-sorted-array-of-unknown-size"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[703]数据流中的第 K 大元素",
+    "frontendQuestionId": "703",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "789",
+    "status": "ac",
+    "title": "数据流中的第 K 大元素",
+    "titleSlug": "kth-largest-element-in-a-stream"
   },
   {
     "articleLive": 2,
