@@ -643,6 +643,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MaximumDepthOfNAryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MaximumDepthOfNAryTree.java" />
+              <option name="questionId" value="774" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MaximumPointsYouCanObtainFromCards.java">
           <value>
             <LeetcodeEditor>
