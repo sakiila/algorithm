@@ -63,19 +63,19 @@ public class ValidateBinarySearchTree {
      * }
      */
     class Solution {
-        long pre = Long.MIN_VALUE;
 
         public boolean isValidBST(TreeNode root) {
-            if (root == null) {
+            return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
+        }
+
+        private boolean isValidBST(TreeNode node, long lower, long upper) {
+            if (node == null) {
                 return true;
             }
-            boolean left = isValidBST(root.left);
-            if (root.val <= pre) {
+            if (node.val <= lower || node.val >= upper) {
                 return false;
             }
-            pre = root.val;
-            boolean right = isValidBST(root.right);
-            return left && right;
+            return isValidBST(node.left, lower, node.val) && isValidBST(node.right, node.val, upper);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
