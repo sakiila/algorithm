@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[765]情侣牵手",
-    "frontendQuestionId": "765",
+    "formTitle": "[485]最大连续1的个数",
+    "frontendQuestionId": "485",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "770",
-    "status": "",
-    "title": "情侣牵手",
-    "titleSlug": "couples-holding-hands"
+    "questionId": "485",
+    "status": "ac",
+    "title": "最大连续1的个数",
+    "titleSlug": "max-consecutive-ones"
   },
   {
     "articleLive": 2,
@@ -1303,7 +1303,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "108",
-    "status": "",
+    "status": "ac",
     "title": "将有序数组转换为二叉搜索树",
     "titleSlug": "convert-sorted-array-to-binary-search-tree"
   },
@@ -1327,7 +1327,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "110",
-    "status": "",
+    "status": "ac",
     "title": "平衡二叉树",
     "titleSlug": "balanced-binary-tree"
   },
@@ -2647,7 +2647,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "220",
-    "status": "",
+    "status": "ac",
     "title": "存在重复元素 III",
     "titleSlug": "contains-duplicate-iii"
   },
@@ -5419,7 +5419,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "451",
-    "status": "",
+    "status": "ac",
     "title": "根据字符出现频率排序",
     "titleSlug": "sort-characters-by-frequency"
   },
@@ -5818,18 +5818,6 @@
     "status": "lock",
     "title": "寻找排列",
     "titleSlug": "find-permutation"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[485]最大连续1的个数",
-    "frontendQuestionId": "485",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "485",
-    "status": "ac",
-    "title": "最大连续1的个数",
-    "titleSlug": "max-consecutive-ones"
   },
   {
     "articleLive": 2,
@@ -9178,6 +9166,18 @@
     "status": "",
     "title": "最大加号标志",
     "titleSlug": "largest-plus-sign"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[765]情侣牵手",
+    "frontendQuestionId": "765",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "770",
+    "status": "ac",
+    "title": "情侣牵手",
+    "titleSlug": "couples-holding-hands"
   },
   {
     "articleLive": 2,
@@ -21070,6 +21070,54 @@
     "status": "lock",
     "title": "Recyclable and Low Fat Products",
     "titleSlug": "recyclable-and-low-fat-products"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5676]生成交替二进制字符串的最少操作数",
+    "frontendQuestionId": "5676",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1884",
+    "status": "",
+    "title": "生成交替二进制字符串的最少操作数",
+    "titleSlug": "minimum-changes-to-make-alternating-binary-string"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5677]统计同构子字符串的数目",
+    "frontendQuestionId": "5677",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1885",
+    "status": "",
+    "title": "统计同构子字符串的数目",
+    "titleSlug": "count-number-of-homogenous-substrings"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5678]袋子里最少数目的球",
+    "frontendQuestionId": "5678",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1886",
+    "status": "",
+    "title": "袋子里最少数目的球",
+    "titleSlug": "minimum-limit-of-balls-in-a-bag"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5679]一个图中连通三元组的最小度数",
+    "frontendQuestionId": "5679",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1887",
+    "status": "",
+    "title": "一个图中连通三元组的最小度数",
+    "titleSlug": "minimum-degree-of-a-connected-trio-in-a-graph"
   },
   {
     "articleLive": 2,
