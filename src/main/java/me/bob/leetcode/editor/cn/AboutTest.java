@@ -1,9 +1,15 @@
 package me.bob.leetcode.editor.cn;
 
+import java.util.Arrays;
+
 public class AboutTest {
     public static void main(String[] args) {
-        boolean check = check(new int[]{2, 1, 3, 4});
-        System.out.println("check = " + check);
+//        boolean check = check(new int[]{2, 1, 3, 4});
+//        System.out.println("check = " + check);
+
+        int[] arr = new int[]{2, 1, 3, 4};
+        arr[1] = 9;
+        System.out.println(Arrays.toString(arr));
     }
 
     public static boolean check(int[] nums) {
