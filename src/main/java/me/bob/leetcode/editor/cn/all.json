@@ -7,7 +7,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "566",
-    "status": "notac",
+    "status": "ac",
     "title": "重塑矩阵",
     "titleSlug": "reshape-the-matrix"
   },
