@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[566]重塑矩阵",
-    "frontendQuestionId": "566",
+    "formTitle": "[995]K 连续位的最小翻转次数",
+    "frontendQuestionId": "995",
     "leaf": true,
-    "level": 1,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "566",
+    "questionId": "1037",
     "status": "ac",
-    "title": "重塑矩阵",
-    "titleSlug": "reshape-the-matrix"
+    "title": "K 连续位的最小翻转次数",
+    "titleSlug": "minimum-number-of-k-consecutive-bit-flips"
   },
   {
     "articleLive": 2,
@@ -55,7 +55,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "4",
-    "status": "",
+    "status": "ac",
     "title": "寻找两个正序数组的中位数",
     "titleSlug": "median-of-two-sorted-arrays"
   },
@@ -1855,7 +1855,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "154",
-    "status": "",
+    "status": "ac",
     "title": "寻找旋转排序数组中的最小值 II",
     "titleSlug": "find-minimum-in-rotated-sorted-array-ii"
   },
@@ -3451,7 +3451,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "287",
-    "status": "",
+    "status": "ac",
     "title": "寻找重复数",
     "titleSlug": "find-the-duplicate-number"
   },
@@ -4927,7 +4927,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "410",
-    "status": "",
+    "status": "ac",
     "title": "分割数组的最大值",
     "titleSlug": "split-array-largest-sum"
   },
@@ -6793,6 +6793,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[566]重塑矩阵",
+    "frontendQuestionId": "566",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "566",
+    "status": "ac",
+    "title": "重塑矩阵",
+    "titleSlug": "reshape-the-matrix"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[567]字符串的排列",
     "frontendQuestionId": "567",
     "leaf": true,
@@ -8623,7 +8635,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "719",
-    "status": "",
+    "status": "ac",
     "title": "找出第 k 小的距离对",
     "titleSlug": "find-k-th-smallest-pair-distance"
   },
@@ -8923,7 +8935,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "745",
-    "status": "",
+    "status": "ac",
     "title": "寻找比目标字母大的最小字母",
     "titleSlug": "find-smallest-letter-greater-than-target"
   },
@@ -11926,18 +11938,6 @@
     "status": "",
     "title": "腐烂的橘子",
     "titleSlug": "rotting-oranges"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[995]K 连续位的最小翻转次数",
-    "frontendQuestionId": "995",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1037",
-    "status": "",
-    "title": "K 连续位的最小翻转次数",
-    "titleSlug": "minimum-number-of-k-consecutive-bit-flips"
   },
   {
     "articleLive": 2,
