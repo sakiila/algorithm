@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[995]K 连续位的最小翻转次数",
-    "frontendQuestionId": "995",
+    "formTitle": "[1004]最大连续1的个数 III",
+    "frontendQuestionId": "1004",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1037",
-    "status": "ac",
-    "title": "K 连续位的最小翻转次数",
-    "titleSlug": "minimum-number-of-k-consecutive-bit-flips"
+    "questionId": "1046",
+    "status": "",
+    "title": "最大连续1的个数 III",
+    "titleSlug": "max-consecutive-ones-iii"
   },
   {
     "articleLive": 2,
@@ -11941,6 +11941,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[995]K 连续位的最小翻转次数",
+    "frontendQuestionId": "995",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1037",
+    "status": "ac",
+    "title": "K 连续位的最小翻转次数",
+    "titleSlug": "minimum-number-of-k-consecutive-bit-flips"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[996]正方形数组的数目",
     "frontendQuestionId": "996",
     "leaf": true,
@@ -12034,18 +12046,6 @@
     "status": "",
     "title": "检查替换后的词是否有效",
     "titleSlug": "check-if-word-is-valid-after-substitutions"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1004]最大连续1的个数 III",
-    "frontendQuestionId": "1004",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1046",
-    "status": "",
-    "title": "最大连续1的个数 III",
-    "titleSlug": "max-consecutive-ones-iii"
   },
   {
     "articleLive": 2,
@@ -21061,6 +21061,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1756]Design Most Recently Used Queue",
+    "frontendQuestionId": "1756",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1903",
+    "status": "lock",
+    "title": "Design Most Recently Used Queue",
+    "titleSlug": "design-most-recently-used-queue"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1757]Recyclable and Low Fat Products",
     "frontendQuestionId": "1757",
     "leaf": true,
@@ -21118,6 +21130,18 @@
     "status": "",
     "title": "一个图中连通三元组的最小度数",
     "titleSlug": "minimum-degree-of-a-connected-trio-in-a-graph"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1762]Buildings With an Ocean View",
+    "frontendQuestionId": "1762",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1909",
+    "status": "lock",
+    "title": "Buildings With an Ocean View",
+    "titleSlug": "buildings-with-an-ocean-view"
   },
   {
     "articleLive": 2,
