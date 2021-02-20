@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1004]最大连续1的个数 III",
-    "frontendQuestionId": "1004",
+    "formTitle": "[697]数组的度",
+    "frontendQuestionId": "697",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "1046",
+    "questionId": "697",
     "status": "",
-    "title": "最大连续1的个数 III",
-    "titleSlug": "max-consecutive-ones-iii"
+    "title": "数组的度",
+    "titleSlug": "degree-of-an-array"
   },
   {
     "articleLive": 2,
@@ -1288,7 +1288,7 @@
     "formTitle": "[107]二叉树的层序遍历 II",
     "frontendQuestionId": "107",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "107",
     "status": "",
@@ -7669,14 +7669,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[639]解码方法 2",
+    "formTitle": "[639]解码方法 II",
     "frontendQuestionId": "639",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
     "questionId": "639",
     "status": "",
-    "title": "解码方法 2",
+    "title": "解码方法 II",
     "titleSlug": "decode-ways-ii"
   },
   {
@@ -8362,18 +8362,6 @@
     "status": "",
     "title": "计数二进制子串",
     "titleSlug": "count-binary-substrings"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[697]数组的度",
-    "frontendQuestionId": "697",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "697",
-    "status": "",
-    "title": "数组的度",
-    "titleSlug": "degree-of-an-array"
   },
   {
     "articleLive": 2,
@@ -12046,6 +12034,18 @@
     "status": "",
     "title": "检查替换后的词是否有效",
     "titleSlug": "check-if-word-is-valid-after-substitutions"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1004]最大连续1的个数 III",
+    "frontendQuestionId": "1004",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1046",
+    "status": "ac",
+    "title": "最大连续1的个数 III",
+    "titleSlug": "max-consecutive-ones-iii"
   },
   {
     "articleLive": 2,
