@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[697]数组的度",
-    "frontendQuestionId": "697",
+    "formTitle": "[1438]绝对差不超过限制的最长连续子数组",
+    "frontendQuestionId": "1438",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "697",
+    "questionId": "1549",
     "status": "",
-    "title": "数组的度",
-    "titleSlug": "degree-of-an-array"
+    "title": "绝对差不超过限制的最长连续子数组",
+    "titleSlug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit"
   },
   {
     "articleLive": 2,
@@ -8362,6 +8362,18 @@
     "status": "",
     "title": "计数二进制子串",
     "titleSlug": "count-binary-substrings"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[697]数组的度",
+    "frontendQuestionId": "697",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "697",
+    "status": "ac",
+    "title": "数组的度",
+    "titleSlug": "degree-of-an-array"
   },
   {
     "articleLive": 2,
@@ -17245,18 +17257,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1438]绝对差不超过限制的最长连续子数组",
-    "frontendQuestionId": "1438",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1549",
-    "status": "",
-    "title": "绝对差不超过限制的最长连续子数组",
-    "titleSlug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1439]有序矩阵中的第 k 个最小数组和",
     "frontendQuestionId": "1439",
     "leaf": true,
@@ -21142,6 +21142,54 @@
     "status": "lock",
     "title": "Buildings With an Ocean View",
     "titleSlug": "buildings-with-an-ocean-view"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5668]最长的美好子字符串",
+    "frontendQuestionId": "5668",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1873",
+    "status": "",
+    "title": "最长的美好子字符串",
+    "titleSlug": "longest-nice-substring"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5669]通过连接另一个数组的子数组得到一个数组",
+    "frontendQuestionId": "5669",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1874",
+    "status": "",
+    "title": "通过连接另一个数组的子数组得到一个数组",
+    "titleSlug": "form-array-by-concatenating-subarrays-of-another-array"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5670]互质树",
+    "frontendQuestionId": "5670",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1875",
+    "status": "",
+    "title": "互质树",
+    "titleSlug": "tree-of-coprimes"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5671]地图中的最高点",
+    "frontendQuestionId": "5671",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1876",
+    "status": "",
+    "title": "地图中的最高点",
+    "titleSlug": "map-of-highest-peak"
   },
   {
     "articleLive": 2,
