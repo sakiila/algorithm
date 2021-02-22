@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[766]托普利茨矩阵",
-    "frontendQuestionId": "766",
+    "formTitle": "[1052]爱生气的书店老板",
+    "frontendQuestionId": "1052",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "777",
+    "questionId": "1138",
     "status": "",
-    "title": "托普利茨矩阵",
-    "titleSlug": "toeplitz-matrix"
+    "title": "爱生气的书店老板",
+    "titleSlug": "grumpy-bookstore-owner"
   },
   {
     "articleLive": 2,
@@ -9193,6 +9193,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[766]托普利茨矩阵",
+    "frontendQuestionId": "766",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "777",
+    "status": "ac",
+    "title": "托普利茨矩阵",
+    "titleSlug": "toeplitz-matrix"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[767]重构字符串",
     "frontendQuestionId": "767",
     "leaf": true,
@@ -12610,18 +12622,6 @@
     "status": "",
     "title": "高度检查器",
     "titleSlug": "height-checker"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1052]爱生气的书店老板",
-    "frontendQuestionId": "1052",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1138",
-    "status": "",
-    "title": "爱生气的书店老板",
-    "titleSlug": "grumpy-bookstore-owner"
   },
   {
     "articleLive": 2,
@@ -21145,6 +21145,54 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1763]最长的美好子字符串",
+    "frontendQuestionId": "1763",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1873",
+    "status": "",
+    "title": "最长的美好子字符串",
+    "titleSlug": "longest-nice-substring"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1764]通过连接另一个数组的子数组得到一个数组",
+    "frontendQuestionId": "1764",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1874",
+    "status": "",
+    "title": "通过连接另一个数组的子数组得到一个数组",
+    "titleSlug": "form-array-by-concatenating-subarrays-of-another-array"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1765]地图中的最高点",
+    "frontendQuestionId": "1765",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1876",
+    "status": "",
+    "title": "地图中的最高点",
+    "titleSlug": "map-of-highest-peak"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1766]互质树",
+    "frontendQuestionId": "1766",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1875",
+    "status": "",
+    "title": "互质树",
+    "titleSlug": "tree-of-coprimes"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1767]Find the Subtasks That Did Not Execute",
     "frontendQuestionId": "1767",
     "leaf": true,
@@ -21157,56 +21205,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5668]最长的美好子字符串",
-    "frontendQuestionId": "5668",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1873",
-    "status": "",
-    "title": "最长的美好子字符串",
-    "titleSlug": "longest-nice-substring"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5669]通过连接另一个数组的子数组得到一个数组",
-    "frontendQuestionId": "5669",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1874",
-    "status": "",
-    "title": "通过连接另一个数组的子数组得到一个数组",
-    "titleSlug": "form-array-by-concatenating-subarrays-of-another-array"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5670]互质树",
-    "frontendQuestionId": "5670",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1875",
-    "status": "",
-    "title": "互质树",
-    "titleSlug": "tree-of-coprimes"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5671]地图中的最高点",
-    "frontendQuestionId": "5671",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1876",
-    "status": "",
-    "title": "地图中的最高点",
-    "titleSlug": "map-of-highest-peak"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5685]交替合并字符串",
-    "frontendQuestionId": "5685",
+    "formTitle": "[1768]交替合并字符串",
+    "frontendQuestionId": "1768",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -21217,8 +21217,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5686]移动所有球到每个盒子所需的最小操作数",
-    "frontendQuestionId": "5686",
+    "formTitle": "[1769]移动所有球到每个盒子所需的最小操作数",
+    "frontendQuestionId": "1769",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21229,8 +21229,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5687]执行乘法运算的最大分数",
-    "frontendQuestionId": "5687",
+    "formTitle": "[1770]执行乘法运算的最大分数",
+    "frontendQuestionId": "1770",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21241,8 +21241,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5688]由子序列构造的最长回文串的长度",
-    "frontendQuestionId": "5688",
+    "formTitle": "[1771]由子序列构造的最长回文串的长度",
+    "frontendQuestionId": "1771",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
