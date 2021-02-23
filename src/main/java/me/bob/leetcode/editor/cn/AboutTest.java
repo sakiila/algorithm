@@ -2,19 +2,11 @@ package me.bob.leetcode.editor.cn;
 
 public class AboutTest {
 
-    public void test() {
-        int i = 8;
-        while ((i -= 3) > 0) {
-            ;
-        }
-        System.out.println("i = " + i);
-    }
-
     public static void main(String[] args) {
-        AboutTest hello = new AboutTest();
-        for (int i = 0; i < 50000; i++) {
-            hello.test();
-        }
+        int i = 1;
+        int j = ~i;
+        System.out.println("i = " + i);
+        System.out.println("j = " + j);
     }
 
     public static boolean check(int[] nums) {

@@ -7,7 +7,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "861",
-    "status": "notac",
+    "status": "ac",
     "title": "翻转图像",
     "titleSlug": "flipping-an-image"
   },
