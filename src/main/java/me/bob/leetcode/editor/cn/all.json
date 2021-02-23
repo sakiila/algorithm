@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1052]爱生气的书店老板",
-    "frontendQuestionId": "1052",
+    "formTitle": "[832]翻转图像",
+    "frontendQuestionId": "832",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "1138",
-    "status": "",
-    "title": "爱生气的书店老板",
-    "titleSlug": "grumpy-bookstore-owner"
+    "questionId": "861",
+    "status": "notac",
+    "title": "翻转图像",
+    "titleSlug": "flipping-an-image"
   },
   {
     "articleLive": 2,
@@ -9985,18 +9985,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[832]翻转图像",
-    "frontendQuestionId": "832",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "861",
-    "status": "",
-    "title": "翻转图像",
-    "titleSlug": "flipping-an-image"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[833]字符串中的查找与替换",
     "frontendQuestionId": "833",
     "leaf": true,
@@ -12622,6 +12610,18 @@
     "status": "",
     "title": "高度检查器",
     "titleSlug": "height-checker"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1052]爱生气的书店老板",
+    "frontendQuestionId": "1052",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1138",
+    "status": "ac",
+    "title": "爱生气的书店老板",
+    "titleSlug": "grumpy-bookstore-owner"
   },
   {
     "articleLive": 2,
