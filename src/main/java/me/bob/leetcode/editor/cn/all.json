@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[867]转置矩阵",
-    "frontendQuestionId": "867",
+    "formTitle": "[1178]猜字谜",
+    "frontendQuestionId": "1178",
     "leaf": true,
-    "level": 1,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "898",
+    "questionId": "1282",
     "status": "",
-    "title": "转置矩阵",
-    "titleSlug": "transpose-matrix"
+    "title": "猜字谜",
+    "titleSlug": "number-of-valid-words-for-each-puzzle"
   },
   {
     "articleLive": 2,
@@ -10405,6 +10405,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[867]转置矩阵",
+    "frontendQuestionId": "867",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "898",
+    "status": "ac",
+    "title": "转置矩阵",
+    "titleSlug": "transpose-matrix"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[868]二进制间距",
     "frontendQuestionId": "868",
     "leaf": true,
@@ -14122,18 +14134,6 @@
     "status": "",
     "title": "构建回文串检测",
     "titleSlug": "can-make-palindrome-from-substring"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1178]猜字谜",
-    "frontendQuestionId": "1178",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1282",
-    "status": "",
-    "title": "猜字谜",
-    "titleSlug": "number-of-valid-words-for-each-puzzle"
   },
   {
     "articleLive": 2,
@@ -21250,6 +21250,18 @@
     "status": "",
     "title": "由子序列构造的最长回文串的长度",
     "titleSlug": "maximize-palindrome-length-from-subsequences"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1772]Sort Features by Popularity",
+    "frontendQuestionId": "1772",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1919",
+    "status": "lock",
+    "title": "Sort Features by Popularity",
+    "titleSlug": "sort-features-by-popularity"
   },
   {
     "articleLive": 2,

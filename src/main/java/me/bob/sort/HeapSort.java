@@ -15,14 +15,14 @@ public class HeapSort {
 
     public static void sort(int[] arr) {
         int n = arr.length;
-        for (int i = n / 2 - 1; i >= 0; i--) {
+        for (int i = n / 2 - 1; i >= 0; i--) { // 上 -> 下
             heapify(arr, n, i);
         }
         for (int i = n - 1; i >= 0; i--) {
             int temp = arr[0];
             arr[0] = arr[i];
             arr[i] = temp;
-            heapify(arr, i, 0);
+            heapify(arr, i, 0); // 下 -> 上
         }
     }
 
@@ -41,7 +41,7 @@ public class HeapSort {
             int temp = arr[i];
             arr[i] = arr[largest];
             arr[largest] = temp;
-            heapify(arr, n, largest);
+            heapify(arr, n, largest); // 下 -> 上
         }
     }
 }

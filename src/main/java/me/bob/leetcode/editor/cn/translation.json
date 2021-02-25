@@ -10985,6 +10985,26 @@
         "questionId": "1000203",
         "title": "\u5341\u5b57\u8def\u53e3",
         "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1901",
+        "title": "\u901a\u8fc7\u6700\u5c11\u64cd\u4f5c\u6b21\u6570\u4f7f\u6570\u7ec4\u7684\u548c\u76f8\u7b49",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1902",
+        "title": "\u8f66\u961f II",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1899",
+        "title": "\u7edf\u8ba1\u5339\u914d\u68c0\u7d22\u89c4\u5219\u7684\u7269\u54c1\u6570\u91cf",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1900",
+        "title": "\u6700\u63a5\u8fd1\u76ee\u6807\u4ef7\u683c\u7684\u751c\u70b9\u6210\u672c",
+        "__typename": "AppliedTranslationNode"
       }
     ]
   }
