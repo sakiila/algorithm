@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1178]猜字谜",
-    "frontendQuestionId": "1178",
+    "formTitle": "[395]至少有 K 个重复字符的最长子串",
+    "frontendQuestionId": "395",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1282",
+    "questionId": "395",
     "status": "",
-    "title": "猜字谜",
-    "titleSlug": "number-of-valid-words-for-each-puzzle"
+    "title": "至少有 K 个重复字符的最长子串",
+    "titleSlug": "longest-substring-with-at-least-k-repeating-characters"
   },
   {
     "articleLive": 2,
@@ -4738,18 +4738,6 @@
     "status": "ac",
     "title": "字符串解码",
     "titleSlug": "decode-string"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[395]至少有K个重复字符的最长子串",
-    "frontendQuestionId": "395",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "395",
-    "status": "",
-    "title": "至少有K个重复字符的最长子串",
-    "titleSlug": "longest-substring-with-at-least-k-repeating-characters"
   },
   {
     "articleLive": 2,
@@ -14134,6 +14122,18 @@
     "status": "",
     "title": "构建回文串检测",
     "titleSlug": "can-make-palindrome-from-substring"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1178]猜字谜",
+    "frontendQuestionId": "1178",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1282",
+    "status": "ac",
+    "title": "猜字谜",
+    "titleSlug": "number-of-valid-words-for-each-puzzle"
   },
   {
     "articleLive": 2,
