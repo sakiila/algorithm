@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[395]至少有 K 个重复字符的最长子串",
-    "frontendQuestionId": "395",
+    "formTitle": "[896]单调数列",
+    "frontendQuestionId": "896",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "395",
+    "questionId": "932",
     "status": "",
-    "title": "至少有 K 个重复字符的最长子串",
-    "titleSlug": "longest-substring-with-at-least-k-repeating-characters"
+    "title": "单调数列",
+    "titleSlug": "monotonic-array"
   },
   {
     "articleLive": 2,
@@ -4738,6 +4738,18 @@
     "status": "ac",
     "title": "字符串解码",
     "titleSlug": "decode-string"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[395]至少有 K 个重复字符的最长子串",
+    "frontendQuestionId": "395",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "395",
+    "status": "ac",
+    "title": "至少有 K 个重复字符的最长子串",
+    "titleSlug": "longest-substring-with-at-least-k-repeating-characters"
   },
   {
     "articleLive": 2,
@@ -10738,18 +10750,6 @@
     "status": "",
     "title": "最大频率栈",
     "titleSlug": "maximum-frequency-stack"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[896]单调数列",
-    "frontendQuestionId": "896",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "932",
-    "status": "",
-    "title": "单调数列",
-    "titleSlug": "monotonic-array"
   },
   {
     "articleLive": 2,
@@ -16929,7 +16929,7 @@
     "questionId": "1527",
     "status": "",
     "title": "给 N x 3 网格图涂色的方案数",
-    "titleSlug": "number-of-ways-to-paint-n-x-3-grid"
+    "titleSlug": "number-of-ways-to-paint-n-3-grid"
   },
   {
     "articleLive": 2,
