@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[896]单调数列",
-    "frontendQuestionId": "896",
+    "formTitle": "[303]区域和检索 - 数组不可变",
+    "frontendQuestionId": "303",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
-    "questionId": "932",
+    "questionId": "303",
     "status": "",
-    "title": "单调数列",
-    "titleSlug": "monotonic-array"
+    "title": "区域和检索 - 数组不可变",
+    "titleSlug": "range-sum-query-immutable"
   },
   {
     "articleLive": 2,
@@ -3634,18 +3634,6 @@
     "status": "lock",
     "title": "包含全部黑色像素的最小矩形",
     "titleSlug": "smallest-rectangle-enclosing-black-pixels"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[303]区域和检索 - 数组不可变",
-    "frontendQuestionId": "303",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "303",
-    "status": "",
-    "title": "区域和检索 - 数组不可变",
-    "titleSlug": "range-sum-query-immutable"
   },
   {
     "articleLive": 2,
@@ -10750,6 +10738,18 @@
     "status": "",
     "title": "最大频率栈",
     "titleSlug": "maximum-frequency-stack"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[896]单调数列",
+    "frontendQuestionId": "896",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "932",
+    "status": "ac",
+    "title": "单调数列",
+    "titleSlug": "monotonic-array"
   },
   {
     "articleLive": 2,
@@ -21262,6 +21262,54 @@
     "status": "lock",
     "title": "Sort Features by Popularity",
     "titleSlug": "sort-features-by-popularity"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5689]统计匹配检索规则的物品数量",
+    "frontendQuestionId": "5689",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1899",
+    "status": "",
+    "title": "统计匹配检索规则的物品数量",
+    "titleSlug": "count-items-matching-a-rule"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5690]最接近目标价格的甜点成本",
+    "frontendQuestionId": "5690",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1900",
+    "status": "",
+    "title": "最接近目标价格的甜点成本",
+    "titleSlug": "closest-dessert-cost"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5691]通过最少操作次数使数组的和相等",
+    "frontendQuestionId": "5691",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1901",
+    "status": "",
+    "title": "通过最少操作次数使数组的和相等",
+    "titleSlug": "equal-sum-arrays-with-minimum-number-of-operations"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5692]车队 II",
+    "frontendQuestionId": "5692",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1902",
+    "status": "",
+    "title": "车队 II",
+    "titleSlug": "car-fleet-ii"
   },
   {
     "articleLive": 2,
