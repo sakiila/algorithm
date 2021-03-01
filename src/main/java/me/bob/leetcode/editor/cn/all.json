@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[303]区域和检索 - 数组不可变",
-    "frontendQuestionId": "303",
+    "formTitle": "[304]二维区域和检索 - 矩阵不可变",
+    "frontendQuestionId": "304",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "303",
+    "questionId": "304",
     "status": "",
-    "title": "区域和检索 - 数组不可变",
-    "titleSlug": "range-sum-query-immutable"
+    "title": "二维区域和检索 - 矩阵不可变",
+    "titleSlug": "range-sum-query-2d-immutable"
   },
   {
     "articleLive": 2,
@@ -3637,15 +3637,15 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[304]二维区域和检索 - 矩阵不可变",
-    "frontendQuestionId": "304",
+    "formTitle": "[303]区域和检索 - 数组不可变",
+    "frontendQuestionId": "303",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "304",
-    "status": "",
-    "title": "二维区域和检索 - 矩阵不可变",
-    "titleSlug": "range-sum-query-2d-immutable"
+    "questionId": "303",
+    "status": "ac",
+    "title": "区域和检索 - 数组不可变",
+    "titleSlug": "range-sum-query-immutable"
   },
   {
     "articleLive": 2,
@@ -21265,8 +21265,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5689]统计匹配检索规则的物品数量",
-    "frontendQuestionId": "5689",
+    "formTitle": "[1773]统计匹配检索规则的物品数量",
+    "frontendQuestionId": "1773",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -21277,8 +21277,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5690]最接近目标价格的甜点成本",
-    "frontendQuestionId": "5690",
+    "formTitle": "[1774]最接近目标价格的甜点成本",
+    "frontendQuestionId": "1774",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21289,8 +21289,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5691]通过最少操作次数使数组的和相等",
-    "frontendQuestionId": "5691",
+    "formTitle": "[1775]通过最少操作次数使数组的和相等",
+    "frontendQuestionId": "1775",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21301,8 +21301,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5692]车队 II",
-    "frontendQuestionId": "5692",
+    "formTitle": "[1776]车队 II",
+    "frontendQuestionId": "1776",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
