@@ -2058,7 +2058,7 @@
       },
       {
         "questionId": "457",
-        "title": "\u73af\u5f62\u6570\u7ec4\u5faa\u73af",
+        "title": "\u73af\u5f62\u6570\u7ec4\u662f\u5426\u5b58\u5728\u5faa\u73af",
         "__typename": "AppliedTranslationNode"
       },
       {
@@ -4988,7 +4988,7 @@
       },
       {
         "questionId": "582",
-        "title": "\u6740\u6b7b\u8fdb\u7a0b",
+        "title": "\u6740\u6389\u8fdb\u7a0b",
         "__typename": "AppliedTranslationNode"
       },
       {
@@ -11004,6 +11004,31 @@
       {
         "questionId": "1900",
         "title": "\u6700\u63a5\u8fd1\u76ee\u6807\u4ef7\u683c\u7684\u751c\u70b9\u6210\u672c",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1908",
+        "title": "\u53ef\u56de\u6536\u4e14\u4f4e\u8102\u7684\u4ea7\u54c1",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1926",
+        "title": "\u6bcf\u5bb6\u5546\u5e97\u7684\u4ea7\u54c1\u4ef7\u683c",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1909",
+        "title": "\u80fd\u770b\u5230\u6d77\u666f\u7684\u5efa\u7b51\u7269",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1903",
+        "title": "\u8bbe\u8ba1\u6700\u8fd1\u4f7f\u7528\uff08MRU\uff09\u961f\u5217",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1919",
+        "title": "\u6309\u53d7\u6b22\u8fce\u7a0b\u5ea6\u6392\u5217\u529f\u80fd",
         "__typename": "AppliedTranslationNode"
       }
     ]
