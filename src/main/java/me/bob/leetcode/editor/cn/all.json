@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[354]俄罗斯套娃信封问题",
-    "frontendQuestionId": "354",
+    "formTitle": "[232]用栈实现队列",
+    "frontendQuestionId": "232",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "354",
-    "status": "",
-    "title": "俄罗斯套娃信封问题",
-    "titleSlug": "russian-doll-envelopes"
+    "questionId": "232",
+    "status": "ac",
+    "title": "用栈实现队列",
+    "titleSlug": "implement-queue-using-stacks"
   },
   {
     "articleLive": 2,
@@ -2785,18 +2785,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[232]用栈实现队列",
-    "frontendQuestionId": "232",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "232",
-    "status": "ac",
-    "title": "用栈实现队列",
-    "titleSlug": "implement-queue-using-stacks"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[233]数字 1 的个数",
     "frontendQuestionId": "233",
     "leaf": true,
@@ -3607,7 +3595,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "300",
-    "status": "",
+    "status": "ac",
     "title": "最长递增子序列",
     "titleSlug": "longest-increasing-subsequence"
   },
@@ -4246,6 +4234,18 @@
     "status": "lock",
     "title": "贪吃蛇",
     "titleSlug": "design-snake-game"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[354]俄罗斯套娃信封问题",
+    "frontendQuestionId": "354",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "354",
+    "status": "ac",
+    "title": "俄罗斯套娃信封问题",
+    "titleSlug": "russian-doll-envelopes"
   },
   {
     "articleLive": 2,
@@ -8677,14 +8677,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[724]寻找数组的中心索引",
+    "formTitle": "[724]寻找数组的中心下标",
     "frontendQuestionId": "724",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "724",
     "status": "ac",
-    "title": "寻找数组的中心索引",
+    "title": "寻找数组的中心下标",
     "titleSlug": "find-pivot-index"
   },
   {
@@ -21322,6 +21322,18 @@
     "status": "",
     "title": "每家商店的产品价格",
     "titleSlug": "products-price-for-each-store"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1778]Shortest Path in a Hidden Grid",
+    "frontendQuestionId": "1778",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1931",
+    "status": "lock",
+    "title": "Shortest Path in a Hidden Grid",
+    "titleSlug": "shortest-path-in-a-hidden-grid"
   },
   {
     "articleLive": 2,

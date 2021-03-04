@@ -65,8 +65,7 @@
 
 package me.bob.leetcode.editor.cn;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.Stack;
 
 /**
  * 232 用栈实现队列
@@ -79,58 +78,49 @@ public class ImplementQueueUsingStacks {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class MyQueue {
-
-        Deque<Integer> stack1;
-        Deque<Integer> stack2;
+        Stack<Integer> sa;
+        Stack<Integer> sb;
 
         /**
          * Initialize your data structure here.
          */
         public MyQueue() {
-            stack1 = new ArrayDeque<>();
-            stack2 = new ArrayDeque<>();
+            sa = new Stack();
+            sb = new Stack();
         }
 
         /**
          * Push element x to the back of queue.
          */
         public void push(int x) {
-            stack1.push(x);
+            while (!sb.isEmpty()) {
+                sa.push(sb.pop());
+            }
+            sa.push(x);
+            while (!sa.isEmpty()) {
+                sb.push(sa.pop());
+            }
         }
 
         /**
          * Removes the element from in front of queue and returns that element.
          */
         public int pop() {
-            while (!stack1.isEmpty()) {
-                stack2.push(stack1.pop());
-            }
-            int res = stack2.pop();
-            while (!stack2.isEmpty()) {
-                stack1.push(stack2.pop());
-            }
-            return res;
+            return sb.pop();
         }
 
         /**
          * Get the front element.
          */
         public int peek() {
-            while (!stack1.isEmpty()) {
-                stack2.push(stack1.pop());
-            }
-            int res = stack2.peek();
-            while (!stack2.isEmpty()) {
-                stack1.push(stack2.pop());
-            }
-            return res;
+            return sb.peek();
         }
 
         /**
          * Returns whether the queue is empty.
          */
         public boolean empty() {
-            return stack1.isEmpty();
+            return sb.isEmpty();
         }
     }
 
