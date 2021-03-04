@@ -64,7 +64,7 @@ import java.util.Deque;
 /**
  * 225 用队列实现栈
  * 2021-02-06 08:34:03
- * 思路：栈1后面接上栈2
+ * 思路：用一个栈即可，存入后，对里面的n-1个元素重新出队入队
  */
 public class ImplementStackUsingQueues {
     public static void main(String[] args) {
@@ -73,49 +73,44 @@ public class ImplementStackUsingQueues {
     //leetcode submit region begin(Prohibit modification and deletion)
     class MyStack {
 
-        Deque<Integer> queue1;
-        Deque<Integer> queue2;
+        Deque<Integer> queue;
 
         /**
          * Initialize your data structure here.
          */
         public MyStack() {
-            queue1 = new ArrayDeque<>();
-            queue2 = new ArrayDeque<>();
+            queue = new ArrayDeque<>();
         }
 
         /**
          * Push element x onto stack.
          */
         public void push(int x) {
-            queue2.offer(x);
-            while (!queue1.isEmpty()) {
-                queue2.offer(queue1.poll());
+            queue.offer(x);
+            for (int i = 0; i < queue.size() - 1; i++) {
+                queue.offer(queue.poll());
             }
-            Deque<Integer> temp = queue1;
-            queue1 = queue2;
-            queue2 = temp;
         }
 
         /**
          * Removes the element on top of the stack and returns that element.
          */
         public int pop() {
-            return queue1.poll();
+            return queue.poll();
         }
 
         /**
          * Get the top element.
          */
         public int top() {
-            return queue1.peek();
+            return queue.peek();
         }
 
         /**
          * Returns whether the stack is empty.
          */
         public boolean empty() {
-            return queue1.isEmpty();
+            return queue.isEmpty();
         }
     }
 
