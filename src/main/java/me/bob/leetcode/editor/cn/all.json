@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[232]用栈实现队列",
-    "frontendQuestionId": "232",
+    "formTitle": "[503]下一个更大元素 II",
+    "frontendQuestionId": "503",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "232",
-    "status": "ac",
-    "title": "用栈实现队列",
-    "titleSlug": "implement-queue-using-stacks"
+    "questionId": "503",
+    "status": "",
+    "title": "下一个更大元素 II",
+    "titleSlug": "next-greater-element-ii"
   },
   {
     "articleLive": 2,
@@ -2782,6 +2782,18 @@
     "status": "ac",
     "title": "2的幂",
     "titleSlug": "power-of-two"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[232]用栈实现队列",
+    "frontendQuestionId": "232",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "232",
+    "status": "ac",
+    "title": "用栈实现队列",
+    "titleSlug": "implement-queue-using-stacks"
   },
   {
     "articleLive": 2,
@@ -6022,18 +6034,6 @@
     "status": "",
     "title": "IPO",
     "titleSlug": "ipo"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[503]下一个更大元素 II",
-    "frontendQuestionId": "503",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "503",
-    "status": "",
-    "title": "下一个更大元素 II",
-    "titleSlug": "next-greater-element-ii"
   },
   {
     "articleLive": 2,
