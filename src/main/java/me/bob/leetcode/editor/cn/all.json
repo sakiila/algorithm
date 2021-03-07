@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[503]下一个更大元素 II",
-    "frontendQuestionId": "503",
+    "formTitle": "[131]分割回文串",
+    "frontendQuestionId": "131",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "503",
+    "questionId": "131",
     "status": "",
-    "title": "下一个更大元素 II",
-    "titleSlug": "next-greater-element-ii"
+    "title": "分割回文串",
+    "titleSlug": "palindrome-partitioning"
   },
   {
     "articleLive": 2,
@@ -1570,18 +1570,6 @@
     "status": "",
     "title": "被围绕的区域",
     "titleSlug": "surrounded-regions"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[131]分割回文串",
-    "frontendQuestionId": "131",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "131",
-    "status": "",
-    "title": "分割回文串",
-    "titleSlug": "palindrome-partitioning"
   },
   {
     "articleLive": 2,
@@ -6034,6 +6022,18 @@
     "status": "",
     "title": "IPO",
     "titleSlug": "ipo"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[503]下一个更大元素 II",
+    "frontendQuestionId": "503",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "503",
+    "status": "ac",
+    "title": "下一个更大元素 II",
+    "titleSlug": "next-greater-element-ii"
   },
   {
     "articleLive": 2,
@@ -21334,6 +21334,66 @@
     "status": "lock",
     "title": "Shortest Path in a Hidden Grid",
     "titleSlug": "shortest-path-in-a-hidden-grid"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1783]Grand Slam Titles",
+    "frontendQuestionId": "1783",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1932",
+    "status": "lock",
+    "title": "Grand Slam Titles",
+    "titleSlug": "grand-slam-titles"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5680]找到最近的有相同 X 或 Y 坐标的点",
+    "frontendQuestionId": "5680",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1888",
+    "status": "",
+    "title": "找到最近的有相同 X 或 Y 坐标的点",
+    "titleSlug": "find-nearest-point-that-has-the-same-x-or-y-coordinate"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5681]判断一个数字是否可以表示成三的幂的和",
+    "frontendQuestionId": "5681",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1889",
+    "status": "",
+    "title": "判断一个数字是否可以表示成三的幂的和",
+    "titleSlug": "check-if-number-is-a-sum-of-powers-of-three"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5682]所有子字符串美丽值之和",
+    "frontendQuestionId": "5682",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1890",
+    "status": "",
+    "title": "所有子字符串美丽值之和",
+    "titleSlug": "sum-of-beauty-of-all-substrings"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5683]统计点对的数目",
+    "frontendQuestionId": "5683",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1891",
+    "status": "",
+    "title": "统计点对的数目",
+    "titleSlug": "count-pairs-of-nodes"
   },
   {
     "articleLive": 2,
