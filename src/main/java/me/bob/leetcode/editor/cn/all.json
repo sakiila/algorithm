@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[132]分割回文串 II",
-    "frontendQuestionId": "132",
+    "formTitle": "[1047]删除字符串中的所有相邻重复项",
+    "frontendQuestionId": "1047",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "132",
+    "questionId": "1128",
     "status": "",
-    "title": "分割回文串 II",
-    "titleSlug": "palindrome-partitioning-ii"
+    "title": "删除字符串中的所有相邻重复项",
+    "titleSlug": "remove-all-adjacent-duplicates-in-string"
   },
   {
     "articleLive": 2,
@@ -1582,6 +1582,18 @@
     "status": "ac",
     "title": "分割回文串",
     "titleSlug": "palindrome-partitioning"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[132]分割回文串 II",
+    "frontendQuestionId": "132",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "132",
+    "status": "",
+    "title": "分割回文串 II",
+    "titleSlug": "palindrome-partitioning-ii"
   },
   {
     "articleLive": 2,
@@ -12553,18 +12565,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1047]删除字符串中的所有相邻重复项",
-    "frontendQuestionId": "1047",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1128",
-    "status": "",
-    "title": "删除字符串中的所有相邻重复项",
-    "titleSlug": "remove-all-adjacent-duplicates-in-string"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1048]最长字符串链",
     "frontendQuestionId": "1048",
     "leaf": true,
@@ -21337,6 +21337,54 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1779]找到最近的有相同 X 或 Y 坐标的点",
+    "frontendQuestionId": "1779",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1888",
+    "status": "",
+    "title": "找到最近的有相同 X 或 Y 坐标的点",
+    "titleSlug": "find-nearest-point-that-has-the-same-x-or-y-coordinate"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1780]判断一个数字是否可以表示成三的幂的和",
+    "frontendQuestionId": "1780",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1889",
+    "status": "",
+    "title": "判断一个数字是否可以表示成三的幂的和",
+    "titleSlug": "check-if-number-is-a-sum-of-powers-of-three"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1781]所有子字符串美丽值之和",
+    "frontendQuestionId": "1781",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1890",
+    "status": "",
+    "title": "所有子字符串美丽值之和",
+    "titleSlug": "sum-of-beauty-of-all-substrings"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1782]统计点对的数目",
+    "frontendQuestionId": "1782",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1891",
+    "status": "",
+    "title": "统计点对的数目",
+    "titleSlug": "count-pairs-of-nodes"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1783]Grand Slam Titles",
     "frontendQuestionId": "1783",
     "leaf": true,
@@ -21349,56 +21397,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5680]找到最近的有相同 X 或 Y 坐标的点",
-    "frontendQuestionId": "5680",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1888",
-    "status": "",
-    "title": "找到最近的有相同 X 或 Y 坐标的点",
-    "titleSlug": "find-nearest-point-that-has-the-same-x-or-y-coordinate"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5681]判断一个数字是否可以表示成三的幂的和",
-    "frontendQuestionId": "5681",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1889",
-    "status": "",
-    "title": "判断一个数字是否可以表示成三的幂的和",
-    "titleSlug": "check-if-number-is-a-sum-of-powers-of-three"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5682]所有子字符串美丽值之和",
-    "frontendQuestionId": "5682",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1890",
-    "status": "",
-    "title": "所有子字符串美丽值之和",
-    "titleSlug": "sum-of-beauty-of-all-substrings"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5683]统计点对的数目",
-    "frontendQuestionId": "5683",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1891",
-    "status": "",
-    "title": "统计点对的数目",
-    "titleSlug": "count-pairs-of-nodes"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5697]检查二进制字符串字段",
-    "frontendQuestionId": "5697",
+    "formTitle": "[1784]检查二进制字符串字段",
+    "frontendQuestionId": "1784",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -21409,8 +21409,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5698]构成特定和需要添加的最少元素",
-    "frontendQuestionId": "5698",
+    "formTitle": "[1785]构成特定和需要添加的最少元素",
+    "frontendQuestionId": "1785",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21421,8 +21421,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5699]从第一个节点出发到最后一个节点的受限路径数",
-    "frontendQuestionId": "5699",
+    "formTitle": "[1786]从第一个节点出发到最后一个节点的受限路径数",
+    "frontendQuestionId": "1786",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21433,8 +21433,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5700]使所有区间的异或结果为零",
-    "frontendQuestionId": "5700",
+    "formTitle": "[1787]使所有区间的异或结果为零",
+    "frontendQuestionId": "1787",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -22162,18 +22162,6 @@
     "status": "",
     "title": "二叉搜索树的后序遍历序列",
     "titleSlug": "er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[剑指 Offer 34]二叉树中和为某一值的路径",
-    "frontendQuestionId": "剑指 Offer 34",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "100317",
-    "status": "",
-    "title": "二叉树中和为某一值的路径",
-    "titleSlug": "er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof"
   },
   {
     "articleLive": 2,
@@ -23974,5 +23962,17 @@
     "status": "",
     "title": "稀疏相似度",
     "titleSlug": "sparse-similarity-lcci"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[面试题34]二叉树中和为某一值的路径",
+    "frontendQuestionId": "面试题34",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "100317",
+    "status": "",
+    "title": "二叉树中和为某一值的路径",
+    "titleSlug": "er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof"
   }
 ]
