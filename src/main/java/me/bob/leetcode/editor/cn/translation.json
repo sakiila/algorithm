@@ -1178,7 +1178,7 @@
       },
       {
         "questionId": "129",
-        "title": "\u6c42\u6839\u5230\u53f6\u5b50\u8282\u70b9\u6570\u5b57\u4e4b\u548c",
+        "title": "\u6c42\u6839\u8282\u70b9\u5230\u53f6\u8282\u70b9\u6570\u5b57\u4e4b\u548c",
         "__typename": "AppliedTranslationNode"
       },
       {
@@ -4708,7 +4708,7 @@
       },
       {
         "questionId": "285",
-        "title": "\u4e8c\u53c9\u641c\u7d22\u6811\u4e2d\u7684\u987a\u5e8f\u540e\u7ee7",
+        "title": "\u4e8c\u53c9\u641c\u7d22\u6811\u4e2d\u7684\u4e2d\u5e8f\u540e\u7ee7",
         "__typename": "AppliedTranslationNode"
       },
       {
