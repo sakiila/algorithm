@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1047]删除字符串中的所有相邻重复项",
-    "frontendQuestionId": "1047",
+    "formTitle": "[224]基本计算器",
+    "frontendQuestionId": "224",
     "leaf": true,
-    "level": 1,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "1128",
+    "questionId": "224",
     "status": "",
-    "title": "删除字符串中的所有相邻重复项",
-    "titleSlug": "remove-all-adjacent-duplicates-in-string"
+    "title": "基本计算器",
+    "titleSlug": "basic-calculator"
   },
   {
     "articleLive": 2,
@@ -1591,7 +1591,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "132",
-    "status": "",
+    "status": "ac",
     "title": "分割回文串 II",
     "titleSlug": "palindrome-partitioning-ii"
   },
@@ -2686,18 +2686,6 @@
     "status": "",
     "title": "矩形面积",
     "titleSlug": "rectangle-area"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[224]基本计算器",
-    "frontendQuestionId": "224",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "224",
-    "status": "",
-    "title": "基本计算器",
-    "titleSlug": "basic-calculator"
   },
   {
     "articleLive": 2,
@@ -12565,6 +12553,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1047]删除字符串中的所有相邻重复项",
+    "frontendQuestionId": "1047",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1128",
+    "status": "ac",
+    "title": "删除字符串中的所有相邻重复项",
+    "titleSlug": "remove-all-adjacent-duplicates-in-string"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1048]最长字符串链",
     "frontendQuestionId": "1048",
     "leaf": true,
@@ -18331,7 +18331,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "1651",
-    "status": "",
+    "status": "ac",
     "title": "重新排列字符串",
     "titleSlug": "shuffle-string"
   },
@@ -22687,7 +22687,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100160",
-    "status": "",
+    "status": "ac",
     "title": "URL化",
     "titleSlug": "string-to-url-lcci"
   },
