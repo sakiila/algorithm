@@ -34,6 +34,8 @@
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.Arrays;
+
 /**
  * 198 打家劫舍
  * 2021-01-16 16:12:13
@@ -46,19 +48,26 @@ public class HouseRobber {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
+        private int[] memo;
+
         public int rob(int[] nums) {
-            int n = nums.length;
-            if (n == 0) {
+            memo = new int[nums.length];
+            Arrays.fill(memo, -1);
+            return dp(nums, 0);
+        }
+
+        private int dp(int[] nums, int i) {
+            if (i >= nums.length) {
                 return 0;
             }
-
-            int[] dp = new int[n + 1];
-            dp[0] = 0;
-            dp[1] = nums[0];
-            for (int i = 2; i <= n; i++) {
-                dp[i] = Math.max(dp[i - 2] + nums[i - 1], dp[i - 1]);
+            if (memo[i] != -1) {
+                return memo[i];
             }
-            return dp[n];
+
+            int res = Math.max(dp(nums, i + 1), nums[i] + dp(nums, i + 2));
+            memo[i] = res;
+            return res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
