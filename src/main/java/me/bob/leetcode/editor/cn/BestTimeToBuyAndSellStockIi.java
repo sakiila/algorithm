@@ -46,7 +46,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 122 买卖股票的最佳时机 II
  * 2021-01-13 09:25:07
- * 思路：贪心
+ * 思路：DP
  */
 public class BestTimeToBuyAndSellStockIi {
     public static void main(String[] args) {
@@ -56,13 +56,12 @@ public class BestTimeToBuyAndSellStockIi {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int maxProfit(int[] prices) {
-            int maxProfit = 0;
-            for (int i = 1; i < prices.length; i++) {
-                if (prices[i] > prices[i - 1]) {
-                    maxProfit += prices[i] - prices[i - 1];
-                }
+            int dp0 = 0, dp1 = Integer.MIN_VALUE;
+            for (int i = 0; i < prices.length; i++) {
+                dp0 = Math.max(dp0, dp1 + prices[i]);
+                dp1 = Math.max(dp1, dp0 - prices[i]);
             }
-            return maxProfit;
+            return dp0;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
