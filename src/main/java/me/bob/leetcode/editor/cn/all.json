@@ -7,7 +7,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "224",
-    "status": "",
+    "status": "ac",
     "title": "基本计算器",
     "titleSlug": "basic-calculator"
   },
@@ -544,7 +544,7 @@
     "formTitle": "[45]跳跃游戏 II",
     "frontendQuestionId": "45",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
     "questionId": "45",
     "status": "ac",
