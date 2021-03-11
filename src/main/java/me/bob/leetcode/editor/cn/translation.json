@@ -11070,6 +11070,11 @@
         "questionId": "1912",
         "title": "\u4ece\u7b2c\u4e00\u4e2a\u8282\u70b9\u51fa\u53d1\u5230\u6700\u540e\u4e00\u4e2a\u8282\u70b9\u7684\u53d7\u9650\u8def\u5f84\u6570",
         "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1000204",
+        "title": "\u5b8c\u5168\u80cc\u5305\u95ee\u9898",
+        "__typename": "AppliedTranslationNode"
       }
     ]
   }
