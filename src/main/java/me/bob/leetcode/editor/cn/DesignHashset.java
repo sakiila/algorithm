@@ -51,7 +51,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 705 设计哈希集合
  * 2021-02-09 09:29:04
- * 思路：可以使用数组
+ * 思路：可以使用数组（投机取巧）
  */
 public class DesignHashset {
     public static void main(String[] args) {
