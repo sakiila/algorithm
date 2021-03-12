@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[227]基本计算器 II",
-    "frontendQuestionId": "227",
+    "formTitle": "[331]验证二叉树的前序序列化",
+    "frontendQuestionId": "331",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "227",
-    "status": "ac",
-    "title": "基本计算器 II",
-    "titleSlug": "basic-calculator-ii"
+    "questionId": "331",
+    "status": "",
+    "title": "验证二叉树的前序序列化",
+    "titleSlug": "verify-preorder-serialization-of-a-binary-tree"
   },
   {
     "articleLive": 2,
@@ -1783,7 +1783,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "148",
-    "status": "",
+    "status": "ac",
     "title": "排序链表",
     "titleSlug": "sort-list"
   },
@@ -2722,6 +2722,18 @@
     "status": "ac",
     "title": "翻转二叉树",
     "titleSlug": "invert-binary-tree"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[227]基本计算器 II",
+    "frontendQuestionId": "227",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "227",
+    "status": "ac",
+    "title": "基本计算器 II",
+    "titleSlug": "basic-calculator-ii"
   },
   {
     "articleLive": 2,
@@ -3958,18 +3970,6 @@
     "status": "",
     "title": "按要求补齐数组",
     "titleSlug": "patching-array"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[331]验证二叉树的前序序列化",
-    "frontendQuestionId": "331",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "331",
-    "status": "",
-    "title": "验证二叉树的前序序列化",
-    "titleSlug": "verify-preorder-serialization-of-a-binary-tree"
   },
   {
     "articleLive": 2,
@@ -22423,7 +22423,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100333",
-    "status": "",
+    "status": "ac",
     "title": "二叉搜索树的第k大节点",
     "titleSlug": "er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof"
   },
