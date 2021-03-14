@@ -48,7 +48,7 @@ public class DesignHashmap {
     //leetcode submit region begin(Prohibit modification and deletion)
     class MyHashMap {
 
-        int[] map = null;
+        int[] map;
 
         /**
          * Initialize your data structure here.
