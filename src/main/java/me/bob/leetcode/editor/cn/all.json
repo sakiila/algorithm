@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[705]设计哈希集合",
-    "frontendQuestionId": "705",
+    "formTitle": "[54]螺旋矩阵",
+    "frontendQuestionId": "54",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "816",
-    "status": "ac",
-    "title": "设计哈希集合",
-    "titleSlug": "design-hashset"
+    "questionId": "54",
+    "status": "",
+    "title": "螺旋矩阵",
+    "titleSlug": "spiral-matrix"
   },
   {
     "articleLive": 2,
@@ -646,18 +646,6 @@
     "status": "ac",
     "title": "最大子序和",
     "titleSlug": "maximum-subarray"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[54]螺旋矩阵",
-    "frontendQuestionId": "54",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "54",
-    "status": "",
-    "title": "螺旋矩阵",
-    "titleSlug": "spiral-matrix"
   },
   {
     "articleLive": 2,
@@ -8458,6 +8446,18 @@
     "status": "ac",
     "title": "二分查找",
     "titleSlug": "binary-search"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[705]设计哈希集合",
+    "frontendQuestionId": "705",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "816",
+    "status": "ac",
+    "title": "设计哈希集合",
+    "titleSlug": "design-hashset"
   },
   {
     "articleLive": 2,
@@ -21454,6 +21454,66 @@
     "status": "lock",
     "title": "Maximize the Beauty of the Garden",
     "titleSlug": "maximize-the-beauty-of-the-garden"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1789]Primary Department for Each Employee",
+    "frontendQuestionId": "1789",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1942",
+    "status": "lock",
+    "title": "Primary Department for Each Employee",
+    "titleSlug": "primary-department-for-each-employee"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5701]仅执行一次字符串交换能否使两个字符串相等",
+    "frontendQuestionId": "5701",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1915",
+    "status": "",
+    "title": "仅执行一次字符串交换能否使两个字符串相等",
+    "titleSlug": "check-if-one-string-swap-can-make-strings-equal"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5702]找出星型图的中心节点",
+    "frontendQuestionId": "5702",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1916",
+    "status": "",
+    "title": "找出星型图的中心节点",
+    "titleSlug": "find-center-of-star-graph"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5703]最大平均通过率",
+    "frontendQuestionId": "5703",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1917",
+    "status": "",
+    "title": "最大平均通过率",
+    "titleSlug": "maximum-average-pass-ratio"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5704]好子数组的最大分数",
+    "frontendQuestionId": "5704",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1918",
+    "status": "",
+    "title": "好子数组的最大分数",
+    "titleSlug": "maximum-score-of-a-good-subarray"
   },
   {
     "articleLive": 2,
