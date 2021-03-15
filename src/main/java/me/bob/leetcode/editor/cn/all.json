@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[54]螺旋矩阵",
-    "frontendQuestionId": "54",
+    "formTitle": "[59]螺旋矩阵 II",
+    "frontendQuestionId": "59",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "54",
+    "questionId": "59",
     "status": "",
-    "title": "螺旋矩阵",
-    "titleSlug": "spiral-matrix"
+    "title": "螺旋矩阵 II",
+    "titleSlug": "spiral-matrix-ii"
   },
   {
     "articleLive": 2,
@@ -649,6 +649,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[54]螺旋矩阵",
+    "frontendQuestionId": "54",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "54",
+    "status": "ac",
+    "title": "螺旋矩阵",
+    "titleSlug": "spiral-matrix"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[55]跳跃游戏",
     "frontendQuestionId": "55",
     "leaf": true,
@@ -694,18 +706,6 @@
     "status": "",
     "title": "最后一个单词的长度",
     "titleSlug": "length-of-last-word"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[59]螺旋矩阵 II",
-    "frontendQuestionId": "59",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "59",
-    "status": "",
-    "title": "螺旋矩阵 II",
-    "titleSlug": "spiral-matrix-ii"
   },
   {
     "articleLive": 2,
@@ -21469,8 +21469,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5701]仅执行一次字符串交换能否使两个字符串相等",
-    "frontendQuestionId": "5701",
+    "formTitle": "[1790]仅执行一次字符串交换能否使两个字符串相等",
+    "frontendQuestionId": "1790",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -21481,8 +21481,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5702]找出星型图的中心节点",
-    "frontendQuestionId": "5702",
+    "formTitle": "[1791]找出星型图的中心节点",
+    "frontendQuestionId": "1791",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21493,8 +21493,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5703]最大平均通过率",
-    "frontendQuestionId": "5703",
+    "formTitle": "[1792]最大平均通过率",
+    "frontendQuestionId": "1792",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21505,8 +21505,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5704]好子数组的最大分数",
-    "frontendQuestionId": "5704",
+    "formTitle": "[1793]好子数组的最大分数",
+    "frontendQuestionId": "1793",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
