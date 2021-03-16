@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[59]螺旋矩阵 II",
-    "frontendQuestionId": "59",
+    "formTitle": "[115]不同的子序列",
+    "frontendQuestionId": "115",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "59",
+    "questionId": "115",
     "status": "",
-    "title": "螺旋矩阵 II",
-    "titleSlug": "spiral-matrix-ii"
+    "title": "不同的子序列",
+    "titleSlug": "distinct-subsequences"
   },
   {
     "articleLive": 2,
@@ -313,14 +313,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[26]删除排序数组中的重复项",
+    "formTitle": "[26]删除有序数组中的重复项",
     "frontendQuestionId": "26",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "26",
     "status": "ac",
-    "title": "删除排序数组中的重复项",
+    "title": "删除有序数组中的重复项",
     "titleSlug": "remove-duplicates-from-sorted-array"
   },
   {
@@ -706,6 +706,18 @@
     "status": "",
     "title": "最后一个单词的长度",
     "titleSlug": "length-of-last-word"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[59]螺旋矩阵 II",
+    "frontendQuestionId": "59",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "59",
+    "status": "ac",
+    "title": "螺旋矩阵 II",
+    "titleSlug": "spiral-matrix-ii"
   },
   {
     "articleLive": 2,
@@ -1366,18 +1378,6 @@
     "status": "",
     "title": "二叉树展开为链表",
     "titleSlug": "flatten-binary-tree-to-linked-list"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[115]不同的子序列",
-    "frontendQuestionId": "115",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "115",
-    "status": "",
-    "title": "不同的子序列",
-    "titleSlug": "distinct-subsequences"
   },
   {
     "articleLive": 2,
