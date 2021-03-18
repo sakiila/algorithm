@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[115]不同的子序列",
-    "frontendQuestionId": "115",
+    "formTitle": "[92]反转链表 II",
+    "frontendQuestionId": "92",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "115",
+    "questionId": "92",
     "status": "",
-    "title": "不同的子序列",
-    "titleSlug": "distinct-subsequences"
+    "title": "反转链表 II",
+    "titleSlug": "reverse-linked-list-ii"
   },
   {
     "articleLive": 2,
@@ -1105,18 +1105,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[92]反转链表 II",
-    "frontendQuestionId": "92",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "92",
-    "status": "",
-    "title": "反转链表 II",
-    "titleSlug": "reverse-linked-list-ii"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[93]复原 IP 地址",
     "frontendQuestionId": "93",
     "leaf": true,
@@ -1378,6 +1366,18 @@
     "status": "",
     "title": "二叉树展开为链表",
     "titleSlug": "flatten-binary-tree-to-linked-list"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[115]不同的子序列",
+    "frontendQuestionId": "115",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "115",
+    "status": "ac",
+    "title": "不同的子序列",
+    "titleSlug": "distinct-subsequences"
   },
   {
     "articleLive": 2,
