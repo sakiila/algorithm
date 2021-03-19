@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[92]反转链表 II",
-    "frontendQuestionId": "92",
+    "formTitle": "[1603]设计停车系统",
+    "frontendQuestionId": "1603",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "92",
+    "questionId": "1708",
     "status": "",
-    "title": "反转链表 II",
-    "titleSlug": "reverse-linked-list-ii"
+    "title": "设计停车系统",
+    "titleSlug": "design-parking-system"
   },
   {
     "articleLive": 2,
@@ -1102,6 +1102,18 @@
     "status": "",
     "title": "解码方法",
     "titleSlug": "decode-ways"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[92]反转链表 II",
+    "frontendQuestionId": "92",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "92",
+    "status": "ac",
+    "title": "反转链表 II",
+    "titleSlug": "reverse-linked-list-ii"
   },
   {
     "articleLive": 2,
@@ -19225,18 +19237,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1603]设计停车系统",
-    "frontendQuestionId": "1603",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1708",
-    "status": "",
-    "title": "设计停车系统",
-    "titleSlug": "design-parking-system"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1604]警告一小时内使用相同员工卡大于等于三次的人",
     "frontendQuestionId": "1604",
     "leaf": true,
@@ -21517,6 +21517,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1794]Count Pairs of Equal Substrings With Minimum Difference",
+    "frontendQuestionId": "1794",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1943",
+    "status": "lock",
+    "title": "Count Pairs of Equal Substrings With Minimum Difference",
+    "titleSlug": "count-pairs-of-equal-substrings-with-minimum-difference"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[LCP 01]猜数字",
     "frontendQuestionId": "LCP 01",
     "leaf": true,
@@ -22162,18 +22174,6 @@
     "status": "",
     "title": "顺时针打印矩阵",
     "titleSlug": "shun-shi-zhen-da-yin-ju-zhen-lcof"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[剑指 Offer 30]包含min函数的栈",
-    "frontendQuestionId": "剑指 Offer 30",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "100302",
-    "status": "",
-    "title": "包含min函数的栈",
-    "titleSlug": "bao-han-minhan-shu-de-zhan-lcof"
   },
   {
     "articleLive": 2,
@@ -24034,6 +24034,18 @@
     "status": "",
     "title": "稀疏相似度",
     "titleSlug": "sparse-similarity-lcci"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[面试题30]包含min函数的栈",
+    "frontendQuestionId": "面试题30",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "100302",
+    "status": "",
+    "title": "包含min函数的栈",
+    "titleSlug": "bao-han-minhan-shu-de-zhan-lcof"
   },
   {
     "articleLive": 2,
