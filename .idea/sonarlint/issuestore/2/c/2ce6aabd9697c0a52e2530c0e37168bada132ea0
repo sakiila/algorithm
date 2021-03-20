@@ -1,0 +1,7 @@
+
+C
+java:S1481;"-Remove this unused "solution" local variable.(éË¦ù
+C
+java:S1659A"!Declare "col" on a separate line.(‹¶¯ÿÿÿÿÿ8şç¶ëú.
+R
+java:S1854;"<Remove this useless assignment to local variable "solution".(éË¦ù

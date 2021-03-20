@@ -1,0 +1,8 @@
+
+C
+java:S1659F"!Declare "dec" on a separate line.(ã‘¾úÿÿÿÿ8ßúĞ¯ş.
+C
+java:S1481@"-Remove this unused "solution" local variable.(ãÏêÑ
+f	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚·Ë
+R
+java:S1854@"<Remove this useless assignment to local variable "solution".(ãÏêÑ

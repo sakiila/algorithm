@@ -1,0 +1,8 @@
+
+H
+java:S1481E"-Remove this unused "solution" local variable.(²ŸÚàÿÿÿÿÿ
+t	java:S127T"XRefactor the code in order to not assign to this loop counter from within the loop body.(–ô°’8¯âÑóø.
+A
+java:S1659N"Declare "b" on a separate line.(º‚Ôüÿÿÿÿ8œñ“óø.
+W
+java:S1854E"<Remove this useless assignment to local variable "solution".(²ŸÚàÿÿÿÿÿ

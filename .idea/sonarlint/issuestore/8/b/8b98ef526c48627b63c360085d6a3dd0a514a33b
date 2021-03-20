@@ -1,0 +1,9 @@
+
+A
+java:S16595"Declare "p" on a separate line.(”úÿÕùÿÿÿÿ8³ÿ ›ú.
+R
+java:S1854$"<Remove this useless assignment to local variable "solution".(­ãœå
+o
+java:S3776)"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ÅÆúœ8³±¤›ú.
+C
+java:S1481$"-Remove this unused "solution" local variable.(­ãœå

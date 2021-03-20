@@ -1,0 +1,13 @@
+
+f	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÛÀ¼
+k	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÜçÆüÿÿÿÿ
+k	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÜçÆüÿÿÿÿ
+e
+java:S1104I"OMake val a static final constant or non-public and provide accessors if needed.(Ô¸úÏ
+j
+java:S1104J"TMake children a static final constant or non-public and provide accessors if needed.(ş“îÍ
+W
+java:S1854"<Remove this useless assignment to local variable "solution".(æÏñéùÿÿÿÿ
+V	java:S125%"<This block of commented-out lines of code should be removed.(ôñÒÍÿÿÿÿÿ
+H
+java:S1481"-Remove this unused "solution" local variable.(æÏñéùÿÿÿÿ

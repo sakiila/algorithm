@@ -1,0 +1,7 @@
+
+W
+java:S1854."<Remove this useless assignment to local variable "solution".(²è˜Üúÿÿÿÿ
+H
+java:S1481."-Remove this unused "solution" local variable.(²è˜Üúÿÿÿÿ
+v
+java:S3012@"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(åÿåÉ8ô•íÅù.

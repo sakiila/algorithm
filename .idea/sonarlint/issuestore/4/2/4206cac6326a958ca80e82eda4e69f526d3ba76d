@@ -1,0 +1,16 @@
+
+>
+java:S1116w"Remove this empty statement.(Åñ­õþÿÿÿÿ8¬ÞªÇù.
+q
+java:S1104h"TMake children a static final constant or non-public and provide accessors if needed.(þ“îÍ8¬ÞªÇù.
+W
+java:S18544"<Remove this useless assignment to local variable "solution".(È‡µÿûÿÿÿÿ
+r	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÜçÆüÿÿÿÿ8¬ÞªÇù.
+m	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÛÀ¼8¬ÞªÇù.
+l
+java:S1104g"OMake val a static final constant or non-public and provide accessors if needed.(Ô¸úÏ8¬ÞªÇù.
+V	java:S1259"<This block of commented-out lines of code should be removed.(ôñÒÍÿÿÿÿÿ
+]	java:S125Y"<This block of commented-out lines of code should be removed.(ÝÛ…ÿÿÿÿÿ8áðËÇù.
+r	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÜçÆüÿÿÿÿ8¬ÞªÇù.
+H
+java:S14814"-Remove this unused "solution" local variable.(È‡µÿûÿÿÿÿ

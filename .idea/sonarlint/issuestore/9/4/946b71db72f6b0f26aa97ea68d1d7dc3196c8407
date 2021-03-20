@@ -1,0 +1,9 @@
+
+|
+java:S1149Y"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8šïÂû.
+|
+java:S1149Y"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í…Ò‰8šïÂû.
+H
+java:S1481P"-Remove this unused "solution" local variable.(Ê¦€Âøÿÿÿÿ
+W
+java:S1854P"<Remove this useless assignment to local variable "solution".(Ê¦€Âøÿÿÿÿ

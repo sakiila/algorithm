@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1603]设计停车系统",
-    "frontendQuestionId": "1603",
+    "formTitle": "[150]逆波兰表达式求值",
+    "frontendQuestionId": "150",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1708",
+    "questionId": "150",
     "status": "ac",
-    "title": "设计停车系统",
-    "titleSlug": "design-parking-system"
+    "title": "逆波兰表达式求值",
+    "titleSlug": "evaluate-reverse-polish-notation"
   },
   {
     "articleLive": 2,
@@ -703,7 +703,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "58",
-    "status": "",
+    "status": "ac",
     "title": "最后一个单词的长度",
     "titleSlug": "length-of-last-word"
   },
@@ -811,7 +811,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "67",
-    "status": "",
+    "status": "ac",
     "title": "二进制求和",
     "titleSlug": "add-binary"
   },
@@ -1798,18 +1798,6 @@
     "status": "ac",
     "title": "直线上最多的点数",
     "titleSlug": "max-points-on-a-line"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[150]逆波兰表达式求值",
-    "frontendQuestionId": "150",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "150",
-    "status": "ac",
-    "title": "逆波兰表达式求值",
-    "titleSlug": "evaluate-reverse-polish-notation"
   },
   {
     "articleLive": 2,
@@ -11263,7 +11251,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "975",
-    "status": "",
+    "status": "ac",
     "title": "二叉搜索树的范围和",
     "titleSlug": "range-sum-of-bst"
   },
@@ -19234,6 +19222,18 @@
     "status": "lock",
     "title": "找到二叉树中最近的右侧节点",
     "titleSlug": "find-nearest-right-node-in-binary-tree"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1603]设计停车系统",
+    "frontendQuestionId": "1603",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1708",
+    "status": "ac",
+    "title": "设计停车系统",
+    "titleSlug": "design-parking-system"
   },
   {
     "articleLive": 2,

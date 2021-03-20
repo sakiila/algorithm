@@ -1,0 +1,6 @@
+
+R
+java:S1854+"<Remove this useless assignment to local variable "solution".(­£õ“
+k	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¥ùÿÿÿÿ
+C
+java:S1481+"-Remove this unused "solution" local variable.(­£õ“

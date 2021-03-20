@@ -1,0 +1,9 @@
+
+E
+java:S1659:"#Declare "right" on a separate line.(Ï¶ì„ûÿÿÿÿ8å†ÝÃú.
+^
+java:S18544"<Remove this useless assignment to local variable "solution".(³•Ãêùÿÿÿÿ8å†ÝÃú.
+O
+java:S14814"-Remove this unused "solution" local variable.(³•Ãêùÿÿÿÿ8å†ÝÃú.
+t
+java:S37769"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÅÌö‰ÿÿÿÿÿ8å†ÝÃú.

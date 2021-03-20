@@ -1,0 +1,16 @@
+
+Q
+java:S3740Y"/Provide the parametrized type for this generic.(À’Û¦şÿÿÿÿ8¤ì›üÿ.
+r
+java:S1149R"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÄØÁıÿÿÿÿ8¤ì›üÿ.
+V	java:S125*"<This block of commented-out lines of code should be removed.(Œ»©Ëıÿÿÿÿ
+L
+java:S3740X"/Provide the parametrized type for this generic.(±›¶Š8¤ì›üÿ.
+m
+java:S1149Q"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ú¸Ø¬8¤ì›üÿ.
+—
+java:S1186L"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘
+r
+java:S1149R"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÄØÁıÿÿÿÿ8¤ì›üÿ.
+m
+java:S1149Q"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ú¸Ø¬8¤ì›üÿ.

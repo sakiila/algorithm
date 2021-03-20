@@ -1,0 +1,8 @@
+
+R
+java:S1854;"<Remove this useless assignment to local variable "solution".(Ûº›ö
+[
+java:S3518V"9Make sure "num" can't be zero before doing this division.(š»¾ƒşÿÿÿÿ8á–Üô/
+C
+java:S1481;"-Remove this unused "solution" local variable.(Ûº›ö
+C	java:S131K""Add a default case to this switch.(ÎÍ›ªıÿÿÿÿ8ì¾Ïô/
