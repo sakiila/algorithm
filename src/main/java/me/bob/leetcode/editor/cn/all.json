@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[150]逆波兰表达式求值",
-    "frontendQuestionId": "150",
+    "formTitle": "[73]矩阵置零",
+    "frontendQuestionId": "73",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "150",
-    "status": "ac",
-    "title": "逆波兰表达式求值",
-    "titleSlug": "evaluate-reverse-polish-notation"
+    "questionId": "73",
+    "status": "",
+    "title": "矩阵置零",
+    "titleSlug": "set-matrix-zeroes"
   },
   {
     "articleLive": 2,
@@ -874,18 +874,6 @@
     "status": "",
     "title": "编辑距离",
     "titleSlug": "edit-distance"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[73]矩阵置零",
-    "frontendQuestionId": "73",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "73",
-    "status": "",
-    "title": "矩阵置零",
-    "titleSlug": "set-matrix-zeroes"
   },
   {
     "articleLive": 2,
@@ -1798,6 +1786,18 @@
     "status": "ac",
     "title": "直线上最多的点数",
     "titleSlug": "max-points-on-a-line"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[150]逆波兰表达式求值",
+    "frontendQuestionId": "150",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "150",
+    "status": "ac",
+    "title": "逆波兰表达式求值",
+    "titleSlug": "evaluate-reverse-polish-notation"
   },
   {
     "articleLive": 2,
@@ -21529,6 +21529,66 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1795]Rearrange Products Table",
+    "frontendQuestionId": "1795",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1948",
+    "status": "lock",
+    "title": "Rearrange Products Table",
+    "titleSlug": "rearrange-products-table"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5693]字符串中第二大的数字",
+    "frontendQuestionId": "5693",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1904",
+    "status": "",
+    "title": "字符串中第二大的数字",
+    "titleSlug": "second-largest-digit-in-a-string"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5694]设计一个验证系统",
+    "frontendQuestionId": "5694",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1905",
+    "status": "",
+    "title": "设计一个验证系统",
+    "titleSlug": "design-authentication-manager"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5695]N 次操作后的最大分数和",
+    "frontendQuestionId": "5695",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1906",
+    "status": "",
+    "title": "N 次操作后的最大分数和",
+    "titleSlug": "maximize-score-after-n-operations"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5712]你能构造出连续值的最大数目",
+    "frontendQuestionId": "5712",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1930",
+    "status": "",
+    "title": "你能构造出连续值的最大数目",
+    "titleSlug": "maximum-number-of-consecutive-values-you-can-make"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[LCP 01]猜数字",
     "frontendQuestionId": "LCP 01",
     "leaf": true,
@@ -23539,7 +23599,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100349",
-    "status": "",
+    "status": "ac",
     "title": "最大数值",
     "titleSlug": "maximum-lcci"
   },
