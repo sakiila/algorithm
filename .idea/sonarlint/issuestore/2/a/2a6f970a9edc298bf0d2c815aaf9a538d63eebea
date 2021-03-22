@@ -1,9 +1,9 @@
 
+t
+java:S37769"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÅÌö‰ÿÿÿÿÿ8å†İÃú.
+O
+java:S14814"-Remove this unused "solution" local variable.(³•Ãêùÿÿÿÿ8å†İÃú.
 E
 java:S1659:"#Declare "right" on a separate line.(Ï¶ì„ûÿÿÿÿ8å†İÃú.
 ^
 java:S18544"<Remove this useless assignment to local variable "solution".(³•Ãêùÿÿÿÿ8å†İÃú.
-O
-java:S14814"-Remove this unused "solution" local variable.(³•Ãêùÿÿÿÿ8å†İÃú.
-t
-java:S37769"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÅÌö‰ÿÿÿÿÿ8å†İÃú.
