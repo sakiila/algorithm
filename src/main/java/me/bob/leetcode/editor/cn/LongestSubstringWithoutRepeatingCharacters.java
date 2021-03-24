@@ -73,7 +73,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
             int left = 0;
             for (int i = 0; i < s.length(); i++) {
                 if (map.containsKey(s.charAt(i))) {
-                    // 注意，abba
+                    // 注意，abba，不用 max 会导致 left 从 2 变成 1
                     left = Math.max(left, map.get(s.charAt(i)) + 1);
                 }
                 map.put(s.charAt(i), i);
