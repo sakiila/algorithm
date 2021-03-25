@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[456]132模式",
-    "frontendQuestionId": "456",
+    "formTitle": "[82]删除排序链表中的重复元素 II",
+    "frontendQuestionId": "82",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "456",
-    "status": "ac",
-    "title": "132模式",
-    "titleSlug": "132-pattern"
+    "questionId": "82",
+    "status": "",
+    "title": "删除排序链表中的重复元素 II",
+    "titleSlug": "remove-duplicates-from-sorted-list-ii"
   },
   {
     "articleLive": 2,
@@ -985,18 +985,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[82]删除排序链表中的重复元素 II",
-    "frontendQuestionId": "82",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "82",
-    "status": "",
-    "title": "删除排序链表中的重复元素 II",
-    "titleSlug": "remove-duplicates-from-sorted-list-ii"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[83]删除排序链表中的重复元素",
     "frontendQuestionId": "83",
     "leaf": true,
@@ -1168,7 +1156,7 @@
     "formTitle": "[97]交错字符串",
     "frontendQuestionId": "97",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
     "questionId": "97",
     "status": "",
@@ -5470,6 +5458,18 @@
     "status": "ac",
     "title": "分发饼干",
     "titleSlug": "assign-cookies"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[456]132 模式",
+    "frontendQuestionId": "456",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "456",
+    "status": "ac",
+    "title": "132 模式",
+    "titleSlug": "132-pattern"
   },
   {
     "articleLive": 2,
