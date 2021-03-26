@@ -27,7 +27,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 61 旋转链表
  * 2021-02-01 11:09:39
- * 思路：成环，新头结点是n - k % n
+ * 思路：成环，新尾结点是 n - k % n
  */
 public class RotateList {
     public static void main(String[] args) {
