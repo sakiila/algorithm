@@ -56,23 +56,25 @@ public class RotateList {
             }
 
             // 计算结点数
-            ListNode old_tail = head;
-            int n;
-            for (n = 1; old_tail.next != null; n++) {
-                old_tail = old_tail.next;
+            int n = 1;
+            ListNode temp = head;
+            while (temp.next != null) {
+                n++;
+                temp = temp.next;
             }
+            temp.next = head;
 
-            // 成环
-            old_tail.next = head;
-
-            ListNode new_tail = head;
-            for (int i = 0; i < n - k % n - 1; i++) {
-                new_tail = new_tail.next;
+            // 需要对 k 取余，第 m 个结点是新尾结点
+            int m = n - k % n;
+            // 找到新的尾结点（画图）
+            while (m > 0) {
+                m--;
+                temp = temp.next;
             }
-            ListNode new_head = new_tail.next;
-            new_tail.next = null;
+            ListNode newHead = temp.next;
+            temp.next = null;
 
-            return new_head;
+            return newHead;
         }
     }
 

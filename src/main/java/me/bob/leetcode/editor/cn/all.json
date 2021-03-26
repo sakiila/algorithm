@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[83]删除排序链表中的重复元素",
-    "frontendQuestionId": "83",
+    "formTitle": "[61]旋转链表",
+    "frontendQuestionId": "61",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "83",
-    "status": "",
-    "title": "删除排序链表中的重复元素",
-    "titleSlug": "remove-duplicates-from-sorted-list"
+    "questionId": "61",
+    "status": "ac",
+    "title": "旋转链表",
+    "titleSlug": "rotate-list"
   },
   {
     "articleLive": 2,
@@ -733,18 +733,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[61]旋转链表",
-    "frontendQuestionId": "61",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "61",
-    "status": "ac",
-    "title": "旋转链表",
-    "titleSlug": "rotate-list"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[62]不同路径",
     "frontendQuestionId": "62",
     "leaf": true,
@@ -994,6 +982,18 @@
     "status": "ac",
     "title": "删除排序链表中的重复元素 II",
     "titleSlug": "remove-duplicates-from-sorted-list-ii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[83]删除排序链表中的重复元素",
+    "frontendQuestionId": "83",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "83",
+    "status": "ac",
+    "title": "删除排序链表中的重复元素",
+    "titleSlug": "remove-duplicates-from-sorted-list"
   },
   {
     "articleLive": 2,
