@@ -313,3 +313,5 @@ Msrc/main/java/me/bob/leetcode/editor/cn/RemoveDuplicatesFromSortedListIi.java,
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 {
 Ksrc/main/java/me/bob/leetcode/editor/cn/RemoveDuplicatesFromSortedList.java,8\1\81f673950ac264dd271951c7c7aa353ece69aae9
+g
+7src/main/java/me/bob/leetcode/editor/cn/RotateList.java,a\1\a123f4a62748102878fd7fcbc6e2f504efa0fdde

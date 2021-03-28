@@ -82,27 +82,29 @@ public class CountAndSay {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public String countAndSay(int n) {
-            String[] res = new String[n];
-            res[0] = "1";
+            String res = "1";
 
             for (int i = 1; i < n; i++) {
-                String temp = res[i - 1];
-                String newString = "";
-                int k = 0;
-                for (int j = 1; j < temp.length(); j++) {
-                    if (temp.charAt(j) == temp.charAt(j - 1)) {
+
+                int length = res.length();
+                int index = 0;
+                String temp = "";
+                for (int j = 1; j < length; j++) {
+                    if (res.charAt(j) == res.charAt(j - 1)) {
                         continue;
                     }
-                    newString = newString + (j - k) + temp.charAt(j - 1);
-                    k = j;
+                    // 注意不能写成 +=，会将 char 转为 int
+                    temp = temp + (j - index) + res.charAt(j - 1);
+                    index = j;
                 }
-                newString = newString + (temp.length() - k) + temp.charAt(temp.length() - 1);
-                res[i] = newString;
+                res = temp + (length - index) + res.charAt(length - 1);
             }
 
-            return res[n - 1];
+            return res;
         }
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
