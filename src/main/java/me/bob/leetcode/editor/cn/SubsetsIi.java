@@ -53,8 +53,8 @@ public class SubsetsIi {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
 
-        List<Integer> t = new ArrayList<Integer>();
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<Integer> t = new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
 
         public List<List<Integer>> subsetsWithDup(int[] nums) {
             Arrays.sort(nums);
@@ -72,7 +72,7 @@ public class SubsetsIi {
                     }
                 }
                 if (flag) {
-                    ans.add(new ArrayList<Integer>(t));
+                    ans.add(new ArrayList<>(t));
                 }
             }
             return ans;
