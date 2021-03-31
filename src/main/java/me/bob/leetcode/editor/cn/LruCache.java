@@ -52,17 +52,18 @@
 // 最多调用 3 * 104 次 get 和 put 
 // 
 // Related Topics 设计 
-// 👍 1106 👎 0
+// 👍 1290 👎 0
 
 
 package me.bob.leetcode.editor.cn;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 146 LRU 缓存机制
- * 2021-01-20 14:04:34
- * 思路：哈希表 + 双向链表
+ * 2021-03-31 17:14:58
+ * 思路：哈希表 + 双向链表，注意容量超过时的删除操作
  */
 public class LruCache {
     public static void main(String[] args) {
@@ -73,86 +74,83 @@ public class LruCache {
     class LRUCache {
 
         class Node {
-            public int key, value;
-            public Node next, prev;
+            int key;
+            int value;
+            Node prev;
+            Node next;
 
-            public Node(int key, int value) {
+            Node() {
+
+            }
+
+            Node(int key, int value) {
                 this.key = key;
                 this.value = value;
             }
         }
 
-        class DoubleList {
-            public Node head = new Node(0, 0);
-            public Node tail = new Node(0, 0);
-            public int size;
-
-            public DoubleList() {
-                head.next = tail;
-                tail.next = head;
-                size = 0;
-            }
-
-            public void addFirst(Node n) {
-                Node headNext = head.next;
-                head.next = n;
-                headNext.prev = n;
-                n.prev = head;
-                n.next = headNext;
-                size++;
-            }
-
-            public void remove(Node n) {
-                n.prev.next = n.next;
-                n.next.prev = n.prev;
-                size--;
-            }
-
-            public Node removeLast() {
-                Node last = tail.prev;
-                remove(last);
-                return last;
-            }
-
-            public int size() {
-                return size;
-            }
-        }
-
-
-        private HashMap<Integer, Node> map;
-        private DoubleList cache;
-        private int capacity;
+        Map<Integer, Node> map;
+        int size;
+        Node head;
+        Node tail;
 
         public LRUCache(int capacity) {
-            map = new HashMap<>(capacity);
-            cache = new DoubleList();
-            this.capacity = capacity;
+            map = new HashMap<>();
+            size = capacity;
+            head = new Node();
+            tail = new Node();
+            head.next = tail;
+            tail.prev = head;
         }
 
         public int get(int key) {
-            if (!map.containsKey(key)) {
-                return -1;
+            Node node = map.get(key);
+            if (node != null) {
+                // move to head
+                moveToHead(node);
+                return node.value;
             }
-            int val = map.get(key).value;
-            put(key, val);
-            return val;
+            return -1;
         }
 
         public void put(int key, int value) {
-            Node n = new Node(key, value);
-            if (map.containsKey(key)) {
-                cache.remove(map.get(key));
-                cache.addFirst(n);
-                map.put(key, n);
+            Node node = map.get(key);
+            if (node != null) {
+                // update
+                node.value = value;
+                // move to head
+                moveToHead(node);
             } else {
-                if (cache.size() == capacity) {
-                    Node last = cache.removeLast();
-                    map.remove(last.key);
+                node = new Node(key, value);
+                map.put(key, node);
+                // add to head
+                addToHead(node);
+                if (map.size() > size) {
+                    // remove tail
+                    Node temp = tail.prev;
+                    map.remove(temp.key);
+                    removeNode(temp);
                 }
-                cache.addFirst(n);
-                map.put(key, n);
             }
+        }
+
+        private void moveToHead(Node node) {
+            // remove node
+            removeNode(node);
+            // add to head
+            addToHead(node);
+        }
+
+        private void removeNode(Node node) {
+            node.prev.next = node.next;
+            node.next.prev = node.prev;
+        }
+
+        private void addToHead(Node node) {
+            node.prev = head;
+            node.next = head.next;
+            head.next.prev = node;
+            head.next = node;
         }
     }
 
