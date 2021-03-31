@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[90]子集 II",
-    "frontendQuestionId": "90",
+    "formTitle": "[1006]笨阶乘",
+    "frontendQuestionId": "1006",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "90",
-    "status": "ac",
-    "title": "子集 II",
-    "titleSlug": "subsets-ii"
+    "questionId": "1048",
+    "status": "",
+    "title": "笨阶乘",
+    "titleSlug": "clumsy-factorial"
   },
   {
     "articleLive": 2,
@@ -1078,6 +1078,18 @@
     "status": "",
     "title": "格雷编码",
     "titleSlug": "gray-code"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[90]子集 II",
+    "frontendQuestionId": "90",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "90",
+    "status": "ac",
+    "title": "子集 II",
+    "titleSlug": "subsets-ii"
   },
   {
     "articleLive": 2,
@@ -12058,18 +12070,6 @@
     "status": "",
     "title": "K 次取反后最大化的数组和",
     "titleSlug": "maximize-sum-of-array-after-k-negations"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1006]笨阶乘",
-    "frontendQuestionId": "1006",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1048",
-    "status": "",
-    "title": "笨阶乘",
-    "titleSlug": "clumsy-factorial"
   },
   {
     "articleLive": 2,
