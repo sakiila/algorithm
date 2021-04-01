@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1006]笨阶乘",
-    "frontendQuestionId": "1006",
+    "formTitle": "[面试题 17.21]直方图的水量",
+    "frontendQuestionId": "面试题 17.21",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "1048",
-    "status": "ac",
-    "title": "笨阶乘",
-    "titleSlug": "clumsy-factorial"
+    "questionId": "1000029",
+    "status": "",
+    "title": "直方图的水量",
+    "titleSlug": "volume-of-histogram-lcci"
   },
   {
     "articleLive": 2,
@@ -559,7 +559,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "46",
-    "status": "",
+    "status": "ac",
     "title": "全排列",
     "titleSlug": "permutations"
   },
@@ -12073,6 +12073,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1006]笨阶乘",
+    "frontendQuestionId": "1006",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1048",
+    "status": "ac",
+    "title": "笨阶乘",
+    "titleSlug": "clumsy-factorial"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1007]行相等的最少多米诺旋转",
     "frontendQuestionId": "1007",
     "leaf": true,
@@ -22777,18 +22789,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[剑指 Offer 59 - I]滑动窗口的最大值",
-    "frontendQuestionId": "剑指 Offer 59 - I",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "100336",
-    "status": "",
-    "title": "滑动窗口的最大值",
-    "titleSlug": "hua-dong-chuang-kou-de-zui-da-zhi-lcof"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[剑指 Offer 59 - II]队列的最大值",
     "frontendQuestionId": "剑指 Offer 59 - II",
     "leaf": true,
@@ -24157,18 +24157,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[面试题 17.21]直方图的水量",
-    "frontendQuestionId": "面试题 17.21",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1000029",
-    "status": "",
-    "title": "直方图的水量",
-    "titleSlug": "volume-of-histogram-lcci"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[面试题 17.22]单词转换",
     "frontendQuestionId": "面试题 17.22",
     "leaf": true,
@@ -24250,5 +24238,17 @@
     "status": "",
     "title": "二叉树中和为某一值的路径",
     "titleSlug": "er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[面试题59 - I]滑动窗口的最大值",
+    "frontendQuestionId": "面试题59 - I",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "100336",
+    "status": "",
+    "title": "滑动窗口的最大值",
+    "titleSlug": "hua-dong-chuang-kou-de-zui-da-zhi-lcof"
   }
 ]

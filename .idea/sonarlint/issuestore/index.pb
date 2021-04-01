@@ -335,3 +335,5 @@ l
 <src/main/java/me/bob/leetcode/editor/cn/ClumsyFactorial.java,7\e\7ebe38a8bf7e4a8558a6029f6e0477ca98089655
 z
 Jsrc/main/java/me/bob/leetcode/editor/cn/BinaryTreeLevelOrderTraversal.java,f\6\f6a09511e5c5aaa8f2d19296a010afc393dce676
+i
+9src/main/java/me/bob/leetcode/editor/cn/Permutations.java,3\a\3aa05ad89f07473a44eed284d3332203162076b3
