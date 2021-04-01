@@ -7,7 +7,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1048",
-    "status": "",
+    "status": "ac",
     "title": "笨阶乘",
     "titleSlug": "clumsy-factorial"
   },
@@ -21709,6 +21709,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1810]Minimum Path Cost in a Hidden Grid",
+    "frontendQuestionId": "1810",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1959",
+    "status": "",
+    "title": "Minimum Path Cost in a Hidden Grid",
+    "titleSlug": "minimum-path-cost-in-a-hidden-grid"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[LCP 01]猜数字",
     "frontendQuestionId": "LCP 01",
     "leaf": true,
@@ -22267,7 +22279,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100291",
-    "status": "",
+    "status": "ac",
     "title": "调整数组顺序使奇数位于偶数前面",
     "titleSlug": "diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof"
   },
