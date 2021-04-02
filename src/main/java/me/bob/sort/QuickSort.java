@@ -23,9 +23,9 @@ public class QuickSort {
     }
 
     private static int partition(int[] arr, int left, int right) {
-        int pivot = right, counter = left;
+        int counter = left;
         for (int i = left; i < right; i++) {
-            if (arr[i] < arr[pivot]) {
+            if (arr[i] < arr[right]) {
                 int temp = arr[counter];
                 arr[counter] = arr[i];
                 arr[i] = temp;
@@ -33,8 +33,8 @@ public class QuickSort {
             }
         }
 
-        int temp = arr[pivot];
-        arr[pivot] = arr[counter];
+        int temp = arr[right];
+        arr[right] = arr[counter];
         arr[counter] = temp;
 
         return counter;
