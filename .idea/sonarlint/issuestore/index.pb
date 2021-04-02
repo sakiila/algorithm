@@ -337,3 +337,9 @@ z
 Jsrc/main/java/me/bob/leetcode/editor/cn/BinaryTreeLevelOrderTraversal.java,f\6\f6a09511e5c5aaa8f2d19296a010afc393dce676
 i
 9src/main/java/me/bob/leetcode/editor/cn/Permutations.java,3\a\3aa05ad89f07473a44eed284d3332203162076b3
+r
+Bsrc/main/java/me/bob/leetcode/editor/cn/VolumeOfHistogramLcci.java,2\a\2af87f9fa7ebcc08a09cd41217dba10ca8937074
+j
+:src/main/java/me/bob/leetcode/editor/cn/FairCandySwap.java,b\1\b1d16c827fa6109f859891dedf2f09c73e23498c
+u
+Esrc/main/java/me/bob/leetcode/editor/cn/MinimumDepthOfBinaryTree.java,c\f\cfe7c99346e03a454dc816605bdc701f0f0c2537

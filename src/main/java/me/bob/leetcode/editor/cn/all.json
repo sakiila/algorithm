@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[面试题 17.21]直方图的水量",
-    "frontendQuestionId": "面试题 17.21",
+    "formTitle": "[1143]最长公共子序列",
+    "frontendQuestionId": "1143",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1000029",
-    "status": "",
-    "title": "直方图的水量",
-    "titleSlug": "volume-of-histogram-lcci"
+    "questionId": "1250",
+    "status": "ac",
+    "title": "最长公共子序列",
+    "titleSlug": "longest-common-subsequence"
   },
   {
     "articleLive": 2,
@@ -13717,18 +13717,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1143]最长公共子序列",
-    "frontendQuestionId": "1143",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1250",
-    "status": "ac",
-    "title": "最长公共子序列",
-    "titleSlug": "longest-common-subsequence"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1144]递减元素使数组呈锯齿状",
     "frontendQuestionId": "1144",
     "leaf": true,
@@ -21733,6 +21721,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1811]Find Interview Candidates",
+    "frontendQuestionId": "1811",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1964",
+    "status": "",
+    "title": "Find Interview Candidates",
+    "titleSlug": "find-interview-candidates"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[LCP 01]猜数字",
     "frontendQuestionId": "LCP 01",
     "leaf": true,
@@ -24154,6 +24154,18 @@
     "status": "",
     "title": "连续中值",
     "titleSlug": "continuous-median-lcci"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[面试题 17.21]直方图的水量",
+    "frontendQuestionId": "面试题 17.21",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1000029",
+    "status": "ac",
+    "title": "直方图的水量",
+    "titleSlug": "volume-of-histogram-lcci"
   },
   {
     "articleLive": 2,
