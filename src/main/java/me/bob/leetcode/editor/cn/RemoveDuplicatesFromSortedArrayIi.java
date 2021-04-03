@@ -59,7 +59,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 80 删除排序数组中的重复项 II
  * 2021-02-11 07:55:20
- * 思路：快慢指针
+ * 思路：一次遍历，确定判断条件
  */
 public class RemoveDuplicatesFromSortedArrayIi {
     public static void main(String[] args) {
@@ -69,20 +69,17 @@ public class RemoveDuplicatesFromSortedArrayIi {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int removeDuplicates(int[] nums) {
-            int a = 0, b = 1, k = 0;
-            while (b < nums.length) {
-                if (nums[a] == nums[b]) {
-                    k++;
-                } else {
-                    k = 0;
+            int i = 0;
+
+            for (int n : nums) {
+                // 如果指针 i 小于 2，或者当前数比前第二数大，则替换
+                if (i < 2 || n > nums[i - 2]) {
+                    nums[i] = n;
+                    i++;
                 }
-                if (k < 2) {
-                    a++;
-                    nums[a] = nums[b];
-                }
-                b++;
             }
-            return a + 1;
+
+            return i;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
