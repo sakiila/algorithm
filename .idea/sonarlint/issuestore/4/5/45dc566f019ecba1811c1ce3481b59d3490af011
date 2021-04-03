@@ -1,10 +1,6 @@
 
-A
-java:S1659H"Declare "b" on a separate line.(èîÁËüÿÿÿÿ8¤¡üòø.
-A
-java:S1659H"Declare "k" on a separate line.(èîÁËüÿÿÿÿ8¤¡üòø.
 V	java:S125"<This block of commented-out lines of code should be removed.(€œ”ÿÿÿÿÿ
-R
-java:S1854B"<Remove this useless assignment to local variable "solution".(ÓĞ¢
 C
 java:S1481B"-Remove this unused "solution" local variable.(ÓĞ¢
+R
+java:S1854B"<Remove this useless assignment to local variable "solution".(ÓĞ¢
