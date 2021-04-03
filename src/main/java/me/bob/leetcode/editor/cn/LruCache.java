@@ -127,9 +127,8 @@ public class LruCache {
                 addToHead(node);
                 if (map.size() > size) {
                     // remove tail
-                    Node temp = tail.prev;
-                    map.remove(temp.key);
-                    removeNode(temp);
+                    map.remove(tail.prev.key);
+                    removeNode(tail.prev);
                 }
             }
         }

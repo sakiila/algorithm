@@ -22255,7 +22255,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100299",
-    "status": "",
+    "status": "ac",
     "title": "删除链表的节点",
     "titleSlug": "shan-chu-lian-biao-de-jie-dian-lcof"
   },
