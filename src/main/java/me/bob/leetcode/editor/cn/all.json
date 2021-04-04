@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[781]森林中的兔子",
-    "frontendQuestionId": "781",
+    "formTitle": "[88]合并两个有序数组",
+    "frontendQuestionId": "88",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "797",
-    "status": "",
-    "title": "森林中的兔子",
-    "titleSlug": "rabbits-in-forest"
+    "questionId": "88",
+    "status": "ac",
+    "title": "合并两个有序数组",
+    "titleSlug": "merge-sorted-array"
   },
   {
     "articleLive": 2,
@@ -1057,18 +1057,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[88]合并两个有序数组",
-    "frontendQuestionId": "88",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "88",
-    "status": "ac",
-    "title": "合并两个有序数组",
-    "titleSlug": "merge-sorted-array"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[89]格雷编码",
     "frontendQuestionId": "89",
     "leaf": true,
@@ -1375,7 +1363,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "114",
-    "status": "",
+    "status": "ac",
     "title": "二叉树展开为链表",
     "titleSlug": "flatten-binary-tree-to-linked-list"
   },
@@ -6523,7 +6511,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "543",
-    "status": "",
+    "status": "ac",
     "title": "二叉树的直径",
     "titleSlug": "diameter-of-binary-tree"
   },
@@ -9370,6 +9358,18 @@
     "status": "",
     "title": "到达终点",
     "titleSlug": "reaching-points"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[781]森林中的兔子",
+    "frontendQuestionId": "781",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "797",
+    "status": "ac",
+    "title": "森林中的兔子",
+    "titleSlug": "rabbits-in-forest"
   },
   {
     "articleLive": 2,
@@ -21778,6 +21778,54 @@
     "status": "",
     "title": "统计一个数组中好对子的数目",
     "titleSlug": "count-nice-pairs-in-an-array"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5722]截断句子",
+    "frontendQuestionId": "5722",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1944",
+    "status": "",
+    "title": "截断句子",
+    "titleSlug": "truncate-sentence"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5723]查找用户活跃分钟数",
+    "frontendQuestionId": "5723",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1945",
+    "status": "",
+    "title": "查找用户活跃分钟数",
+    "titleSlug": "finding-the-users-active-minutes"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5724]绝对差值和",
+    "frontendQuestionId": "5724",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1946",
+    "status": "",
+    "title": "绝对差值和",
+    "titleSlug": "minimum-absolute-sum-difference"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5725]序列中不同最大公约数的数目",
+    "frontendQuestionId": "5725",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1947",
+    "status": "",
+    "title": "序列中不同最大公约数的数目",
+    "titleSlug": "number-of-different-subsequences-gcds"
   },
   {
     "articleLive": 2,
