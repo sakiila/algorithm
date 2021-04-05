@@ -71,10 +71,10 @@ public class RemoveDuplicatesFromSortedArrayIi {
         public int removeDuplicates(int[] nums) {
             int i = 0;
 
-            for (int n : nums) {
+            for (int num : nums) {
                 // 如果指针 i 小于 2，或者当前数比前第二数大，则替换
-                if (i < 2 || n > nums[i - 2]) {
-                    nums[i] = n;
+                if (i < 2 || num > nums[i - 2]) {
+                    nums[i] = num;
                     i++;
                 }
             }

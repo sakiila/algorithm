@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[88]合并两个有序数组",
-    "frontendQuestionId": "88",
+    "formTitle": "[80]删除有序数组中的重复项 II",
+    "frontendQuestionId": "80",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "88",
+    "questionId": "80",
     "status": "ac",
-    "title": "合并两个有序数组",
-    "titleSlug": "merge-sorted-array"
+    "title": "删除有序数组中的重复项 II",
+    "titleSlug": "remove-duplicates-from-sorted-array-ii"
   },
   {
     "articleLive": 2,
@@ -283,7 +283,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "23",
-    "status": "",
+    "status": "ac",
     "title": "合并K个升序链表",
     "titleSlug": "merge-k-sorted-lists"
   },
@@ -583,7 +583,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "48",
-    "status": "",
+    "status": "ac",
     "title": "旋转图像",
     "titleSlug": "rotate-image"
   },
@@ -961,18 +961,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[80]删除有序数组中的重复项 II",
-    "frontendQuestionId": "80",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "80",
-    "status": "ac",
-    "title": "删除有序数组中的重复项 II",
-    "titleSlug": "remove-duplicates-from-sorted-array-ii"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[81]搜索旋转排序数组 II",
     "frontendQuestionId": "81",
     "leaf": true,
@@ -1054,6 +1042,18 @@
     "status": "",
     "title": "扰乱字符串",
     "titleSlug": "scramble-string"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[88]合并两个有序数组",
+    "frontendQuestionId": "88",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "88",
+    "status": "ac",
+    "title": "合并两个有序数组",
+    "titleSlug": "merge-sorted-array"
   },
   {
     "articleLive": 2,
@@ -21733,8 +21733,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5705]判断国际象棋棋盘中一个格子的颜色",
-    "frontendQuestionId": "5705",
+    "formTitle": "[1812]判断国际象棋棋盘中一个格子的颜色",
+    "frontendQuestionId": "1812",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -21745,8 +21745,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5706]句子相似性 III",
-    "frontendQuestionId": "5706",
+    "formTitle": "[1813]句子相似性 III",
+    "frontendQuestionId": "1813",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21757,20 +21757,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5707]得到新鲜甜甜圈的最多组数",
-    "frontendQuestionId": "5707",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1924",
-    "status": "",
-    "title": "得到新鲜甜甜圈的最多组数",
-    "titleSlug": "maximum-number-of-groups-getting-fresh-donuts"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5708]统计一个数组中好对子的数目",
-    "frontendQuestionId": "5708",
+    "formTitle": "[1814]统计一个数组中好对子的数目",
+    "frontendQuestionId": "1814",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21781,8 +21769,20 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5722]截断句子",
-    "frontendQuestionId": "5722",
+    "formTitle": "[1815]得到新鲜甜甜圈的最多组数",
+    "frontendQuestionId": "1815",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1924",
+    "status": "",
+    "title": "得到新鲜甜甜圈的最多组数",
+    "titleSlug": "maximum-number-of-groups-getting-fresh-donuts"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1816]截断句子",
+    "frontendQuestionId": "1816",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -21793,8 +21793,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5723]查找用户活跃分钟数",
-    "frontendQuestionId": "5723",
+    "formTitle": "[1817]查找用户活跃分钟数",
+    "frontendQuestionId": "1817",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21805,8 +21805,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5724]绝对差值和",
-    "frontendQuestionId": "5724",
+    "formTitle": "[1818]绝对差值和",
+    "frontendQuestionId": "1818",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21817,8 +21817,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5725]序列中不同最大公约数的数目",
-    "frontendQuestionId": "5725",
+    "formTitle": "[1819]序列中不同最大公约数的数目",
+    "frontendQuestionId": "1819",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -22150,6 +22150,66 @@
     "status": "",
     "title": "黑盒光线反射",
     "titleSlug": "IQvJ9i"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 28]采购方案",
+    "frontendQuestionId": "LCP 28",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1000215",
+    "status": "",
+    "title": "采购方案",
+    "titleSlug": "4xy4Wx"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 29]乐团站位",
+    "frontendQuestionId": "LCP 29",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1000216",
+    "status": "",
+    "title": "乐团站位",
+    "titleSlug": "SNJvJP"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 30]魔塔游戏",
+    "frontendQuestionId": "LCP 30",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1000224",
+    "status": "",
+    "title": "魔塔游戏",
+    "titleSlug": "p0NxJO"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 31]变换的迷宫",
+    "frontendQuestionId": "LCP 31",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1000218",
+    "status": "",
+    "title": "变换的迷宫",
+    "titleSlug": "Db3wC1"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 32]批量处理任务",
+    "frontendQuestionId": "LCP 32",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1000219",
+    "status": "",
+    "title": "批量处理任务",
+    "titleSlug": "t3fKg1"
   },
   {
     "articleLive": 2,
