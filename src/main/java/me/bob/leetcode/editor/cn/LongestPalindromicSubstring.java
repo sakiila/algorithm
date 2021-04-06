@@ -60,13 +60,23 @@ public class LongestPalindromicSubstring {
         public String longestPalindrome(String s) {
             int n = s.length();
             String res = "";
+            // dp 表示以 i 开始，j 结束字符串的回文
             boolean[][] dp = new boolean[n][n];
 
-            for (int i = n - 1; i >= 0; i--) {
-                for (int j = i; j < n; j++) {
-                    dp[i][j] = (s.charAt(i) == s.charAt(j)) && (j - i < 2 || dp[i + 1][j - 1]);
-                    if (dp[i][j] && j - i + 1 > res.length()) {
-                        res = s.substring(i, j + 1);
+            // d 是长度
+            for (int d = 0; d < n; d++) {
+                for (int i = 0; i < n - d; i++) {
+                    int j = i + d;
+                    if (s.charAt(i) == s.charAt(j)) {
+                        if (d == 0 || d == 1) {
+                            dp[i][j] = true;
+                        } else {
+                            dp[i][j] = dp[i + 1][j - 1];
+                        }
+
+                        if (dp[i][j] && j - i + 1 > res.length()) {
+                            res = s.substring(i, j + 1);
+                        }
                     }
                 }
             }
