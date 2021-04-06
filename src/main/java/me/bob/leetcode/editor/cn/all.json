@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[80]删除有序数组中的重复项 II",
-    "frontendQuestionId": "80",
+    "formTitle": "[81]搜索旋转排序数组 II",
+    "frontendQuestionId": "81",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "80",
-    "status": "ac",
-    "title": "删除有序数组中的重复项 II",
-    "titleSlug": "remove-duplicates-from-sorted-array-ii"
+    "questionId": "81",
+    "status": "",
+    "title": "搜索旋转排序数组 II",
+    "titleSlug": "search-in-rotated-sorted-array-ii"
   },
   {
     "articleLive": 2,
@@ -961,15 +961,15 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[81]搜索旋转排序数组 II",
-    "frontendQuestionId": "81",
+    "formTitle": "[80]删除有序数组中的重复项 II",
+    "frontendQuestionId": "80",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "81",
-    "status": "",
-    "title": "搜索旋转排序数组 II",
-    "titleSlug": "search-in-rotated-sorted-array-ii"
+    "questionId": "80",
+    "status": "ac",
+    "title": "删除有序数组中的重复项 II",
+    "titleSlug": "remove-duplicates-from-sorted-array-ii"
   },
   {
     "articleLive": 2,
