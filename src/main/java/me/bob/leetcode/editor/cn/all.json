@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[81]搜索旋转排序数组 II",
-    "frontendQuestionId": "81",
+    "formTitle": "[153]寻找旋转排序数组中的最小值",
+    "frontendQuestionId": "153",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "81",
-    "status": "",
-    "title": "搜索旋转排序数组 II",
-    "titleSlug": "search-in-rotated-sorted-array-ii"
+    "questionId": "153",
+    "status": "ac",
+    "title": "寻找旋转排序数组中的最小值",
+    "titleSlug": "find-minimum-in-rotated-sorted-array"
   },
   {
     "articleLive": 2,
@@ -973,6 +973,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[81]搜索旋转排序数组 II",
+    "frontendQuestionId": "81",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "81",
+    "status": "ac",
+    "title": "搜索旋转排序数组 II",
+    "titleSlug": "search-in-rotated-sorted-array-ii"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[82]删除排序链表中的重复元素 II",
     "frontendQuestionId": "82",
     "leaf": true,
@@ -1822,18 +1834,6 @@
     "status": "",
     "title": "乘积最大子数组",
     "titleSlug": "maximum-product-subarray"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[153]寻找旋转排序数组中的最小值",
-    "frontendQuestionId": "153",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "153",
-    "status": "ac",
-    "title": "寻找旋转排序数组中的最小值",
-    "titleSlug": "find-minimum-in-rotated-sorted-array"
   },
   {
     "articleLive": 2,
@@ -4060,7 +4060,7 @@
     "formTitle": "[339]嵌套列表权重和",
     "frontendQuestionId": "339",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "339",
     "status": "",
