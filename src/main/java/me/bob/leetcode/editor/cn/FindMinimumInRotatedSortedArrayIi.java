@@ -49,7 +49,8 @@ public class FindMinimumInRotatedSortedArrayIi {
                 } else if (nums[mid] < nums[right]) {
                     right = mid;
                 } else {
-                    // 注意这里
+                    // 注意这里，比如 [1, 0, 1, 1, 1]，无法判断 mid 在左边还是右边
+                    // 所以缩减右边界
                     right = right - 1;
                 }
             }

@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[153]寻找旋转排序数组中的最小值",
-    "frontendQuestionId": "153",
+    "formTitle": "[154]寻找旋转排序数组中的最小值 II",
+    "frontendQuestionId": "154",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "153",
+    "questionId": "154",
     "status": "ac",
-    "title": "寻找旋转排序数组中的最小值",
-    "titleSlug": "find-minimum-in-rotated-sorted-array"
+    "title": "寻找旋转排序数组中的最小值 II",
+    "titleSlug": "find-minimum-in-rotated-sorted-array-ii"
   },
   {
     "articleLive": 2,
@@ -1837,15 +1837,15 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[154]寻找旋转排序数组中的最小值 II",
-    "frontendQuestionId": "154",
+    "formTitle": "[153]寻找旋转排序数组中的最小值",
+    "frontendQuestionId": "153",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "154",
+    "questionId": "153",
     "status": "ac",
-    "title": "寻找旋转排序数组中的最小值 II",
-    "titleSlug": "find-minimum-in-rotated-sorted-array-ii"
+    "title": "寻找旋转排序数组中的最小值",
+    "titleSlug": "find-minimum-in-rotated-sorted-array"
   },
   {
     "articleLive": 2,
@@ -21829,6 +21829,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1820]Maximum Number of Accepted Invitations",
+    "frontendQuestionId": "1820",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1969",
+    "status": "",
+    "title": "Maximum Number of Accepted Invitations",
+    "titleSlug": "maximum-number-of-accepted-invitations"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[LCP 01]猜数字",
     "frontendQuestionId": "LCP 01",
     "leaf": true,
@@ -22687,7 +22699,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "100304",
-    "status": "",
+    "status": "ac",
     "title": "连续子数组的最大和",
     "titleSlug": "lian-xu-zi-shu-zu-de-zui-da-he-lcof"
   },
