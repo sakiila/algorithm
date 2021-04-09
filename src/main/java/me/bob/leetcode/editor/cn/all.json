@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[154]寻找旋转排序数组中的最小值 II",
-    "frontendQuestionId": "154",
+    "formTitle": "[263]丑数",
+    "frontendQuestionId": "263",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "154",
-    "status": "ac",
-    "title": "寻找旋转排序数组中的最小值 II",
-    "titleSlug": "find-minimum-in-rotated-sorted-array-ii"
+    "questionId": "263",
+    "status": "",
+    "title": "丑数",
+    "titleSlug": "ugly-number"
   },
   {
     "articleLive": 2,
@@ -1849,6 +1849,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[154]寻找旋转排序数组中的最小值 II",
+    "frontendQuestionId": "154",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "154",
+    "status": "ac",
+    "title": "寻找旋转排序数组中的最小值 II",
+    "titleSlug": "find-minimum-in-rotated-sorted-array-ii"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[155]最小栈",
     "frontendQuestionId": "155",
     "leaf": true,
@@ -3142,18 +3154,6 @@
     "status": "",
     "title": "行程和用户",
     "titleSlug": "trips-and-users"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[263]丑数",
-    "frontendQuestionId": "263",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "263",
-    "status": "",
-    "title": "丑数",
-    "titleSlug": "ugly-number"
   },
   {
     "articleLive": 2,
@@ -22549,6 +22549,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[剑指 Offer 30]包含min函数的栈",
+    "frontendQuestionId": "剑指 Offer 30",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "100302",
+    "status": "",
+    "title": "包含min函数的栈",
+    "titleSlug": "bao-han-minhan-shu-de-zhan-lcof"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[剑指 Offer 31]栈的压入、弹出序列",
     "frontendQuestionId": "剑指 Offer 31",
     "leaf": true,
@@ -22606,6 +22618,18 @@
     "status": "",
     "title": "二叉搜索树的后序遍历序列",
     "titleSlug": "er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[剑指 Offer 34]二叉树中和为某一值的路径",
+    "frontendQuestionId": "剑指 Offer 34",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "100317",
+    "status": "",
+    "title": "二叉树中和为某一值的路径",
+    "titleSlug": "er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof"
   },
   {
     "articleLive": 2,
@@ -22954,6 +22978,18 @@
     "status": "",
     "title": "左旋转字符串",
     "titleSlug": "zuo-xuan-zhuan-zi-fu-chuan-lcof"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[剑指 Offer 59 - I]滑动窗口的最大值",
+    "frontendQuestionId": "剑指 Offer 59 - I",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "100336",
+    "status": "",
+    "title": "滑动窗口的最大值",
+    "titleSlug": "hua-dong-chuang-kou-de-zui-da-zhi-lcof"
   },
   {
     "articleLive": 2,
@@ -24394,41 +24430,5 @@
     "status": "",
     "title": "稀疏相似度",
     "titleSlug": "sparse-similarity-lcci"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[面试题30]包含min函数的栈",
-    "frontendQuestionId": "面试题30",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "100302",
-    "status": "",
-    "title": "包含min函数的栈",
-    "titleSlug": "bao-han-minhan-shu-de-zhan-lcof"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[面试题34]二叉树中和为某一值的路径",
-    "frontendQuestionId": "面试题34",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "100317",
-    "status": "",
-    "title": "二叉树中和为某一值的路径",
-    "titleSlug": "er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[面试题59 - I]滑动窗口的最大值",
-    "frontendQuestionId": "面试题59 - I",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "100336",
-    "status": "",
-    "title": "滑动窗口的最大值",
-    "titleSlug": "hua-dong-chuang-kou-de-zui-da-zhi-lcof"
   }
 ]
