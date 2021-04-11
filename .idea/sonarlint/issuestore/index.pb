@@ -371,3 +371,5 @@ g
 7src/main/java/me/bob/leetcode/editor/cn/UglyNumber.java,c\3\c3d024eb565d48e8fa44db4deb23682e90199456
 i
 9src/main/java/me/bob/leetcode/editor/cn/DecodeString.java,4\d\4d4373d223e91e7a1ddf31097a366b31196e875c
+i
+9src/main/java/me/bob/leetcode/editor/cn/UglyNumberIi.java,0\0\00af548fc404953d3e587384f9b57ef80e2008d1

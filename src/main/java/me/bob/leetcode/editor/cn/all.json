@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[264]丑数 II",
-    "frontendQuestionId": "264",
+    "formTitle": "[179]最大数",
+    "frontendQuestionId": "179",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "264",
+    "questionId": "179",
     "status": "",
-    "title": "丑数 II",
-    "titleSlug": "ugly-number-ii"
+    "title": "最大数",
+    "titleSlug": "largest-number"
   },
   {
     "articleLive": 2,
@@ -2149,18 +2149,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[179]最大数",
-    "frontendQuestionId": "179",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "179",
-    "status": "",
-    "title": "最大数",
-    "titleSlug": "largest-number"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[180]连续出现的数字",
     "frontendQuestionId": "180",
     "leaf": true,
@@ -3166,6 +3154,18 @@
     "status": "ac",
     "title": "丑数",
     "titleSlug": "ugly-number"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[264]丑数 II",
+    "frontendQuestionId": "264",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "264",
+    "status": "ac",
+    "title": "丑数 II",
+    "titleSlug": "ugly-number-ii"
   },
   {
     "articleLive": 2,
@@ -21838,6 +21838,66 @@
     "status": "",
     "title": "Maximum Number of Accepted Invitations",
     "titleSlug": "maximum-number-of-accepted-invitations"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1821]Find Customers With Positive Revenue this Year",
+    "frontendQuestionId": "1821",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1974",
+    "status": "",
+    "title": "Find Customers With Positive Revenue this Year",
+    "titleSlug": "find-customers-with-positive-revenue-this-year"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5726]数组元素积的符号",
+    "frontendQuestionId": "5726",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1950",
+    "status": "",
+    "title": "数组元素积的符号",
+    "titleSlug": "sign-of-the-product-of-an-array"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5727]找出游戏的获胜者",
+    "frontendQuestionId": "5727",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1951",
+    "status": "",
+    "title": "找出游戏的获胜者",
+    "titleSlug": "find-the-winner-of-the-circular-game"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5728]最少侧跳次数",
+    "frontendQuestionId": "5728",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1952",
+    "status": "",
+    "title": "最少侧跳次数",
+    "titleSlug": "minimum-sideway-jumps"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5729]求出 MK 平均值",
+    "frontendQuestionId": "5729",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1953",
+    "status": "",
+    "title": "求出 MK 平均值",
+    "titleSlug": "finding-mk-average"
   },
   {
     "articleLive": 2,
