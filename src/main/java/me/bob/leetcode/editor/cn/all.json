@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[263]丑数",
-    "frontendQuestionId": "263",
+    "formTitle": "[264]丑数 II",
+    "frontendQuestionId": "264",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "263",
+    "questionId": "264",
     "status": "",
-    "title": "丑数",
-    "titleSlug": "ugly-number"
+    "title": "丑数 II",
+    "titleSlug": "ugly-number-ii"
   },
   {
     "articleLive": 2,
@@ -3157,15 +3157,15 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[264]丑数 II",
-    "frontendQuestionId": "264",
+    "formTitle": "[263]丑数",
+    "frontendQuestionId": "263",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "264",
-    "status": "",
-    "title": "丑数 II",
-    "titleSlug": "ugly-number-ii"
+    "questionId": "263",
+    "status": "ac",
+    "title": "丑数",
+    "titleSlug": "ugly-number"
   },
   {
     "articleLive": 2,
@@ -22222,6 +22222,78 @@
     "status": "",
     "title": "批量处理任务",
     "titleSlug": "t3fKg1"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 33]蓄水",
+    "frontendQuestionId": "LCP 33",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1000221",
+    "status": "",
+    "title": "蓄水",
+    "titleSlug": "o8SXZn"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 34]二叉树染色",
+    "frontendQuestionId": "LCP 34",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1000089",
+    "status": "",
+    "title": "二叉树染色",
+    "titleSlug": "er-cha-shu-ran-se-UGC"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 35]电动车游城市",
+    "frontendQuestionId": "LCP 35",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1000220",
+    "status": "",
+    "title": "电动车游城市",
+    "titleSlug": "DFPeFJ"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 36]最多牌组数",
+    "frontendQuestionId": "LCP 36",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1000222",
+    "status": "",
+    "title": "最多牌组数",
+    "titleSlug": "Up5XYM"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 37]最小矩形面积",
+    "frontendQuestionId": "LCP 37",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1000091",
+    "status": "",
+    "title": "最小矩形面积",
+    "titleSlug": "zui-xiao-ju-xing-mian-ji"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[LCP 38]守卫城堡",
+    "frontendQuestionId": "LCP 38",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1000223",
+    "status": "",
+    "title": "守卫城堡",
+    "titleSlug": "7rLGCR"
   },
   {
     "articleLive": 2,
