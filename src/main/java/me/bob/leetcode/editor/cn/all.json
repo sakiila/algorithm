@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[179]最大数",
-    "frontendQuestionId": "179",
+    "formTitle": "[783]二叉搜索树节点最小距离",
+    "frontendQuestionId": "783",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "179",
+    "questionId": "799",
     "status": "",
-    "title": "最大数",
-    "titleSlug": "largest-number"
+    "title": "二叉搜索树节点最小距离",
+    "titleSlug": "minimum-distance-between-bst-nodes"
   },
   {
     "articleLive": 2,
@@ -2146,6 +2146,18 @@
     "status": "",
     "title": "分数排名",
     "titleSlug": "rank-scores"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[179]最大数",
+    "frontendQuestionId": "179",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "179",
+    "status": "ac",
+    "title": "最大数",
+    "titleSlug": "largest-number"
   },
   {
     "articleLive": 2,
@@ -9382,18 +9394,6 @@
     "status": "",
     "title": "变为棋盘",
     "titleSlug": "transform-to-chessboard"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[783]二叉搜索树节点最小距离",
-    "frontendQuestionId": "783",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "799",
-    "status": "",
-    "title": "二叉搜索树节点最小距离",
-    "titleSlug": "minimum-distance-between-bst-nodes"
   },
   {
     "articleLive": 2,
@@ -20761,14 +20761,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1731]The Number of Employees Which Report to Each Employee",
+    "formTitle": "[1731]每位经理的下属员工数量",
     "frontendQuestionId": "1731",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1882",
     "status": "",
-    "title": "The Number of Employees Which Report to Each Employee",
+    "title": "每位经理的下属员工数量",
     "titleSlug": "the-number-of-employees-which-report-to-each-employee"
   },
   {
@@ -20881,14 +20881,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1741]Find Total Time Spent by Each Employee",
+    "formTitle": "[1741]查找每个员工花费的总时间",
     "frontendQuestionId": "1741",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1892",
     "status": "",
-    "title": "Find Total Time Spent by Each Employee",
+    "title": "查找每个员工花费的总时间",
     "titleSlug": "find-total-time-spent-by-each-employee"
   },
   {
@@ -20941,26 +20941,26 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1746]Maximum Subarray Sum After One Operation",
+    "formTitle": "[1746]经过一次操作后的最大子数组和",
     "frontendQuestionId": "1746",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "1893",
     "status": "",
-    "title": "Maximum Subarray Sum After One Operation",
+    "title": "经过一次操作后的最大子数组和",
     "titleSlug": "maximum-subarray-sum-after-one-operation"
   },
   {
     "articleLive": 2,
-    "formTitle": "[1747]Leetflex Banned Accounts",
+    "formTitle": "[1747]应该被禁止的Leetflex账户",
     "frontendQuestionId": "1747",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "1898",
     "status": "",
-    "title": "Leetflex Banned Accounts",
+    "title": "应该被禁止的Leetflex账户",
     "titleSlug": "leetflex-banned-accounts"
   },
   {
@@ -21853,8 +21853,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5726]数组元素积的符号",
-    "frontendQuestionId": "5726",
+    "formTitle": "[1822]数组元素积的符号",
+    "frontendQuestionId": "1822",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -21865,8 +21865,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5727]找出游戏的获胜者",
-    "frontendQuestionId": "5727",
+    "formTitle": "[1823]找出游戏的获胜者",
+    "frontendQuestionId": "1823",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21877,8 +21877,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5728]最少侧跳次数",
-    "frontendQuestionId": "5728",
+    "formTitle": "[1824]最少侧跳次数",
+    "frontendQuestionId": "1824",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21889,8 +21889,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5729]求出 MK 平均值",
-    "frontendQuestionId": "5729",
+    "formTitle": "[1825]求出 MK 平均值",
+    "frontendQuestionId": "1825",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -22759,7 +22759,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "100317",
-    "status": "",
+    "status": "ac",
     "title": "二叉树中和为某一值的路径",
     "titleSlug": "er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof"
   },
@@ -23179,7 +23179,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "100344",
-    "status": "",
+    "status": "ac",
     "title": "股票的最大利润",
     "titleSlug": "gu-piao-de-zui-da-li-run-lcof"
   },
