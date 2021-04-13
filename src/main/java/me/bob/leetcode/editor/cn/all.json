@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[783]二叉搜索树节点最小距离",
-    "frontendQuestionId": "783",
+    "formTitle": "[208]实现 Trie (前缀树)",
+    "frontendQuestionId": "208",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "799",
-    "status": "",
-    "title": "二叉搜索树节点最小距离",
-    "titleSlug": "minimum-distance-between-bst-nodes"
+    "questionId": "208",
+    "status": "ac",
+    "title": "实现 Trie (前缀树)",
+    "titleSlug": "implement-trie-prefix-tree"
   },
   {
     "articleLive": 2,
@@ -2494,18 +2494,6 @@
     "status": "",
     "title": "课程表",
     "titleSlug": "course-schedule"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[208]实现 Trie (前缀树)",
-    "frontendQuestionId": "208",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "208",
-    "status": "ac",
-    "title": "实现 Trie (前缀树)",
-    "titleSlug": "implement-trie-prefix-tree"
   },
   {
     "articleLive": 2,
@@ -9394,6 +9382,18 @@
     "status": "",
     "title": "变为棋盘",
     "titleSlug": "transform-to-chessboard"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[783]二叉搜索树节点最小距离",
+    "frontendQuestionId": "783",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "799",
+    "status": "ac",
+    "title": "二叉搜索树节点最小距离",
+    "titleSlug": "minimum-distance-between-bst-nodes"
   },
   {
     "articleLive": 2,
