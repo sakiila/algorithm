@@ -80,6 +80,7 @@ public class ScrambleString {
             if (n != m) {
                 return false;
             }
+            // dp[i][j][len] 表示从字符串 S 中 i 开始长度为 len 的字符串是否能变换为从字符串 T 中 j 开始长度为 len 的字符串
             boolean[][][] dp = new boolean[n][n][n + 1];
             // 初始化单个字符的情况
             for (int i = 0; i < n; i++) {
