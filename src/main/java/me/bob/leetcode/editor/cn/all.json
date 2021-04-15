@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[213]打家劫舍 II",
-    "frontendQuestionId": "213",
+    "formTitle": "[87]扰乱字符串",
+    "frontendQuestionId": "87",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "213",
-    "status": "ac",
-    "title": "打家劫舍 II",
-    "titleSlug": "house-robber-ii"
+    "questionId": "87",
+    "status": "",
+    "title": "扰乱字符串",
+    "titleSlug": "scramble-string"
   },
   {
     "articleLive": 2,
@@ -1042,18 +1042,6 @@
     "status": "",
     "title": "分隔链表",
     "titleSlug": "partition-list"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[87]扰乱字符串",
-    "frontendQuestionId": "87",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "87",
-    "status": "",
-    "title": "扰乱字符串",
-    "titleSlug": "scramble-string"
   },
   {
     "articleLive": 2,
@@ -2554,6 +2542,18 @@
     "status": "",
     "title": "单词搜索 II",
     "titleSlug": "word-search-ii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[213]打家劫舍 II",
+    "frontendQuestionId": "213",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "213",
+    "status": "ac",
+    "title": "打家劫舍 II",
+    "titleSlug": "house-robber-ii"
   },
   {
     "articleLive": 2,
@@ -21898,6 +21898,18 @@
     "status": "",
     "title": "求出 MK 平均值",
     "titleSlug": "finding-mk-average"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1826]Faulty Sensor",
+    "frontendQuestionId": "1826",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1980",
+    "status": "",
+    "title": "Faulty Sensor",
+    "titleSlug": "faulty-sensor"
   },
   {
     "articleLive": 2,
