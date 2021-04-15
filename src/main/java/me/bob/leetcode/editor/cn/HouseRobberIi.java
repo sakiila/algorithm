@@ -65,17 +65,17 @@ public class HouseRobberIi {
         }
 
         public int dp(int[] nums, int start, int end) {
-            int a = 0;
-            int b = 0;
+            int prevPrevMax = 0;
+            int prevMax = 0;
             int curr = 0;
             for (int i = start; i < end + 1; i++) {
-                curr = Math.max(a + nums[i], b);
-                a = b;
-                b = curr;
+                curr = Math.max(prevPrevMax + nums[i], prevMax);
+                prevPrevMax = prevMax;
+                prevMax = curr;
             }
             return curr;
         }
 
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
+}
