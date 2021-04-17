@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[87]扰乱字符串",
-    "frontendQuestionId": "87",
+    "formTitle": "[220]存在重复元素 III",
+    "frontendQuestionId": "220",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "87",
-    "status": "",
-    "title": "扰乱字符串",
-    "titleSlug": "scramble-string"
+    "questionId": "220",
+    "status": "ac",
+    "title": "存在重复元素 III",
+    "titleSlug": "contains-duplicate-iii"
   },
   {
     "articleLive": 2,
@@ -1042,6 +1042,18 @@
     "status": "",
     "title": "分隔链表",
     "titleSlug": "partition-list"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[87]扰乱字符串",
+    "frontendQuestionId": "87",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "87",
+    "status": "ac",
+    "title": "扰乱字符串",
+    "titleSlug": "scramble-string"
   },
   {
     "articleLive": 2,
@@ -2626,18 +2638,6 @@
     "status": "ac",
     "title": "存在重复元素 II",
     "titleSlug": "contains-duplicate-ii"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[220]存在重复元素 III",
-    "frontendQuestionId": "220",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "220",
-    "status": "ac",
-    "title": "存在重复元素 III",
-    "titleSlug": "contains-duplicate-iii"
   },
   {
     "articleLive": 2,

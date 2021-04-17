@@ -30,7 +30,7 @@ import java.util.TreeSet;
 /**
  * 220 存在重复元素 III
  * 2021-02-14 10:00:56
- * 思路：TreeSet
+ * 思路：滑动窗口 + 有序集合
  */
 public class ContainsDuplicateIii {
     public static void main(String[] args) {
