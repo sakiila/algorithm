@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[220]存在重复元素 III",
-    "frontendQuestionId": "220",
+    "formTitle": "[27]移除元素",
+    "frontendQuestionId": "27",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "220",
+    "questionId": "27",
     "status": "ac",
-    "title": "存在重复元素 III",
-    "titleSlug": "contains-duplicate-iii"
+    "title": "移除元素",
+    "titleSlug": "remove-element"
   },
   {
     "articleLive": 2,
@@ -322,18 +322,6 @@
     "status": "ac",
     "title": "删除有序数组中的重复项",
     "titleSlug": "remove-duplicates-from-sorted-array"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[27]移除元素",
-    "frontendQuestionId": "27",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "27",
-    "status": "ac",
-    "title": "移除元素",
-    "titleSlug": "remove-element"
   },
   {
     "articleLive": 2,
@@ -2638,6 +2626,18 @@
     "status": "ac",
     "title": "存在重复元素 II",
     "titleSlug": "contains-duplicate-ii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[220]存在重复元素 III",
+    "frontendQuestionId": "220",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "220",
+    "status": "ac",
+    "title": "存在重复元素 III",
+    "titleSlug": "contains-duplicate-iii"
   },
   {
     "articleLive": 2,
@@ -10753,14 +10753,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[897]递增顺序查找树",
+    "formTitle": "[897]递增顺序搜索树",
     "frontendQuestionId": "897",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "933",
     "status": "",
-    "title": "递增顺序查找树",
+    "title": "递增顺序搜索树",
     "titleSlug": "increasing-order-search-tree"
   },
   {
@@ -21910,6 +21910,114 @@
     "status": "",
     "title": "Faulty Sensor",
     "titleSlug": "faulty-sensor"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1828]统计一个圆中点的数目",
+    "frontendQuestionId": "1828",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1939",
+    "status": "",
+    "title": "统计一个圆中点的数目",
+    "titleSlug": "queries-on-number-of-points-inside-a-circle"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1831]Maximum Transaction Each Day",
+    "frontendQuestionId": "1831",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1981",
+    "status": "",
+    "title": "Maximum Transaction Each Day",
+    "titleSlug": "maximum-transaction-each-day"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5717]最少操作使数组递增",
+    "frontendQuestionId": "5717",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1938",
+    "status": "",
+    "title": "最少操作使数组递增",
+    "titleSlug": "minimum-operations-to-make-the-array-increasing"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5719]每个查询的最大异或值",
+    "frontendQuestionId": "5719",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1940",
+    "status": "",
+    "title": "每个查询的最大异或值",
+    "titleSlug": "maximum-xor-for-each-query"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5720]使字符串有序的最少操作次数",
+    "frontendQuestionId": "5720",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1941",
+    "status": "",
+    "title": "使字符串有序的最少操作次数",
+    "titleSlug": "minimum-number-of-operations-to-make-string-sorted"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5734]判断句子是否为全字母句",
+    "frontendQuestionId": "5734",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1960",
+    "status": "",
+    "title": "判断句子是否为全字母句",
+    "titleSlug": "check-if-the-sentence-is-pangram"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5735]雪糕的最大数量",
+    "frontendQuestionId": "5735",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1961",
+    "status": "",
+    "title": "雪糕的最大数量",
+    "titleSlug": "maximum-ice-cream-bars"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5736]单线程 CPU",
+    "frontendQuestionId": "5736",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1962",
+    "status": "",
+    "title": "单线程 CPU",
+    "titleSlug": "single-threaded-cpu"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5737]所有数对按位与结果的异或和",
+    "frontendQuestionId": "5737",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1963",
+    "status": "",
+    "title": "所有数对按位与结果的异或和",
+    "titleSlug": "find-xor-sum-of-all-pairs-bitwise-and"
   },
   {
     "articleLive": 2,
