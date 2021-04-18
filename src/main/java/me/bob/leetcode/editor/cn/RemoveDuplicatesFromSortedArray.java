@@ -64,17 +64,17 @@ public class RemoveDuplicatesFromSortedArray {
             }
 
             int n = nums.length;
-            int i = 0, j = 1;
+            int left = 0, right = 1;
 
-            while (j < n) {
-                if (nums[j] != nums[i]) {
-                    i++;
-                    nums[i] = nums[j];
+            while (right < n) {
+                if (nums[right] != nums[left]) {
+                    left++;
+                    nums[left] = nums[right];
                 }
-                j++;
+                right++;
             }
 
-            return i + 1;
+            return left + 1;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
