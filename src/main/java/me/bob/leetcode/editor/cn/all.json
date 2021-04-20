@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[28]实现 strStr()",
-    "frontendQuestionId": "28",
+    "formTitle": "[91]解码方法",
+    "frontendQuestionId": "91",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "28",
-    "status": "ac",
-    "title": "实现 strStr()",
-    "titleSlug": "implement-strstr"
+    "questionId": "91",
+    "status": "",
+    "title": "解码方法",
+    "titleSlug": "decode-ways"
   },
   {
     "articleLive": 2,
@@ -334,6 +334,18 @@
     "status": "ac",
     "title": "移除元素",
     "titleSlug": "remove-element"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[28]实现 strStr()",
+    "frontendQuestionId": "28",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "28",
+    "status": "ac",
+    "title": "实现 strStr()",
+    "titleSlug": "implement-strstr"
   },
   {
     "articleLive": 2,
@@ -1078,18 +1090,6 @@
     "status": "ac",
     "title": "子集 II",
     "titleSlug": "subsets-ii"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[91]解码方法",
-    "frontendQuestionId": "91",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "91",
-    "status": "",
-    "title": "解码方法",
-    "titleSlug": "decode-ways"
   },
   {
     "articleLive": 2,
