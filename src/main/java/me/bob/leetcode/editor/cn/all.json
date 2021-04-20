@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[27]移除元素",
-    "frontendQuestionId": "27",
+    "formTitle": "[28]实现 strStr()",
+    "frontendQuestionId": "28",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
-    "questionId": "27",
+    "questionId": "28",
     "status": "ac",
-    "title": "移除元素",
-    "titleSlug": "remove-element"
+    "title": "实现 strStr()",
+    "titleSlug": "implement-strstr"
   },
   {
     "articleLive": 2,
@@ -325,15 +325,15 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[28]实现 strStr()",
-    "frontendQuestionId": "28",
+    "formTitle": "[27]移除元素",
+    "frontendQuestionId": "27",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
-    "questionId": "28",
+    "questionId": "27",
     "status": "ac",
-    "title": "实现 strStr()",
-    "titleSlug": "implement-strstr"
+    "title": "移除元素",
+    "titleSlug": "remove-element"
   },
   {
     "articleLive": 2,
@@ -21913,6 +21913,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1827]最少操作使数组递增",
+    "frontendQuestionId": "1827",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1938",
+    "status": "",
+    "title": "最少操作使数组递增",
+    "titleSlug": "minimum-operations-to-make-the-array-increasing"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1828]统计一个圆中点的数目",
     "frontendQuestionId": "1828",
     "leaf": true,
@@ -21922,6 +21934,30 @@
     "status": "",
     "title": "统计一个圆中点的数目",
     "titleSlug": "queries-on-number-of-points-inside-a-circle"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1829]每个查询的最大异或值",
+    "frontendQuestionId": "1829",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1940",
+    "status": "",
+    "title": "每个查询的最大异或值",
+    "titleSlug": "maximum-xor-for-each-query"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1830]使字符串有序的最少操作次数",
+    "frontendQuestionId": "1830",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1941",
+    "status": "",
+    "title": "使字符串有序的最少操作次数",
+    "titleSlug": "minimum-number-of-operations-to-make-string-sorted"
   },
   {
     "articleLive": 2,
@@ -21937,44 +21973,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5717]最少操作使数组递增",
-    "frontendQuestionId": "5717",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1938",
-    "status": "",
-    "title": "最少操作使数组递增",
-    "titleSlug": "minimum-operations-to-make-the-array-increasing"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5719]每个查询的最大异或值",
-    "frontendQuestionId": "5719",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1940",
-    "status": "",
-    "title": "每个查询的最大异或值",
-    "titleSlug": "maximum-xor-for-each-query"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5720]使字符串有序的最少操作次数",
-    "frontendQuestionId": "5720",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1941",
-    "status": "",
-    "title": "使字符串有序的最少操作次数",
-    "titleSlug": "minimum-number-of-operations-to-make-string-sorted"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5734]判断句子是否为全字母句",
-    "frontendQuestionId": "5734",
+    "formTitle": "[1832]判断句子是否为全字母句",
+    "frontendQuestionId": "1832",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -21985,8 +21985,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5735]雪糕的最大数量",
-    "frontendQuestionId": "5735",
+    "formTitle": "[1833]雪糕的最大数量",
+    "frontendQuestionId": "1833",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -21997,8 +21997,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5736]单线程 CPU",
-    "frontendQuestionId": "5736",
+    "formTitle": "[1834]单线程 CPU",
+    "frontendQuestionId": "1834",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22009,8 +22009,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5737]所有数对按位与结果的异或和",
-    "frontendQuestionId": "5737",
+    "formTitle": "[1835]所有数对按位与结果的异或和",
+    "frontendQuestionId": "1835",
     "leaf": true,
     "level": 3,
     "nodeType": "def",

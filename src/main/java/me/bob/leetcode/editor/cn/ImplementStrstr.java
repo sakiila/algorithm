@@ -50,6 +50,7 @@ public class ImplementStrstr {
                     if (haystack.charAt(i + j) != needle.charAt(j)) {
                         break;
                     }
+                    // j 比较完成
                     if (j == n - 1) {
                         return i;
                     }
