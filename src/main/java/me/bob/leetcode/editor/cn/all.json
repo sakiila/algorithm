@@ -7,7 +7,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "363",
-    "status": "",
+    "status": "ac",
     "title": "矩形区域不超过 K 的最大数值和",
     "titleSlug": "max-sum-of-rectangle-no-larger-than-k"
   },
@@ -22018,6 +22018,18 @@
     "status": "",
     "title": "所有数对按位与结果的异或和",
     "titleSlug": "find-xor-sum-of-all-pairs-bitwise-and"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1836]Remove Duplicates From an Unsorted Linked List",
+    "frontendQuestionId": "1836",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1982",
+    "status": "",
+    "title": "Remove Duplicates From an Unsorted Linked List",
+    "titleSlug": "remove-duplicates-from-an-unsorted-linked-list"
   },
   {
     "articleLive": 2,
