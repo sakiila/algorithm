@@ -56,12 +56,12 @@ public class BestTimeToBuyAndSellStockIi {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int maxProfit(int[] prices) {
-            int dp0 = 0, dp1 = Integer.MIN_VALUE;
+            int buy = Integer.MIN_VALUE, sell = 0;
             for (int i = 0; i < prices.length; i++) {
-                dp0 = Math.max(dp0, dp1 + prices[i]);
-                dp1 = Math.max(dp1, dp0 - prices[i]);
+                sell = Math.max(sell, buy + prices[i]);
+                buy = Math.max(buy, sell - prices[i]);
             }
-            return dp0;
+            return sell;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

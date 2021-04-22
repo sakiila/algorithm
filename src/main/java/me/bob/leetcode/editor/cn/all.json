@@ -7,7 +7,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "368",
-    "status": "",
+    "status": "ac",
     "title": "最大整除子集",
     "titleSlug": "largest-divisible-subset"
   },
