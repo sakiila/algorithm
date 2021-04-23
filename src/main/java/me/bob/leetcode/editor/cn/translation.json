@@ -11395,6 +11395,16 @@
         "questionId": "1967",
         "title": "\u6240\u6709\u5143\u97f3\u6309\u987a\u5e8f\u6392\u5e03\u7684\u6700\u957f\u5b50\u5b57\u7b26\u4e32",
         "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1965",
+        "title": "K \u8fdb\u5236\u8868\u793a\u4e0b\u7684\u5404\u4f4d\u6570\u5b57\u603b\u548c",
+        "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1966",
+        "title": "\u6700\u9ad8\u9891\u5143\u7d20\u7684\u9891\u6570",
+        "__typename": "AppliedTranslationNode"
       }
     ]
   }
