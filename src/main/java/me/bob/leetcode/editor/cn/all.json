@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[377]组合总和 Ⅳ",
-    "frontendQuestionId": "377",
+    "formTitle": "[897]递增顺序搜索树",
+    "frontendQuestionId": "897",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "377",
+    "questionId": "933",
     "status": "",
-    "title": "组合总和 Ⅳ",
-    "titleSlug": "combination-sum-iv"
+    "title": "递增顺序搜索树",
+    "titleSlug": "increasing-order-search-tree"
   },
   {
     "articleLive": 2,
@@ -1831,7 +1831,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "152",
-    "status": "",
+    "status": "ac",
     "title": "乘积最大子数组",
     "titleSlug": "maximum-product-subarray"
   },
@@ -4522,6 +4522,18 @@
     "status": "",
     "title": "摆动序列",
     "titleSlug": "wiggle-subsequence"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[377]组合总和 Ⅳ",
+    "frontendQuestionId": "377",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "377",
+    "status": "ac",
+    "title": "组合总和 Ⅳ",
+    "titleSlug": "combination-sum-iv"
   },
   {
     "articleLive": 2,
@@ -10750,18 +10762,6 @@
     "status": "ac",
     "title": "单调数列",
     "titleSlug": "monotonic-array"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[897]递增顺序搜索树",
-    "frontendQuestionId": "897",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "933",
-    "status": "",
-    "title": "递增顺序搜索树",
-    "titleSlug": "increasing-order-search-tree"
   },
   {
     "articleLive": 2,
