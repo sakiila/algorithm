@@ -69,7 +69,7 @@ public class RangeSumOfBst {
             }
 
             rangeSumBST(root.left, low, high);
-            if (root.val >= low && root.val <= high) {
+            if (low <= root.val && root.val <= high) {
                 res += root.val;
             }
             rangeSumBST(root.right, low, high);
