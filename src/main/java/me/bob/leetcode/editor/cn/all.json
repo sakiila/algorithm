@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1011]在 D 天内送达包裹的能力",
-    "frontendQuestionId": "1011",
+    "formTitle": "[633]平方数之和",
+    "frontendQuestionId": "633",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "1056",
-    "status": "ac",
-    "title": "在 D 天内送达包裹的能力",
-    "titleSlug": "capacity-to-ship-packages-within-d-days"
+    "questionId": "633",
+    "status": "",
+    "title": "平方数之和",
+    "titleSlug": "sum-of-square-numbers"
   },
   {
     "articleLive": 2,
@@ -391,7 +391,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "32",
-    "status": "",
+    "status": "ac",
     "title": "最长有效括号",
     "titleSlug": "longest-valid-parentheses"
   },
@@ -7597,18 +7597,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[633]平方数之和",
-    "frontendQuestionId": "633",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "633",
-    "status": "",
-    "title": "平方数之和",
-    "titleSlug": "sum-of-square-numbers"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[634]寻找数组的错位排列",
     "frontendQuestionId": "634",
     "leaf": true,
@@ -12130,6 +12118,18 @@
     "status": "",
     "title": "总持续时间可被 60 整除的歌曲",
     "titleSlug": "pairs-of-songs-with-total-durations-divisible-by-60"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1011]在 D 天内送达包裹的能力",
+    "frontendQuestionId": "1011",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1056",
+    "status": "ac",
+    "title": "在 D 天内送达包裹的能力",
+    "titleSlug": "capacity-to-ship-packages-within-d-days"
   },
   {
     "articleLive": 2,
