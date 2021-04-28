@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[633]平方数之和",
-    "frontendQuestionId": "633",
+    "formTitle": "[403]青蛙过河",
+    "frontendQuestionId": "403",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "633",
+    "questionId": "403",
     "status": "",
-    "title": "平方数之和",
-    "titleSlug": "sum-of-square-numbers"
+    "title": "青蛙过河",
+    "titleSlug": "frog-jump"
   },
   {
     "articleLive": 2,
@@ -4837,18 +4837,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[403]青蛙过河",
-    "frontendQuestionId": "403",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "403",
-    "status": "",
-    "title": "青蛙过河",
-    "titleSlug": "frog-jump"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[404]左叶子之和",
     "frontendQuestionId": "404",
     "leaf": true,
@@ -7594,6 +7582,18 @@
     "status": "",
     "title": "最小区间",
     "titleSlug": "smallest-range-covering-elements-from-k-lists"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[633]平方数之和",
+    "frontendQuestionId": "633",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "633",
+    "status": "ac",
+    "title": "平方数之和",
+    "titleSlug": "sum-of-square-numbers"
   },
   {
     "articleLive": 2,
