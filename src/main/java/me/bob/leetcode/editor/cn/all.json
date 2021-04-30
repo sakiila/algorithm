@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[403]青蛙过河",
-    "frontendQuestionId": "403",
+    "formTitle": "[137]只出现一次的数字 II",
+    "frontendQuestionId": "137",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "403",
+    "questionId": "137",
     "status": "",
-    "title": "青蛙过河",
-    "titleSlug": "frog-jump"
+    "title": "只出现一次的数字 II",
+    "titleSlug": "single-number-ii"
   },
   {
     "articleLive": 2,
@@ -1642,18 +1642,6 @@
     "status": "ac",
     "title": "只出现一次的数字",
     "titleSlug": "single-number"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[137]只出现一次的数字 II",
-    "frontendQuestionId": "137",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "137",
-    "status": "",
-    "title": "只出现一次的数字 II",
-    "titleSlug": "single-number-ii"
   },
   {
     "articleLive": 2,
@@ -4834,6 +4822,18 @@
     "status": "",
     "title": "移掉K位数字",
     "titleSlug": "remove-k-digits"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[403]青蛙过河",
+    "frontendQuestionId": "403",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "403",
+    "status": "ac",
+    "title": "青蛙过河",
+    "titleSlug": "frog-jump"
   },
   {
     "articleLive": 2,
@@ -8869,14 +8869,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[740]删除与获得点数",
+    "formTitle": "[740]删除并获得点数",
     "frontendQuestionId": "740",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "740",
     "status": "",
-    "title": "删除与获得点数",
+    "title": "删除并获得点数",
     "titleSlug": "delete-and-earn"
   },
   {
@@ -22090,6 +22090,18 @@
     "status": "",
     "title": "League Statistics",
     "titleSlug": "league-statistics"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1842]Next Palindrome Using Same Digits",
+    "frontendQuestionId": "1842",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1997",
+    "status": "",
+    "title": "Next Palindrome Using Same Digits",
+    "titleSlug": "next-palindrome-using-same-digits"
   },
   {
     "articleLive": 2,
