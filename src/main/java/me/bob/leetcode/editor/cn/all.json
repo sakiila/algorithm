@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[137]只出现一次的数字 II",
-    "frontendQuestionId": "137",
+    "formTitle": "[690]员工的重要性",
+    "frontendQuestionId": "690",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "137",
+    "questionId": "690",
     "status": "",
-    "title": "只出现一次的数字 II",
-    "titleSlug": "single-number-ii"
+    "title": "员工的重要性",
+    "titleSlug": "employee-importance"
   },
   {
     "articleLive": 2,
@@ -1642,6 +1642,18 @@
     "status": "ac",
     "title": "只出现一次的数字",
     "titleSlug": "single-number"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[137]只出现一次的数字 II",
+    "frontendQuestionId": "137",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "137",
+    "status": "ac",
+    "title": "只出现一次的数字 II",
+    "titleSlug": "single-number-ii"
   },
   {
     "articleLive": 2,
@@ -8266,18 +8278,6 @@
     "status": "",
     "title": "三个无重叠子数组的最大和",
     "titleSlug": "maximum-sum-of-3-non-overlapping-subarrays"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[690]员工的重要性",
-    "frontendQuestionId": "690",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "690",
-    "status": "",
-    "title": "员工的重要性",
-    "titleSlug": "employee-importance"
   },
   {
     "articleLive": 2,
