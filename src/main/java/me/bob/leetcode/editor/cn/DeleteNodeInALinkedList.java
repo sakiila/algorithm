@@ -60,7 +60,9 @@ public class DeleteNodeInALinkedList {
      */
     class Solution {
         public void deleteNode(ListNode node) {
+            // 先变成后一个的值
             node.val = node.next.val;
+            // 再引用后一个的后一个
             node.next = node.next.next;
         }
     }
