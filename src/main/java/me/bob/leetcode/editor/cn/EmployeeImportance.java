@@ -41,7 +41,7 @@ import java.util.Queue;
 /**
  * 690 员工的重要性
  * 2021-05-01 08:22:59
- * 思路：BFS
+ * 思路：BFS，使用队列
  */
 public class EmployeeImportance {
     public static void main(String[] args) {
@@ -61,15 +61,17 @@ class Employee {
     class Solution {
 
         public int getImportance(List<Employee> employees, int id) {
+            // 先保存员工对应关系
             Map<Integer, Employee> map = new HashMap<>();
             for (Employee employee : employees) {
                 map.put(employee.id, employee);
             }
 
-            int res = 0;
+            // 使用队列循环遍历
             Queue<Integer> queue = new ArrayDeque<>();
             queue.offer(id);
 
+            int res = 0;
             while (!queue.isEmpty()) {
                 int curId = queue.poll();
                 Employee employee = map.get(curId);
