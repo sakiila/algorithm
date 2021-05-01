@@ -32,14 +32,16 @@
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.ArrayDeque;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Queue;
 
 /**
  * 690 员工的重要性
  * 2021-05-01 08:22:59
- * 思路：DFS
+ * 思路：BFS
  */
 public class EmployeeImportance {
     public static void main(String[] args) {
@@ -58,23 +60,28 @@ class Employee {
 
     class Solution {
 
-        Map<Integer, Employee> map = new HashMap<>();
-
         public int getImportance(List<Employee> employees, int id) {
+            Map<Integer, Employee> map = new HashMap<>();
             for (Employee employee : employees) {
                 map.put(employee.id, employee);
             }
-            return dfs(id);
+
+            int res = 0;
+            Queue<Integer> queue = new ArrayDeque<>();
+            queue.offer(id);
+
+            while (!queue.isEmpty()) {
+                int curId = queue.poll();
+                Employee employee = map.get(curId);
+                res += employee.importance;
+                for (int subId : employee.subordinates) {
+                    queue.offer(subId);
+                }
+            }
+
+            return res;
         }
 
-        private int dfs(int id) {
-            Employee employee = map.get(id);
-            int total = employee.importance;
-            for (int subId : employee.subordinates) {
-                total += dfs(subId);
-            }
-            return total;
-        }
     }
 
     //leetcode submit region end(Prohibit modification and deletion)
