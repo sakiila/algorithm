@@ -60,10 +60,11 @@ public class ReverseInteger {
     class Solution {
         public int reverse(int x) {
             int temp = x;
-            long res = 0;
             if (x < 0) {
                 temp = -x;
             }
+            long res = 0;
+
             while (temp > 0) {
                 res = res * 10 + temp % 10;
                 temp /= 10;
@@ -72,6 +73,7 @@ public class ReverseInteger {
             if (x < 0) {
                 res = -res;
             }
+
             if (res > Integer.MAX_VALUE || res < Integer.MIN_VALUE) {
                 return 0;
             }

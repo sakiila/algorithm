@@ -183,8 +183,6 @@ m
 =src/main/java/me/bob/leetcode/editor/cn/PalindromeNumber.java,e\2\e2f6605ab1a816102ba4f58d6f8c96e17f6a849f
 r
 Bsrc/main/java/me/bob/leetcode/editor/cn/MaxConsecutiveOnesIii.java,c\1\c17f2f14e3ca27f50edfde55066466664e802034
-k
-;src/main/java/me/bob/leetcode/editor/cn/ReverseInteger.java,9\6\96702ade7a3fbf67a11ee2fb832dbed7a7798a49
 j
 :src/main/java/me/bob/leetcode/editor/cn/AddTwoNumbers.java,d\e\de4c774fb2e1b040a6ccaa83c6bf2b2127256c40
 l

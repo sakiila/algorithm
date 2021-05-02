@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[554]砖墙",
-    "frontendQuestionId": "554",
+    "formTitle": "[7]整数反转",
+    "frontendQuestionId": "7",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "554",
-    "status": "",
-    "title": "砖墙",
-    "titleSlug": "brick-wall"
+    "questionId": "7",
+    "status": "ac",
+    "title": "整数反转",
+    "titleSlug": "reverse-integer"
   },
   {
     "articleLive": 2,
@@ -82,18 +82,6 @@
     "status": "ac",
     "title": "Z 字形变换",
     "titleSlug": "zigzag-conversion"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[7]整数反转",
-    "frontendQuestionId": "7",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "7",
-    "status": "ac",
-    "title": "整数反转",
-    "titleSlug": "reverse-integer"
   },
   {
     "articleLive": 2,
@@ -6646,6 +6634,18 @@
     "status": "",
     "title": "最优除法",
     "titleSlug": "optimal-division"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[554]砖墙",
+    "frontendQuestionId": "554",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "554",
+    "status": "ac",
+    "title": "砖墙",
+    "titleSlug": "brick-wall"
   },
   {
     "articleLive": 2,
@@ -22162,6 +22162,54 @@
     "status": "",
     "title": "最近的房间",
     "titleSlug": "closest-room"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5746]到目标元素的最小距离",
+    "frontendQuestionId": "5746",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1975",
+    "status": "",
+    "title": "到目标元素的最小距离",
+    "titleSlug": "minimum-distance-to-the-target-element"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5747]将字符串拆分为递减的连续值",
+    "frontendQuestionId": "5747",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1976",
+    "status": "",
+    "title": "将字符串拆分为递减的连续值",
+    "titleSlug": "splitting-a-string-into-descending-consecutive-values"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5748]包含每个查询的最小区间",
+    "frontendQuestionId": "5748",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1977",
+    "status": "",
+    "title": "包含每个查询的最小区间",
+    "titleSlug": "minimum-interval-to-include-each-query"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5749]邻位交换的最小次数",
+    "frontendQuestionId": "5749",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1978",
+    "status": "",
+    "title": "邻位交换的最小次数",
+    "titleSlug": "minimum-adjacent-swaps-to-reach-the-kth-smallest-number"
   },
   {
     "articleLive": 2,
