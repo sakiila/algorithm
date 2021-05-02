@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[690]员工的重要性",
-    "frontendQuestionId": "690",
+    "formTitle": "[554]砖墙",
+    "frontendQuestionId": "554",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "690",
-    "status": "ac",
-    "title": "员工的重要性",
-    "titleSlug": "employee-importance"
+    "questionId": "554",
+    "status": "",
+    "title": "砖墙",
+    "titleSlug": "brick-wall"
   },
   {
     "articleLive": 2,
@@ -2851,7 +2851,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "237",
-    "status": "",
+    "status": "ac",
     "title": "删除链表中的节点",
     "titleSlug": "delete-node-in-a-linked-list"
   },
@@ -3031,7 +3031,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "252",
-    "status": "",
+    "status": "ac",
     "title": "会议室",
     "titleSlug": "meeting-rooms"
   },
@@ -3043,7 +3043,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "253",
-    "status": "",
+    "status": "ac",
     "title": "会议室 II",
     "titleSlug": "meeting-rooms-ii"
   },
@@ -6649,18 +6649,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[554]砖墙",
-    "frontendQuestionId": "554",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "554",
-    "status": "",
-    "title": "砖墙",
-    "titleSlug": "brick-wall"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[555]分割连接字符串",
     "frontendQuestionId": "555",
     "leaf": true,
@@ -8278,6 +8266,18 @@
     "status": "",
     "title": "三个无重叠子数组的最大和",
     "titleSlug": "maximum-sum-of-3-non-overlapping-subarrays"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[690]员工的重要性",
+    "frontendQuestionId": "690",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "690",
+    "status": "ac",
+    "title": "员工的重要性",
+    "titleSlug": "employee-importance"
   },
   {
     "articleLive": 2,
@@ -22114,6 +22114,54 @@
     "status": "",
     "title": "Suspicious Bank Accounts",
     "titleSlug": "suspicious-bank-accounts"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5730]将所有数字用字符替换",
+    "frontendQuestionId": "5730",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1954",
+    "status": "",
+    "title": "将所有数字用字符替换",
+    "titleSlug": "replace-all-digits-with-characters"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5731]座位预约管理系统",
+    "frontendQuestionId": "5731",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1955",
+    "status": "",
+    "title": "座位预约管理系统",
+    "titleSlug": "seat-reservation-manager"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5732]减小和重新排列数组后的最大元素",
+    "frontendQuestionId": "5732",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1956",
+    "status": "",
+    "title": "减小和重新排列数组后的最大元素",
+    "titleSlug": "maximum-element-after-decreasing-and-rearranging"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5733]最近的房间",
+    "frontendQuestionId": "5733",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1957",
+    "status": "",
+    "title": "最近的房间",
+    "titleSlug": "closest-room"
   },
   {
     "articleLive": 2,
