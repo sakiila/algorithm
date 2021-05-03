@@ -22117,8 +22117,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5730]将所有数字用字符替换",
-    "frontendQuestionId": "5730",
+    "formTitle": "[1844]将所有数字用字符替换",
+    "frontendQuestionId": "1844",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -22129,8 +22129,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5731]座位预约管理系统",
-    "frontendQuestionId": "5731",
+    "formTitle": "[1845]座位预约管理系统",
+    "frontendQuestionId": "1845",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22141,8 +22141,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5732]减小和重新排列数组后的最大元素",
-    "frontendQuestionId": "5732",
+    "formTitle": "[1846]减小和重新排列数组后的最大元素",
+    "frontendQuestionId": "1846",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22153,8 +22153,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5733]最近的房间",
-    "frontendQuestionId": "5733",
+    "formTitle": "[1847]最近的房间",
+    "frontendQuestionId": "1847",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -22165,8 +22165,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5746]到目标元素的最小距离",
-    "frontendQuestionId": "5746",
+    "formTitle": "[1848]到目标元素的最小距离",
+    "frontendQuestionId": "1848",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -22177,8 +22177,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5747]将字符串拆分为递减的连续值",
-    "frontendQuestionId": "5747",
+    "formTitle": "[1849]将字符串拆分为递减的连续值",
+    "frontendQuestionId": "1849",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22189,20 +22189,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5748]包含每个查询的最小区间",
-    "frontendQuestionId": "5748",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1977",
-    "status": "",
-    "title": "包含每个查询的最小区间",
-    "titleSlug": "minimum-interval-to-include-each-query"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5749]邻位交换的最小次数",
-    "frontendQuestionId": "5749",
+    "formTitle": "[1850]邻位交换的最小次数",
+    "frontendQuestionId": "1850",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22210,6 +22198,18 @@
     "status": "",
     "title": "邻位交换的最小次数",
     "titleSlug": "minimum-adjacent-swaps-to-reach-the-kth-smallest-number"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1851]包含每个查询的最小区间",
+    "frontendQuestionId": "1851",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1977",
+    "status": "",
+    "title": "包含每个查询的最小区间",
+    "titleSlug": "minimum-interval-to-include-each-query"
   },
   {
     "articleLive": 2,
