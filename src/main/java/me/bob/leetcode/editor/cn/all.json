@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[7]整数反转",
-    "frontendQuestionId": "7",
+    "formTitle": "[1473]粉刷房子 III",
+    "frontendQuestionId": "1473",
     "leaf": true,
-    "level": 1,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "7",
-    "status": "ac",
-    "title": "整数反转",
-    "titleSlug": "reverse-integer"
+    "questionId": "1583",
+    "status": "",
+    "title": "粉刷房子 III",
+    "titleSlug": "paint-house-iii"
   },
   {
     "articleLive": 2,
@@ -82,6 +82,18 @@
     "status": "ac",
     "title": "Z 字形变换",
     "titleSlug": "zigzag-conversion"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[7]整数反转",
+    "frontendQuestionId": "7",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "7",
+    "status": "ac",
+    "title": "整数反转",
+    "titleSlug": "reverse-integer"
   },
   {
     "articleLive": 2,
@@ -2911,7 +2923,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "243",
-    "status": "",
+    "status": "ac",
     "title": "最短单词距离",
     "titleSlug": "shortest-word-distance"
   },
@@ -17662,18 +17674,6 @@
     "status": "",
     "title": "设计浏览器历史记录",
     "titleSlug": "design-browser-history"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1473]粉刷房子 III",
-    "frontendQuestionId": "1473",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1583",
-    "status": "",
-    "title": "粉刷房子 III",
-    "titleSlug": "paint-house-iii"
   },
   {
     "articleLive": 2,
