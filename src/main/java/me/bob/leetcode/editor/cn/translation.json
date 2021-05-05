@@ -11445,6 +11445,11 @@
         "questionId": "1977",
         "title": "\u5305\u542b\u6bcf\u4e2a\u67e5\u8be2\u7684\u6700\u5c0f\u533a\u95f4",
         "__typename": "AppliedTranslationNode"
+      },
+      {
+        "questionId": "1943",
+        "title": "\u7edf\u8ba1\u8ddd\u79bb\u6700\u5c0f\u7684\u5b50\u4e32\u5bf9\u4e2a\u6570",
+        "__typename": "AppliedTranslationNode"
       }
     ]
   }

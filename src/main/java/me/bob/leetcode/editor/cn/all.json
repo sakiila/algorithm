@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[740]删除并获得点数",
-    "frontendQuestionId": "740",
+    "formTitle": "[1720]解码异或后的数组",
+    "frontendQuestionId": "1720",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "740",
+    "questionId": "1839",
     "status": "",
-    "title": "删除并获得点数",
-    "titleSlug": "delete-and-earn"
+    "title": "解码异或后的数组",
+    "titleSlug": "decode-xored-array"
   },
   {
     "articleLive": 2,
@@ -8878,6 +8878,18 @@
     "status": "ac",
     "title": "每日温度",
     "titleSlug": "daily-temperatures"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[740]删除并获得点数",
+    "frontendQuestionId": "740",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "740",
+    "status": "ac",
+    "title": "删除并获得点数",
+    "titleSlug": "delete-and-earn"
   },
   {
     "articleLive": 2,
@@ -20629,18 +20641,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1720]解码异或后的数组",
-    "frontendQuestionId": "1720",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1839",
-    "status": "",
-    "title": "解码异或后的数组",
-    "titleSlug": "decode-xored-array"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1721]交换链表中的节点",
     "frontendQuestionId": "1721",
     "leaf": true,
@@ -21517,14 +21517,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1794]Count Pairs of Equal Substrings With Minimum Difference",
+    "formTitle": "[1794]统计距离最小的子串对个数",
     "frontendQuestionId": "1794",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
     "questionId": "1943",
     "status": "",
-    "title": "Count Pairs of Equal Substrings With Minimum Difference",
+    "title": "统计距离最小的子串对个数",
     "titleSlug": "count-pairs-of-equal-substrings-with-minimum-difference"
   },
   {
