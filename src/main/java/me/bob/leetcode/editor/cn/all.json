@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1473]粉刷房子 III",
-    "frontendQuestionId": "1473",
+    "formTitle": "[740]删除并获得点数",
+    "frontendQuestionId": "740",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1583",
+    "questionId": "740",
     "status": "",
-    "title": "粉刷房子 III",
-    "titleSlug": "paint-house-iii"
+    "title": "删除并获得点数",
+    "titleSlug": "delete-and-earn"
   },
   {
     "articleLive": 2,
@@ -8881,18 +8881,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[740]删除并获得点数",
-    "frontendQuestionId": "740",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "740",
-    "status": "",
-    "title": "删除并获得点数",
-    "titleSlug": "delete-and-earn"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[741]摘樱桃",
     "frontendQuestionId": "741",
     "leaf": true,
@@ -17674,6 +17662,18 @@
     "status": "",
     "title": "设计浏览器历史记录",
     "titleSlug": "design-browser-history"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1473]粉刷房子 III",
+    "frontendQuestionId": "1473",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1583",
+    "status": "ac",
+    "title": "粉刷房子 III",
+    "titleSlug": "paint-house-iii"
   },
   {
     "articleLive": 2,

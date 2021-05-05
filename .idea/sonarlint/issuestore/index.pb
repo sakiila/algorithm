@@ -399,3 +399,7 @@ f
 6src/main/java/me/bob/leetcode/editor/cn/BrickWall.java,2\7\27909931ef6640d06ff6ad68f1fe64b5f67ba66f
 k
 ;src/main/java/me/bob/leetcode/editor/cn/MeetingRoomsIi.java,0\4\04542972d7a0c0bc861df193f4d97c30e7b6f33d
+I
+.idea/leetcode/editor.xml,4\e\4e1d1083192753a7663628e0017ffffe55ae10ed
+h
+8src/main/java/me/bob/leetcode/editor/cn/translation.json,f\a\faa8525c86bd0c58b4ffc3a326eb3bd0580b9c96
