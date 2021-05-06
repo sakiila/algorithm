@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1720]解码异或后的数组",
-    "frontendQuestionId": "1720",
+    "formTitle": "[1486]数组异或操作",
+    "frontendQuestionId": "1486",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
-    "questionId": "1839",
+    "questionId": "1610",
     "status": "",
-    "title": "解码异或后的数组",
-    "titleSlug": "decode-xored-array"
+    "title": "数组异或操作",
+    "titleSlug": "xor-operation-in-an-array"
   },
   {
     "articleLive": 2,
@@ -17833,18 +17833,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1486]数组异或操作",
-    "frontendQuestionId": "1486",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1610",
-    "status": "",
-    "title": "数组异或操作",
-    "titleSlug": "xor-operation-in-an-array"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1487]保证文件名唯一",
     "frontendQuestionId": "1487",
     "leaf": true,
@@ -20641,6 +20629,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1720]解码异或后的数组",
+    "frontendQuestionId": "1720",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1839",
+    "status": "ac",
+    "title": "解码异或后的数组",
+    "titleSlug": "decode-xored-array"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1721]交换链表中的节点",
     "frontendQuestionId": "1721",
     "leaf": true,
@@ -22210,6 +22210,18 @@
     "status": "",
     "title": "包含每个查询的最小区间",
     "titleSlug": "minimum-interval-to-include-each-query"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1852]Distinct Numbers in Each Subarray",
+    "frontendQuestionId": "1852",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "2003",
+    "status": "",
+    "title": "Distinct Numbers in Each Subarray",
+    "titleSlug": "distinct-numbers-in-each-subarray"
   },
   {
     "articleLive": 2,
