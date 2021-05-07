@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1486]数组异或操作",
-    "frontendQuestionId": "1486",
+    "formTitle": "[1723]完成所有工作的最短时间",
+    "frontendQuestionId": "1723",
     "leaf": true,
-    "level": 1,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "1610",
+    "questionId": "1825",
     "status": "",
-    "title": "数组异或操作",
-    "titleSlug": "xor-operation-in-an-array"
+    "title": "完成所有工作的最短时间",
+    "titleSlug": "find-minimum-time-to-finish-all-jobs"
   },
   {
     "articleLive": 2,
@@ -17833,6 +17833,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1486]数组异或操作",
+    "frontendQuestionId": "1486",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1610",
+    "status": "ac",
+    "title": "数组异或操作",
+    "titleSlug": "xor-operation-in-an-array"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1487]保证文件名唯一",
     "frontendQuestionId": "1487",
     "leaf": true,
@@ -20665,18 +20677,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1723]完成所有工作的最短时间",
-    "frontendQuestionId": "1723",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1825",
-    "status": "",
-    "title": "完成所有工作的最短时间",
-    "titleSlug": "find-minimum-time-to-finish-all-jobs"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1724]检查边长度限制的路径是否存在 II",
     "frontendQuestionId": "1724",
     "leaf": true,
@@ -22222,6 +22222,18 @@
     "status": "",
     "title": "Distinct Numbers in Each Subarray",
     "titleSlug": "distinct-numbers-in-each-subarray"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1853]Convert Date Format",
+    "frontendQuestionId": "1853",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "2004",
+    "status": "",
+    "title": "Convert Date Format",
+    "titleSlug": "convert-date-format"
   },
   {
     "articleLive": 2,
