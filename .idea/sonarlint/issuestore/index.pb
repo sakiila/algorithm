@@ -415,3 +415,7 @@ d
 4src/main/java/me/bob/leetcode/editor/cn/NQueens.java,2\8\280d91d60e72553a7b34f685e0cc195f6eaa6fc6
 m
 =src/main/java/me/bob/leetcode/editor/cn/DecodeXoredArray.java,8\f\8f418105611d110ae6fea308bc0b47b941da78f2
+r
+Bsrc/main/java/me/bob/leetcode/editor/cn/XorOperationInAnArray.java,e\f\ef0a5c2949692a91baf46b300449161b83fa4e30
+{
+Ksrc/main/java/me/bob/leetcode/editor/cn/FindMinimumTimeToFinishAllJobs.java,f\8\f81c49c574dbf386cca0f576bd00b573e128689d
