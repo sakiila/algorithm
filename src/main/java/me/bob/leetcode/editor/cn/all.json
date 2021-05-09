@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1723]完成所有工作的最短时间",
-    "frontendQuestionId": "1723",
+    "formTitle": "[1482]制作 m 束花所需的最少天数",
+    "frontendQuestionId": "1482",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1825",
+    "questionId": "1605",
     "status": "",
-    "title": "完成所有工作的最短时间",
-    "titleSlug": "find-minimum-time-to-finish-all-jobs"
+    "title": "制作 m 束花所需的最少天数",
+    "titleSlug": "minimum-number-of-days-to-make-m-bouquets"
   },
   {
     "articleLive": 2,
@@ -17785,18 +17785,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1482]制作 m 束花所需的最少天数",
-    "frontendQuestionId": "1482",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1605",
-    "status": "",
-    "title": "制作 m 束花所需的最少天数",
-    "titleSlug": "minimum-number-of-days-to-make-m-bouquets"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1483]树节点的第 K 个祖先",
     "frontendQuestionId": "1483",
     "leaf": true,
@@ -20674,6 +20662,18 @@
     "status": "",
     "title": "执行交换操作后的最小汉明距离",
     "titleSlug": "minimize-hamming-distance-after-swap-operations"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1723]完成所有工作的最短时间",
+    "frontendQuestionId": "1723",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1825",
+    "status": "ac",
+    "title": "完成所有工作的最短时间",
+    "titleSlug": "find-minimum-time-to-finish-all-jobs"
   },
   {
     "articleLive": 2,
