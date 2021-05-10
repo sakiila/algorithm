@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[872]叶子相似的树",
-    "frontendQuestionId": "872",
+    "formTitle": "[1734]解码异或后的排列",
+    "frontendQuestionId": "1734",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "904",
+    "questionId": "1835",
     "status": "",
-    "title": "叶子相似的树",
-    "titleSlug": "leaf-similar-trees"
+    "title": "解码异或后的排列",
+    "titleSlug": "decode-xored-permutation"
   },
   {
     "articleLive": 2,
@@ -10465,6 +10465,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[872]叶子相似的树",
+    "frontendQuestionId": "872",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "904",
+    "status": "ac",
+    "title": "叶子相似的树",
+    "titleSlug": "leaf-similar-trees"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[873]最长的斐波那契子序列的长度",
     "frontendQuestionId": "873",
     "leaf": true,
@@ -20797,18 +20809,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1734]解码异或后的排列",
-    "frontendQuestionId": "1734",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1835",
-    "status": "",
-    "title": "解码异或后的排列",
-    "titleSlug": "decode-xored-permutation"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1735]生成乘积数组的方案数",
     "frontendQuestionId": "1735",
     "leaf": true,
@@ -22237,8 +22237,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5750]人口最多的年份",
-    "frontendQuestionId": "5750",
+    "formTitle": "[1854]人口最多的年份",
+    "frontendQuestionId": "1854",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -22249,8 +22249,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5751]下标对中的最大距离",
-    "frontendQuestionId": "5751",
+    "formTitle": "[1855]下标对中的最大距离",
+    "frontendQuestionId": "1855",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22261,8 +22261,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5752]子数组最小乘积的最大值",
-    "frontendQuestionId": "5752",
+    "formTitle": "[1856]子数组最小乘积的最大值",
+    "frontendQuestionId": "1856",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22273,8 +22273,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5753]有向图中最大颜色值",
-    "frontendQuestionId": "5753",
+    "formTitle": "[1857]有向图中最大颜色值",
+    "frontendQuestionId": "1857",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
