@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1734]解码异或后的排列",
-    "frontendQuestionId": "1734",
+    "formTitle": "[1310]子数组异或查询",
+    "frontendQuestionId": "1310",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "1835",
+    "questionId": "1435",
     "status": "",
-    "title": "解码异或后的排列",
-    "titleSlug": "decode-xored-permutation"
+    "title": "子数组异或查询",
+    "titleSlug": "xor-queries-of-a-subarray"
   },
   {
     "articleLive": 2,
@@ -1132,7 +1132,7 @@
     "formTitle": "[94]二叉树的中序遍历",
     "frontendQuestionId": "94",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
     "questionId": "94",
     "status": "ac",
@@ -1744,7 +1744,7 @@
     "formTitle": "[145]二叉树的后序遍历",
     "frontendQuestionId": "145",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
     "questionId": "145",
     "status": "ac",
@@ -15721,18 +15721,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1310]子数组异或查询",
-    "frontendQuestionId": "1310",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1435",
-    "status": "",
-    "title": "子数组异或查询",
-    "titleSlug": "xor-queries-of-a-subarray"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1311]获取你好友已观看的视频",
     "frontendQuestionId": "1311",
     "leaf": true,
@@ -20806,6 +20794,18 @@
     "status": "",
     "title": "需要教语言的最少人数",
     "titleSlug": "minimum-number-of-people-to-teach"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1734]解码异或后的排列",
+    "frontendQuestionId": "1734",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1835",
+    "status": "ac",
+    "title": "解码异或后的排列",
+    "titleSlug": "decode-xored-permutation"
   },
   {
     "articleLive": 2,
