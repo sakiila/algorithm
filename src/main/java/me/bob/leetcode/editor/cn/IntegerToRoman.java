@@ -73,7 +73,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 12 整数转罗马数字
  * 2021-02-19 10:21:58
- * 思路：贪心
+ * 思路：模拟
  */
 public class IntegerToRoman {
     public static void main(String[] args) {

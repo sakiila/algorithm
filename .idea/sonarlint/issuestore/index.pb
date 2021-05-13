@@ -177,8 +177,6 @@ Csrc/main/java/me/bob/leetcode/editor/cn/FindTheDuplicateNumber.java,3\4\34ae7a
 Psrc/main/java/me/bob/leetcode/editor/cn/MinimumNumberOfKConsecutiveBitFlips.java,9\3\93e0047c1160487c7df8c8c4f1296f9800d818b3
 p
 @src/main/java/me/bob/leetcode/editor/cn/LongestCommonPrefix.java,4\8\4893c9f20365896a9ed039ef011aa95b776f514e
-k
-;src/main/java/me/bob/leetcode/editor/cn/IntegerToRoman.java,9\4\946b71db72f6b0f26aa97ea68d1d7dc3196c8407
 m
 =src/main/java/me/bob/leetcode/editor/cn/PalindromeNumber.java,e\2\e2f6605ab1a816102ba4f58d6f8c96e17f6a849f
 r
@@ -421,3 +419,11 @@ Bsrc/main/java/me/bob/leetcode/editor/cn/XorOperationInAnArray.java,e\f\ef0a5c2
 Ksrc/main/java/me/bob/leetcode/editor/cn/FindMinimumTimeToFinishAllJobs.java,f\8\f81c49c574dbf386cca0f576bd00b573e128689d
 
 Osrc/main/java/me/bob/leetcode/editor/cn/MinimumNumberOfDaysToMakeMBouquets.java,7\e\7eb780853ebe75a32a8e1b778b5490449be35e51
+‹
+[src/main/java/me/bob/leetcode/editor/cn/NumberOfWaysToStayInTheSamePlaceAfterSomeSteps.java,a\5\a5ae83cd08698d56ab06dad189d391e49fa20f51
+r
+Bsrc/main/java/me/bob/leetcode/editor/cn/XorQueriesOfASubarray.java,6\c\6c526d1e59864f6c8d2ffca382d378c116e15e9b
+s
+Csrc/main/java/me/bob/leetcode/editor/cn/DecodeXoredPermutation.java,0\8\08c12e96ed34b188035fc813a3fa4841dddccffa
+m
+=src/main/java/me/bob/leetcode/editor/cn/LeafSimilarTrees.java,2\8\280b44fa074e15fa0b05963e09f58cf6286df54c
