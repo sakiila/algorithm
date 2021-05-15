@@ -2468,7 +2468,7 @@
       },
       {
         "questionId": "380",
-        "title": "\u5e38\u6570\u65f6\u95f4\u63d2\u5165\u3001\u5220\u9664\u548c\u83b7\u53d6\u968f\u673a\u5143\u7d20",
+        "title": "O(1) \u65f6\u95f4\u63d2\u5165\u3001\u5220\u9664\u548c\u83b7\u53d6\u968f\u673a\u5143\u7d20",
         "__typename": "AppliedTranslationNode"
       },
       {
