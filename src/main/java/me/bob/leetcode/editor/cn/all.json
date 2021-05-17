@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[421]数组中两个数的最大异或值",
-    "frontendQuestionId": "421",
+    "formTitle": "[993]二叉树的堂兄弟节点",
+    "frontendQuestionId": "993",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "421",
+    "questionId": "1035",
     "status": "",
-    "title": "数组中两个数的最大异或值",
-    "titleSlug": "maximum-xor-of-two-numbers-in-an-array"
+    "title": "二叉树的堂兄弟节点",
+    "titleSlug": "cousins-in-binary-tree"
   },
   {
     "articleLive": 2,
@@ -5050,6 +5050,18 @@
     "status": "",
     "title": "强密码检验器",
     "titleSlug": "strong-password-checker"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[421]数组中两个数的最大异或值",
+    "frontendQuestionId": "421",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "421",
+    "status": "ac",
+    "title": "数组中两个数的最大异或值",
+    "titleSlug": "maximum-xor-of-two-numbers-in-an-array"
   },
   {
     "articleLive": 2,
@@ -11902,18 +11914,6 @@
     "status": "ac",
     "title": "K 个不同整数的子数组",
     "titleSlug": "subarrays-with-k-different-integers"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[993]二叉树的堂兄弟节点",
-    "frontendQuestionId": "993",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1035",
-    "status": "",
-    "title": "二叉树的堂兄弟节点",
-    "titleSlug": "cousins-in-binary-tree"
   },
   {
     "articleLive": 2,
@@ -22342,6 +22342,54 @@
     "status": "",
     "title": "旋转盒子",
     "titleSlug": "rotating-the-box"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5759]找出所有子集的异或总和再求和",
+    "frontendQuestionId": "5759",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1993",
+    "status": "",
+    "title": "找出所有子集的异或总和再求和",
+    "titleSlug": "sum-of-all-subset-xor-totals"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5760]构成交替字符串需要的最小交换次数",
+    "frontendQuestionId": "5760",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1994",
+    "status": "",
+    "title": "构成交替字符串需要的最小交换次数",
+    "titleSlug": "minimum-number-of-swaps-to-make-the-binary-string-alternating"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5761]找出和为指定值的下标对",
+    "frontendQuestionId": "5761",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1995",
+    "status": "",
+    "title": "找出和为指定值的下标对",
+    "titleSlug": "finding-pairs-with-a-certain-sum"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5762]恰有 K 根木棍可以看到的排列数目",
+    "frontendQuestionId": "5762",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1996",
+    "status": "",
+    "title": "恰有 K 根木棍可以看到的排列数目",
+    "titleSlug": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible"
   },
   {
     "articleLive": 2,

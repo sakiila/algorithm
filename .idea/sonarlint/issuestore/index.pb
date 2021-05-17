@@ -429,3 +429,7 @@ m
 =src/main/java/me/bob/leetcode/editor/cn/LeafSimilarTrees.java,2\8\280b44fa074e15fa0b05963e09f58cf6286df54c
 k
 ;src/main/java/me/bob/leetcode/editor/cn/IntegerToRoman.java,9\4\946b71db72f6b0f26aa97ea68d1d7dc3196c8407
+k
+;src/main/java/me/bob/leetcode/editor/cn/RomanToInteger.java,4\a\4a518871da4cfa885abddd31da452bdb71af6ad9
+l
+<src/main/java/me/bob/leetcode/editor/cn/NextPermutation.java,a\e\aeefe94771fcf78deafbc94e55948cb24ba5bfed
