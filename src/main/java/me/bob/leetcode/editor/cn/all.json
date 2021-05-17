@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[993]二叉树的堂兄弟节点",
-    "frontendQuestionId": "993",
+    "formTitle": "[1442]形成两个异或相等数组的三元组数目",
+    "frontendQuestionId": "1442",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "1035",
+    "questionId": "1553",
     "status": "",
-    "title": "二叉树的堂兄弟节点",
-    "titleSlug": "cousins-in-binary-tree"
+    "title": "形成两个异或相等数组的三元组数目",
+    "titleSlug": "count-triplets-that-can-form-two-arrays-of-equal-xor"
   },
   {
     "articleLive": 2,
@@ -11917,6 +11917,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[993]二叉树的堂兄弟节点",
+    "frontendQuestionId": "993",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1035",
+    "status": "ac",
+    "title": "二叉树的堂兄弟节点",
+    "titleSlug": "cousins-in-binary-tree"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[994]腐烂的橘子",
     "frontendQuestionId": "994",
     "leaf": true,
@@ -17293,18 +17305,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1442]形成两个异或相等数组的三元组数目",
-    "frontendQuestionId": "1442",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1553",
-    "status": "",
-    "title": "形成两个异或相等数组的三元组数目",
-    "titleSlug": "count-triplets-that-can-form-two-arrays-of-equal-xor"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1443]收集树上所有苹果的最少时间",
     "frontendQuestionId": "1443",
     "leaf": true,
@@ -22297,20 +22297,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5212]向下取整数对和",
-    "frontendQuestionId": "5212",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1326",
-    "status": "",
-    "title": "向下取整数对和",
-    "titleSlug": "sum-of-floored-pairs"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5742]将句子排序",
-    "frontendQuestionId": "5742",
+    "formTitle": "[1859]将句子排序",
+    "frontendQuestionId": "1859",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -22321,8 +22309,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5743]增长的内存泄露",
-    "frontendQuestionId": "5743",
+    "formTitle": "[1860]增长的内存泄露",
+    "frontendQuestionId": "1860",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22333,8 +22321,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5744]旋转盒子",
-    "frontendQuestionId": "5744",
+    "formTitle": "[1861]旋转盒子",
+    "frontendQuestionId": "1861",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22345,8 +22333,20 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5759]找出所有子集的异或总和再求和",
-    "frontendQuestionId": "5759",
+    "formTitle": "[1862]向下取整数对和",
+    "frontendQuestionId": "1862",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1326",
+    "status": "",
+    "title": "向下取整数对和",
+    "titleSlug": "sum-of-floored-pairs"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1863]找出所有子集的异或总和再求和",
+    "frontendQuestionId": "1863",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -22357,8 +22357,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5760]构成交替字符串需要的最小交换次数",
-    "frontendQuestionId": "5760",
+    "formTitle": "[1864]构成交替字符串需要的最小交换次数",
+    "frontendQuestionId": "1864",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22369,8 +22369,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5761]找出和为指定值的下标对",
-    "frontendQuestionId": "5761",
+    "formTitle": "[1865]找出和为指定值的下标对",
+    "frontendQuestionId": "1865",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22381,8 +22381,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5762]恰有 K 根木棍可以看到的排列数目",
-    "frontendQuestionId": "5762",
+    "formTitle": "[1866]恰有 K 根木棍可以看到的排列数目",
+    "frontendQuestionId": "1866",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -22390,6 +22390,18 @@
     "status": "",
     "title": "恰有 K 根木棍可以看到的排列数目",
     "titleSlug": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1867]Orders With Maximum Quantity Above Average",
+    "frontendQuestionId": "1867",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "2014",
+    "status": "",
+    "title": "Orders With Maximum Quantity Above Average",
+    "titleSlug": "orders-with-maximum-quantity-above-average"
   },
   {
     "articleLive": 2,
