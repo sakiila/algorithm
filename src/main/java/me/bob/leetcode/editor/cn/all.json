@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1442]形成两个异或相等数组的三元组数目",
-    "frontendQuestionId": "1442",
+    "formTitle": "[1738]找出第 K 大的异或坐标值",
+    "frontendQuestionId": "1738",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "1553",
+    "questionId": "1860",
     "status": "",
-    "title": "形成两个异或相等数组的三元组数目",
-    "titleSlug": "count-triplets-that-can-form-two-arrays-of-equal-xor"
+    "title": "找出第 K 大的异或坐标值",
+    "titleSlug": "find-kth-largest-xor-coordinate-value"
   },
   {
     "articleLive": 2,
@@ -17305,6 +17305,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1442]形成两个异或相等数组的三元组数目",
+    "frontendQuestionId": "1442",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1553",
+    "status": "ac",
+    "title": "形成两个异或相等数组的三元组数目",
+    "titleSlug": "count-triplets-that-can-form-two-arrays-of-equal-xor"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1443]收集树上所有苹果的最少时间",
     "frontendQuestionId": "1443",
     "leaf": true,
@@ -20842,18 +20854,6 @@
     "status": "",
     "title": "满足三条件之一需改变的最少字符数",
     "titleSlug": "change-minimum-characters-to-satisfy-one-of-three-conditions"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1738]找出第 K 大的异或坐标值",
-    "frontendQuestionId": "1738",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1860",
-    "status": "",
-    "title": "找出第 K 大的异或坐标值",
-    "titleSlug": "find-kth-largest-xor-coordinate-value"
   },
   {
     "articleLive": 2,
