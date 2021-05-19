@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1738]找出第 K 大的异或坐标值",
-    "frontendQuestionId": "1738",
+    "formTitle": "[692]前K个高频单词",
+    "frontendQuestionId": "692",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "1860",
+    "questionId": "692",
     "status": "",
-    "title": "找出第 K 大的异或坐标值",
-    "titleSlug": "find-kth-largest-xor-coordinate-value"
+    "title": "前K个高频单词",
+    "titleSlug": "top-k-frequent-words"
   },
   {
     "articleLive": 2,
@@ -8302,18 +8302,6 @@
     "status": "",
     "title": "贴纸拼词",
     "titleSlug": "stickers-to-spell-word"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[692]前K个高频单词",
-    "frontendQuestionId": "692",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "692",
-    "status": "",
-    "title": "前K个高频单词",
-    "titleSlug": "top-k-frequent-words"
   },
   {
     "articleLive": 2,
@@ -20857,6 +20845,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1738]找出第 K 大的异或坐标值",
+    "frontendQuestionId": "1738",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1860",
+    "status": "ac",
+    "title": "找出第 K 大的异或坐标值",
+    "titleSlug": "find-kth-largest-xor-coordinate-value"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1739]放置盒子",
     "frontendQuestionId": "1739",
     "leaf": true,
@@ -22396,7 +22396,7 @@
     "formTitle": "[1867]Orders With Maximum Quantity Above Average",
     "frontendQuestionId": "1867",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "2014",
     "status": "",
