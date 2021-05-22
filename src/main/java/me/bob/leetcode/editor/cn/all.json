@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1035]不相交的线",
-    "frontendQuestionId": "1035",
+    "formTitle": "[810]黑板异或游戏",
+    "frontendQuestionId": "810",
     "leaf": true,
-    "level": 2,
+    "level": 3,
     "nodeType": "def",
-    "questionId": "1105",
+    "questionId": "828",
     "status": "",
-    "title": "不相交的线",
-    "titleSlug": "uncrossed-lines"
+    "title": "黑板异或游戏",
+    "titleSlug": "chalkboard-xor-game"
   },
   {
     "articleLive": 2,
@@ -460,7 +460,7 @@
     "formTitle": "[38]外观数列",
     "frontendQuestionId": "38",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "38",
     "status": "ac",
@@ -1732,7 +1732,7 @@
     "formTitle": "[144]二叉树的前序遍历",
     "frontendQuestionId": "144",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
     "questionId": "144",
     "status": "ac",
@@ -6055,7 +6055,7 @@
     "level": 1,
     "nodeType": "def",
     "questionId": "504",
-    "status": "",
+    "status": "ac",
     "title": "七进制数",
     "titleSlug": "base-7"
   },
@@ -9721,18 +9721,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[810]黑板异或游戏",
-    "frontendQuestionId": "810",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "828",
-    "status": "",
-    "title": "黑板异或游戏",
-    "titleSlug": "chalkboard-xor-game"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[811]子域名访问计数",
     "frontendQuestionId": "811",
     "leaf": true,
@@ -12418,6 +12406,18 @@
     "status": "",
     "title": "边框着色",
     "titleSlug": "coloring-a-border"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1035]不相交的线",
+    "frontendQuestionId": "1035",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1105",
+    "status": "ac",
+    "title": "不相交的线",
+    "titleSlug": "uncrossed-lines"
   },
   {
     "articleLive": 2,
