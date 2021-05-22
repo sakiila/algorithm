@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[810]黑板异或游戏",
-    "frontendQuestionId": "810",
+    "formTitle": "[1707]与数组中元素的最大异或值",
+    "frontendQuestionId": "1707",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
-    "questionId": "828",
+    "questionId": "1826",
     "status": "",
-    "title": "黑板异或游戏",
-    "titleSlug": "chalkboard-xor-game"
+    "title": "与数组中元素的最大异或值",
+    "titleSlug": "maximum-xor-with-an-element-from-array"
   },
   {
     "articleLive": 2,
@@ -9718,6 +9718,18 @@
     "status": "",
     "title": "情感丰富的文字",
     "titleSlug": "expressive-words"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[810]黑板异或游戏",
+    "frontendQuestionId": "810",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "828",
+    "status": "ac",
+    "title": "黑板异或游戏",
+    "titleSlug": "chalkboard-xor-game"
   },
   {
     "articleLive": 2,
@@ -20470,18 +20482,6 @@
     "status": "",
     "title": "球会落何处",
     "titleSlug": "where-will-the-ball-fall"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1707]与数组中元素的最大异或值",
-    "frontendQuestionId": "1707",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1826",
-    "status": "",
-    "title": "与数组中元素的最大异或值",
-    "titleSlug": "maximum-xor-with-an-element-from-array"
   },
   {
     "articleLive": 2,
