@@ -443,3 +443,9 @@ Xsrc/main/java/me/bob/leetcode/editor/cn/CountTripletsThatCanFormTwoArraysOfEqua
 Msrc/main/java/me/bob/leetcode/editor/cn/FindKthLargestXorCoordinateValue.java,d\3\d3bd91d035276b2ece163017439396eedf9d8281
 n
 >src/main/java/me/bob/leetcode/editor/cn/TopKFrequentWords.java,5\3\53086c7c7a35d16def700f4e5fb2e4b9b48e669d
+}
+Msrc/main/java/me/bob/leetcode/editor/cn/MaximumXorWithAnElementFromArray.java,4\0\40be9254ad4ecf876eacaed9de88ec9d54249d90
+k
+;src/main/java/me/bob/leetcode/editor/cn/UncrossedLines.java,7\8\786740163a3a0e12ad43df49cf0aeb832b747891
+n
+>src/main/java/me/bob/leetcode/editor/cn/ChalkboardXorGame.java,6\8\68f9f35a935d2a0ef8026ccde8fa2a3d2737c616

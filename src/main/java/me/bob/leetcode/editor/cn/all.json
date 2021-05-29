@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1707]与数组中元素的最大异或值",
-    "frontendQuestionId": "1707",
+    "formTitle": "[1074]元素和为目标值的子矩阵数量",
+    "frontendQuestionId": "1074",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
-    "questionId": "1826",
-    "status": "",
-    "title": "与数组中元素的最大异或值",
-    "titleSlug": "maximum-xor-with-an-element-from-array"
+    "questionId": "1145",
+    "status": "ac",
+    "title": "元素和为目标值的子矩阵数量",
+    "titleSlug": "number-of-submatrices-that-sum-to-target"
   },
   {
     "articleLive": 2,
@@ -1540,7 +1540,7 @@
     "formTitle": "[128]最长连续序列",
     "frontendQuestionId": "128",
     "leaf": true,
-    "level": 3,
+    "level": 2,
     "nodeType": "def",
     "questionId": "128",
     "status": "",
@@ -4060,7 +4060,7 @@
     "formTitle": "[338]比特位计数",
     "frontendQuestionId": "338",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
     "questionId": "338",
     "status": "ac",
@@ -5731,7 +5731,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "477",
-    "status": "",
+    "status": "ac",
     "title": "汉明距离总和",
     "titleSlug": "total-hamming-distance"
   },
@@ -7975,7 +7975,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "664",
-    "status": "",
+    "status": "ac",
     "title": "奇怪的打印机",
     "titleSlug": "strange-printer"
   },
@@ -9016,7 +9016,7 @@
     "formTitle": "[751]IP 到 CIDR",
     "frontendQuestionId": "751",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "752",
     "status": "",
@@ -11887,7 +11887,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1032",
-    "status": "",
+    "status": "ac",
     "title": "等式方程的可满足性",
     "titleSlug": "satisfiability-of-equality-equations"
   },
@@ -12886,18 +12886,6 @@
     "status": "",
     "title": "负二进制数相加",
     "titleSlug": "adding-two-negabinary-numbers"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[1074]元素和为目标值的子矩阵数量",
-    "frontendQuestionId": "1074",
-    "leaf": true,
-    "level": 3,
-    "nodeType": "def",
-    "questionId": "1145",
-    "status": "",
-    "title": "元素和为目标值的子矩阵数量",
-    "titleSlug": "number-of-submatrices-that-sum-to-target"
   },
   {
     "articleLive": 2,
@@ -14287,7 +14275,7 @@
     "level": 2,
     "nodeType": "def",
     "questionId": "1298",
-    "status": "",
+    "status": "ac",
     "title": "反转每对括号间的子串",
     "titleSlug": "reverse-substrings-between-each-pair-of-parentheses"
   },
@@ -20485,6 +20473,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1707]与数组中元素的最大异或值",
+    "frontendQuestionId": "1707",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1826",
+    "status": "ac",
+    "title": "与数组中元素的最大异或值",
+    "titleSlug": "maximum-xor-with-an-element-from-array"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1708]长度为 K 的最大子数组",
     "frontendQuestionId": "1708",
     "leaf": true,
@@ -21439,7 +21439,7 @@
     "level": 3,
     "nodeType": "def",
     "questionId": "1913",
-    "status": "",
+    "status": "ac",
     "title": "使所有区间的异或结果为零",
     "titleSlug": "make-the-xor-of-all-segments-equal-to-zero"
   },
@@ -22414,6 +22414,90 @@
     "status": "",
     "title": "Product of Two Run-Length Encoded Arrays",
     "titleSlug": "product-of-two-run-length-encoded-arrays"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1869]哪种连续子字符串更长",
+    "frontendQuestionId": "1869",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1999",
+    "status": "",
+    "title": "哪种连续子字符串更长",
+    "titleSlug": "longer-contiguous-segments-of-ones-than-zeros"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1870]准时到达的列车最小时速",
+    "frontendQuestionId": "1870",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "2000",
+    "status": "",
+    "title": "准时到达的列车最小时速",
+    "titleSlug": "minimum-speed-to-arrive-on-time"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1871]跳跃游戏 VII",
+    "frontendQuestionId": "1871",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "2001",
+    "status": "",
+    "title": "跳跃游戏 VII",
+    "titleSlug": "jump-game-vii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1872]石子游戏 VIII",
+    "frontendQuestionId": "1872",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "2002",
+    "status": "",
+    "title": "石子游戏 VIII",
+    "titleSlug": "stone-game-viii"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1873]Calculate Special Bonus",
+    "frontendQuestionId": "1873",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "2024",
+    "status": "",
+    "title": "Calculate Special Bonus",
+    "titleSlug": "calculate-special-bonus"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1874]Minimize Product Sum of Two Arrays",
+    "frontendQuestionId": "1874",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "2029",
+    "status": "",
+    "title": "Minimize Product Sum of Two Arrays",
+    "titleSlug": "minimize-product-sum-of-two-arrays"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1875]Group Employees of the Same Salary",
+    "frontendQuestionId": "1875",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "2030",
+    "status": "",
+    "title": "Group Employees of the Same Salary",
+    "titleSlug": "group-employees-of-the-same-salary"
   },
   {
     "articleLive": 2,
