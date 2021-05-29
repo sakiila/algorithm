@@ -35,6 +35,7 @@ public class PowerOfTwo {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isPowerOfTwo(int n) {
+            // 与运算，消除最后一个 1
             return n > 0 && (n & (n - 1)) == 0;
         }
     }
