@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1074]元素和为目标值的子矩阵数量",
-    "frontendQuestionId": "1074",
+    "formTitle": "[342]4的幂",
+    "frontendQuestionId": "342",
     "leaf": true,
-    "level": 3,
+    "level": 1,
     "nodeType": "def",
-    "questionId": "1145",
-    "status": "ac",
-    "title": "元素和为目标值的子矩阵数量",
-    "titleSlug": "number-of-submatrices-that-sum-to-target"
+    "questionId": "342",
+    "status": "",
+    "title": "4的幂",
+    "titleSlug": "power-of-four"
   },
   {
     "articleLive": 2,
@@ -2773,14 +2773,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[231]2的幂",
+    "formTitle": "[231]2 的幂",
     "frontendQuestionId": "231",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "231",
     "status": "ac",
-    "title": "2的幂",
+    "title": "2 的幂",
     "titleSlug": "power-of-two"
   },
   {
@@ -4102,18 +4102,6 @@
     "status": "ac",
     "title": "扁平化嵌套列表迭代器",
     "titleSlug": "flatten-nested-list-iterator"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[342]4的幂",
-    "frontendQuestionId": "342",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "342",
-    "status": "",
-    "title": "4的幂",
-    "titleSlug": "power-of-four"
   },
   {
     "articleLive": 2,
@@ -5944,7 +5932,7 @@
     "formTitle": "[495]提莫攻击",
     "frontendQuestionId": "495",
     "leaf": true,
-    "level": 2,
+    "level": 1,
     "nodeType": "def",
     "questionId": "495",
     "status": "",
@@ -12886,6 +12874,18 @@
     "status": "",
     "title": "负二进制数相加",
     "titleSlug": "adding-two-negabinary-numbers"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1074]元素和为目标值的子矩阵数量",
+    "frontendQuestionId": "1074",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1145",
+    "status": "ac",
+    "title": "元素和为目标值的子矩阵数量",
+    "titleSlug": "number-of-submatrices-that-sum-to-target"
   },
   {
     "articleLive": 2,
@@ -21193,14 +21193,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1767]Find the Subtasks That Did Not Execute",
+    "formTitle": "[1767]寻找没有被执行的任务对",
     "frontendQuestionId": "1767",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
     "questionId": "1914",
     "status": "",
-    "title": "Find the Subtasks That Did Not Execute",
+    "title": "寻找没有被执行的任务对",
     "titleSlug": "find-the-subtasks-that-did-not-execute"
   },
   {
@@ -21457,14 +21457,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1789]Primary Department for Each Employee",
+    "formTitle": "[1789]员工的直属部门",
     "frontendQuestionId": "1789",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1942",
     "status": "",
-    "title": "Primary Department for Each Employee",
+    "title": "员工的直属部门",
     "titleSlug": "primary-department-for-each-employee"
   },
   {
@@ -21529,14 +21529,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1795]Rearrange Products Table",
+    "formTitle": "[1795]每个产品在不同商店的价格",
     "frontendQuestionId": "1795",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1948",
     "status": "",
-    "title": "Rearrange Products Table",
+    "title": "每个产品在不同商店的价格",
     "titleSlug": "rearrange-products-table"
   },
   {
@@ -21697,14 +21697,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1809]Ad-Free Sessions",
+    "formTitle": "[1809]没有广告的剧集",
     "frontendQuestionId": "1809",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1958",
     "status": "",
-    "title": "Ad-Free Sessions",
+    "title": "没有广告的剧集",
     "titleSlug": "ad-free-sessions"
   },
   {
@@ -21841,14 +21841,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1821]Find Customers With Positive Revenue this Year",
+    "formTitle": "[1821]寻找今年具有正收入的客户",
     "frontendQuestionId": "1821",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1974",
     "status": "",
-    "title": "Find Customers With Positive Revenue this Year",
+    "title": "寻找今年具有正收入的客户",
     "titleSlug": "find-customers-with-positive-revenue-this-year"
   },
   {
@@ -21901,14 +21901,14 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1826]Faulty Sensor",
+    "formTitle": "[1826]有缺陷的传感器",
     "frontendQuestionId": "1826",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
     "questionId": "1980",
     "status": "",
-    "title": "Faulty Sensor",
+    "title": "有缺陷的传感器",
     "titleSlug": "faulty-sensor"
   },
   {
@@ -22498,6 +22498,102 @@
     "status": "",
     "title": "Group Employees of the Same Salary",
     "titleSlug": "group-employees-of-the-same-salary"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1878]矩阵中最大的三个菱形和",
+    "frontendQuestionId": "1878",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1990",
+    "status": "",
+    "title": "矩阵中最大的三个菱形和",
+    "titleSlug": "get-biggest-three-rhombus-sums-in-a-grid"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5754]长度为三且各字符不同的子字符串",
+    "frontendQuestionId": "5754",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1987",
+    "status": "",
+    "title": "长度为三且各字符不同的子字符串",
+    "titleSlug": "substrings-of-size-three-with-distinct-characters"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5755]数组中最大数对和的最小值",
+    "frontendQuestionId": "5755",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1988",
+    "status": "",
+    "title": "数组中最大数对和的最小值",
+    "titleSlug": "minimize-maximum-pair-sum-in-array"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5756]两个数组最小的异或值之和",
+    "frontendQuestionId": "5756",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "1989",
+    "status": "",
+    "title": "两个数组最小的异或值之和",
+    "titleSlug": "minimum-xor-sum-of-two-arrays"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5772]检查某单词是否等于两单词之和",
+    "frontendQuestionId": "5772",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "2010",
+    "status": "",
+    "title": "检查某单词是否等于两单词之和",
+    "titleSlug": "check-if-word-equals-summation-of-two-words"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5773]插入后的最大值",
+    "frontendQuestionId": "5773",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "2011",
+    "status": "",
+    "title": "插入后的最大值",
+    "titleSlug": "maximum-value-after-insertion"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5774]使用服务器处理任务",
+    "frontendQuestionId": "5774",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "2012",
+    "status": "",
+    "title": "使用服务器处理任务",
+    "titleSlug": "process-tasks-using-servers"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[5775]准时抵达会议现场的最小跳过休息次数",
+    "frontendQuestionId": "5775",
+    "leaf": true,
+    "level": 3,
+    "nodeType": "def",
+    "questionId": "2013",
+    "status": "",
+    "title": "准时抵达会议现场的最小跳过休息次数",
+    "titleSlug": "minimum-skips-to-arrive-at-meeting-on-time"
   },
   {
     "articleLive": 2,
