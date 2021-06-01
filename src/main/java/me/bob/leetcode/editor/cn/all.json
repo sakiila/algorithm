@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[342]4的幂",
-    "frontendQuestionId": "342",
+    "formTitle": "[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
+    "frontendQuestionId": "1744",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "342",
+    "questionId": "1872",
     "status": "",
-    "title": "4的幂",
-    "titleSlug": "power-of-four"
+    "title": "你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
+    "titleSlug": "can-you-eat-your-favorite-candy-on-your-favorite-day"
   },
   {
     "articleLive": 2,
@@ -4102,6 +4102,18 @@
     "status": "ac",
     "title": "扁平化嵌套列表迭代器",
     "titleSlug": "flatten-nested-list-iterator"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[342]4的幂",
+    "frontendQuestionId": "342",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "342",
+    "status": "ac",
+    "title": "4的幂",
+    "titleSlug": "power-of-four"
   },
   {
     "articleLive": 2,
@@ -9088,7 +9100,7 @@
     "formTitle": "[758]字符串中的加粗单词",
     "frontendQuestionId": "758",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
     "questionId": "760",
     "status": "",
@@ -20917,18 +20929,6 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
-    "frontendQuestionId": "1744",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1872",
-    "status": "",
-    "title": "你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
-    "titleSlug": "can-you-eat-your-favorite-candy-on-your-favorite-day"
-  },
-  {
-    "articleLive": 2,
     "formTitle": "[1745]回文串分割 IV",
     "frontendQuestionId": "1745",
     "leaf": true,
@@ -22501,6 +22501,30 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1876]长度为三且各字符不同的子字符串",
+    "frontendQuestionId": "1876",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "1987",
+    "status": "",
+    "title": "长度为三且各字符不同的子字符串",
+    "titleSlug": "substrings-of-size-three-with-distinct-characters"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1877]数组中最大数对和的最小值",
+    "frontendQuestionId": "1877",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1988",
+    "status": "",
+    "title": "数组中最大数对和的最小值",
+    "titleSlug": "minimize-maximum-pair-sum-in-array"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1878]矩阵中最大的三个菱形和",
     "frontendQuestionId": "1878",
     "leaf": true,
@@ -22513,32 +22537,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5754]长度为三且各字符不同的子字符串",
-    "frontendQuestionId": "5754",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "1987",
-    "status": "",
-    "title": "长度为三且各字符不同的子字符串",
-    "titleSlug": "substrings-of-size-three-with-distinct-characters"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5755]数组中最大数对和的最小值",
-    "frontendQuestionId": "5755",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "1988",
-    "status": "",
-    "title": "数组中最大数对和的最小值",
-    "titleSlug": "minimize-maximum-pair-sum-in-array"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[5756]两个数组最小的异或值之和",
-    "frontendQuestionId": "5756",
+    "formTitle": "[1879]两个数组最小的异或值之和",
+    "frontendQuestionId": "1879",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
@@ -22549,8 +22549,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5772]检查某单词是否等于两单词之和",
-    "frontendQuestionId": "5772",
+    "formTitle": "[1880]检查某单词是否等于两单词之和",
+    "frontendQuestionId": "1880",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
@@ -22561,8 +22561,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5773]插入后的最大值",
-    "frontendQuestionId": "5773",
+    "formTitle": "[1881]插入后的最大值",
+    "frontendQuestionId": "1881",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22573,8 +22573,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5774]使用服务器处理任务",
-    "frontendQuestionId": "5774",
+    "formTitle": "[1882]使用服务器处理任务",
+    "frontendQuestionId": "1882",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
@@ -22585,8 +22585,8 @@
   },
   {
     "articleLive": 2,
-    "formTitle": "[5775]准时抵达会议现场的最小跳过休息次数",
-    "frontendQuestionId": "5775",
+    "formTitle": "[1883]准时抵达会议现场的最小跳过休息次数",
+    "frontendQuestionId": "1883",
     "leaf": true,
     "level": 3,
     "nodeType": "def",
