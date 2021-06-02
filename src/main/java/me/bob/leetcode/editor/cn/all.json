@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
-    "frontendQuestionId": "1744",
+    "formTitle": "[523]连续的子数组和",
+    "frontendQuestionId": "523",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "1872",
+    "questionId": "523",
     "status": "",
-    "title": "你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
-    "titleSlug": "can-you-eat-your-favorite-candy-on-your-favorite-day"
+    "title": "连续的子数组和",
+    "titleSlug": "continuous-subarray-sum"
   },
   {
     "articleLive": 2,
@@ -6274,18 +6274,6 @@
     "status": "",
     "title": "最长特殊序列 II",
     "titleSlug": "longest-uncommon-subsequence-ii"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[523]连续的子数组和",
-    "frontendQuestionId": "523",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "523",
-    "status": "",
-    "title": "连续的子数组和",
-    "titleSlug": "continuous-subarray-sum"
   },
   {
     "articleLive": 2,
@@ -20929,6 +20917,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[1744]你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
+    "frontendQuestionId": "1744",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "1872",
+    "status": "ac",
+    "title": "你能在你最喜欢的那天吃到你最喜欢的糖果吗？",
+    "titleSlug": "can-you-eat-your-favorite-candy-on-your-favorite-day"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[1745]回文串分割 IV",
     "frontendQuestionId": "1745",
     "leaf": true,
@@ -22594,6 +22594,18 @@
     "status": "",
     "title": "准时抵达会议现场的最小跳过休息次数",
     "titleSlug": "minimum-skips-to-arrive-at-meeting-on-time"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[1884]Egg Drop With 2 Eggs and N Floors",
+    "frontendQuestionId": "1884",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "2031",
+    "status": "",
+    "title": "Egg Drop With 2 Eggs and N Floors",
+    "titleSlug": "egg-drop-with-2-eggs-and-n-floors"
   },
   {
     "articleLive": 2,

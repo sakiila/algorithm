@@ -451,3 +451,9 @@ n
 >src/main/java/me/bob/leetcode/editor/cn/ChalkboardXorGame.java,6\8\68f9f35a935d2a0ef8026ccde8fa2a3d2737c616
 
 Osrc/main/java/me/bob/leetcode/editor/cn/NumberOfSubmatricesThatSumToTarget.java,e\8\e8e8da5c5a7160831205b3ea68ea4f38dcbee63e
+h
+8src/main/java/me/bob/leetcode/editor/cn/PowerOfFour.java,2\f\2f2723e5019ef83d2e9751cc48d254c2869b34cf
+g
+7src/main/java/me/bob/leetcode/editor/cn/PowerOfTwo.java,9\b\9bec7d23425eb60a09f86de3f9570a2b223d1975
+ˆ
+Xsrc/main/java/me/bob/leetcode/editor/cn/CanYouEatYourFavoriteCandyOnYourFavoriteDay.java,6\a\6a27b51490f806130802c022b9ea76298353b7cb
