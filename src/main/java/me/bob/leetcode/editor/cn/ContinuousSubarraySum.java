@@ -58,7 +58,7 @@ import java.util.Map;
  * 2021-06-02 09:29:04
  * 思路：前缀和 + 哈希表 + 同余定理
  * 同余定理： 如果两个整数 m、n 满足 n - m 能被 k 整除，那么 n 和 m 对 k 同余
- * (sum[j + 1] - sum[i]) % k == 0，等价于 sum[j + 1] % k == sum[i] % k
+ * sum[j + 1] % k == sum[i] % k，等价于 (sum[j + 1] - sum[i]) % k == 0
  */
 public class ContinuousSubarraySum {
     public static void main(String[] args) {
