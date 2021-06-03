@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[523]连续的子数组和",
-    "frontendQuestionId": "523",
+    "formTitle": "[525]连续数组",
+    "frontendQuestionId": "525",
     "leaf": true,
     "level": 2,
     "nodeType": "def",
-    "questionId": "523",
+    "questionId": "525",
     "status": "",
-    "title": "连续的子数组和",
-    "titleSlug": "continuous-subarray-sum"
+    "title": "连续数组",
+    "titleSlug": "contiguous-array"
   },
   {
     "articleLive": 2,
@@ -6277,6 +6277,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[523]连续的子数组和",
+    "frontendQuestionId": "523",
+    "leaf": true,
+    "level": 2,
+    "nodeType": "def",
+    "questionId": "523",
+    "status": "ac",
+    "title": "连续的子数组和",
+    "titleSlug": "continuous-subarray-sum"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[524]通过删除字母匹配到字典里最长单词",
     "frontendQuestionId": "524",
     "leaf": true,
@@ -6286,18 +6298,6 @@
     "status": "",
     "title": "通过删除字母匹配到字典里最长单词",
     "titleSlug": "longest-word-in-dictionary-through-deleting"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[525]连续数组",
-    "frontendQuestionId": "525",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "525",
-    "status": "",
-    "title": "连续数组",
-    "titleSlug": "contiguous-array"
   },
   {
     "articleLive": 2,
