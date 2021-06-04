@@ -64,7 +64,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 160 相交链表
  * 2021-01-30 09:14:52
- * 思路：类似拼接链表，走到末尾后，去到另一条链表
+ * 思路：双指针：类似拼接链表，走到末尾后，去到另一条链表
  */
 public class IntersectionOfTwoLinkedLists {
     public static void main(String[] args) {
