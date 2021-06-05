@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[160]相交链表",
-    "frontendQuestionId": "160",
+    "formTitle": "[203]移除链表元素",
+    "frontendQuestionId": "203",
     "leaf": true,
     "level": 1,
     "nodeType": "def",
-    "questionId": "160",
+    "questionId": "203",
     "status": "ac",
-    "title": "相交链表",
-    "titleSlug": "intersection-of-two-linked-lists"
+    "title": "移除链表元素",
+    "titleSlug": "remove-linked-list-elements"
   },
   {
     "articleLive": 2,
@@ -1921,6 +1921,18 @@
   },
   {
     "articleLive": 2,
+    "formTitle": "[160]相交链表",
+    "frontendQuestionId": "160",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "160",
+    "status": "ac",
+    "title": "相交链表",
+    "titleSlug": "intersection-of-two-linked-lists"
+  },
+  {
+    "articleLive": 2,
     "formTitle": "[161]相隔为 1 的编辑距离",
     "frontendQuestionId": "161",
     "leaf": true,
@@ -2422,18 +2434,6 @@
     "status": "ac",
     "title": "快乐数",
     "titleSlug": "happy-number"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[203]移除链表元素",
-    "frontendQuestionId": "203",
-    "leaf": true,
-    "level": 1,
-    "nodeType": "def",
-    "questionId": "203",
-    "status": "ac",
-    "title": "移除链表元素",
-    "titleSlug": "remove-linked-list-elements"
   },
   {
     "articleLive": 2,
