@@ -1,15 +1,15 @@
 [
   {
     "articleLive": 2,
-    "formTitle": "[203]移除链表元素",
-    "frontendQuestionId": "203",
+    "formTitle": "[474]一和零",
+    "frontendQuestionId": "474",
     "leaf": true,
-    "level": 1,
+    "level": 2,
     "nodeType": "def",
-    "questionId": "203",
-    "status": "ac",
-    "title": "移除链表元素",
-    "titleSlug": "remove-linked-list-elements"
+    "questionId": "474",
+    "status": "",
+    "title": "一和零",
+    "titleSlug": "ones-and-zeroes"
   },
   {
     "articleLive": 2,
@@ -2434,6 +2434,18 @@
     "status": "ac",
     "title": "快乐数",
     "titleSlug": "happy-number"
+  },
+  {
+    "articleLive": 2,
+    "formTitle": "[203]移除链表元素",
+    "frontendQuestionId": "203",
+    "leaf": true,
+    "level": 1,
+    "nodeType": "def",
+    "questionId": "203",
+    "status": "ac",
+    "title": "移除链表元素",
+    "titleSlug": "remove-linked-list-elements"
   },
   {
     "articleLive": 2,
@@ -5674,18 +5686,6 @@
     "status": "",
     "title": "火柴拼正方形",
     "titleSlug": "matchsticks-to-square"
-  },
-  {
-    "articleLive": 2,
-    "formTitle": "[474]一和零",
-    "frontendQuestionId": "474",
-    "leaf": true,
-    "level": 2,
-    "nodeType": "def",
-    "questionId": "474",
-    "status": "",
-    "title": "一和零",
-    "titleSlug": "ones-and-zeroes"
   },
   {
     "articleLive": 2,
