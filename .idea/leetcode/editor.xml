@@ -187,6 +187,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/DeleteDuplicateEmails.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/DeleteDuplicateEmails.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/DeleteDuplicateEmails.java" />
+              <option name="questionId" value="196" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/DeleteNodeInALinkedList.java">
           <value>
             <LeetcodeEditor>
@@ -755,6 +764,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/TenthLine.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/TenthLine.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/TenthLine.java" />
+              <option name="questionId" value="195" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/TopKFrequentWords.java">
           <value>
             <LeetcodeEditor>
@@ -816,6 +834,24 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/ZuiXiaoDeKgeShuLcof.java" />
               <option name="questionId" value="100301" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/[195]第十行.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/TenthLine.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/TenthLine.java" />
+              <option name="questionId" value="195" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/4z/h8t9m1t976v8tdnh8_3v3dlm0000gp/T/leetcode/editor/cn/[195]第十行.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/TenthLine.md" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/TenthLine.java" />
+              <option name="questionId" value="195" />
             </LeetcodeEditor>
           </value>
         </entry>
