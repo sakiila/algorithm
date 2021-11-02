@@ -41,7 +41,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 237 删除链表中的节点
  * 2021-01-30 09:31:34
- * 思路：与下一个节点交换
+ * 思路：值变成下一个，再指向下一个节点的下一个节点
  */
 public class DeleteNodeInALinkedList {
     public static void main(String[] args) {
