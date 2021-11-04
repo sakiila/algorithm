@@ -36,9 +36,9 @@ public class ValidPerfectSquare {
                 return true;
             }
 
-            int left = 1, right = num / 2, mid;
+            int left = 1, right = num / 2;
             while (left <= right) {
-                mid = left + (right - left) / 2;
+                int mid = left + (right - left) / 2;
                 if ((long) mid * mid == num) {
                     return true;
                 }
