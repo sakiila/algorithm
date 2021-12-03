@@ -66,19 +66,21 @@ public class RelativeRanks {
             for (int i = 0; i < length; i++) {
                 map.put(score[i], i);
             }
+            
             Arrays.sort(score);
 
             String[] result = new String[length];
-            for (int i = 0; i < length; i++) {
-                int index = map.get(score[i]);
-                if (i == length - 1) {
-                    result[index] = "Gold Medal";
-                } else if (i == length - 2) {
-                    result[index] = "Silver Medal";
-                } else if (i == length - 3) {
-                    result[index] = "Bronze Medal";
+            for (int j = 0; j < length; j++) {
+                // 获得原下标
+                int i = map.get(score[j]);
+                if (j == length - 1) {
+                    result[i] = "Gold Medal";
+                } else if (j == length - 2) {
+                    result[i] = "Silver Medal";
+                } else if (j == length - 3) {
+                    result[i] = "Bronze Medal";
                 } else {
-                    result[index] = String.valueOf(length - i);
+                    result[i] = String.valueOf(length - j);
                 }
             }
 
