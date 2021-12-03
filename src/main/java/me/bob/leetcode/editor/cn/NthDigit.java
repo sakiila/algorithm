@@ -37,23 +37,22 @@ package me.bob.leetcode.editor.cn;
 public class NthDigit {
     public static void main(String[] args) {
         Solution solution = new NthDigit().new Solution();
+        System.out.println("result =  " + solution.findNthDigit(614));
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int findNthDigit(int n) {
-            int d = 1, count = 9;
-            while (n > (long) d * count) {
-                n -= d * count;
-                d++;
-                count *= 10;
+            int len = 1;
+            while (len * 9 * Math.pow(10, len - 1) < n) {
+                n -= len * 9 * Math.pow(10, len - 1);
+                len++;
             }
-            int index = n - 1;
-            int start = (int) Math.pow(10, d - 1);
-            int num = start + index / d;
-            int digitIndex = index % d;
-            int digit = (num / (int) (Math.pow(10, d - digitIndex - 1))) % 10;
-            return digit;
+
+            long s = (long) Math.pow(10, len - 1);
+            s += n / len - 1;
+            n -= len * (n / len);
+            return n == 0 ? (int) (s % 10) : (int) ((s + 1) / Math.pow(10, len - n) % 10);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
