@@ -46,19 +46,19 @@ package main
 
 // 1 两数之和
 // 2021-12-22 10:42:46
-// 思路：
+// 思路：哈希表
 func main() {
 	twoSum([]int{2, 7, 11, 15}, 9)
 }
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func twoSum(nums []int, target int) []int {
-	for i, k := range nums {
-		for j, v := range nums[i+1:] {
-			if k+v == target {
-				return []int{i, i + j + 1}
-			}
+	hashTable := map[int]int{}
+	for i, x := range nums {
+		if p, ok := hashTable[target-x]; ok {
+			return []int{p, i}
 		}
+		hashTable[x] = i
 	}
 	return nil
 }
