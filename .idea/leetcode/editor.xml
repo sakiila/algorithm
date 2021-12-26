@@ -3,6 +3,15 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/OccurrencesAfterBigram.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/OccurrencesAfterBigram.md" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/OccurrencesAfterBigram.py" />
+              <option name="questionId" value="1156" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/TwoSum.py">
           <value>
             <LeetcodeEditor>
