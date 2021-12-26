@@ -36,7 +36,7 @@
 
 # 1078 Bigram 分词
 # 2021-12-26 16:45:43
-# 思路：
+# 思路：遍历
 # leetcode submit region begin(Prohibit modification and deletion)
 class Solution:
     def findOcurrences(self, text: str, first: str, second: str) -> List[str]:
