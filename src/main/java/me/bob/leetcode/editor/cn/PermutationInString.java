@@ -48,29 +48,27 @@ public class PermutationInString {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean checkInclusion(String s1, String s2) {
-            int n = s1.length(), m = s2.length();
+            int m = s2.length(), n = s1.length();
             if (n > m) {
                 return false;
             }
 
-            char[] ca = new char[26];
-            char[] cb = new char[26];
+            char[] mc = new char[26], nc = new char[26];
             for (int i = 0; i < n; i++) {
-                ca[s1.charAt(i) - 'a']++;
-                cb[s2.charAt(i) - 'a']++;
-            }
-            if (Arrays.equals(ca, cb)) {
-                return true;
+                mc[s2.charAt(i) - 'a']++;
+                nc[s1.charAt(i) - 'a']++;
             }
 
-            for (int i = n; i < m; i++) {
-                cb[s2.charAt(i - n) - 'a']--;
-                cb[s2.charAt(i) - 'a']++;
-                if (Arrays.equals(ca, cb)) {
+            for (int i = 0; i < m - n + 1; i++) {
+                if (Arrays.equals(mc, nc)) {
                     return true;
                 }
+                if (i + n >= m) {
+                    break;
+                }
+                mc[s2.charAt(i + n) - 'a']++;
+                mc[s2.charAt(i) - 'a']--;
             }
-
             return false;
         }
     }

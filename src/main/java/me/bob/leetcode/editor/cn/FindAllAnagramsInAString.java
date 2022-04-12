@@ -55,35 +55,30 @@ public class FindAllAnagramsInAString {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<Integer> findAnagrams(String s, String p) {
-            List<Integer> result = new ArrayList<>();
+            List<Integer> res = new ArrayList<>();
 
-            final int sLen = s.length();
-            final int pLen = p.length();
-
-            if (sLen < pLen) {
-                return result;
+            int sl = s.length(), pl = p.length();
+            if (sl < pl) {
+                return res;
             }
 
-            int[] sCnt = new int[26];
-            int[] pCnt = new int[26];
-
-            for (int i = 0; i < pLen; i++) {
-                sCnt[s.charAt(i) - 'a']++;
-                pCnt[p.charAt(i) - 'a']++;
+            int[] sc = new int[26], pc = new int[26];
+            for (int i = 0; i < pl; i++) {
+                sc[s.charAt(i) - 'a']++;
+                pc[p.charAt(i) - 'a']++;
             }
 
-            for (int i = 0; i < sLen - pLen + 1; i++) {
-                if (Arrays.equals(sCnt, pCnt)) {
-                    result.add(i);
+            for (int i = 0; i < sl - pl + 1; i++) {
+                if (Arrays.equals(sc, pc)) {
+                    res.add(i);
                 }
-                if (i + pLen >= sLen) {
-                    continue;
+                if (i + pl >= sl) {
+                    break;
                 }
-                sCnt[s.charAt(i) - 'a']--;
-                sCnt[s.charAt(i + pLen) - 'a']++;
+                sc[s.charAt(i + pl) - 'a']++;
+                sc[s.charAt(i) - 'a']--;
             }
-
-            return result;
+            return res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
