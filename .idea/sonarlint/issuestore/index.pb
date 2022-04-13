@@ -143,10 +143,6 @@ Dsrc/main/java/me/bob/leetcode/editor/cn/ImplementTriePrefixTree.java,0\a\0a21c
 ,src/main/java/me/bob/sort/InsertionSort.java,2\1\21e552f94f130230fe25c34e191ccd2e8b800b35
 l
 <src/main/java/me/bob/leetcode/editor/cn/ArrayPartitionI.java,8\6\86fb1aa47f429ebfd3daf356ca77c665f6faa1ba
-i
-9src/main/java/me/bob/leetcode/editor/cn/BinarySearch.java,9\9\997b203a0ac2ff7a011f8474d1949facf3468e8b
-b
-2src/main/java/me/bob/leetcode/editor/cn/Sqrtx.java,a\a\aa8818c93391c18ecababc58c18714b7ee0f9832
 l
 <src/main/java/me/bob/leetcode/editor/cn/FirstBadVersion.java,1\2\12253bf1993e61f446a8b3c135f0a231e46897b2
 l
@@ -155,16 +151,12 @@ u
 Esrc/main/java/me/bob/leetcode/editor/cn/GuessNumberHigherOrLower.java,7\9\79bad41f0b529c7a05afec9abc77117e742224c7
 w
 Gsrc/main/java/me/bob/leetcode/editor/cn/SearchInRotatedSortedArray.java,2\a\2a6f970a9edc298bf0d2c815aaf9a538d63eebea
-‹
-[src/main/java/me/bob/leetcode/editor/cn/FindFirstAndLastPositionOfElementInSortedArray.java,9\c\9c945ec06d036752f1c8e0b45940b8c580e4a435
 q
 Asrc/main/java/me/bob/leetcode/editor/cn/FindKClosestElements.java,b\c\bcbba2d390fde72c49343f25dbf6a73cef3cc7c2
 m
 =src/main/java/me/bob/leetcode/editor/cn/ReshapeTheMatrix.java,2\c\2ce6aabd9697c0a52e2530c0e37168bada132ea0
 b
 2src/main/java/me/bob/leetcode/editor/cn/PowxN.java,e\1\e1f469ae94d34e45d3fd230d662890a27237a530
-o
-?src/main/java/me/bob/leetcode/editor/cn/ValidPerfectSquare.java,b\3\b35646f527069841b1900fcdea49b3cd30bc3988
 €
 Psrc/main/java/me/bob/leetcode/editor/cn/FindSmallestLetterGreaterThanTarget.java,c\9\c9c202de72ee405bda726a6def9615b8d7c23e99
 ~

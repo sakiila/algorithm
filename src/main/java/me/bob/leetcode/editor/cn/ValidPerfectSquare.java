@@ -41,8 +41,7 @@ public class ValidPerfectSquare {
                 int mid = left + (right - left) / 2;
                 if ((long) mid * mid == num) {
                     return true;
-                }
-                if ((long) mid * mid > num) {
+                } else if ((long) mid * mid > num) {
                     right = mid - 1;
                 } else {
                     left = mid + 1;

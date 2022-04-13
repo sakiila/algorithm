@@ -31,8 +31,11 @@ package me.bob.leetcode.editor.cn;
 public class Sqrtx {
     public static void main(String[] args) {
         Solution solution = new Sqrtx().new Solution();
-        int i = solution.mySqrt(5);
-        System.out.println("i = " + i);
+//        int i = solution.mySqrt(5);
+//        System.out.println("i = " + i);
+        
+        double y = solution.mySqrt(0.81d);
+        System.out.println("y = " + y);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -56,6 +59,22 @@ public class Sqrtx {
                 }
             }
 
+            return res;
+        }
+        
+        
+        public double mySqrt(double x) {
+            double left = 0, right = 1;
+            double res = 0;
+            while (left <= right) {
+                double mid = left + (right - left) / 2;
+                if (mid * mid > x) {
+                    right = mid - 0.1;
+                } else {
+                    res = mid;
+                    left = mid + 0.1;
+                }
+            }
             return res;
         }
     }
