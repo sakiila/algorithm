@@ -46,7 +46,7 @@ public class SpiralMatrixIi {
             int index = 1;
             int[][] res = new int[n][n];
             int left = 0, right = n - 1, top = 0, bottom = n - 1;
-
+            
             while (left <= right && top <= bottom) {
                 for (int col = left; col <= right; col++) {
                     res[top][col] = index++;
@@ -54,10 +54,10 @@ public class SpiralMatrixIi {
                 for (int row = top + 1; row <= bottom; row++) {
                     res[row][right] = index++;
                 }
-                for (int col = right - 1; col > left; col--) {
+                for (int col = right - 1; col >= left; col--) {
                     res[bottom][col] = index++;
                 }
-                for (int row = bottom; row > top; row--) {
+                for (int row = bottom - 1; row > top; row--) {
                     res[row][left] = index++;
                 }
                 left++;

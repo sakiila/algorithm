@@ -26,7 +26,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 209 长度最小的子数组
  * 2021-01-28 08:09:10
- * 思路：双指针
+ * 思路：滑动窗口
  */
 public class MinimumSizeSubarraySum {
     public static void main(String[] args) {
@@ -36,19 +36,19 @@ public class MinimumSizeSubarraySum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int minSubArrayLen(int s, int[] nums) {
-            int i = 0, j = 0, sum = 0, min = Integer.MAX_VALUE;
-
+            int i = 0, j = 0, sum = 0, length = Integer.MAX_VALUE;
+            
             while (j < nums.length) {
                 sum += nums[j];
                 while (sum >= s) {
-                    min = Math.min(min, j - i + 1);
+                    length = Math.min(length, j - i + 1);
                     sum -= nums[i];
                     i++;
                 }
                 j++;
             }
 
-            return min == Integer.MAX_VALUE ? 0 : min;
+            return length == Integer.MAX_VALUE ? 0 : length;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
