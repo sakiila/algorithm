@@ -73,12 +73,6 @@ X
 (src/main/java/me/bob/sort/MergeSort.java,2\0\20fa898cfdbb598d7f17d09d04f5c919083da086
 w
 Gsrc/main/java/me/bob/leetcode/editor/cn/KthLargestElementInAStream.java,e\6\e6d8c763d07aba8c830486092a6130d40d9e4473
-g
-7src/main/java/me/bob/leetcode/editor/cn/MoveZeroes.java,0\4\0471bdbaf469e65fc38d15893cb2957e49b57097
-j
-:src/main/java/me/bob/leetcode/editor/cn/RemoveElement.java,e\f\ef2a9fee8e1605937b70f6421f2d40f2232dc511
-|
-Lsrc/main/java/me/bob/leetcode/editor/cn/RemoveDuplicatesFromSortedArray.java,a\a\aa02aa58e8b997b287730e12de87c04be0eb16da
 ~
 Nsrc/main/java/me/bob/leetcode/editor/cn/RemoveDuplicatesFromSortedArrayIi.java,4\5\45dc566f019ecba1811c1ce3481b59d3490af011
 g
