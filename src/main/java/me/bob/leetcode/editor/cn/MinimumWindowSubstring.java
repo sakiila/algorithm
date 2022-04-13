@@ -64,37 +64,36 @@ public class MinimumWindowSubstring {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public String minWindow(String s, String t) {
-            Map<Character, Integer> window = new HashMap<>();
-            Map<Character, Integer> need = new HashMap<>();
+            Map<Character, Integer> sm = new HashMap<>();
+            Map<Character, Integer> tm = new HashMap<>();
             for (char c : t.toCharArray()) {
-                need.put(c, need.getOrDefault(c, 0) + 1);
+                tm.put(c, tm.getOrDefault(c, 0) + 1);
             }
             int left = 0, right = 0;
-            int count = 0; // 字符数量
-            int length = Integer.MAX_VALUE;
-            int start = 0;
-
+            int start = 0, length = Integer.MAX_VALUE;
+            int count = 0;
+            
             while (right < s.length()) {
                 char c = s.charAt(right);
                 right++;
-                if (need.containsKey(c)) {
-                    window.put(c, window.getOrDefault(c, 0) + 1);
-                    if (need.get(c).equals(window.get(c))) {
+                if (tm.containsKey(c)) {
+                    sm.put(c, sm.getOrDefault(c, 0) + 1);
+                    if (sm.get(c).equals(tm.get(c))) {
                         count++;
                     }
                 }
-                while (count == need.size()) {
+                while (tm.size() == count) {
                     if (right - left < length) {
                         length = right - left;
                         start = left;
                     }
-                    char d = s.charAt(left);
+                    char cl = s.charAt(left);
                     left++;
-                    if (need.containsKey(d)) {
-                        if (need.get(d).equals(window.get(d))) {
+                    if (tm.containsKey(cl)) {
+                        if (sm.get(cl).equals(tm.get(cl))) {
                             count--;
                         }
-                        window.put(d, window.get(d) - 1);
+                        sm.put(cl, sm.get(cl) - 1);
                     }
                 }
             }
