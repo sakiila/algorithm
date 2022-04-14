@@ -75,7 +75,7 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
                 int mid = left + (right - left) / 2;
                 if (nums[mid] == target) {
                     index = mid;
-                    right = mid - 1; // 必须修改区间，否则无法推出循环
+                    right = mid - 1; // 必须修改区间，否则无法退出循环
                 } else if (nums[mid] > target) {
                     right = mid - 1;
                 } else {
@@ -93,7 +93,7 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
                 int mid = left + (right - left) / 2;
                 if (nums[mid] == target) {
                     index = mid;
-                    left = mid + 1; // 必须修改区间，否则无法推出循环
+                    left = mid + 1; // 必须修改区间，否则无法退出循环
                 } else if (nums[mid] > target) {
                     right = mid - 1;
                 } else {

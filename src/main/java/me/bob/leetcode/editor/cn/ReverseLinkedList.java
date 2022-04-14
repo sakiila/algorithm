@@ -42,6 +42,7 @@ public class ReverseLinkedList {
      * }
      */
     class Solution {
+        // 从后向前递归
         public ListNode reverseList(ListNode head) {
             if (head == null || head.next == null) {
                 return head;
