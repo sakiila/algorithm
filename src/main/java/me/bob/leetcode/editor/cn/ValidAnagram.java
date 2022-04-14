@@ -22,6 +22,9 @@
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 242 有效的字母异位词
  * 2021-01-08 11:05:46
@@ -39,17 +42,18 @@ public class ValidAnagram {
                 return false;
             }
 
-            int[] temp = new int[26];
+            Map<Character, Integer> map = new HashMap<>();
             for (int i = 0; i < s.length(); i++) {
-                temp[s.charAt(i) - 'a']++;
-                temp[t.charAt(i) - 'a']--;
+                map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
+                map.put(t.charAt(i), map.getOrDefault(t.charAt(i), 0) - 1);
             }
 
-            for (int i = 0; i < temp.length; i++) {
-                if (temp[i] != 0) {
+            for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+                if (entry.getValue() != 0) {
                     return false;
                 }
             }
+
             return true;
         }
     }

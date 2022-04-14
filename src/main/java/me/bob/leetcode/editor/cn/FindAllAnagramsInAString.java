@@ -38,9 +38,7 @@
 
 package me.bob.leetcode.editor.cn;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * 438 找到字符串中所有字母异位词
@@ -55,30 +53,36 @@ public class FindAllAnagramsInAString {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<Integer> findAnagrams(String s, String p) {
-            List<Integer> res = new ArrayList<>();
-
-            int sl = s.length(), pl = p.length();
-            if (sl < pl) {
-                return res;
+            if (s.length() < p.length()) {
+                return new ArrayList<>();
             }
 
-            int[] sc = new int[26], pc = new int[26];
-            for (int i = 0; i < pl; i++) {
-                sc[s.charAt(i) - 'a']++;
-                pc[p.charAt(i) - 'a']++;
+            Map<Character, Integer> sm = new HashMap<>();
+            Map<Character, Integer> pm = new HashMap<>();
+            for (int i = 0; i < p.length(); i++) {
+                sm.put(s.charAt(i), sm.getOrDefault(s.charAt(i), 0) + 1);
+                pm.put(p.charAt(i), pm.getOrDefault(p.charAt(i), 0) + 1);
             }
 
-            for (int i = 0; i < sl - pl + 1; i++) {
-                if (Arrays.equals(sc, pc)) {
-                    res.add(i);
+            List<Integer> list = new ArrayList<>();
+            for (int i = 0; i < s.length() - p.length() + 1; i++) {
+                if (sm.equals(pm)) {
+                    list.add(i);
                 }
-                if (i + pl >= sl) {
+                if (i + p.length() >= s.length()) {
                     break;
                 }
-                sc[s.charAt(i + pl) - 'a']++;
-                sc[s.charAt(i) - 'a']--;
+                char c = s.charAt(i + p.length());
+                sm.put(c, sm.getOrDefault(c, 0) + 1);
+                c = s.charAt(i);
+                if (sm.get(c) == 1) {
+                    sm.remove(c);
+                } else {
+                    sm.put(c, sm.get(c) - 1);
+                }
             }
-            return res;
+
+            return list;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
