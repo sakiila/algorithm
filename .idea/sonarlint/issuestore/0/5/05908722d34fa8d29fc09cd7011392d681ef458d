@@ -1,7 +1,0 @@
-
-R
-java:S1191"5Use classes from the Java API instead of Sun classes.(ÊüÿÃ8Şºæ¤ø.
-W
-java:S1854*"<Remove this useless assignment to local variable "solution".(´´Ã€şÿÿÿÿ
-H
-java:S1481*"-Remove this unused "solution" local variable.(´´Ã€şÿÿÿÿ

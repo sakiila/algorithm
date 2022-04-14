@@ -44,6 +44,9 @@
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * 202 快乐数
  * 2021-02-09 10:57:17
@@ -57,22 +60,22 @@ public class HappyNumber {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isHappy(int n) {
-            int slow = n, fast = squareSum(n);
-            while (slow != fast) {
-                slow = squareSum(slow);
-                fast = squareSum(squareSum(fast));
+            Set<Integer> set = new HashSet<>();
+            while (n != 1 && !set.contains(n)) {
+                set.add(n);
+                n = getNextNum(n);
             }
-            return slow == 1;
+            return n == 1;
         }
 
-        private int squareSum(int n) {
-            int sum = 0;
+        private int getNextNum(int n) {
+            int res = 0;
             while (n > 0) {
-                int digit = n % 10;
-                sum += digit * digit;
+                int temp = n % 10;
+                res += temp * temp;
                 n /= 10;
             }
-            return sum;
+            return res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
