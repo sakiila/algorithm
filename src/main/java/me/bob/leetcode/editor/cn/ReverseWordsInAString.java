@@ -74,7 +74,7 @@ import java.util.Deque;
 /**
  * 151 翻转字符串里的单词
  * 2021-01-27 11:34:04
- * 思路：双端队列
+ * 思路：反转两次
  */
 public class ReverseWordsInAString {
     public static void main(String[] args) {
@@ -84,22 +84,52 @@ public class ReverseWordsInAString {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public String reverseWords(String s) {
-            Deque<String> deque = new ArrayDeque<>();
-            StringBuilder word = new StringBuilder();
+            StringBuilder sb = removeSpace(s);
+            reverse(sb, 0, sb.length() - 1);
+            reverseEachWord(sb);
 
-            for (int i = 0; i < s.length(); i++) {
-                char c = s.charAt(i);
-                if (c != ' ') {
-                    word.append(c);
-                } else if (word.length() != 0 && c == ' ') {
-                    deque.offerFirst(word.toString());
-                    word = new StringBuilder();
-                }
+            return sb.toString();
+        }
+        
+        private StringBuilder removeSpace(String s) {
+            StringBuilder sb = new StringBuilder();
+            int left = 0, right = s.length() - 1;
+            while (s.charAt(left) == ' ') {
+                left++;
             }
-
-            deque.offerFirst(word.toString());
-
-            return String.join(" ", deque).trim();
+            while (s.charAt(right) == ' ') {
+                right--;
+            }
+            while (left <= right) {
+                char c = s.charAt(left);
+                if (c != ' ' || sb.charAt(sb.length() - 1) != ' ') {
+                    sb.append(c);
+                }
+                left++;
+            }
+            return sb;
+        }
+        
+        private void reverse(StringBuilder sb, int left, int right) {
+            while (left < right) {
+                char c = sb.charAt(left);
+                sb.setCharAt(left, sb.charAt(right));
+                sb.setCharAt(right, c);
+                left++;
+                right--;
+            }
+        }
+        
+        private void reverseEachWord(StringBuilder sb) {
+            int left = 0, right = 1;
+            while (left < sb.length()) {
+                while (right < sb.length() && sb.charAt(right) != ' ') {
+                    right++;
+                }
+                reverse(sb, left, right - 1);
+                left = right + 1;
+                right = left + 1;
+            }
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
