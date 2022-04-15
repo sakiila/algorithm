@@ -151,8 +151,6 @@ r
 Bsrc/main/java/me/bob/leetcode/editor/cn/MaxConsecutiveOnesIii.java,c\1\c17f2f14e3ca27f50edfde55066466664e802034
 j
 :src/main/java/me/bob/leetcode/editor/cn/AddTwoNumbers.java,d\e\de4c774fb2e1b040a6ccaa83c6bf2b2127256c40
-l
-<src/main/java/me/bob/leetcode/editor/cn/ImplementStrstr.java,2\2\22944ea61794197fdec0f340674e734b0bd4f285
 m
 =src/main/java/me/bob/leetcode/editor/cn/ValidParentheses.java,a\6\a64cc3f0e8a508b9e4f63f6227dd2e42d22682c5
 l

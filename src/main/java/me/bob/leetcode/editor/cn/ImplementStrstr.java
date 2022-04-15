@@ -29,7 +29,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 28 实现 strStr()
  * 2021-01-27 12:08:26
- * 思路：字符串比较
+ * 思路：KMP
  */
 public class ImplementStrstr {
     public static void main(String[] args) {
@@ -39,24 +39,36 @@ public class ImplementStrstr {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int strStr(String haystack, String needle) {
-            int m = haystack.length();
-            int n = needle.length();
-            if (n == 0) {
+            if (needle.length() == 0) {
                 return 0;
             }
 
-            for (int i = 0; i < m - n + 1; i++) {
-                for (int j = 0; j < n; j++) {
-                    if (haystack.charAt(i + j) != needle.charAt(j)) {
-                        break;
-                    }
-                    // j 比较完成
-                    if (j == n - 1) {
-                        return i;
-                    }
+            int[] next = new int[needle.length()];
+            int j = -1;
+            next[0] = -1;
+            for (int i = 1; i < needle.length(); i++) {
+                while (j >= 0 && needle.charAt(j + 1) != needle.charAt(i)) {
+                    j = next[j];
+                }
+                if (needle.charAt(j + 1) == needle.charAt(i)) {
+                    j++;
+                }
+                next[i] = j;
+            }
+            
+            j = -1;
+            for (int i = 0; i < haystack.length(); i++) {
+                while (j >= 0 && needle.charAt(j + 1) != haystack.charAt(i)) {
+                    j = next[j];
+                }
+                if (needle.charAt(j + 1) == haystack.charAt(i)) {
+                    j++;
+                }
+                if (j == needle.length() - 1) {
+                    return i -needle.length() + 1;
                 }
             }
-
+            
             return -1;
         }
     }
