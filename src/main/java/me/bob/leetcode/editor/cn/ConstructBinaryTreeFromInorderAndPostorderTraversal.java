@@ -73,10 +73,8 @@ public class ConstructBinaryTreeFromInorderAndPostorderTraversal {
 
             int leftSize = index - inStart;
             TreeNode node = new TreeNode(rootVal);
-            node.left = build(inorder, inStart, index - 1,
-                    postorder, postStart, postStart + leftSize - 1);
-            node.right = build(inorder, index + 1, inEnd,
-                    postorder, postStart + leftSize, postEnd - 1);
+            node.left = build(inorder, inStart, index - 1, postorder, postStart, postStart + leftSize - 1);
+            node.right = build(inorder, index + 1, inEnd, postorder, postStart + leftSize, postEnd - 1);
 
             return node;
         }
