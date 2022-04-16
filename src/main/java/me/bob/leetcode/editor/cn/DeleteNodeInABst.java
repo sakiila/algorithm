@@ -8,55 +8,60 @@
 // 如果找到了，删除它。 
 // 
 //
-// 说明： 要求算法时间复杂度为 O(h)，h 为树的高度。 
+// 
 //
-// 示例: 
+// 示例 1: 
 //
 // 
-//root = [5,3,6,2,4,null,7]
-//key = 3
 //
-//    5
-//   / \
-//  3   6
-// / \   \
-//2   4   7
-//
-//给定需要删除的节点值是 3，所以我们首先找到 3 这个节点，然后删除它。
-//
+// 
+//输入：root = [5,3,6,2,4,null,7], key = 3
+//输出：[5,4,6,2,null,null,7]
+//解释：给定需要删除的节点值是 3，所以我们首先找到 3 这个节点，然后删除它。
 //一个正确的答案是 [5,4,6,2,null,null,7], 如下图所示。
-//
-//    5
-//   / \
-//  4   6
-// /     \
-//2       7
-//
 //另一个正确答案是 [5,2,6,null,4,null,7]。
 //
-//    5
-//   / \
-//  2   6
-//   \   \
-//    4   7
+//
 // 
-// Related Topics 树 
-// 👍 389 👎 0
+//
+// 示例 2: 
+//
+// 
+//输入: root = [5,3,6,2,4,null,7], key = 0
+//输出: [5,3,6,2,4,null,7]
+//解释: 二叉树不包含值为 0 的节点
+// 
+//
+// 示例 3: 
+//
+// 
+//输入: root = [], key = 0
+//输出: [] 
+//
+// 
+//
+// 提示: 
+//
+// 
+// 节点数的范围 [0, 10⁴]. 
+// -10⁵ <= Node.val <= 10⁵ 
+// 节点值唯一 
+// root 是合法的二叉搜索树 
+// -10⁵ <= key <= 10⁵ 
+// 
+//
+// 
+//
+// 进阶： 要求算法时间复杂度为 O(h)，h 为树的高度。 
+// Related Topics 树 二叉搜索树 二叉树 👍 718 👎 0
 
 
 package me.bob.leetcode.editor.cn;
 
 /**
  * 450 删除二叉搜索树中的节点
- * 2021-02-13 11:05:46
+ * 2022-04-16 15:44:19
  * 思路：
- * 如果 key > root.val，说明要删除的节点在右子树，root.right = deleteNode(root.right, key)。
- * 如果 key < root.val，说明要删除的节点在左子树，root.left = deleteNode(root.left, key)。
- * 如果 key == root.val，则该节点就是我们要删除的节点，则：
- * 如果该节点是叶子节点，则直接删除它：root = null。
- * 如果该节点不是叶子节点且有右节点，则用它的后继节点的值替代 root.val = successor.val，然后删除后继节点。
- * 如果该节点不是叶子节点且只有左节点，则用它的前驱节点的值替代 root.val = predecessor.val，然后删除前驱节点。
- * 返回 root。
  */
 public class DeleteNodeInABst {
     public static void main(String[] args) {
@@ -81,43 +86,30 @@ public class DeleteNodeInABst {
      * }
      */
     class Solution {
-
-        private int successor(TreeNode node) {
-            node = node.right;
-            while (node.left != null) {
-                node = node.left;
-            }
-            return node.val;
-        }
-
-        private int predecessor(TreeNode node) {
-            node = node.left;
-            while (node.right != null) {
-                node = node.right;
-            }
-            return node.val;
-        }
-
         public TreeNode deleteNode(TreeNode root, int key) {
             if (root == null) {
                 return null;
             }
-            if (key > root.val) {
-                root.right = deleteNode(root.right, key);
-            } else if (key < root.val) {
+            if (root.val > key) {
                 root.left = deleteNode(root.left, key);
+            } else if (root.val < key) {
+                root.right = deleteNode(root.right, key);
             } else {
-                if (root.left == null && root.right == null) {
-                    root = null;
-                } else if (root.right != null) {
-                    root.val = successor(root);
-                    root.right = deleteNode(root.right, root.val);
-                } else {
-                    root.val = predecessor(root);
-                    root.left = deleteNode(root.left, root.val);
+                if (root.left == null) {
+                    return root.right;
                 }
+                if (root.right == null) {
+                    return root.left;
+                }
+                
+                // 右子树的最左子节点 替换
+                TreeNode temp = root.right;
+                while (temp.left != null) {
+                    temp = temp.left;
+                }
+                root.val = temp.val;
+                root.right = deleteNode(root.right, temp.val);
             }
-
             return root;
         }
     }
