@@ -55,12 +55,12 @@ public class InvertBinaryTree {
                 return null;
             }
 
-            TreeNode right = root.right;
+            TreeNode temp = root.right;
             root.right = root.left;
-            root.left = right;
+            root.left = temp;
 
-            invertTree(root.right);
             invertTree(root.left);
+            invertTree(root.right);
 
             return root;
         }
