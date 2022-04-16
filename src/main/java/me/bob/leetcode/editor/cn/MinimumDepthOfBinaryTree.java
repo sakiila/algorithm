@@ -34,6 +34,9 @@
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 /**
  * 111 二叉树的最小深度
  * 2021-01-10 21:39:13
@@ -84,6 +87,34 @@ public class MinimumDepthOfBinaryTree {
 
             return ans + 1;
 
+        }
+
+        public int minDepth2(TreeNode root) {
+            if (root == null) {
+                return 0;
+            }
+            Queue<TreeNode> queue = new ArrayDeque<>();
+            queue.offer(root);
+            int depth = 0;
+
+            while (!queue.isEmpty()) {
+                int n = queue.size();
+                depth++;
+                for (int i = 0; i < n; i++) {
+                    TreeNode node = queue.poll();
+                    if (node.left == null && node.right == null) {
+                        return depth;
+                    }
+                    if (node.left != null) {
+                        queue.offer(node.left);
+                    }
+                    if (node.right != null) {
+                        queue.offer(node.right);
+                    }
+                }
+            }
+
+            return depth;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

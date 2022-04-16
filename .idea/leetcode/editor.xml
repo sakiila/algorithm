@@ -11,6 +11,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/AverageOfLevelsInBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/AverageOfLevelsInBinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com637" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/AverageOfLevelsInBinaryTree.java" />
+              <option name="titleSlug" value="average-of-levels-in-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BestTimeToBuyAndSellStockIi.java">
           <value>
             <LeetcodeEditor>
@@ -39,14 +50,33 @@
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BinaryTreeLevelOrderTraversal.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/BinaryTreeLevelOrderTraversal.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com102" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BinaryTreeLevelOrderTraversal.java" />
+              <option name="titleSlug" value="binary-tree-level-order-traversal" />
             </LeetcodeEditor>
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BinaryTreeLevelOrderTraversalIi.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/BinaryTreeLevelOrderTraversalIi.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com107" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BinaryTreeLevelOrderTraversalIi.java" />
+              <option name="titleSlug" value="binary-tree-level-order-traversal-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BinaryTreeRightSideView.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/BinaryTreeRightSideView.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com199" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BinaryTreeRightSideView.java" />
+              <option name="titleSlug" value="binary-tree-right-side-view" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -250,6 +280,17 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/FindKthLargestXorCoordinateValue.java" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/FindLargestValueInEachTreeRow.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/FindLargestValueInEachTreeRow.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com515" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/FindLargestValueInEachTreeRow.java" />
+              <option name="titleSlug" value="find-largest-value-in-each-tree-row" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -537,6 +578,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MaximumDepthOfBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/MaximumDepthOfBinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com104" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MaximumDepthOfBinaryTree.java" />
+              <option name="titleSlug" value="maximum-depth-of-binary-tree" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MaximumProductSubarray.java">
           <value>
             <LeetcodeEditor>
@@ -583,6 +635,17 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MergeSortedArray.java" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MinimumDepthOfBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/MinimumDepthOfBinaryTree.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com111" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MinimumDepthOfBinaryTree.java" />
+              <option name="titleSlug" value="minimum-depth-of-binary-tree" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -638,6 +701,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/MoveZeroes.java" />
               <option name="titleSlug" value="move-zeroes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/NAryTreeLevelOrderTraversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/NAryTreeLevelOrderTraversal.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com429" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/NAryTreeLevelOrderTraversal.java" />
+              <option name="titleSlug" value="n-ary-tree-level-order-traversal" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -730,6 +804,28 @@
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/Permutations.java" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/PopulatingNextRightPointersInEachNode.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/PopulatingNextRightPointersInEachNode.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com116" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/PopulatingNextRightPointersInEachNode.java" />
+              <option name="titleSlug" value="populating-next-right-pointers-in-each-node" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/PopulatingNextRightPointersInEachNodeIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/PopulatingNextRightPointersInEachNodeIi.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com117" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/PopulatingNextRightPointersInEachNodeIi.java" />
+              <option name="titleSlug" value="populating-next-right-pointers-in-each-node-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1094,6 +1190,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/TiHuanKongGeLcof.java" />
               <option name="titleSlug" value="ti-huan-kong-ge-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/TopKFrequentElements.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/TopKFrequentElements.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com347" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/TopKFrequentElements.java" />
+              <option name="titleSlug" value="top-k-frequent-elements" />
             </LeetcodeEditor>
           </value>
         </entry>
