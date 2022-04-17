@@ -1,30 +1,43 @@
-//给定一个字符串 s，将 s 分割成一些子串，使每个子串都是回文串。 
+//给你一个字符串 s，请你将 s 分割成一些子串，使每个子串都是 回文串 。返回 s 所有可能的分割方案。 
 //
-// 返回 s 所有可能的分割方案。 
+// 回文串 是正着读和反着读都一样的字符串。 
 //
-// 示例: 
+// 
 //
-// 输入: "aab"
-//输出:
-//[
-//  ["aa","b"],
-//  ["a","a","b"]
-//] 
-// Related Topics 深度优先搜索 动态规划 回溯算法 
-// 👍 530 👎 0
+// 示例 1： 
+//
+// 
+//输入：s = "aab"
+//输出：[["a","a","b"],["aa","b"]]
+// 
+//
+// 示例 2： 
+//
+// 
+//输入：s = "a"
+//输出：[["a"]]
+// 
+//
+// 
+//
+// 提示： 
+//
+// 
+// 1 <= s.length <= 16 
+// s 仅由小写英文字母组成 
+// 
+// Related Topics 字符串 动态规划 回溯 👍 1084 👎 0
 
 
 package me.bob.leetcode.editor.cn;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Deque;
 import java.util.List;
 
 /**
  * 131 分割回文串
- * 2021-03-07 09:45:26
- * 思路：动态规划 + 回溯
+ * 2022-04-17 10:34:21
+ * 思路：回溯
  */
 public class PalindromePartitioning {
     public static void main(String[] args) {
@@ -33,42 +46,39 @@ public class PalindromePartitioning {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        List<List<String>> res = new ArrayList<>();
+        List<String> path = new ArrayList<>();
+
         public List<List<String>> partition(String s) {
-            int n = s.length();
-            List<List<String>> res = new ArrayList<>();
-            if (n == 0) {
-                return res;
-            }
-
-            char[] c = s.toCharArray();
-            boolean[][] dp = new boolean[n][n];
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j <= i; j++) {
-                    if (c[j] == c[i] && (i - j <= 2 || dp[j + 1][i - 1])) {
-                        dp[j][i] = true;
-                    }
-                }
-            }
-
-            Deque<String> stack = new ArrayDeque<>();
-            dfs(s, 0, n, dp, stack, res);
+            backTrace(s, 0);
             return res;
         }
 
-        private void dfs(String s, int index, int n, boolean[][] dp, Deque<String> stack, List<List<String>> res) {
-            if (index == n) {
-                res.add(new ArrayList<>(stack));
+        private void backTrace(String s, int startIndex) {
+            if (startIndex >= s.length()) {
+                res.add(new ArrayList<>(path));
                 return;
             }
-
-            for (int i = index; i < n; i++) {
-                if (dp[index][i]) {
-                    stack.addLast(s.substring(index, i + 1));
-                    dfs(s, i + 1, n, dp, stack, res);
-                    stack.removeLast();
+            for (int i = startIndex; i < s.length(); i++) {
+                if (isPalindrome(s, startIndex, i)) {
+                    path.add(s.substring(startIndex, i + 1));
+                } else {
+                    continue;
                 }
-
+                backTrace(s, i + 1);
+                path.remove(path.size() - 1);
             }
+        }
+        
+        private boolean isPalindrome(String s, int low, int high) {
+            while (low < high) {
+                if (s.charAt(low) != s.charAt(high)) {
+                    return false;
+                }
+                low++;
+                high--;
+            }
+            return true;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
