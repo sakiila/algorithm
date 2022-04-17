@@ -66,27 +66,21 @@ public class MinimumDepthOfBinaryTree {
      */
     class Solution {
         public int minDepth(TreeNode root) {
-            // 当前节点 root 为空时，说明此处树的高度为 0，0 也是最小值
             if (root == null) {
                 return 0;
             }
+            
+            int left = minDepth(root.left);
+            int right = minDepth(root.right);
 
-            // 当前节点 root 的左子树和右子树都为空时，说明此处树的高度为 1，1 也是最小值
-            if (root.left == null && root.right == null) {
-                return 1;
+            if (root.left == null) {
+                return 1 + right;
             }
-
-            // 如果为其他情况，则说明当前节点有值，且需要分别计算其左右子树的最小深度，返回最小深度 +1
-            int ans = Integer.MAX_VALUE;
-            if (root.left != null) {
-                ans = Math.min(ans, minDepth(root.left));
+            if (root.right == null) {
+                return 1 + left;
             }
-            if (root.right != null) {
-                ans = Math.min(ans, minDepth(root.right));
-            }
-
-            return ans + 1;
-
+            
+            return 1 + Math.min(left, right);
         }
 
         public int minDepth2(TreeNode root) {
