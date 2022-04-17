@@ -43,7 +43,7 @@ import java.util.List;
 /**
  * 90 子集 II
  * 2021-03-31 07:10:47
- * 思路：迭代法实现子集枚举
+ * 思路：回溯
  */
 public class SubsetsIi {
     public static void main(String[] args) {
@@ -53,29 +53,26 @@ public class SubsetsIi {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
 
-        List<Integer> t = new ArrayList<>();
-        List<List<Integer>> ans = new ArrayList<>();
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> path = new ArrayList<>();
 
         public List<List<Integer>> subsetsWithDup(int[] nums) {
             Arrays.sort(nums);
-            int n = nums.length;
-            for (int mask = 0; mask < (1 << n); ++mask) {
-                t.clear();
-                boolean flag = true;
-                for (int i = 0; i < n; ++i) {
-                    if ((mask & (1 << i)) != 0) {
-                        if (i > 0 && (mask >> (i - 1) & 1) == 0 && nums[i] == nums[i - 1]) {
-                            flag = false;
-                            break;
-                        }
-                        t.add(nums[i]);
-                    }
+            backTrace(nums, 0);
+            return res;
+        }
+
+        private void backTrace(int[] nums, int index) {
+            res.add(new ArrayList<>(path));
+            for (int i = index; i < nums.length; i++) {
+                // 跳过当前树层使用过的、相同的元素
+                if (i > index && nums[i] == nums[i - 1]) {
+                    continue;
                 }
-                if (flag) {
-                    ans.add(new ArrayList<>(t));
-                }
+                path.add(nums[i]);
+                backTrace(nums, i + 1);
+                path.remove(path.size() - 1);
             }
-            return ans;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
