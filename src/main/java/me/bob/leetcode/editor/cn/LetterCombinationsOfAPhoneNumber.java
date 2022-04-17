@@ -1,19 +1,41 @@
-//给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。 
+//给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。答案可以按 任意顺序 返回。 
 //
 // 给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。 
 //
 // 
 //
-// 示例: 
-//
-// 输入："23"
-//输出：["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 // 
 //
-// 说明: 
-//尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。 
-// Related Topics 深度优先搜索 递归 字符串 回溯算法 
-// 👍 1065 👎 0
+// 示例 1： 
+//
+// 
+//输入：digits = "23"
+//输出：["ad","ae","af","bd","be","bf","cd","ce","cf"]
+// 
+//
+// 示例 2： 
+//
+// 
+//输入：digits = ""
+//输出：[]
+// 
+//
+// 示例 3： 
+//
+// 
+//输入：digits = "2"
+//输出：["a","b","c"]
+// 
+//
+// 
+//
+// 提示： 
+//
+// 
+// 0 <= digits.length <= 4 
+// digits[i] 是范围 ['2', '9'] 的一个数字。 
+// 
+// Related Topics 哈希表 字符串 回溯 👍 1851 👎 0
 
 
 package me.bob.leetcode.editor.cn;
@@ -23,7 +45,7 @@ import java.util.List;
 
 /**
  * 17 电话号码的字母组合
- * 2021-01-11 15:28:26
+ * 2022-04-17 11:21:33
  * 思路：回溯
  */
 public class LetterCombinationsOfAPhoneNumber {
@@ -33,29 +55,29 @@ public class LetterCombinationsOfAPhoneNumber {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
+        List<String> res = new ArrayList<>();
+        StringBuilder path = new StringBuilder();
+
         public List<String> letterCombinations(String digits) {
-            List<String> res = new ArrayList<>();
-            if (digits == null || digits.length() == 0) {
+            if (digits.length() == 0) {
                 return res;
             }
-
-            String[] mapping = new String[]{"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-
-            helper(digits, mapping, 0, res, "");
+            String[] numString = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+            backTrace(digits, numString, 0);
             return res;
         }
 
-        void helper(String digits, String[] mapping, int depth, List<String> res, String curr) {
-            if (depth == digits.length()) {
-                res.add(curr);
+        private void backTrace(String digits, String[] numString, int startIndex) {
+            if (path.length() == digits.length()) {
+                res.add(path.toString());
                 return;
             }
-
-            // 获取digits下标，拿到对应字符串
-            int index = Character.getNumericValue(digits.charAt(depth));
-            String s = mapping[index];
-            for (int i = 0; i < s.length(); i++) {
-                helper(digits, mapping, depth + 1, res, curr + s.charAt(i));
+            String str = numString[digits.charAt(startIndex) - '0'];
+            for (int i = 0; i < str.length(); i++) {
+                path.append(str.charAt(i));
+                backTrace(digits, numString, startIndex + 1);
+                path.deleteCharAt(path.length() - 1);
             }
         }
     }
