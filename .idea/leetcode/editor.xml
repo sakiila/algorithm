@@ -949,7 +949,22 @@
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/NQueens.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/NQueens.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com51" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/NQueens.java" />
+              <option name="titleSlug" value="n-queens" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/NQueensIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/NQueensIi.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com52" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/NQueensIi.java" />
+              <option name="titleSlug" value="n-queens-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
