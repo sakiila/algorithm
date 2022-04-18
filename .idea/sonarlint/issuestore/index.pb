@@ -235,8 +235,6 @@ l
 <src/main/java/me/bob/leetcode/editor/cn/FibonacciNumber.java,e\5\e53f1b4ea6cc5992b9cac321f8282a7bd369d8db
 l
 <src/main/java/me/bob/leetcode/editor/cn/ClumsyFactorial.java,7\e\7ebe38a8bf7e4a8558a6029f6e0477ca98089655
-i
-9src/main/java/me/bob/leetcode/editor/cn/Permutations.java,3\a\3aa05ad89f07473a44eed284d3332203162076b3
 r
 Bsrc/main/java/me/bob/leetcode/editor/cn/VolumeOfHistogramLcci.java,2\a\2af87f9fa7ebcc08a09cd41217dba10ca8937074
 j
