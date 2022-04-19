@@ -7,17 +7,19 @@
 //
 // 示例 1： 
 //
-// 输入：[1,2,3,1]
+// 
+//输入：[1,2,3,1]
 //输出：4
 //解释：偷窃 1 号房屋 (金额 = 1) ，然后偷窃 3 号房屋 (金额 = 3)。
-//     偷窃到的最高金额 = 1 + 3 = 4 。 
+//     偷窃到的最高金额 = 1 + 3 = 4 。 
 //
 // 示例 2： 
 //
-// 输入：[2,7,9,3,1]
+// 
+//输入：[2,7,9,3,1]
 //输出：12
 //解释：偷窃 1 号房屋 (金额 = 2), 偷窃 3 号房屋 (金额 = 9)，接着偷窃 5 号房屋 (金额 = 1)。
-//     偷窃到的最高金额 = 2 + 9 + 1 = 12 。
+//     偷窃到的最高金额 = 2 + 9 + 1 = 12 。
 // 
 //
 // 
@@ -25,21 +27,18 @@
 // 提示： 
 //
 // 
-// 0 <= nums.length <= 100 
+// 1 <= nums.length <= 100 
 // 0 <= nums[i] <= 400 
 // 
-// Related Topics 动态规划 
-// 👍 1243 👎 0
+// Related Topics 数组 动态规划 👍 2074 👎 0
 
 
 package me.bob.leetcode.editor.cn;
 
-import java.util.Arrays;
-
 /**
  * 198 打家劫舍
- * 2021-01-16 16:12:13
- * 思路：dp
+ * 2022-04-19 10:41:27
+ * 思路：动态规划
  */
 public class HouseRobber {
     public static void main(String[] args) {
@@ -48,26 +47,21 @@ public class HouseRobber {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-
-        private int[] memo;
-
         public int rob(int[] nums) {
-            memo = new int[nums.length];
-            Arrays.fill(memo, -1);
-            return dp(nums, 0);
-        }
-
-        private int dp(int[] nums, int i) {
-            if (i >= nums.length) {
-                return 0;
+            int length = nums.length;
+            if (length == 1) {
+                return nums[0];
             }
-            if (memo[i] != -1) {
-                return memo[i];
+            
+            int[] dp = new int[length];
+            
+            dp[0] = nums[0];
+            dp[1] = Math.max(nums[0], nums[1]);
+            for (int i = 2; i < length; i++) {
+                dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i]);
             }
 
-            int res = Math.max(dp(nums, i + 1), nums[i] + dp(nums, i + 2));
-            memo[i] = res;
-            return res;
+            return dp[nums.length - 1];
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
