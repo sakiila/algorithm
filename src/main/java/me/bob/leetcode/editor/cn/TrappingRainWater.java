@@ -25,11 +25,10 @@
 //
 // 
 // n == height.length 
-// 0 <= n <= 3 * 104 
-// 0 <= height[i] <= 105 
+// 1 <= n <= 2 * 10⁴ 
+// 0 <= height[i] <= 10⁵ 
 // 
-// Related Topics 栈 数组 双指针 
-// 👍 1923 👎 0
+// Related Topics 栈 数组 双指针 动态规划 单调栈 👍 3356 👎 0
 
 
 package me.bob.leetcode.editor.cn;
@@ -39,8 +38,8 @@ import java.util.Deque;
 
 /**
  * 42 接雨水
- * 2021-01-07 16:36:38
- * 思路：
+ * 2022-04-19 09:22:05
+ * 思路：单调栈
  */
 public class TrappingRainWater {
     public static void main(String[] args) {
@@ -50,26 +49,24 @@ public class TrappingRainWater {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int trap(int[] height) {
-            int res = 0;
+            int sum = 0;
             Deque<Integer> stack = new ArrayDeque<>();
 
             for (int i = 0; i < height.length; i++) {
                 while (!stack.isEmpty() && height[i] > height[stack.peek()]) {
-                    int currIndex = stack.pop();
-
-                    while (!stack.isEmpty() && height[stack.peek()] == height[currIndex]) {
-                        stack.pop();
-                    }
+                    int mid = stack.pop();
 
                     if (!stack.isEmpty()) {
-                        int stackTop = stack.peek();
-                        res += (Math.min(height[stackTop], height[i]) - height[currIndex]) * (i - stackTop - 1);
+                        int left = stack.peek();
+                        int w = i - left - 1;
+                        int h = Math.min(height[left], height[i]) - height[mid];
+                        sum += w * h;
                     }
                 }
                 stack.push(i);
             }
 
-            return res;
+            return sum;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
