@@ -44,6 +44,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BestTimeToBuyAndSellStock.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/BestTimeToBuyAndSellStock.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com121" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BestTimeToBuyAndSellStock.java" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/BestTimeToBuyAndSellStockIi.java">
           <value>
             <LeetcodeEditor>
@@ -541,7 +552,11 @@
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/HouseRobberIi.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/HouseRobberIi.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com213" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/HouseRobberIi.java" />
+              <option name="titleSlug" value="house-robber-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
