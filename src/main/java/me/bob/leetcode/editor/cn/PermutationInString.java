@@ -34,6 +34,8 @@
 package me.bob.leetcode.editor.cn;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 567 字符串的排列
@@ -48,27 +50,41 @@ public class PermutationInString {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean checkInclusion(String s1, String s2) {
-            int m = s2.length(), n = s1.length();
-            if (n > m) {
-                return false;
+
+            Map<Character, Integer> need = new HashMap<>();
+            Map<Character, Integer> window = new HashMap<>();
+            for (char c : s1.toCharArray()) {
+                need.put(c, need.getOrDefault(c, 0) + 1);
             }
 
-            char[] mc = new char[26], nc = new char[26];
-            for (int i = 0; i < n; i++) {
-                mc[s2.charAt(i) - 'a']++;
-                nc[s1.charAt(i) - 'a']++;
+            int left = 0, right = 0;
+            int count = 0; // 字母个数
+            while (right < s2.length()) {
+                char c = s2.charAt(right);
+                right++;
+                if (need.containsKey(c)) {
+                    window.put(c, window.getOrDefault(c, 0) + 1);
+                    if (window.get(c).equals(need.get(c))) {
+                        count++;
+                    }
+                }
+
+                // 只有在right - left == need.size()的情况下才有可能有符合条件的解
+                while (right - left >= s1.length()) {
+                    if (count == need.size()) {
+                        return true;
+                    }
+                    char d = s2.charAt(left);
+                    left++;
+                    if (need.containsKey(d)) {
+                        if (window.get(d).equals(need.get(d))) {
+                            count--;
+                        }
+                        window.put(d, window.get(d) - 1);
+                    }
+                }
             }
 
-            for (int i = 0; i < m - n + 1; i++) {
-                if (Arrays.equals(mc, nc)) {
-                    return true;
-                }
-                if (i + n >= m) {
-                    break;
-                }
-                mc[s2.charAt(i + n) - 'a']++;
-                mc[s2.charAt(i) - 'a']--;
-            }
             return false;
         }
     }

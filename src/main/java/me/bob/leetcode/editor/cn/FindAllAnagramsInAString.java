@@ -53,36 +53,41 @@ public class FindAllAnagramsInAString {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public List<Integer> findAnagrams(String s, String p) {
-            if (s.length() < p.length()) {
-                return new ArrayList<>();
+            Map<Character, Integer> need = new HashMap<>();
+            Map<Character, Integer> window = new HashMap<>();
+            for (char c : p.toCharArray()) {
+                need.put(c, need.getOrDefault(c, 0) + 1);
             }
 
-            Map<Character, Integer> sm = new HashMap<>();
-            Map<Character, Integer> pm = new HashMap<>();
-            for (int i = 0; i < p.length(); i++) {
-                sm.put(s.charAt(i), sm.getOrDefault(s.charAt(i), 0) + 1);
-                pm.put(p.charAt(i), pm.getOrDefault(p.charAt(i), 0) + 1);
+            int left = 0, right = 0;
+            int count = 0;
+            List<Integer> res = new ArrayList<>();
+            while (right < s.length()) {
+                char c = s.charAt(right);
+                right++;
+                if (need.containsKey(c)) {
+                    window.put(c, window.getOrDefault(c, 0) + 1);
+                    if (need.get(c).equals(window.get(c))) {
+                        count++;
+                    }
+                }
+
+                while (right - left >= p.length()) {
+                    if (count == need.size()) {
+                        res.add(left);
+                    }
+                    char d = s.charAt(left);
+                    left++;
+                    if (need.containsKey(d)) {
+                        if (need.get(d).equals(window.get(d))) {
+                            count--;
+                        }
+                        window.put(d, window.get(d) - 1);
+                    }
+                }
             }
 
-            List<Integer> list = new ArrayList<>();
-            for (int i = 0; i < s.length() - p.length() + 1; i++) {
-                if (sm.equals(pm)) {
-                    list.add(i);
-                }
-                if (i + p.length() >= s.length()) {
-                    break;
-                }
-                char c = s.charAt(i + p.length());
-                sm.put(c, sm.getOrDefault(c, 0) + 1);
-                c = s.charAt(i);
-                if (sm.get(c) == 1) {
-                    sm.remove(c);
-                } else {
-                    sm.put(c, sm.get(c) - 1);
-                }
-            }
-
-            return list;
+            return res;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
