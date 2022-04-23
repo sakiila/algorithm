@@ -82,34 +82,45 @@ public class ReverseNodesInKGroup {
      */
     class Solution {
         public ListNode reverseKGroup(ListNode head, int k) {
+            ListNode dummy = new ListNode(0, head);
+            ListNode temp = dummy;
 
-            ListNode tail = head;
-
-            for (int i = 0; i < k; i++) {
-                if (tail == null) {
-                    return head;
+            while (head != null) {
+                // 前一段的尾节点
+                ListNode tail = head;
+                for (int i = 0; i < k - 1; i++) {
+                    tail = tail.next;
+                    if (tail == null) {
+                        return dummy.next;
+                    }
                 }
-                tail = tail.next;
-            }
-
-            ListNode newHead = reverse(head, tail);
-            head.next = reverseKGroup(tail, k);
-
-            return newHead;
-
-        }
-
-        private ListNode reverse(ListNode head, ListNode tail) {
-            ListNode prev = null;
-            ListNode next = null;
-            while (head != tail) {
-                next = head.next;
-                head.next = prev;
-                prev = head;
+                // 保存后一段
+                ListNode next = tail.next;
+                // 前一段末尾置空
+                tail.next = null;
+                // 翻转
+                temp.next = reverse(head);
+                // 链接后一段
+                head.next = next;
+                // 重置头节点
+                temp = head;
                 head = next;
             }
-            return prev;
+
+            return dummy.next;
         }
+
+        private ListNode reverse(ListNode head) {
+            ListNode pre = null;
+            while (head != null) {
+                ListNode temp = head.next;
+                head.next = pre;
+                pre = head;
+                head = temp;
+            }
+            return pre;
+        }
+    
     }
 
     //leetcode submit region end(Prohibit modification and deletion)
