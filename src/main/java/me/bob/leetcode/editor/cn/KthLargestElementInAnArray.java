@@ -30,13 +30,47 @@ import java.util.Arrays;
 public class KthLargestElementInAnArray {
     public static void main(String[] args) {
         Solution solution = new KthLargestElementInAnArray().new Solution();
+        int kthLargest = solution.findKthLargest(new int[]{3, 2, 1, 5, 6, 4}, 2);
+        System.out.println("kthLargest = " + kthLargest);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int findKthLargest(int[] nums, int k) {
-            Arrays.sort(nums);
-            return nums[nums.length - k];
+            System.out.println("Arrays.toString(nums) = " + Arrays.toString(nums));
+            return quickSort(nums, 0, nums.length - 1, k - 1);
+        }
+
+        private int quickSort(int[] nums, int left, int right, int k) {
+//            if (left >= right) {
+//                return 0;
+//            }
+            int pivot = partition(nums, left, right);
+            System.out.println("pivot = " + pivot);
+            System.out.println("Arrays.toString(nums) = " + Arrays.toString(nums));
+            if (pivot < k) {
+                return quickSort(nums, pivot + 1, right, k);
+            } else if (pivot > k) {
+                return quickSort(nums, left, pivot - 1, k);
+            } else {
+                return nums[pivot];
+            }
+        }
+
+        private int partition(int[] nums, int left, int right) {
+            int index = left;
+            for (int i = left; i < right; i++) {
+                if (nums[i] > nums[right]) {
+                    int temp = nums[i];
+                    nums[i] = nums[index];
+                    nums[index] = temp;
+                    index++;
+                }
+            }
+            int temp = nums[right];
+            nums[right] = nums[index];
+            nums[index] = temp;
+            return index;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

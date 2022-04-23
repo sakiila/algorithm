@@ -1,15 +1,21 @@
 package me.bob.test;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+
 public class ByteTest {
 
 
     public static void main(String[] args) {
+        int[] arr = {0, 5, 3, 8};
 
-        String yesB = new StringBuilder().append("aaabbb").toString();
-        String yesC = yesB.intern();
-        String yesA = "aaabbb";
-        System.out.println(yesC == yesB);//false
-        System.out.println(yesA == yesB);//false
-        System.out.println(yesA == yesC);//true
+        int res = Integer.MIN_VALUE;
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            res = Math.max(res, max - arr[i]);
+            max = Math.max(max, arr[i]);
+        }
+        System.out.println("res = " + res);
     }
 }
