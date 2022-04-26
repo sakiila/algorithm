@@ -64,20 +64,18 @@ public class ValidParentheses {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean isValid(String s) {
-            Deque<Character> stack = new ArrayDeque<>();
             Map<Character, Character> map = new HashMap<>();
-            map.put('{', '}');
             map.put('(', ')');
             map.put('[', ']');
+            map.put('{', '}');
 
-            for (char c : s.toCharArray()) {
-                if (!stack.isEmpty()) {
-                    if (Objects.equals(c, map.get(stack.peek()))) {
-                        stack.pop();
-                        continue;
-                    }
+            Deque<Character> stack = new ArrayDeque<>();
+            for (Character c : s.toCharArray()) {
+                if (!stack.isEmpty() && Objects.equals(map.get(stack.peek()), c)) {
+                    stack.pop();
+                } else {
+                    stack.push(c);
                 }
-                stack.push(c);
             }
 
             return stack.isEmpty();
