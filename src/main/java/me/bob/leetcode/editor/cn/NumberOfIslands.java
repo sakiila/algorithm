@@ -40,16 +40,15 @@
 // 1 <= m, n <= 300 
 // grid[i][j] 的值为 '0' 或 '1' 
 // 
-// Related Topics 深度优先搜索 广度优先搜索 并查集 
-// 👍 938 👎 0
+// Related Topics 深度优先搜索 广度优先搜索 并查集 数组 矩阵 👍 1686 👎 0
 
 
 package me.bob.leetcode.editor.cn;
 
 /**
  * 200 岛屿数量
- * 2021-01-17 12:16:06
- * 思路：并查集
+ * 2022-04-28 07:44:56
+ * 思路：DFS
  */
 public class NumberOfIslands {
     public static void main(String[] args) {
@@ -58,58 +57,35 @@ public class NumberOfIslands {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-
-        int[] parent;
-        int count;
-
         public int numIslands(char[][] grid) {
-            int p = grid.length;
-            int q = grid[0].length;
-            parent = new int[p * q];
-            count = 0;
-            for (int i = 0; i < p; i++) {
-                for (int j = 0; j < q; j++) {
-                    parent[i * q + j] = i * q + j;
-                }
-            }
-
-            for (int i = 0; i < p; i++) {
-                for (int j = 0; j < q; j++) {
+            int res = 0;
+            int m = grid.length, n = grid[0].length;
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
                     if (grid[i][j] == '1') {
-                        count++;
-                        if (i + 1 < p && grid[i + 1][j] == '1') {
-                            union(i * q + j, (i + 1) * q + j);
-                        }
-                        if (j + 1 < q && grid[i][j + 1] == '1') {
-                            union(i * q + j, i * q + j + 1);
-                        }
+                        res++;
+                        dfs(grid, i, j, m, n);
                     }
-                    grid[i][j] = '0';
                 }
             }
-
-            return count;
+            return res;
         }
 
-        public void union(int p, int q) {
-            int a = find(p);
-            int b = find(q);
-            if (a != b) {
-                parent[a] = b;
-                count--;
+        private void dfs(char[][] grid, int i, int j, int m, int n) {
+            if (i < 0 || j < 0 || i >= m || j >= n) {
+                return;
             }
-        }
-
-        public int find(int p) {
-            while (p != parent[p]) {
-                parent[p] = parent[parent[p]];
-                p = parent[p];
+            if (grid[i][j] == '1') {
+                grid[i][j] = '2';
+            } else if (grid[i][j] != '1') {
+                return;
             }
-            return p;
+            dfs(grid, i - 1, j, m, n);
+            dfs(grid, i + 1, j, m, n);
+            dfs(grid, i, j - 1, m, n);
+            dfs(grid, i, j + 1, m, n);
         }
-
     }
-
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
