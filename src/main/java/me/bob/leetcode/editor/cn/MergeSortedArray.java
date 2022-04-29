@@ -49,21 +49,23 @@ public class MergeSortedArray {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public void merge(int[] nums1, int m, int[] nums2, int n) {
-            while (m > 0 && n > 0) {
+            for (int i = m + n - 1; i >= 0; i--) {
+                if (m - 1 < 0 || n - 1 < 0) {
+                    break;
+                }
                 if (nums1[m - 1] > nums2[n - 1]) {
-                    nums1[m + n - 1] = nums1[m - 1];
+                    nums1[i] = nums1[m - 1];
                     m--;
                 } else {
-                    nums1[m + n - 1] = nums2[n - 1];
+                    nums1[i] = nums2[n - 1];
                     n--;
                 }
             }
 
-            // 如果nums1中所有数小于nums2，则把nums2拷贝到nums1头部（此时nums1的数据在末尾）
+            // 把剩余的 nums2 移到 nums1 中
             for (int i = 0; i < n; i++) {
                 nums1[i] = nums2[i];
             }
-
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
