@@ -71,21 +71,26 @@ public class BalancedBinaryTree {
      * }
      */
     class Solution {
+        
+        boolean isBalanced = true;
+        
         public boolean isBalanced(TreeNode root) {
-            return height(root) >= 0;
+            getHeight(root);
+            return isBalanced;
         }
 
-        private int height(TreeNode node) {
+        private int getHeight(TreeNode node) {
             if (node == null) {
                 return 0;
             }
-            int left = height(node.left), right = height(node.right);
-            if (left == -1 || right == -1 || Math.abs(left - right) > 1) {
-                return -1;
-            } else {
-                // 注意是max方法
-                return Math.max(left, right) + 1;
+            
+            int left = getHeight(node.left);
+            int right = getHeight(node.right);
+            if (Math.abs(left - right) > 1) {
+                isBalanced = false;
             }
+            
+            return Math.max(left, right) + 1;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
