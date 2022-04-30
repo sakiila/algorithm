@@ -77,12 +77,12 @@ class Node {
                 return 0;
             }
 
-            int result = 1;
+            int result = 0;
             for (Node child : root.children) {
-                result = Math.max(result, maxDepth(child) + 1);
+                result = Math.max(result, maxDepth(child));
             }
 
-            return result;
+            return result + 1;
         }
     }
 
