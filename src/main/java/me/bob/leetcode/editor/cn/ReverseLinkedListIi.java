@@ -16,7 +16,7 @@ package me.bob.leetcode.editor.cn;
 /**
  * 92 反转链表 II
  * 2021-03-18 07:41:15
- * 思路：使用三个指针变量 pre、curr、next
+ * 思路：使用三个指针变量 pre、curr、next，每次翻转两个
  */
 public class ReverseLinkedListIi {
     public static void main(String[] args) {
@@ -37,20 +37,18 @@ public class ReverseLinkedListIi {
      */
     class Solution {
         public ListNode reverseBetween(ListNode head, int left, int right) {
-            ListNode dummy = new ListNode();
-            dummy.next = head;
-            ListNode prev = dummy;
-            for (int i = 0; i < left - 1; i++) {
-                prev = prev.next;
+            ListNode dummy = new ListNode(0, head);
+            ListNode pre = dummy;
+            for (int i = 1; i < left; i++) {
+                pre = pre.next;
             }
 
-            ListNode curr = prev.next;
-            ListNode next;
-            for (int i = 0; i < right - left; i++) {
-                next = curr.next;
-                curr.next = next.next;
-                next.next = prev.next;
-                prev.next = next;
+            ListNode curr = pre.next;
+            for (int i = left; i < right; i++) {
+                ListNode temp = curr.next;
+                curr.next = temp.next;
+                temp.next = pre.next; // 注意这里
+                pre.next = temp;
             }
 
             return dummy.next;

@@ -48,6 +48,7 @@
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -76,7 +77,7 @@ public class MergeKSortedLists {
     class Solution {
         public ListNode mergeKLists(ListNode[] lists) {
             // 需要实现 comparator
-            Queue<ListNode> heap = new PriorityQueue<>((a, b) -> a.val - b.val);
+            Queue<ListNode> heap = new PriorityQueue<>(Comparator.comparingInt(a -> a.val));
             for (ListNode node : lists) {
                 if (node != null) {
                     heap.offer(node);
