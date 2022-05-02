@@ -499,8 +499,6 @@ j
 :src/main/java/me/bob/leetcode/editor/cn/HouseRobberIi.java,9\f\9ff19b6e35de6baddcd2664bb908752df33ae2fc
 q
 Asrc/main/java/me/bob/leetcode/editor/cn/FirstMissingPositive.java,9\2\92db0b1d751f9c57cfc321a5e4d43639631e7a6a
-n
->src/main/java/me/bob/leetcode/editor/cn/TrappingRainWater.java,b\1\b17ce797db24074e56c8bf2e9d3190ef8f35ba16
 x
 Hsrc/main/java/me/bob/leetcode/editor/cn/LargestRectangleInHistogram.java,e\6\e64c781eff63f641fe1b5dd88c45420066a82d83
 s

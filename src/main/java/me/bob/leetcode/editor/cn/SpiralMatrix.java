@@ -62,7 +62,7 @@ public class SpiralMatrix {
                 for (int row = top + 1; row <= bottom; row++) {
                     list.add(matrix[row][right]);
                 }
-                // 如果只有一列数据，不加判断则会出错
+                // 如果只有一列或一行数据，不加判断则会出错
                 if (left < right && top < bottom) {
                     for (int col = right - 1; col > left; col--) {
                         list.add(matrix[bottom][col]);
