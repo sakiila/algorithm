@@ -86,7 +86,7 @@ public class Sqrtx {
 //            return res;
 //        }
 
-        // 浮点数票房根
+        // 浮点数平方根
         public double mySqrt2(double x) {
             double left = 0, right = 1;
             while (left <= right) {
