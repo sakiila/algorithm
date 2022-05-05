@@ -62,6 +62,7 @@ public class Sqrtx {
             return res;
         }
 
+        // 牛顿迭代法
         public double mySqrt2(int x) {
             double res = x;
             while (res * res < x) {
