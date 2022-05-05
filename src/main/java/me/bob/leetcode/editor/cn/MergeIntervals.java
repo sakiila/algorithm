@@ -30,7 +30,9 @@
 
 package me.bob.leetcode.editor.cn;
 
+import java.util.ArrayDeque;
 import java.util.Arrays;
+import java.util.Deque;
 
 /**
  * 56 合并区间
@@ -45,17 +47,20 @@ public class MergeIntervals {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[][] merge(int[][] intervals) {
-            Arrays.sort(intervals, (v1, v2) -> v1[0] - v2[0]);
-            int[][] res = new int[intervals.length][2];
-            int idx = -1;
-            for (int[] interval : intervals) {
-                if (idx == -1 || interval[0] > res[idx][1]) {
-                    res[++idx] = interval;
+            Deque<int[]> res = new ArrayDeque<>();
+            Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+
+            res.add(intervals[0]);
+            for (int i = 1; i < intervals.length; i++) {
+                int[] curr = intervals[i];
+                int[] last = res.getLast();
+                if (last[1] >= curr[0]) {
+                    last[1] = Math.max(last[1], curr[1]);
                 } else {
-                    res[idx][1] = Math.max(res[idx][1], interval[1]);
+                    res.add(curr);
                 }
             }
-            return Arrays.copyOf(res, idx + 1);
+            return res.toArray(new int[0][0]);
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
