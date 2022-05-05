@@ -33,25 +33,25 @@ public class Sqrtx {
         Solution solution = new Sqrtx().new Solution();
 //        int i = solution.mySqrt(5);
 //        System.out.println("i = " + i);
-        
-        double y = solution.mySqrt(0.81d);
+
+        double y = solution.mySqrt2(0.04);
         System.out.println("y = " + y);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int mySqrt(int x) {
             if (x == 0 || x == 1) {
                 return x;
             }
 
-            int left = 1;
-            int right = x;
+            int left = 1, right = x;
             int res = 0;
             // 注意大于等于符号
             while (left <= right) {
                 int mid = left + (right - left) / 2;
-                if (mid * mid > x) {
+                if ((long) mid * mid > x) {
                     right = mid - 1;
                 } else {
                     res = mid;
@@ -61,22 +61,47 @@ public class Sqrtx {
 
             return res;
         }
-        
-        
-        public double mySqrt(double x) {
-            double left = 0, right = 1;
-            double res = 0;
-            while (left <= right) {
-                double mid = left + (right - left) / 2;
-                if (mid * mid > x) {
-                    right = mid - 0.1;
-                } else {
-                    res = mid;
-                    left = mid + 0.1;
-                }
+
+        public double mySqrt2(int x) {
+            double res = x;
+            while (res * res < x) {
+                res = (res + x / res) / 2;
             }
             return res;
         }
+
+//        public double mySqrt(double x) {
+//            double left = 0, right = 1;
+//            double res = 0;
+//            while (left <= right) {
+//                double mid = left + (right - left) / 2;
+//                if (mid * mid > x) {
+//                    right = mid - 0.1;
+//                } else {
+//                    res = mid;
+//                    left = mid + 0.1;
+//                }
+//            }
+//            return res;
+//        }
+
+        // 浮点数票房根
+        public double mySqrt2(double x) {
+            double left = 0, right = 1;
+            while (left <= right) {
+                double mid = left + (right - left) / 2;
+                if (Math.abs(mid * mid - x) < 1e-15) {
+                    return mid;
+                } else if (mid * mid > x) {
+                    right = mid;
+                } else {
+                    left = mid;
+                }
+            }
+            return left;
+        }
+
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
