@@ -1526,7 +1526,11 @@
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/RemoveDuplicatesFromSortedListIi.java">
           <value>
             <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/RemoveDuplicatesFromSortedListIi.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com82" />
+              <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/RemoveDuplicatesFromSortedListIi.java" />
+              <option name="titleSlug" value="remove-duplicates-from-sorted-list-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1861,6 +1865,17 @@
               <option name="host" value="leetcode-cn.com" />
               <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/SquaresOfASortedArray.java" />
               <option name="titleSlug" value="squares-of-a-sorted-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/SubarrayProductLessThanK.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/SubarrayProductLessThanK.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com713" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/SubarrayProductLessThanK.java" />
+              <option name="titleSlug" value="subarray-product-less-than-k" />
             </LeetcodeEditor>
           </value>
         </entry>
