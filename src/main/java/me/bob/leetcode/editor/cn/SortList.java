@@ -67,45 +67,40 @@ public class SortList {
      */
     class Solution {
         public ListNode sortList(ListNode head) {
-            return sortList(head, null);
-        }
+            if (head == null || head.next == null) {
+                return head;
+            }
 
-        private ListNode sortList(ListNode head, ListNode tail) {
-            if (head == null) {
-                return head;
-            }
-            if (head.next == tail) {
-                head.next = null;
-                return head;
-            }
             ListNode slow = head, fast = head;
-            while (fast != tail && fast.next != tail) {
+            while (fast.next != null && fast.next.next != null) {
                 slow = slow.next;
                 fast = fast.next.next;
             }
-            ListNode mid = slow;
-            ListNode a = sortList(head, mid);
-            ListNode b = sortList(mid, tail);
-            return merge(a, b);
+
+            ListNode temp = slow.next;
+            slow.next = null;
+
+            ListNode left = sortList(head);
+            ListNode right = sortList(temp);
+            return merge(left, right);
         }
 
-        private ListNode merge(ListNode a, ListNode b) {
+        private ListNode merge(ListNode left, ListNode right) {
             ListNode dummy = new ListNode();
-            ListNode temp = dummy;
-            while (a != null && b != null) {
-                if (a.val < b.val) {
-                    temp.next = a;
-                    a = a.next;
+            ListNode curr = dummy;
+            while (left != null && right != null) {
+                if (left.val < right.val) {
+                    curr.next = left;
+                    left = left.next;
                 } else {
-                    temp.next = b;
-                    b = b.next;
+                    curr.next = right;
+                    right = right.next;
                 }
-                temp = temp.next;
+                curr = curr.next;
             }
-            temp.next = a == null ? b : a;
+            curr.next = left == null ? right : left;
             return dummy.next;
         }
-
     }
 
     //leetcode submit region end(Prohibit modification and deletion)

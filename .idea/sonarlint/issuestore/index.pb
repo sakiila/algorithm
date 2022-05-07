@@ -163,8 +163,6 @@ n
 >src/main/java/me/bob/leetcode/editor/cn/BasicCalculatorIi.java,9\7\9779d963c0ee764e6e318387613754e7cfbf8b9a
 n
 >src/main/java/me/bob/leetcode/editor/cn/OddEvenLinkedList.java,1\e\1edb7d2e45186b37c00f9cb9a8582e6016a3f580
-e
-5src/main/java/me/bob/leetcode/editor/cn/SortList.java,c\5\c58c082d2094df9e61c235ca85c87e69e97dfe27
 …
 Usrc/main/java/me/bob/leetcode/editor/cn/VerifyPreorderSerializationOfABinaryTree.java,a\4\a43deaf36639d898bc74835438373bdcdcfb4c6c
 q
