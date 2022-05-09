@@ -48,6 +48,14 @@ public class LianBiaoZhongDaoShuDiKgeJieDianLcof {
             return slow;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
 
+    //leetcode submit region end(Prohibit modification and deletion)
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
+    }
 }
