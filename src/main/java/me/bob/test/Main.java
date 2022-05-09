@@ -1,18 +1,18 @@
 package me.bob.test;
 
-import java.util.Scanner;
+import com.sun.xml.internal.ws.encoding.soap.SerializationException;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine().toLowerCase();
-        char target = sc.nextLine().toLowerCase().toCharArray()[0];
-        int index = 0;
-        for (char c : str.toCharArray()) {
-            if (c == target) {
-                index++;
-            }
-        }
-        System.out.println(index);
+        String a = "hello2";
+        final String b = "hello";
+        String c = "hello";
+        System.out.println((b == c)); // true
+        String d = b + 2;
+        String e = c + 2;
+        System.out.println((a == d)); // true
+        System.out.println((a == e)); // false
     }
 }
