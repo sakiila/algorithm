@@ -291,8 +291,6 @@ k
 ;src/main/java/me/bob/leetcode/editor/cn/IntegerToRoman.java,9\4\946b71db72f6b0f26aa97ea68d1d7dc3196c8407
 k
 ;src/main/java/me/bob/leetcode/editor/cn/RomanToInteger.java,4\a\4a518871da4cfa885abddd31da452bdb71af6ad9
-l
-<src/main/java/me/bob/leetcode/editor/cn/NextPermutation.java,a\e\aeefe94771fcf78deafbc94e55948cb24ba5bfed
 |
 Lsrc/main/java/me/bob/leetcode/editor/cn/MaximumXorOfTwoNumbersInAnArray.java,0\8\08b748163549373773834126fbdad11251be5cf2
 p
@@ -463,8 +461,6 @@ d
 Msrc/main/java/me/bob/leetcode/editor/cn/LetterCombinationsOfAPhoneNumber.java,e\a\eab71a9bff1c690cea9f5cc0345dcab4985e908a
 k
 ;src/main/java/me/bob/leetcode/editor/cn/LemonadeChange.java,e\c\ec81e7d784f489d805caf997a5a5e9d93b92428c
-o
-?src/main/java/me/bob/leetcode/editor/cn/RestoreIpAddresses.java,0\c\0c8a24d9f0ccdbe024c50f786670f2ceafb3e0da
 i
 9src/main/java/me/bob/leetcode/editor/cn/Permutations.java,3\a\3aa05ad89f07473a44eed284d3332203162076b3
 k
