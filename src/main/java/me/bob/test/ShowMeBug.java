@@ -113,7 +113,8 @@ class ParallelTaskExecutor {
             Worker worker = new Worker();
             workerQueue.add(worker);
 
-            new Thread(worker).start();
+//            new Thread(worker).start();
+            worker.start();
         }
     }
 
