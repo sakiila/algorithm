@@ -42,6 +42,8 @@ import java.util.List;
 public class PalindromePartitioning {
     public static void main(String[] args) {
         Solution solution = new PalindromePartitioning().new Solution();
+        List<List<String>> aab = solution.partition("aab");
+        System.out.println("aab = " + aab);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -62,6 +64,10 @@ public class PalindromePartitioning {
             }
             for (int i = index; i < s.length(); i++) {
                 if (isPalindrome(s, index, i)) {
+                    System.out.println();
+                    System.out.println("index = " + index);
+                    System.out.println("i = " + i);
+                    System.out.println("s.substring(index, i + 1) = " + s.substring(index, i + 1));
                     path.add(s.substring(index, i + 1));
                     backtracking(s, i + 1);
                     path.remove(path.size() - 1);

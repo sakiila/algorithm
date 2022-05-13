@@ -15,9 +15,6 @@ public class Main {
 //        String e = c + 2;
 //        System.out.println((a == d)); // true
 //        System.out.println((a == e)); // false
-
-        HotSpotDiagnosticMXBean hotSpotDiagnosticMXBean = new HotSpotDiagnosticMXBean();
-        List<VMOption> diagnosticOptions = hotSpotDiagnosticMXBean.getDiagnosticOptions();
-        System.out.println("diagnosticOptions = " + diagnosticOptions);
+        
     }
 }

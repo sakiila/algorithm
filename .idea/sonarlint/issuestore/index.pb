@@ -595,5 +595,3 @@ l
 Psrc/main/java/me/bob/leetcode/editor/cn/ShuZuZhongShuZiChuXianDeCiShuIiLcof.java,5\b\5b7047c0e4ca390ef2785dee1dbb8281560b2914
 X
 (src/main/java/me/bob/interview/Main.java,9\5\95ce14b29606c8aa13a54726d21c577be5d0b066
-S
-#src/main/java/me/bob/test/Main.java,1\3\13453706b2b8116efd1e17810bb21cdd628594aa
