@@ -593,8 +593,6 @@ p
 @src/main/java/me/bob/leetcode/editor/cn/GenerateParentheses.java,d\e\de659d472bc923018248a6eddff292c98e1b7ba9
 l
 <src/main/java/me/bob/leetcode/editor/cn/NextPermutation.java,a\e\aeefe94771fcf78deafbc94e55948cb24ba5bfed
-o
-?src/main/java/me/bob/leetcode/editor/cn/RestoreIpAddresses.java,0\c\0c8a24d9f0ccdbe024c50f786670f2ceafb3e0da
 €
 Psrc/main/java/me/bob/leetcode/editor/cn/ShuZuZhongShuZiChuXianDeCiShuIiLcof.java,5\b\5b7047c0e4ca390ef2785dee1dbb8281560b2914
 X
