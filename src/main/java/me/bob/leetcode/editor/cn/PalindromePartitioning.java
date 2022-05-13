@@ -46,37 +46,36 @@ public class PalindromePartitioning {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         List<List<String>> res = new ArrayList<>();
         List<String> path = new ArrayList<>();
 
         public List<List<String>> partition(String s) {
-            backTrace(s, 0);
+            backtracking(s, 0);
             return res;
         }
 
-        private void backTrace(String s, int startIndex) {
-            if (startIndex >= s.length()) {
+        private void backtracking(String s, int index) {
+            if (index == s.length()) {
                 res.add(new ArrayList<>(path));
                 return;
             }
-            for (int i = startIndex; i < s.length(); i++) {
-                if (isPalindrome(s, startIndex, i)) {
-                    path.add(s.substring(startIndex, i + 1));
-                } else {
-                    continue;
+            for (int i = index; i < s.length(); i++) {
+                if (isPalindrome(s, index, i)) {
+                    path.add(s.substring(index, i + 1));
+                    backtracking(s, i + 1);
+                    path.remove(path.size() - 1);
                 }
-                backTrace(s, i + 1);
-                path.remove(path.size() - 1);
             }
         }
-        
-        private boolean isPalindrome(String s, int low, int high) {
-            while (low < high) {
-                if (s.charAt(low) != s.charAt(high)) {
+
+        private boolean isPalindrome(String s, int left, int right) {
+            while (left <= right) {
+                if (s.charAt(left) != s.charAt(right)) {
                     return false;
                 }
-                low++;
-                high--;
+                left++;
+                right--;
             }
             return true;
         }
