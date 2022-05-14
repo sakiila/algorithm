@@ -79,27 +79,27 @@ public class SlidingWindowMaximum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int[] maxSlidingWindow(int[] nums, int k) {
-            Deque<Integer> deque = new ArrayDeque<>();
-            int[] res = new int[nums.length - k + 1];
-            int index = 0;
+            int[] arr = new int[nums.length - k + 1];
+            Deque<Integer> queue = new ArrayDeque<>();
 
             for (int i = 0; i < nums.length; i++) {
-                // 队列头结点需要在[i - k + 1, i]范围内，不符合则要弹出
-                while (!deque.isEmpty() && deque.peek() < i - k + 1) {
-                    deque.poll();
+                while (!queue.isEmpty() && nums[i] > nums[queue.peekLast()]) {
+                    queue.pollLast();
                 }
-                // 既然是单调，就要保证每次放进去的数字要比末尾的都大，否则也弹出
-                while (!deque.isEmpty() && nums[deque.peekLast()] < nums[i]) {
-                    deque.pollLast();
-                }
-                deque.offer(i);
+                queue.addLast(i);
 
-                if (i >= k - 1) {
-                    res[index++] = nums[deque.peek()];
+                // peek()的下标 如果不在窗口内，则弹出
+                if (queue.peek() < i - k + 1) {
+                    queue.poll();
+                }
+
+                // 当i遍历到窗口右边时，保存最大值
+                if (i + 1 >= k) {
+                    arr[i + 1 - k] = nums[queue.peek()];
                 }
             }
 
-            return res;
+            return arr;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
