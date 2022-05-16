@@ -1,4 +1,4 @@
-package me.bob.test;
+package me.bob.interview.moego;
 
 import java.util.*;
 import java.util.concurrent.*;

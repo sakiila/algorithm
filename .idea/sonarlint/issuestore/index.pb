@@ -589,10 +589,6 @@ l
 <src/main/java/me/bob/leetcode/editor/cn/NextPermutation.java,a\e\aeefe94771fcf78deafbc94e55948cb24ba5bfed
 €
 Psrc/main/java/me/bob/leetcode/editor/cn/ShuZuZhongShuZiChuXianDeCiShuIiLcof.java,5\b\5b7047c0e4ca390ef2785dee1dbb8281560b2914
-X
-(src/main/java/me/bob/interview/Main.java,9\5\95ce14b29606c8aa13a54726d21c577be5d0b066
-X
-(src/main/java/me/bob/test/ShowMeBug.java,6\7\677759bf1a12614bb77956bb37c139b1d138bf52
 S
 #src/main/java/me/bob/test/Main.java,1\3\13453706b2b8116efd1e17810bb21cdd628594aa
 o
@@ -607,3 +603,7 @@ V
 &src/main/java/me/bob/huawei/Main1.java,4\d\4d9287c08df91a00a2cd0deef82b06ab15fa211f
 V
 &src/main/java/me/bob/huawei/Main3.java,4\9\49895e9ecffd500c9e236d0de16a298f6d530be6
+V
+&src/main/java/me/bob/huawei/Main2.java,1\f\1f9358b8d8e72c70566dd1c8eca3b3ca40abb1e0
+q
+Asrc/main/java/me/bob/leetcode/editor/cn/SlidingWindowMaximum.java,f\c\fc210a522ea968963eac761f914827c34b8eddeb
