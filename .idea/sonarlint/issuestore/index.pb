@@ -185,8 +185,6 @@ x
 Hsrc/main/java/me/bob/leetcode/editor/cn/LongestPalindromicSubstring.java,5\e\5e3b8914fb64febdb283f9504b1e3c130a8a5bd1
 i
 9src/main/java/me/bob/leetcode/editor/cn/One32Pattern.java,1\c\1c8f892e4ab840161eee4b2daf35fbe18ac30f70
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 {
 Ksrc/main/java/me/bob/leetcode/editor/cn/RemoveDuplicatesFromSortedList.java,8\1\81f673950ac264dd271951c7c7aa353ece69aae9
 g
@@ -597,13 +595,7 @@ s
 Csrc/main/java/me/bob/leetcode/editor/cn/PalindromePartitioning.java,b\0\b088f3cc64a0154605b3ec59a9581329854591c6
 r
 Bsrc/main/java/me/bob/leetcode/editor/cn/ReverseWordsInAString.java,2\8\288cdb7794455c68d10eb0af653a47dc95d23926
-Y
-)src/main/java/me/bob/huawei/Template.java,2\2\22fd42c3c3ae5b4bf8b39bb535028da746d25a3b
-V
-&src/main/java/me/bob/huawei/Main1.java,4\d\4d9287c08df91a00a2cd0deef82b06ab15fa211f
-V
-&src/main/java/me/bob/huawei/Main3.java,4\9\49895e9ecffd500c9e236d0de16a298f6d530be6
-V
-&src/main/java/me/bob/huawei/Main2.java,1\f\1f9358b8d8e72c70566dd1c8eca3b3ca40abb1e0
 q
 Asrc/main/java/me/bob/leetcode/editor/cn/SlidingWindowMaximum.java,f\c\fc210a522ea968963eac761f914827c34b8eddeb
+b
+2src/main/java/me/bob/interview/aftership/Main.java,8\3\83893bab5837ac225b88cc1b43928ae79f4d9a49

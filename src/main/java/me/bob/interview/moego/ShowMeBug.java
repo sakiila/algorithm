@@ -67,6 +67,7 @@ class WeightedRand_V2 {
     /**
      * 整体空间复杂度：O(n)
      * next 方法时间复杂度：O(n)
+     * 更进一步：使用前缀数组，提前计算，时间复杂度为 O(1)
      */
     public int next() {
         // show me your code, please delete the next line
@@ -162,20 +163,20 @@ class ParallelTaskExecutor {
 // 下面是测试代码
 public class ShowMeBug {
     public static void main(String[] args) {
-//        try {
-//            System.out.println("Testing Q1...");
-//            testWeightedRand_V1();
-//            System.out.println("PASSED!");
-//        } catch (Exception e) {
-//            System.out.println("FAILED: " + e.toString());
-//        }
-//        try {
-//            System.out.println("Testing Q2...");
-//            testWeightedRand_V2();
-//            System.out.println("PASSED!");
-//        } catch (Exception e) {
-//            System.out.println("FAILED: " + e.toString());
-//        }
+        try {
+            System.out.println("Testing Q1...");
+            testWeightedRand_V1();
+            System.out.println("PASSED!");
+        } catch (Exception e) {
+            System.out.println("FAILED: " + e.toString());
+        }
+        try {
+            System.out.println("Testing Q2...");
+            testWeightedRand_V2();
+            System.out.println("PASSED!");
+        } catch (Exception e) {
+            System.out.println("FAILED: " + e.toString());
+        }
         try {
             System.out.println("Testing Q3...");
             testParallelTaskExecutor();
