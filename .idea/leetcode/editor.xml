@@ -179,6 +179,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/CanIWin.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/CanIWin.md" />
+              <option name="frontendQuestionId" value="leetcode.cn464" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/CanIWin.java" />
+              <option name="titleSlug" value="can-i-win" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/CombinationSum.java">
           <value>
             <LeetcodeEditor>
