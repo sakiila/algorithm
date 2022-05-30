@@ -1477,6 +1477,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/SumOfRootToLeafBinaryNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/SumOfRootToLeafBinaryNumbers.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1022" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/SumOfRootToLeafBinaryNumbers.java" />
+              <option name="titleSlug" value="sum-of-root-to-leaf-binary-numbers" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/SurroundedRegions.java">
           <value>
             <LeetcodeEditor>
