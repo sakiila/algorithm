@@ -971,6 +971,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/NextGreaterElementIii.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/NextGreaterElementIii.md" />
+              <option name="frontendQuestionId" value="leetcode.cn556" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/NextGreaterElementIii.java" />
+              <option name="titleSlug" value="next-greater-element-iii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/NextPermutation.java">
           <value>
             <LeetcodeEditor>
