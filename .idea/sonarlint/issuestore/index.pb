@@ -617,3 +617,5 @@ n
 >src/main/java/me/bob/leetcode/editor/cn/ValidateIpAddress.java,a/e/ae5e2de195644684691ae646f9a127ab0b172b23
 ƒ
 Ssrc/main/java/me/bob/leetcode/editor/cn/doc/content/SumOfRootToLeafBinaryNumbers.md,7/3/732106e45460184ffb433314c00ff7ed5c2078aa
+|
+Lsrc/main/java/me/bob/leetcode/editor/cn/doc/content/NextGreaterElementIii.md,f/9/f986e9ec769ef9f884f008dfa6bc4847c787946c
