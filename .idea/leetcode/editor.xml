@@ -1400,6 +1400,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/SortArrayByIncreasingFrequency.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/doc/content/SortArrayByIncreasingFrequency.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1636" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/SortArrayByIncreasingFrequency.java" />
+              <option name="titleSlug" value="sort-array-by-increasing-frequency" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/me/bob/leetcode/editor/cn/SortList.java">
           <value>
             <LeetcodeEditor>
