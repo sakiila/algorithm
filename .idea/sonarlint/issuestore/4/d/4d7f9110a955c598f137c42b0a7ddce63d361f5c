@@ -1,14 +1,0 @@
-
-
-java:S1149*"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(”¥¢¯øÿÿÿÿ8ÍÉÄÈù.
-
-java:S1149#"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8¹ï¿Èù.
-B
-java:S1481"-Remove this unused "solution" local variable.(íÂÅu
-
-java:S1149#"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8¹ï¿Èù.
-
-java:S1149*"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(”¥¢¯øÿÿÿÿ8ÍÉÄÈù.
-r	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”¥¢¯øÿÿÿÿ8ÍÉÄÈù.
-Q
-java:S1854"<Remove this useless assignment to local variable "solution".(íÂÅu

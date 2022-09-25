@@ -1,9 +1,0 @@
-
-r
-java:S11499"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8îŽ€ ‚/
-R
-java:S18542"<Remove this useless assignment to local variable "solution".(õÆº¢
-C
-java:S14812"-Remove this unused "solution" local variable.(õÆº¢
-r
-java:S11499"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8îŽ€ ‚/

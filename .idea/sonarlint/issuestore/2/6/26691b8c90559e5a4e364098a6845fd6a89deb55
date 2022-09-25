@@ -1,7 +1,0 @@
-
-W
-java:S1854,"<Remove this useless assignment to local variable "solution".(ÉÚ…‡ûÿÿÿÿ
-H
-java:S1481,"-Remove this unused "solution" local variable.(ÉÚ…‡ûÿÿÿÿ
-Q
-java:S28648"4Iterate over the "entrySet" instead of the "keySet".(§µÊ·8²Ğ¨Ìø.

@@ -1,8 +1,0 @@
-
-A
-java:S1481	"&Remove this unused "n" local variable.(Ω€¤£ύÿÿÿÿ
->
-java:S1659"#Declare "right" on a separate line.(Ε€Ήϋÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ΧΖαξ
-P
-java:S1854	"5Remove this useless assignment to local variable "n".(Ω€¤£ύÿÿÿÿ

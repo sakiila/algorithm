@@ -1,6 +1,0 @@
-
-C
-java:S1481*"-Remove this unused "solution" local variable.(„ñ
-k	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âœ¨“ıÿÿÿÿ
-R
-java:S1854*"<Remove this useless assignment to local variable "solution".(„ñ
