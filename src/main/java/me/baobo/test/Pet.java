@@ -8,7 +8,10 @@ public class Pet {
         this.petName = petName;
         this.petId = petId;
     }
-
+    
+    public Pet() {
+    }
+    
     private String petName;
     private String petBreed;
     private Integer petId;
