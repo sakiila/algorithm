@@ -1,116 +1,40 @@
 package me.baobo.test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Solution {
+    public String rankTeams(String[] votes) {
+        int length = votes[0].length();
+        Map<Character, int[]> allMap = new HashMap();
 
-    public static void main(String[] args) {
-        int[][] operators = {{1, 1, 1}, {1, 2, 2}, {1, 3, 2}, {2, 1}, {1, 4, 4}, {2, 2}};
-        Solution sol = new Solution();
-        int[] lru = sol.LRU(operators, 3);
-        System.out.println(Arrays.toString(lru));
-    }
-
-    class Node {
-        int key;
-        int value;
-        Node prev;
-        Node next;
-
-        Node() {
-        }
-
-        Node(int key, int value) {
-            this.key = key;
-            this.value = value;
-        }
-    }
-
-    private Map<Integer, Node> map;
-    private int size;
-    private Node head;
-    private Node tail;
-
-    /**
-     * lru design
-     *
-     * @param operators int整型二维数组 the ops
-     * @param k         int整型 the k
-     * @return int整型一维数组
-     */
-    public int[] LRU(int[][] operators, int k) {
-        // write code here
-        map = new HashMap<>();
-        size = k;
-        head = new Node();
-        tail = new Node();
-        head.next = tail;
-        tail.prev = head;
-
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < operators.length; i++) {
-            if (operators[i][0] == 1) {
-                set(operators[i][1], operators[i][2]);
-            } else {
-                int value = get(operators[i][1]);
-                list.add(value);
+        for (String str : votes) {
+            char[] cs = str.toCharArray();
+            for (int i = 0; i < cs.length; i++) {
+                int[] value = allMap.getOrDefault(cs[i], new int[length]);
+                value[i]++;
+                allMap.put(cs[i], value);
             }
         }
 
-        System.out.println(list);
-
-        int[] res = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            res[i] = list.get(i);
-        }
-        return res;
-    }
-
-    public void set(int key, int value) {
-        Node node = map.get(key);
-        if (node != null) {
-            node.value = value;
-            // move to head
-            moveToHead(node);
-        } else {
-            node = new Node(key, value);
-            map.put(key, node);
-            // add to head
-            addToHead(node);
-            if (map.size() > size) {
-                // remove tail
-                map.remove(tail.prev.key);
-                removeNode(tail.prev);
+        ArrayList<Map.Entry<Character, int[]>> list = new ArrayList<>(allMap.entrySet());
+        Collections.sort(list, (a, b) -> {
+            int[] a1 = a.getValue();
+            int[] b1 = b.getValue();
+            for (int i = 0; i < a1.length; i++) {
+                if (a1[i] != b1[i]) {
+                    return b1[i] - a1[i];
+                }
             }
-        }
+            return a.getKey() - b.getKey();
+        });
+
+        return list.stream()
+                .map(entry -> entry.getKey().toString())
+                .collect(Collectors.joining());
+
     }
-
-    public int get(int key) {
-        Node node = map.get(key);
-        if (node != null) {
-            // move to head
-            moveToHead(node);
-            return node.value;
-        }
-        return -1;
-    }
-
-    private void moveToHead(Node node) {
-        removeNode(node);
-        addToHead(node);
-    }
-
-    private void removeNode(Node node) {
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
-    }
-
-    private void addToHead(Node node) {
-        node.next = head.next;
-        node.prev = head;
-        head.next.prev = node;
-        head.next = node;
-    }
-
-
 }
