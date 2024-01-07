@@ -46,7 +46,7 @@ package me.baobo.leetcode.editor.cn;
 /**
  * 383 赎金信
  * 2021-12-04 09:47:30
- * 思路：计数
+ * 思路：indexOf
  */
 public class RansomNote {
     public static void main(String[] args) {
@@ -56,15 +56,17 @@ public class RansomNote {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public boolean canConstruct(String ransomNote, String magazine) {
-            int[] arr = new int[26];
-            for (char c : magazine.toCharArray()) {
-                arr[c - 'a']++;
+            if (ransomNote.length() > magazine.length()) {
+                return false;
             }
 
+            int[] chars = new int[26];
             for (char c : ransomNote.toCharArray()) {
-                if (--arr[c - 'a'] < 0) {
+                int index = magazine.indexOf(c, chars[c - 'a']);
+                if (index == -1) {
                     return false;
                 }
+                chars[c - 'a'] = index + 1;
             }
             return true;
         }
